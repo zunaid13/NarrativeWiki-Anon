@@ -1,0 +1,37 @@
+{
+  "series": "middlemarch",
+  "passed": 4,
+  "judged": 5,
+  "rows": [
+    [
+      "PASS",
+      "same_entity",
+      "['Dorothea', 'Dodo', 'Miss Brooke'] -> ['dorothea']"
+    ],
+    [
+      "PASS",
+      "same_entity",
+      "['Rosamond', 'Rosy'] -> ['rosamond']"
+    ],
+    [
+      "FAIL",
+      "same_entity",
+      "['Peter Featherstone', 'Featherstone'] -> ['featherstone', 'peter-featherstone']"
+    ],
+    [
+      "ABSENT",
+      "different_entities",
+      "Mr. Brooke / Miss Brooke"
+    ],
+    [
+      "PASS",
+      "different_entities",
+      "Noble ['noble'] / Winifred ['winifred']"
+    ],
+    [
+      "PASS",
+      "title_at_first_vol",
+      "Poor Dorothea: want 'Dorothea', got ['Dorothea']"
+    ]
+  ]
+}

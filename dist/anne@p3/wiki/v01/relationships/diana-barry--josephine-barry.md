@@ -1,0 +1,3 @@
+# Diana Barry & Josephine Barry
+
+- [Diana Barry](../character/diana-barry.md) — Relative of — [Josephine Barry](../character/josephine-barry.md) — aunt · since v1  <sub>[v1 CHAPTER XXV. Matthew Insists on Puffed Sleeves P42](../source/v01-c25.md#nw-v01-c25-p0042), [v1 CHAPTER XXVI. The Story Club Is Formed P23](../source/v01-c26.md#nw-v01-c26-p0023), [v1 CHAPTER XXIX. An Epoch in Anne’s Life P11](../source/v01-c29.md#nw-v01-c29-p0011), +1 more</sub>

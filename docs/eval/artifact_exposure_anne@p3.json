@@ -1,0 +1,85 @@
+{
+ "series": "anne@p3",
+ "rows": [
+  {
+   "t": 1,
+   "future_only_vocabulary": 331,
+   "cutoff": {
+    "files": 131,
+    "strings_hit": 1,
+    "hits": {
+     "Conservatives": [
+      "wiki\\v01\\codex\\factions.md"
+     ]
+    }
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 134,
+    "strings_hit": 1,
+    "hits": {
+     "Conservatives": [
+      "wiki-html\\v01\\codex\\factions\\index.html"
+     ]
+    }
+   },
+   "slugs": {
+    "files": 131,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 2,
+   "future_only_vocabulary": 218,
+   "cutoff": {
+    "files": 257,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 260,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 257,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 3,
+   "future_only_vocabulary": 147,
+   "cutoff": {
+    "files": 375,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 378,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 375,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  }
+ ]
+}

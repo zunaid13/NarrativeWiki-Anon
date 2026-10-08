@@ -1,0 +1,113 @@
+{
+ "1": "S",
+ "2": "S",
+ "4": "S",
+ "5": "S",
+ "8": "S",
+ "12": "S",
+ "13": "S",
+ "15": "S",
+ "21": "S",
+ "23": "S",
+ "27": "S",
+ "30": "S",
+ "32": "S",
+ "38": "S",
+ "39": "S",
+ "3": [
+  "P",
+  "the family at the manse is cited (v05:c04:p0001); the move to the Glen is not"
+ ],
+ "6": [
+  "P",
+  "one act is cited, the dress she made (v04:c17:p0012-p0013); the trait is inferred from it"
+ ],
+ "9": [
+  "P",
+  "the married name is cited (v04:c01:p0002, v03:c29:p0015); her engagement at eighteen (v02:c29) is not"
+ ],
+ "10": [
+  "P",
+  "his nature is cited (v03:c24:p0011-p0012); the sermon and his own words on his calling (p0015, p0019) are not"
+ ],
+ "11": [
+  "P",
+  "the cited v05:c03:p0007 and c12:p0016 show the household; that he is the doctor's son is not stated in them"
+ ],
+ "25": [
+  "P",
+  "'the most compassionate' is cited (v04:c06:p0040); her giving is not"
+ ],
+ "29": [
+  "P",
+  "the taking-in is cited (v05:c09:p0019, p0044); how she fared afterwards is not"
+ ],
+ "33": [
+  "P",
+  "Robin told to defend her is cited (v02:c08:p0008); his leading her into mischief (v02:c08:p0046) is not"
+ ],
+ "7": [
+  "I",
+  "the cited v01:c31:p0000 and c24:p0001 have no politics of his; v04:c35:p0000 is not cited"
+ ],
+ "14": [
+  "I",
+  "the cited v03:c05:p0005 is Cressy speaking and c37:p0000 a groan before the examinations"
+ ],
+ "16": [
+  "I",
+  "the cited v03:c08:p0005 is Odette's question; the farm is p0012"
+ ],
+ "17": [
+  "I",
+  "the eight cited paragraphs are of volume 1 (another Miss Pembroke); the quarrel is v02:c23:p0019"
+ ],
+ "18": [
+  "I",
+  "the cited v05:c25:p0003 is about stockings; the speech is v05:c12:p0006"
+ ],
+ "19": [
+  "I",
+  "none of the nine cited paragraphs has Stonebridge (v01:c37:p0034)"
+ ],
+ "20": [
+  "I",
+  "none of the 21 cited paragraphs has the wedding (v04:c04:p0015)"
+ ],
+ "22": [
+  "I",
+  "the cited v02:c01:p0048 is the neighbour's grudge against the States and v01:c15:p0024 is about Hugh"
+ ],
+ "24": [
+  "I",
+  "the cited v01:c16:p0028 and c17:p0020 are not about him; his age is v01:c33:p0028"
+ ],
+ "26": [
+  "I",
+  "the cited v01:c26:p0011 is of volume 1, where she does not appear"
+ ],
+ "28": [
+  "I",
+  "none of the four cited paragraphs has her teeth; they are one paragraph before the cited v05:c04:p0008"
+ ],
+ "31": [
+  "I",
+  "his sister's praise is cited (v03:c08:p0015), not a cheerful nature; v01:c16:p0028 is about Isolde"
+ ],
+ "34": [
+  "I",
+  "none of the 18 cited paragraphs is of volume 3, where he is at college"
+ ],
+ "35": [
+  "I",
+  "the four cited paragraphs are of volume 1; her hair is v02:c21:p0045"
+ ],
+ "36": [
+  "I",
+  "unsupported atom: the cited v05:c08:p0014 is another child's line"
+ ],
+ "37": [
+  "I",
+  "none of the four cited paragraphs describes his looks (v03:c25:p0047)"
+ ]
+}

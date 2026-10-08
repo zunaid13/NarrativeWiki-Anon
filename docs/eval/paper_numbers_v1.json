@@ -1,0 +1,1304 @@
+{
+ "inputs": [
+  "docs\\eval\\observations\\anne@b1_B1.jsonl",
+  "docs\\eval\\observations\\anne@b2_B2.jsonl",
+  "docs\\eval\\observations\\anne@b3_B3.jsonl",
+  "docs\\eval\\observations\\anne@b4_B4.jsonl",
+  "docs\\eval\\observations\\anne@x1_X1.jsonl",
+  "docs\\eval\\observations\\anne@x2_X2.jsonl",
+  "docs\\eval\\observations\\anne_B5.jsonl"
+ ],
+ "reps": 2000,
+ "seed": 0,
+ "results": [
+  {
+   "key": "M1-anne-t1-B1",
+   "value": 0.8695652173913043,
+   "num": 20.0,
+   "den": 23.0,
+   "characters": 9
+  },
+  {
+   "key": "M1-anne-t2-B1",
+   "value": 0.8913043478260869,
+   "num": 41.0,
+   "den": 46.0,
+   "characters": 16
+  },
+  {
+   "key": "M1-anne-t3-B1",
+   "value": 0.8484848484848485,
+   "num": 56.0,
+   "den": 66.0,
+   "characters": 25
+  },
+  {
+   "key": "M1-anne-t4-B1",
+   "value": 0.8651685393258427,
+   "num": 77.0,
+   "den": 89.0,
+   "characters": 32
+  },
+  {
+   "key": "M1-anne-t5-B1",
+   "value": 0.8648648648648649,
+   "num": 96.0,
+   "den": 111.0,
+   "characters": 43
+  },
+  {
+   "key": "M1-anne-avg-B1",
+   "value": 0.8678775635785895,
+   "cutoffs": 5,
+   "characters": 43,
+   "ci95": [
+    0.8208911334436078,
+    0.9432465403800343
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-t1-B2",
+   "value": 0.9130434782608695,
+   "num": 21.0,
+   "den": 23.0,
+   "characters": 9
+  },
+  {
+   "key": "M1-anne-t2-B2",
+   "value": 0.782608695652174,
+   "num": 36.0,
+   "den": 46.0,
+   "characters": 16
+  },
+  {
+   "key": "M1-anne-t3-B2",
+   "value": 0.7575757575757576,
+   "num": 50.0,
+   "den": 66.0,
+   "characters": 25
+  },
+  {
+   "key": "M1-anne-t4-B2",
+   "value": 0.8539325842696629,
+   "num": 76.0,
+   "den": 89.0,
+   "characters": 32
+  },
+  {
+   "key": "M1-anne-t5-B2",
+   "value": 0.8648648648648649,
+   "num": 96.0,
+   "den": 111.0,
+   "characters": 43
+  },
+  {
+   "key": "M1-anne-avg-B2",
+   "value": 0.8344050761246657,
+   "cutoffs": 5,
+   "characters": 43,
+   "ci95": [
+    0.7787949712992158,
+    0.9209550795830911
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-t1-B3",
+   "value": 0.30434782608695654,
+   "num": 7.0,
+   "den": 23.0,
+   "characters": 9
+  },
+  {
+   "key": "M1-anne-t2-B3",
+   "value": 0.6521739130434783,
+   "num": 30.0,
+   "den": 46.0,
+   "characters": 16
+  },
+  {
+   "key": "M1-anne-t3-B3",
+   "value": 0.5454545454545454,
+   "num": 36.0,
+   "den": 66.0,
+   "characters": 25
+  },
+  {
+   "key": "M1-anne-t4-B3",
+   "value": 0.6292134831460674,
+   "num": 56.0,
+   "den": 89.0,
+   "characters": 32
+  },
+  {
+   "key": "M1-anne-t5-B3",
+   "value": 0.6306306306306306,
+   "num": 70.0,
+   "den": 111.0,
+   "characters": 43
+  },
+  {
+   "key": "M1-anne-avg-B3",
+   "value": 0.5523640796723356,
+   "cutoffs": 5,
+   "characters": 43,
+   "ci95": [
+    0.4566077251169225,
+    0.6959814169570266
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-t1-B4",
+   "value": 0.6956521739130435,
+   "num": 16.0,
+   "den": 23.0,
+   "characters": 9
+  },
+  {
+   "key": "M1-anne-t2-B4",
+   "value": 0.6521739130434783,
+   "num": 30.0,
+   "den": 46.0,
+   "characters": 16
+  },
+  {
+   "key": "M1-anne-t3-B4",
+   "value": 0.7727272727272727,
+   "num": 51.0,
+   "den": 66.0,
+   "characters": 25
+  },
+  {
+   "key": "M1-anne-t4-B4",
+   "value": 0.7640449438202247,
+   "num": 68.0,
+   "den": 89.0,
+   "characters": 32
+  },
+  {
+   "key": "M1-anne-t5-B4",
+   "value": 0.7477477477477478,
+   "num": 83.0,
+   "den": 111.0,
+   "characters": 43
+  },
+  {
+   "key": "M1-anne-avg-B4",
+   "value": 0.7264692102503534,
+   "cutoffs": 5,
+   "characters": 43,
+   "ci95": [
+    0.6213596059113301,
+    0.8698371230446702
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-t1-B5",
+   "value": 0.8695652173913043,
+   "num": 20.0,
+   "den": 23.0,
+   "characters": 9
+  },
+  {
+   "key": "M1-anne-t2-B5",
+   "value": 0.8695652173913043,
+   "num": 40.0,
+   "den": 46.0,
+   "characters": 16
+  },
+  {
+   "key": "M1-anne-t3-B5",
+   "value": 0.8787878787878788,
+   "num": 58.0,
+   "den": 66.0,
+   "characters": 25
+  },
+  {
+   "key": "M1-anne-t4-B5",
+   "value": 0.8651685393258427,
+   "num": 77.0,
+   "den": 89.0,
+   "characters": 32
+  },
+  {
+   "key": "M1-anne-t5-B5",
+   "value": 0.8468468468468469,
+   "num": 94.0,
+   "den": 111.0,
+   "characters": 43
+  },
+  {
+   "key": "M1-anne-avg-B5",
+   "value": 0.8659867399486354,
+   "cutoffs": 5,
+   "characters": 43,
+   "ci95": [
+    0.7927394636015326,
+    0.9179365968053222
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-t1-X1",
+   "value": 0.8260869565217391,
+   "num": 19.0,
+   "den": 23.0,
+   "characters": 9
+  },
+  {
+   "key": "M1-anne-t2-X1",
+   "value": 0.6739130434782609,
+   "num": 31.0,
+   "den": 46.0,
+   "characters": 16
+  },
+  {
+   "key": "M1-anne-t3-X1",
+   "value": 0.6666666666666666,
+   "num": 44.0,
+   "den": 66.0,
+   "characters": 25
+  },
+  {
+   "key": "M1-anne-t4-X1",
+   "value": 0.6741573033707865,
+   "num": 60.0,
+   "den": 89.0,
+   "characters": 32
+  },
+  {
+   "key": "M1-anne-t5-X1",
+   "value": 0.6396396396396397,
+   "num": 71.0,
+   "den": 111.0,
+   "characters": 43
+  },
+  {
+   "key": "M1-anne-avg-X1",
+   "value": 0.6960927219354185,
+   "cutoffs": 5,
+   "characters": 43,
+   "ci95": [
+    0.6323068924539512,
+    0.8021334029954719
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-t1-X2",
+   "value": 0.8695652173913043,
+   "num": 20.0,
+   "den": 23.0,
+   "characters": 9
+  },
+  {
+   "key": "M1-anne-t2-X2",
+   "value": 0.782608695652174,
+   "num": 36.0,
+   "den": 46.0,
+   "characters": 16
+  },
+  {
+   "key": "M1-anne-t3-X2",
+   "value": 0.8333333333333334,
+   "num": 55.0,
+   "den": 66.0,
+   "characters": 25
+  },
+  {
+   "key": "M1-anne-t4-X2",
+   "value": 0.8539325842696629,
+   "num": 76.0,
+   "den": 89.0,
+   "characters": 32
+  },
+  {
+   "key": "M1-anne-t5-X2",
+   "value": 0.8378378378378378,
+   "num": 93.0,
+   "den": 111.0,
+   "characters": 43
+  },
+  {
+   "key": "M1-anne-avg-X2",
+   "value": 0.8354555336968625,
+   "cutoffs": 5,
+   "characters": 43,
+   "ci95": [
+    0.7795365418894831,
+    0.9195631745626734
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-t1-B1",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 13
+  },
+  {
+   "key": "M3-anne-t2-B1",
+   "value": 0.9,
+   "num": 36.0,
+   "den": 40.0,
+   "characters": 20
+  },
+  {
+   "key": "M3-anne-t3-B1",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 21
+  },
+  {
+   "key": "M3-anne-t4-B1",
+   "value": 0.8974358974358975,
+   "num": 35.0,
+   "den": 39.0,
+   "characters": 23
+  },
+  {
+   "key": "M3-anne-t5-B1",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 30
+  },
+  {
+   "key": "M3-anne-avg-B1",
+   "value": 0.9294871794871795,
+   "cutoffs": 5,
+   "characters": 38,
+   "ci95": [
+    0.8906834589615273,
+    0.964733955597743
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-t1-B2",
+   "value": 0.925,
+   "num": 37.0,
+   "den": 40.0,
+   "characters": 14
+  },
+  {
+   "key": "M3-anne-t2-B2",
+   "value": 1.0,
+   "num": 40.0,
+   "den": 40.0,
+   "characters": 18
+  },
+  {
+   "key": "M3-anne-t3-B2",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 19
+  },
+  {
+   "key": "M3-anne-t4-B2",
+   "value": 0.9487179487179487,
+   "num": 37.0,
+   "den": 39.0,
+   "characters": 24
+  },
+  {
+   "key": "M3-anne-t5-B2",
+   "value": 0.975,
+   "num": 39.0,
+   "den": 40.0,
+   "characters": 26
+  },
+  {
+   "key": "M3-anne-avg-B2",
+   "value": 0.9597435897435898,
+   "cutoffs": 5,
+   "characters": 40,
+   "ci95": [
+    0.9289180533082971,
+    0.9844155844155844
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-t1-B3",
+   "value": 0.975,
+   "num": 39.0,
+   "den": 40.0,
+   "characters": 14
+  },
+  {
+   "key": "M3-anne-t2-B3",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 18
+  },
+  {
+   "key": "M3-anne-t3-B3",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 20
+  },
+  {
+   "key": "M3-anne-t4-B3",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 25
+  },
+  {
+   "key": "M3-anne-t5-B3",
+   "value": 0.925,
+   "num": 37.0,
+   "den": 40.0,
+   "characters": 25
+  },
+  {
+   "key": "M3-anne-avg-B3",
+   "value": 0.95,
+   "cutoffs": 5,
+   "characters": 41,
+   "ci95": [
+    0.9081709401709401,
+    0.9829290206648696
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-t1-B4",
+   "value": 1.0,
+   "num": 40.0,
+   "den": 40.0,
+   "characters": 14
+  },
+  {
+   "key": "M3-anne-t2-B4",
+   "value": 0.975,
+   "num": 39.0,
+   "den": 40.0,
+   "characters": 19
+  },
+  {
+   "key": "M3-anne-t3-B4",
+   "value": 1.0,
+   "num": 40.0,
+   "den": 40.0,
+   "characters": 20
+  },
+  {
+   "key": "M3-anne-t4-B4",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 25
+  },
+  {
+   "key": "M3-anne-t5-B4",
+   "value": 0.975,
+   "num": 39.0,
+   "den": 40.0,
+   "characters": 29
+  },
+  {
+   "key": "M3-anne-avg-B4",
+   "value": 0.9800000000000001,
+   "cutoffs": 5,
+   "characters": 40,
+   "ci95": [
+    0.9567084078711986,
+    0.9956521739130435
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-t1-B5",
+   "value": 0.925,
+   "num": 37.0,
+   "den": 40.0,
+   "characters": 35
+  },
+  {
+   "key": "M3-anne-t2-B5",
+   "value": 0.7692307692307693,
+   "num": 30.0,
+   "den": 39.0,
+   "characters": 34
+  },
+  {
+   "key": "M3-anne-t3-B5",
+   "value": 0.8205128205128205,
+   "num": 32.0,
+   "den": 39.0,
+   "characters": 36
+  },
+  {
+   "key": "M3-anne-t4-B5",
+   "value": 0.8717948717948718,
+   "num": 34.0,
+   "den": 39.0,
+   "characters": 35
+  },
+  {
+   "key": "M3-anne-t5-B5",
+   "value": 0.725,
+   "num": 29.0,
+   "den": 40.0,
+   "characters": 37
+  },
+  {
+   "key": "M3-anne-avg-B5",
+   "value": 0.8223076923076924,
+   "cutoffs": 5,
+   "characters": 129,
+   "ci95": [
+    0.7672339675828048,
+    0.870613267261694
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-t1-X1",
+   "value": 0.725,
+   "num": 29.0,
+   "den": 40.0,
+   "characters": 14
+  },
+  {
+   "key": "M3-anne-t2-X1",
+   "value": 0.875,
+   "num": 35.0,
+   "den": 40.0,
+   "characters": 20
+  },
+  {
+   "key": "M3-anne-t3-X1",
+   "value": 0.8974358974358975,
+   "num": 35.0,
+   "den": 39.0,
+   "characters": 22
+  },
+  {
+   "key": "M3-anne-t4-X1",
+   "value": 0.8,
+   "num": 32.0,
+   "den": 40.0,
+   "characters": 23
+  },
+  {
+   "key": "M3-anne-t5-X1",
+   "value": 0.775,
+   "num": 31.0,
+   "den": 40.0,
+   "characters": 28
+  },
+  {
+   "key": "M3-anne-avg-X1",
+   "value": 0.8144871794871795,
+   "cutoffs": 5,
+   "characters": 39,
+   "ci95": [
+    0.7526215826215826,
+    0.8706948022737496
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-t1-X2",
+   "value": 0.9,
+   "num": 36.0,
+   "den": 40.0,
+   "characters": 13
+  },
+  {
+   "key": "M3-anne-t2-X2",
+   "value": 0.9,
+   "num": 36.0,
+   "den": 40.0,
+   "characters": 19
+  },
+  {
+   "key": "M3-anne-t3-X2",
+   "value": 0.825,
+   "num": 33.0,
+   "den": 40.0,
+   "characters": 21
+  },
+  {
+   "key": "M3-anne-t4-X2",
+   "value": 0.95,
+   "num": 38.0,
+   "den": 40.0,
+   "characters": 25
+  },
+  {
+   "key": "M3-anne-t5-X2",
+   "value": 0.975,
+   "num": 39.0,
+   "den": 40.0,
+   "characters": 28
+  },
+  {
+   "key": "M3-anne-avg-X2",
+   "value": 0.9099999999999999,
+   "cutoffs": 5,
+   "characters": 39,
+   "ci95": [
+    0.8506223029752441,
+    0.9537805383022775
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-t1-B1",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 88.0,
+   "characters": 40,
+   "zero_event_upper95": 0.0721575245055146
+  },
+  {
+   "key": "M4-anne-t2-B1",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 65.0,
+   "characters": 31,
+   "zero_event_upper95": 0.09211405994732369
+  },
+  {
+   "key": "M4-anne-t3-B1",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 45.0,
+   "characters": 21,
+   "zero_event_upper95": 0.13294591102652342
+  },
+  {
+   "key": "M4-anne-t4-B1",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 22.0,
+   "characters": 12,
+   "zero_event_upper95": 0.22092219194555585
+  },
+  {
+   "key": "M4-anne-avg-B1",
+   "value": 0.0,
+   "cutoffs": 4,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-t1-B2",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 88.0,
+   "characters": 40,
+   "zero_event_upper95": 0.0721575245055146
+  },
+  {
+   "key": "M4-anne-t2-B2",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 65.0,
+   "characters": 31,
+   "zero_event_upper95": 0.09211405994732369
+  },
+  {
+   "key": "M4-anne-t3-B2",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 45.0,
+   "characters": 21,
+   "zero_event_upper95": 0.13294591102652342
+  },
+  {
+   "key": "M4-anne-t4-B2",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 22.0,
+   "characters": 12,
+   "zero_event_upper95": 0.22092219194555585
+  },
+  {
+   "key": "M4-anne-avg-B2",
+   "value": 0.0,
+   "cutoffs": 4,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-t1-B3",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 88.0,
+   "characters": 40,
+   "zero_event_upper95": 0.0721575245055146
+  },
+  {
+   "key": "M4-anne-t2-B3",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 65.0,
+   "characters": 31,
+   "zero_event_upper95": 0.09211405994732369
+  },
+  {
+   "key": "M4-anne-t3-B3",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 45.0,
+   "characters": 21,
+   "zero_event_upper95": 0.13294591102652342
+  },
+  {
+   "key": "M4-anne-t4-B3",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 22.0,
+   "characters": 12,
+   "zero_event_upper95": 0.22092219194555585
+  },
+  {
+   "key": "M4-anne-avg-B3",
+   "value": 0.0,
+   "cutoffs": 4,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-t1-B4",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 88.0,
+   "characters": 40,
+   "zero_event_upper95": 0.0721575245055146
+  },
+  {
+   "key": "M4-anne-t2-B4",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 65.0,
+   "characters": 31,
+   "zero_event_upper95": 0.09211405994732369
+  },
+  {
+   "key": "M4-anne-t3-B4",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 45.0,
+   "characters": 21,
+   "zero_event_upper95": 0.13294591102652342
+  },
+  {
+   "key": "M4-anne-t4-B4",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 22.0,
+   "characters": 12,
+   "zero_event_upper95": 0.22092219194555585
+  },
+  {
+   "key": "M4-anne-avg-B4",
+   "value": 0.0,
+   "cutoffs": 4,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-t1-B5",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 88.0,
+   "characters": 40,
+   "zero_event_upper95": 0.0721575245055146
+  },
+  {
+   "key": "M4-anne-t2-B5",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 65.0,
+   "characters": 31,
+   "zero_event_upper95": 0.09211405994732369
+  },
+  {
+   "key": "M4-anne-t3-B5",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 45.0,
+   "characters": 21,
+   "zero_event_upper95": 0.13294591102652342
+  },
+  {
+   "key": "M4-anne-t4-B5",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 22.0,
+   "characters": 12,
+   "zero_event_upper95": 0.22092219194555585
+  },
+  {
+   "key": "M4-anne-avg-B5",
+   "value": 0.0,
+   "cutoffs": 4,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-t1-X1",
+   "value": 0.011363636363636364,
+   "num": 1.0,
+   "den": 88.0,
+   "characters": 40
+  },
+  {
+   "key": "M4-anne-t2-X1",
+   "value": 0.015384615384615385,
+   "num": 1.0,
+   "den": 65.0,
+   "characters": 31
+  },
+  {
+   "key": "M4-anne-t3-X1",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 45.0,
+   "characters": 21,
+   "zero_event_upper95": 0.13294591102652342
+  },
+  {
+   "key": "M4-anne-t4-X1",
+   "value": 0.09090909090909091,
+   "num": 2.0,
+   "den": 22.0,
+   "characters": 12
+  },
+  {
+   "key": "M4-anne-avg-X1",
+   "value": 0.029414335664335666,
+   "cutoffs": 4,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.07913961038961038
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-t1-X2",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 88.0,
+   "characters": 40,
+   "zero_event_upper95": 0.0721575245055146
+  },
+  {
+   "key": "M4-anne-t2-X2",
+   "value": 0.09230769230769231,
+   "num": 6.0,
+   "den": 65.0,
+   "characters": 31
+  },
+  {
+   "key": "M4-anne-t3-X2",
+   "value": 0.0,
+   "num": 0.0,
+   "den": 45.0,
+   "characters": 21,
+   "zero_event_upper95": 0.13294591102652342
+  },
+  {
+   "key": "M4-anne-t4-X2",
+   "value": 0.09090909090909091,
+   "num": 2.0,
+   "den": 22.0,
+   "characters": 12
+  },
+  {
+   "key": "M4-anne-avg-X2",
+   "value": 0.045804195804195806,
+   "cutoffs": 4,
+   "characters": 40,
+   "ci95": [
+    0.01056338028169014,
+    0.0941358024691358
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M8-anne-t1-B1",
+   "value": 0.8,
+   "num": 32.0,
+   "den": 40.0,
+   "characters": 13
+  },
+  {
+   "key": "M8-anne-t2-B1",
+   "value": 0.625,
+   "num": 25.0,
+   "den": 40.0,
+   "characters": 20
+  },
+  {
+   "key": "M8-anne-t3-B1",
+   "value": 0.7,
+   "num": 28.0,
+   "den": 40.0,
+   "characters": 21
+  },
+  {
+   "key": "M8-anne-t4-B1",
+   "value": 0.5897435897435898,
+   "num": 23.0,
+   "den": 39.0,
+   "characters": 23
+  },
+  {
+   "key": "M8-anne-t5-B1",
+   "value": 0.55,
+   "num": 22.0,
+   "den": 40.0,
+   "characters": 30
+  },
+  {
+   "key": "M8-anne-avg-B1",
+   "value": 0.6529487179487179,
+   "cutoffs": 5,
+   "characters": 38,
+   "ci95": [
+    0.5775411155362044,
+    0.7298488645857067
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M8-anne-t1-B2",
+   "value": 0.85,
+   "num": 34.0,
+   "den": 40.0,
+   "characters": 14
+  },
+  {
+   "key": "M8-anne-t2-B2",
+   "value": 0.65,
+   "num": 26.0,
+   "den": 40.0,
+   "characters": 18
+  },
+  {
+   "key": "M8-anne-t3-B2",
+   "value": 0.8,
+   "num": 32.0,
+   "den": 40.0,
+   "characters": 19
+  },
+  {
+   "key": "M8-anne-t4-B2",
+   "value": 0.6923076923076923,
+   "num": 27.0,
+   "den": 39.0,
+   "characters": 24
+  },
+  {
+   "key": "M8-anne-t5-B2",
+   "value": 0.85,
+   "num": 34.0,
+   "den": 40.0,
+   "characters": 26
+  },
+  {
+   "key": "M8-anne-avg-B2",
+   "value": 0.7684615384615385,
+   "cutoffs": 5,
+   "characters": 40,
+   "ci95": [
+    0.7007940076339529,
+    0.8344473508947192
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M8-anne-t1-B5",
+   "value": 0.075,
+   "num": 3.0,
+   "den": 40.0,
+   "characters": 35
+  },
+  {
+   "key": "M8-anne-t2-B5",
+   "value": 0.1282051282051282,
+   "num": 5.0,
+   "den": 39.0,
+   "characters": 34
+  },
+  {
+   "key": "M8-anne-t3-B5",
+   "value": 0.07692307692307693,
+   "num": 3.0,
+   "den": 39.0,
+   "characters": 36
+  },
+  {
+   "key": "M8-anne-t4-B5",
+   "value": 0.1282051282051282,
+   "num": 5.0,
+   "den": 39.0,
+   "characters": 35
+  },
+  {
+   "key": "M8-anne-t5-B5",
+   "value": 0.15,
+   "num": 6.0,
+   "den": 40.0,
+   "characters": 37
+  },
+  {
+   "key": "M8-anne-avg-B5",
+   "value": 0.11166666666666666,
+   "cutoffs": 5,
+   "characters": 129,
+   "ci95": [
+    0.06170502983802216,
+    0.16902867193854051
+   ],
+   "unit": "character (trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-avg-B5-minus-B1",
+   "value": -0.0018908236299540748,
+   "characters": 43,
+   "ci95": [
+    -0.10037238647219382,
+    0.05390756516070927
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-avg-B5-minus-B1",
+   "value": 0.10666666666666658,
+   "characters": 12,
+   "ci95": [
+    -0.05820105820105814,
+    0.3055555555555556
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-avg-B5-minus-B1",
+   "value": 0.0,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M8-anne-avg-B5-minus-B1",
+   "value": -0.3433333333333333,
+   "characters": 12,
+   "ci95": [
+    -0.6683333333333333,
+    -0.06673326673326674
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-avg-B5-minus-B2",
+   "value": 0.03158166382396965,
+   "characters": 43,
+   "ci95": [
+    -0.08852097318617969,
+    0.10775696081627084
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-avg-B5-minus-B2",
+   "value": -0.053333333333333344,
+   "characters": 12,
+   "ci95": [
+    -0.25,
+    0.040000000000000036
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-avg-B5-minus-B2",
+   "value": 0.0,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M8-anne-avg-B5-minus-B2",
+   "value": -0.49333333333333335,
+   "characters": 12,
+   "ci95": [
+    -0.7270833333333333,
+    -0.36011904761904756
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-avg-B5-minus-B3",
+   "value": 0.3136226602762998,
+   "characters": 43,
+   "ci95": [
+    0.18327214548664394,
+    0.39268274664815345
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-avg-B5-minus-B3",
+   "value": -0.08000000000000007,
+   "characters": 9,
+   "ci95": [
+    -0.375,
+    0.0
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-avg-B5-minus-B3",
+   "value": 0.0,
+   "characters": 40,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-avg-B5-minus-X1",
+   "value": 0.1698940180132169,
+   "characters": 43,
+   "ci95": [
+    0.06389023338033206,
+    0.23361617578307614
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-avg-B5-minus-X1",
+   "value": 0.03365079365079349,
+   "characters": 11,
+   "ci95": [
+    -0.125,
+    0.11499999999999999
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-avg-B5-minus-X1",
+   "value": -0.029414335664335666,
+   "characters": 40,
+   "ci95": [
+    -0.07469689269638449,
+    0.0
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M1-anne-avg-B5-minus-X2",
+   "value": 0.030531206251772858,
+   "characters": 43,
+   "ci95": [
+    -0.04811745527331246,
+    0.08598333340186703
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M3-anne-avg-B5-minus-X2",
+   "value": -0.040000000000000036,
+   "characters": 12,
+   "ci95": [
+    -0.19999999999999996,
+    0.0
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  },
+  {
+   "key": "M4-anne-avg-B5-minus-X2",
+   "value": -0.045804195804195806,
+   "characters": 40,
+   "ci95": [
+    -0.09318673395818312,
+    -0.01
+   ],
+   "unit": "character (paired, trajectory kept)",
+   "reps": 2000
+  }
+ ]
+}

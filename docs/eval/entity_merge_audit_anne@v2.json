@@ -1,0 +1,194 @@
+[
+ {
+  "entity": "diana-barry",
+  "flag": "span",
+  "forms": {
+   "Diana": 1,
+   "Di": 1,
+   "Diana Barry": 1,
+   "Diana Wright": 3
+  }
+ },
+ {
+  "entity": "diana-barry",
+  "flag": "surname",
+  "surnames": [
+   "Barry",
+   "Wright"
+  ],
+  "forms": {
+   "Diana Barry": 1,
+   "Diana Wright": 3
+  }
+ },
+ {
+  "entity": "faith",
+  "flag": "span",
+  "forms": {
+   "Faith": 1,
+   "Faith Meredith": 5
+  }
+ },
+ {
+  "entity": "susan",
+  "flag": "span",
+  "forms": {
+   "Susan": 1,
+   "Susan Baker": 4
+  }
+ },
+ {
+  "entity": "priscilla-grant",
+  "flag": "span",
+  "forms": {
+   "Priscilla": 1,
+   "Prissy Andrews": 1,
+   "Prissy": 1,
+   "Priscilla Grant": 1,
+   "Grant": 2,
+   "Pris": 3
+  }
+ },
+ {
+  "entity": "priscilla-grant",
+  "flag": "surname",
+  "surnames": [
+   "Andrews",
+   "Grant"
+  ],
+  "forms": {
+   "Prissy Andrews": 1,
+   "Priscilla Grant": 1
+  }
+ },
+ {
+  "entity": "harmon-andrews",
+  "flag": "span",
+  "forms": {
+   "Harmon Andrews": 1,
+   "Harmon": 3
+  }
+ },
+ {
+  "entity": "moody-spurgeon-macpherson",
+  "flag": "surname",
+  "surnames": [
+   "MacPherson",
+   "Spurgeon"
+  ],
+  "forms": {
+   "Moody Spurgeon": 1,
+   "Moody Spurgeon MacPherson": 1
+  }
+ },
+ {
+  "entity": "alec-davis",
+  "flag": "surname",
+  "surnames": [
+   "Alec",
+   "Davis"
+  ],
+  "forms": {
+   "Alec Davis": 5,
+   "Kitty Alec": 5
+  }
+ },
+ {
+  "entity": "twin-sailors",
+  "flag": "surname",
+  "surnames": [
+   "Sailor",
+   "Sailors"
+  ],
+  "forms": {
+   "Twin Sailors": 2,
+   "Twin Sailor": 2
+  }
+ },
+ {
+  "entity": "bertie-shakespeare",
+  "flag": "surname",
+  "surnames": [
+   "Drew",
+   "Shakespeare"
+  ],
+  "forms": {
+   "Bertie Shakespeare": 4,
+   "Bertie Shakespeare Drew": 5
+  }
+ },
+ {
+  "entity": "alec",
+  "flag": "split",
+  "with": [
+   "alec-davis"
+  ]
+ },
+ {
+  "entity": "martin",
+  "flag": "split",
+  "with": [
+   "martin-crawford"
+  ]
+ },
+ {
+  "entity": "walter",
+  "flag": "split",
+  "with": [
+   "walter-blythe"
+  ]
+ },
+ {
+  "entity": "henry",
+  "flag": "split",
+  "with": [
+   "henry-warren"
+  ]
+ },
+ {
+  "entity": "minnie",
+  "flag": "split",
+  "with": [
+   "minnie-may",
+   "minnie-andrews"
+  ]
+ },
+ {
+  "entity": "mary",
+  "flag": "split",
+  "with": [
+   "mary-vance",
+   "mary-joe"
+  ]
+ },
+ {
+  "entity": "jerry",
+  "flag": "split",
+  "with": [
+   "jerry-corcoran"
+  ]
+ },
+ {
+  "entity": "george",
+  "flag": "split",
+  "with": [
+   "george-moore",
+   "george-fletcher"
+  ]
+ },
+ {
+  "entity": "marshall",
+  "flag": "split",
+  "with": [
+   "marshall-elliott"
+  ]
+ },
+ {
+  "entity": "elizabeth",
+  "flag": "split",
+  "with": [
+   "elizabeth-russell",
+   "elizabeth-kirk"
+  ]
+ }
+]

@@ -1,0 +1,133 @@
+{
+ "series": "anne@v2",
+ "rows": [
+  {
+   "t": 1,
+   "future_only_vocabulary": 331,
+   "cutoff": {
+    "files": 137,
+    "strings_hit": 1,
+    "hits": {
+     "Conservatives": [
+      "wiki\\v01\\codex\\factions.md"
+     ]
+    }
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 140,
+    "strings_hit": 1,
+    "hits": {
+     "Conservatives": [
+      "wiki-html\\v01\\codex\\factions\\index.html"
+     ]
+    }
+   },
+   "slugs": {
+    "files": 137,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 2,
+   "future_only_vocabulary": 218,
+   "cutoff": {
+    "files": 263,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 266,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 263,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 3,
+   "future_only_vocabulary": 147,
+   "cutoff": {
+    "files": 386,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 389,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 386,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 4,
+   "future_only_vocabulary": 67,
+   "cutoff": {
+    "files": 496,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 499,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 496,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 5,
+   "future_only_vocabulary": 0,
+   "cutoff": {
+    "files": 626,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 629,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 626,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  }
+ ]
+}

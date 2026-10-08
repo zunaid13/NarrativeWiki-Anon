@@ -1,0 +1,2963 @@
+{
+  "reviewer": "Codex (AI assistant; not a human reader)",
+  "status": "complete AI draft; awaits independent human checking",
+  "timezone": "local time",
+  "basis": "Only the text shown in the reader HTML; no novel-memory evidence.",
+  "exposure": "Project map, handover and aggregate measurement ledger were read; no answer key or prior agent annotations were opened. Not an independent human annotation.",
+  "created": "2026-10-06T23:48:16",
+  "source_sha256": {
+    "INSTRUCTIONS.md": "c71a13a4152fda6ba1168aec6a5f6c362d3e1e2a5c4cb7bece5a8b18be2a9680",
+    "G_gold.html": "0d7ef838dd0a42b632c75e3b13bd4bc9f4eb51d481d1d43320d8fd00314b4f6f",
+    "C_citation.html": "75870ba6d7ebd5d8251ff4acda19713cade6a21e5cf509235abe6af3cd9d6e76",
+    "R_recall.html": "1e8989149dcd3904c4bb6f583eccd4af616c9bd1bb1c44ac2a3216289a15c8a5",
+    "P_precision.html": "ded329697e6f9e4ab08d86a0d43dde0ca60dafefbe200474913784fe6be72f07",
+    "G_answers.csv": "abef191ff14ca9164b9db87b6d4997682989cac29589d5858e26e10231b9fab0",
+    "C_answers.csv": "7b8fa15d38496d5ae67d0edb8d04a3d5349e664305306b18595a03bd02a86bb4",
+    "R_answers.csv": "50d117c5e64fea6296972d0b4f100573d2916fba96e5f4c869d0045816cf3088",
+    "P_answers.csv": "527544c669959d506f8207f86090ab0b829a6cd26a6b60b01e1bbd9e8fe794e9"
+  },
+  "parts": {
+    "G": {
+      "start": "2026-10-06T23:48:16",
+      "end": "2026-10-06T23:50:10",
+      "answers": {
+        "G001": {
+          "answer": "yes",
+          "reason": "v04:c09:p0032 explicitly calls Marshall Elliott a sort of dime museum freak.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G002": {
+          "answer": "yes",
+          "reason": "v02:c30:p0000 says Anne and Gilbert would leave for Redmond College two weeks later.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G003": {
+          "answer": "yes",
+          "reason": "v05:c02:p0034 explicitly says Una is ten.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G004": {
+          "answer": "yes",
+          "reason": "Marilla reports eye pain, ineffective glasses and inability to read or sew comfortably in v01:c36:p0032.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G005": {
+          "answer": "yes",
+          "reason": "v05:c15:p0027 states Norman gave a hundred a year in the discussion of church salary and support.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G006": {
+          "answer": "yes",
+          "reason": "v02:c06:p0008 names Diana Barry as the society's treasurer.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G007": {
+          "answer": "yes",
+          "reason": "v02:c08:p0030 describes the twins living at Green Gables and Marilla attending to Dora.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G008": {
+          "answer": "yes",
+          "reason": "v02:c01:p0045 explicitly says Paul Irving is coming from the States to live with his grandmother.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G009": {
+          "answer": "yes",
+          "reason": "v05:c34:p0044 describes Una delivering the letter and identifies its writer as Rosemary.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G010": {
+          "answer": "no",
+          "reason": "The excerpt establishes Anne's wedding day, but neither a completed marriage nor Gilbert as the groom.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G011": {
+          "answer": "yes",
+          "reason": "v02:c01:p0033 explicitly reports Davy pushing Dora headfirst into the biggest mud pie.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G012": {
+          "answer": "yes",
+          "reason": "v02:c06:p0008 names Gilbert Blythe as president.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G013": {
+          "answer": "yes",
+          "reason": "The discussion of Rosemary's trousseau and bridal white in v05:c35:p0002-0003 establishes the planned wedding to Mr. Meredith.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G014": {
+          "answer": "yes",
+          "reason": "v01:c02:p0013 describes both thick red braids and eyes appearing green in some lights.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G015": {
+          "answer": "yes",
+          "reason": "v05:c12:p0009 states Faith dared Walter to ride through Main Street on a pig.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G016": {
+          "answer": "yes",
+          "reason": "v05:c01:p0000-0002 places the Blythe household and Anne at Ingleside by Glen St. Mary.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G017": {
+          "answer": "yes",
+          "reason": "The speaker refers to my life-book and the next paragraph identifies him as Captain Jim.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G018": {
+          "answer": "yes",
+          "reason": "Anne explicitly says she dyed her hair and Marilla addresses her by name.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G019": {
+          "answer": "yes",
+          "reason": "v05:c02:p0025 explicitly states Mr. Meredith is a widower whose wife died four years earlier.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G020": {
+          "answer": "yes",
+          "reason": "Marilla explicitly says she is not going to keep the girl in v01:c03:p0065.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G021": {
+          "answer": "no",
+          "reason": "Mr. and Mrs. Marshall Elliott are shown living together, but none of these paragraphs identifies his wife as Cornelia.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G022": {
+          "answer": "yes",
+          "reason": "v02:c01:p0045 names Stephen Irving immediately after referring to Paul's father.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G023": {
+          "answer": "partly",
+          "reason": "Marriage to Hester Reese is stated, but marrying to spite Ellen is the speaker's conjecture (I haven't a doubt), not an established motive.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G024": {
+          "answer": "yes",
+          "reason": "v04:c18:p0052 explicitly identifies Susan as the maid-of-all-work at the little house.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G025": {
+          "answer": "yes",
+          "reason": "v03:c40:p0009 explicitly reports Gilbert's typhoid fever.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G026": {
+          "answer": "yes",
+          "reason": "v05:c05:p0027 names Mary Vance and says she attacked the food ravenously in the manse kitchen.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G027": {
+          "answer": "yes",
+          "reason": "Marilla urges continued education and explains how Anne can fund Redmond in v02:c26:p0013.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G028": {
+          "answer": "yes",
+          "reason": "v01:c15:p0038 explicitly describes Anne cracking the slate over Gilbert's head.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G029": {
+          "answer": "yes",
+          "reason": "v03:c39:p0023 explicitly states both High Honors in Classics and the Cooper Prize.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G030": {
+          "answer": "no",
+          "reason": "Captain Jim asks permission to tell the story; the displayed passage ends before he actually tells it.",
+          "recorded": "2026-10-06T23:48:45"
+        },
+        "G031": {
+          "answer": "yes",
+          "reason": "v02:c08:p0001 explicitly says Thomas Lynde lies on the lounge more nowadays.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G032": {
+          "answer": "yes",
+          "reason": "v03:c09:p0013 proposes Aunt Jamesina as the housekeeper for the girls' shared home.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G033": {
+          "answer": "yes",
+          "reason": "v01:c09:p0014 directly attributes the carrots comparison to Rachel Lynde.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G034": {
+          "answer": "yes",
+          "reason": "v03:c26:p0001 states Roy Gardner sent Anne white orchids for the reception.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G035": {
+          "answer": "yes",
+          "reason": "The doctor reports instantaneous death from shock, and the narrator identifies the bank-failure news as the source of that shock.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G036": {
+          "answer": "yes",
+          "reason": "v04:c19:p0000 explicitly says Susan worshipped Anne as young Mrs. Doctor.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G037": {
+          "answer": "no",
+          "reason": "The excerpt names Anne's wedding day but never names Gilbert or establishes their completed marriage.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G038": {
+          "answer": "yes",
+          "reason": "v05:c21:p0015 says the sea had not given up Rosemary's lover.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G039": {
+          "answer": "yes",
+          "reason": "v02:c30:p0000 explicitly says Rachel would move to Green Gables in a week.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G040": {
+          "answer": "yes",
+          "reason": "v05:c02:p0013 explicitly calls Meredith moony and absent-minded and his sermon wonderful.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G041": {
+          "answer": "no",
+          "reason": "Dick's letter states an intention to accompany George to Havana; the excerpt does not establish that the voyage occurred.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G042": {
+          "answer": "yes",
+          "reason": "Jane explains Billy asked her to propose, and the narrator confirms she is proposing for her brother.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G043": {
+          "answer": "yes",
+          "reason": "v02:c01:p0010 explicitly names Harrison's parrot Ginger and says it swore terribly.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G044": {
+          "answer": "partly",
+          "reason": "Anne's realization that she loves the dying Gilbert is explicit, but typhoid is not identified in these paragraphs.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G045": {
+          "answer": "yes",
+          "reason": "Marilla identifies the currant wine, and Anne explains the mistaken cordial and Diana's drunkenness.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G046": {
+          "answer": "yes",
+          "reason": "v03:c24:p0009 explicitly states Jonas Blake's theological studies and charge of the mission church.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G047": {
+          "answer": "yes",
+          "reason": "Josie says you couldn't walk a ridgepole, and Anne's reply identifies the person addressed.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G048": {
+          "answer": "no",
+          "reason": "Emily is associated with Harrison's newly tidy home, but none of the displayed paragraphs establishes that she is his wife.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G049": {
+          "answer": "partly",
+          "reason": "Walter's dreamy imagination and love of beauty are explicit; having a poetry volume beside him does not establish a love of poetry.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G050": {
+          "answer": "yes",
+          "reason": "v01:c24:p0001 directly describes Miss Stacy as bright, sympathetic and able to win her pupils' affection.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G051": {
+          "answer": "yes",
+          "reason": "Anne's regret at having nothing of her mother's and thanks for these letters establish the mother's letters as the gift.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G052": {
+          "answer": "yes",
+          "reason": "v02:c07:p0030 directly describes Dora as good and quiet.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G053": {
+          "answer": "yes",
+          "reason": "v05:c23:p0054 explicitly has Jem suggest forming a Good-Conduct Club.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G054": {
+          "answer": "partly",
+          "reason": "Captain Jim's death is explicit, but publication of the life-book and its timing are absent.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G055": {
+          "answer": "yes",
+          "reason": "v01:c01:p0004 explicitly calls Matthew the shyest man alive.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G056": {
+          "answer": "partly",
+          "reason": "Gilbert's boat rescue and rowing are shown, but the flat is said to leak; its sinking is not established here.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G057": {
+          "answer": "partly",
+          "reason": "Mrs. Barry credits Anne with saving Minnie May's life, but the illness is not identified as croup in this excerpt.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G058": {
+          "answer": "partly",
+          "reason": "Anne names him James Matthew, but neither his birth nor the nickname Jem is established by these paragraphs alone.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G059": {
+          "answer": "yes",
+          "reason": "Diana's remark explicitly says Anne has won the Avery.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G060": {
+          "answer": "yes",
+          "reason": "v05:c02:p0034 identifies Carl and his mania for collecting toads, bugs and frogs.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G061": {
+          "answer": "yes",
+          "reason": "Norman's reported wish to marry Ellen is confirmed by Ellen's response and thoughts about becoming a bride.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G062": {
+          "answer": "yes",
+          "reason": "v02:c06:p0008 explicitly names Anne Shirley as secretary.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G063": {
+          "answer": "yes",
+          "reason": "Diana explicitly says she is engaged in v02:c29:p0016.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G064": {
+          "answer": "partly",
+          "reason": "Anne thanks Gilbert for giving up the school for her, but the excerpt does not name Avonlea or establish her starting as its teacher.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G065": {
+          "answer": "yes",
+          "reason": "Anne explicitly says Roy asked her to marry him and she refused.",
+          "recorded": "2026-10-06T23:49:22"
+        },
+        "G066": {
+          "answer": "yes",
+          "reason": "v05:c15:p0031 explicitly says Ellen and Norman went about together for two years.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G067": {
+          "answer": "yes",
+          "reason": "Charlotta says she will go to Boston to live with Mr. Irving and Miss Lavendar after their tour.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G068": {
+          "answer": "yes",
+          "reason": "Anne recites the friendship oath and v01:c12:p0036 says Diana repeated it.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G069": {
+          "answer": "yes",
+          "reason": "Ruby explicitly says she will soon be lying dead in the graveyard.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G070": {
+          "answer": "no",
+          "reason": "Gilbert is said to be going to settle at Four Winds, but the excerpt neither calls him a doctor nor establishes the completed move or practice.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G071": {
+          "answer": "yes",
+          "reason": "Paul explicitly loves Miss Lavendar and calls her his father's chosen second mother.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G072": {
+          "answer": "yes",
+          "reason": "v05:c01:p0003 explicitly identifies Rilla as the youngest Ingleside child.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G073": {
+          "answer": "partly",
+          "reason": "Anne thanks Gilbert for giving up the school for her; the particular school and teaching position are not identified here.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G074": {
+          "answer": "yes",
+          "reason": "Anne explicitly reports Mr. Phillips calling her spelling disgraceful.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G075": {
+          "answer": "yes",
+          "reason": "v03:c09:p0007 states Stella had been teaching school ever since Queen's Academy.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G076": {
+          "answer": "yes",
+          "reason": "Phil explicitly reports Gilbert going about constantly with Christine Stuart; the fact preserves its reported status.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G077": {
+          "answer": "yes",
+          "reason": "Diana reports Lavendar's former engagement to Stephen Irving and subsequent separation.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G078": {
+          "answer": "no",
+          "reason": "Anne welcomes and lifts the arriving twins, but a single greeting does not establish that she helps raise them.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G079": {
+          "answer": "no",
+          "reason": "Anne anticipates going to Redmond and boarding in Kingsport; the paragraphs do not show her already studying there.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G080": {
+          "answer": "yes",
+          "reason": "v04:c40:p0011 explicitly says Leslie and Owen were to marry at Christmas.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G081": {
+          "answer": "yes",
+          "reason": "v05:c10:p0018 directly links Carl's sore throat to getting wet in Rainbow Valley marsh.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G082": {
+          "answer": "yes",
+          "reason": "Philippa explicitly says she hails from Bolingbroke, Nova Scotia.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G083": {
+          "answer": "yes",
+          "reason": "v04:c22:p0019 identifies Owen Ford as both a newspaper man and the house-builder's grandson.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G084": {
+          "answer": "yes",
+          "reason": "Anne admits selling Harrison's Jersey to Shearer, with her own Dolly still at home, establishing the mistaken cow sale.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G085": {
+          "answer": "yes",
+          "reason": "v04:c31:p0028 explicitly reveals that the supposed Dick is his cousin George Moore.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G086": {
+          "answer": "yes",
+          "reason": "Anne explicitly reports the teacher making eyes at Prissy Andrews in v01:c15:p0011.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G087": {
+          "answer": "yes",
+          "reason": "Anne explicitly names Bolingbroke, Nova Scotia, as her birthplace.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G088": {
+          "answer": "yes",
+          "reason": "v04:c06:p0014 directly supplies high-souled, simple-minded and iron-gray hair.",
+          "recorded": "2026-10-06T23:49:44"
+        },
+        "G089": {
+          "answer": "yes",
+          "reason": "v01:c38:p0038 explicitly reports Gilbert saying he would teach at White Sands.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G090": {
+          "answer": "yes",
+          "reason": "v05:c12:p0009 explicitly states Faith's dare to Walter to ride a pig through Main Street.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G091": {
+          "answer": "yes",
+          "reason": "v02:c30:p0030 explicitly names Lavendar and Stephen as pronounced man and wife.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G092": {
+          "answer": "yes",
+          "reason": "Anne explicitly longs for the thrill of wearing puffed sleeves.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G093": {
+          "answer": "no",
+          "reason": "The excerpt shows a farewell party before Jane's departure, but does not establish that she has actually left.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G094": {
+          "answer": "yes",
+          "reason": "Marilla states she and Matthew requested a boy and that a mistake occurred; Mrs. Spencer confirms the contrary message for a girl.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G095": {
+          "answer": "no",
+          "reason": "The excerpt establishes plans to attend Redmond and board together, not completed attendance and boarding.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G096": {
+          "answer": "yes",
+          "reason": "v04:c31:p0028 explicitly says Dick Moore died of yellow fever in Cuba.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G097": {
+          "answer": "yes",
+          "reason": "v02:c01:p0047 explicitly describes her living alone in the little stone house called Echo Lodge.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G098": {
+          "answer": "partly",
+          "reason": "James Matthew is named after two gentlemen, but these paragraphs do not identify either gentleman as Matthew Cuthbert or identify the child as Anne's son.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G099": {
+          "answer": "yes",
+          "reason": "Anne refuses Gilbert's romantic request, and the narration explicitly characterizes the encounter as a proposal.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G100": {
+          "answer": "no",
+          "reason": "Anne has chosen a heroine's name but has no plot yet; the displayed text establishes a planned story, not one she has written.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G101": {
+          "answer": "partly",
+          "reason": "Anne's loss of little Joyce is conveyed, but her being the first baby is not established here.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G102": {
+          "answer": "yes",
+          "reason": "Walter explicitly says he hates Dan Reese.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G103": {
+          "answer": "yes",
+          "reason": "Ruby's mother explicitly refers to the afternoon before Ruby died, in a funeral scene.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G104": {
+          "answer": "no",
+          "reason": "The wedding is still anticipated as the next excitement; Fred is identified as a suitable groom, but the completed marriage is not shown.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G105": {
+          "answer": "yes",
+          "reason": "v02:c05:p0004 directly describes Anthony's sullen face and hostile stare at Anne.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G106": {
+          "answer": "no",
+          "reason": "Mary offers to set Cornelia's bread, but these paragraphs do not establish that Mary lives with her.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G107": {
+          "answer": "yes",
+          "reason": "Captain Jim explicitly describes Cornelia's chronic spite against men and Methodists.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G108": {
+          "answer": "no",
+          "reason": "The excerpt says Gilbert plans to settle at Four Winds, but does not show Anne living there or name the House of Dreams.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G109": {
+          "answer": "yes",
+          "reason": "Ellen reminds Rosemary of her promise, and Rosemary responds to her sister about it.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G110": {
+          "answer": "yes",
+          "reason": "v04:c11:p0026-0027 explicitly describes the mother's pressure and Leslie's consequent marriage to Dick.",
+          "recorded": "2026-10-06T23:50:09"
+        },
+        "G111": {
+          "answer": "no",
+          "reason": "A stranger is introduced as Captain Boyd, but the displayed text never identifies that stranger as Captain Jim.",
+          "recorded": "2026-10-06T23:50:09"
+        }
+      }
+    },
+    "C": {
+      "start": "2026-10-06T23:50:10",
+      "end": "2026-10-06T23:51:59",
+      "answers": {
+        "C001": {
+          "answer": "yes",
+          "reason": "v01:c18:p0015 explicitly says Ruby has many big sisters.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C002": {
+          "answer": "yes",
+          "reason": "Repeated mission and vestry subscription disputes plus Harrison's explicit dislike and remarks about Rachel's verbal attacks support the described rivalry.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C003": {
+          "answer": "no",
+          "reason": "The cited paragraphs cover childhood, the slate incident, school rivalry and the cake; none establishes publication of Anne's writing.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C004": {
+          "answer": "partly",
+          "reason": "Diana clearly describes Gilbert as a pupil in Anne's class, but the cited paragraph does not name the school as Avonlea.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C005": {
+          "answer": "partly",
+          "reason": "The citations establish twins and repeated tormenting of Dora, but not Davy protecting her from others.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C006": {
+          "answer": "partly",
+          "reason": "Matthew dreads the coming revelation and the girl's disappointment, but explicitly expects Marilla to tell her rather than having to tell her himself.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C007": {
+          "answer": "no",
+          "reason": "The citations show Phillips teaching and punishing Anne, but none shows him leaving the school.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C008": {
+          "answer": "no",
+          "reason": "The citations establish the old quarrel and Paul's visit, not Stephen and Lavendar's later reconciliation.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C009": {
+          "answer": "yes",
+          "reason": "Marilla's threatened blindness and Anne's plans to rent the farm and remain to support her establish a threat to their household's future.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C010": {
+          "answer": "yes",
+          "reason": "v02:c05:p0020 explicitly says Anne locked the school door and went home.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C011": {
+          "answer": "yes",
+          "reason": "v04:c11:p0027 explicitly describes Leslie accepting the unwanted marriage to spare her mother pain.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C012": {
+          "answer": "yes",
+          "reason": "v03:c19:p0004 directly states Jamesina's philosophy of duty to God, neighbor and oneself.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C013": {
+          "answer": "yes",
+          "reason": "v03:c16:p0065 explicitly says Joseph and Rusty became sworn friends and describes their affectionate behavior.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C014": {
+          "answer": "no",
+          "reason": "The citations show homesickness and renewed ambition from scholarship news, but do not show classmates' visits renewing Anne's spirit.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C015": {
+          "answer": "partly",
+          "reason": "A note is passed to Anne after she misses Diana, but the cited text does not establish a reciprocal exchange of secret notes with Diana.",
+          "recorded": "2026-10-06T23:50:41"
+        },
+        "C016": {
+          "answer": "no",
+          "reason": "The citations concern Ruby's schooldays, Story Club and training plans; none shows her behavior during illness.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C017": {
+          "answer": "none cited",
+          "reason": "The item explicitly shows none cited.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C018": {
+          "answer": "no",
+          "reason": "The citations establish friendship at Queen's, not shared residence at Patty's Place.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C019": {
+          "answer": "no",
+          "reason": "The cited criticism is from Cornelia and unspecified parishioners; Mrs. Alec Davis is not shown criticizing Meredith.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C020": {
+          "answer": "yes",
+          "reason": "Her imaginative tea party, continued devotion to Stephen and dream boy support the broad description as romantic.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C021": {
+          "answer": "yes",
+          "reason": "The citations show Jem studying for Queen's entrance and preparing to leave to attend it.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C022": {
+          "answer": "yes",
+          "reason": "Both v01:c08:p0040 and v01:c12:p0021 explicitly describe Diana's rosy cheeks.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C023": {
+          "answer": "partly",
+          "reason": "Roy's two-year absence in Europe is explicit, but accompanying his mother and her failing health are not established.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C024": {
+          "answer": "no",
+          "reason": "The citations establish Gilbert's school rivalry but never football or his captaincy.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C025": {
+          "answer": "yes",
+          "reason": "Matthew explicitly expected a boy, found a girl instead and brought her home because of the mistake.",
+          "recorded": "2026-10-06T23:50:56"
+        },
+        "C026": {
+          "answer": "no",
+          "reason": "Jane lends Anne a book, but none of the cited paragraphs establishes that Jane attends school with her.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C027": {
+          "answer": "no",
+          "reason": "The citations place Anne and Diana in the orchard but omit their conversation about upcoming changes.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C028": {
+          "answer": "partly",
+          "reason": "Dora says she fears those cows in that situation; a general enduring fear of cows is not established.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C029": {
+          "answer": "no",
+          "reason": "The citations cover Harrison's initial solitary household and cow disputes, not Emily or the resumption of married life.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C030": {
+          "answer": "yes",
+          "reason": "Marilla agrees to raise the child, then retrospectively acknowledges her strictness and enduring love for Anne.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C031": {
+          "answer": "yes",
+          "reason": "v03:c02:p0004 directly describes Jane Andrews as neat.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C032": {
+          "answer": "partly",
+          "reason": "The humiliation for spelling errors is explicitly reported, but the cited paragraphs alone do not establish that it was Anne's first day.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C033": {
+          "answer": "partly",
+          "reason": "v02:c19:p0050 shows Gilbert looking manly after schoolboyhood, but retention throughout later adult years is not established.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C034": {
+          "answer": "yes",
+          "reason": "v01:c35:p0001 explicitly says Ruby did her hair up in town.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C035": {
+          "answer": "yes",
+          "reason": "Marilla withholds praise and the narrator explicitly describes her inability to display love openly.",
+          "recorded": "2026-10-06T23:51:12"
+        },
+        "C036": {
+          "answer": "partly",
+          "reason": "Owen shares his manuscript with Leslie and uses her suggestion, supporting friendly collaboration, but not a deep friendship or the summer timing.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C037": {
+          "answer": "no",
+          "reason": "The citations show imaginary tea guests and meeting Paul, but no imagined dream-boy of her own.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C038": {
+          "answer": "no",
+          "reason": "None of the cited paragraphs concerns the Queen's entry results or a tie with Gilbert.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C039": {
+          "answer": "partly",
+          "reason": "A published letter signed Faith Meredith is shown, but its content and purpose of clearing her father are omitted.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C040": {
+          "answer": "no",
+          "reason": "The citations show mischief, affection and opposition to face washing, but not vocal expression of his likes.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C041": {
+          "answer": "no",
+          "reason": "The citations are from Leslie's first meeting with Anne and early biography; none shows her later freedom or stay during Owen's return.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C042": {
+          "answer": "yes",
+          "reason": "Priscilla's comparison of a kiss to a violet and dreamy speculation about souls support romantic imagination.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C043": {
+          "answer": "yes",
+          "reason": "Leslie's clannish loyalty, patient comfort of her mother and unwanted marriage to spare her mother directly support the trait.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C044": {
+          "answer": "yes",
+          "reason": "v03:c24:p0015 explicitly calls Jonas earnest.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C045": {
+          "answer": "no",
+          "reason": "The citations concern Mary's arrival, hunger, cleaning and abusive guardian; none shows stepmother stories told to Faith.",
+          "recorded": "2026-10-06T23:51:26"
+        },
+        "C046": {
+          "answer": "no",
+          "reason": "The citations show Priscilla's humor and practical housing advice, but no appreciation of poetry's beauty.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C047": {
+          "answer": "yes",
+          "reason": "Davy's tearful confession of wrongdoing to Anne supports a guilty conscience.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C048": {
+          "answer": "yes",
+          "reason": "Anne returns with Mr. Barry and stands by while he searches the well, establishing their joint search.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C049": {
+          "answer": "no",
+          "reason": "The citations contain a housing proposal, not Stella's actual participation at Patty's Place through graduation.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C050": {
+          "answer": "partly",
+          "reason": "Matthew and Marilla are shown sharing a home and adoption plans, but their sibling relationship is not stated in these citations.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C051": {
+          "answer": "yes",
+          "reason": "v01:c10:p0034 explicitly has Mrs. Lynde forgive Anne.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C052": {
+          "answer": "yes",
+          "reason": "Stella's practical proposal to share housing, arrange a housekeeper and obtain affordable furniture supports a realistic outlook.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C053": {
+          "answer": "yes",
+          "reason": "v01:c24:p0001 explicitly says Anne carried home glowing accounts to Matthew and Marilla.",
+          "recorded": "2026-10-06T23:51:40"
+        },
+        "C054": {
+          "answer": "partly",
+          "reason": "The citations establish Rachel's Avonlea residence and strong Island identification, but not that Avonlea was her place of origin rather than later residence.",
+          "recorded": "2026-10-06T23:51:59"
+        },
+        "C055": {
+          "answer": "yes",
+          "reason": "v01:c31:p0010 describes the Queen's class preparing for Entrance and Anne's intense preoccupation with it through the winter.",
+          "recorded": "2026-10-06T23:51:59"
+        },
+        "C056": {
+          "answer": "no",
+          "reason": "The citations show reunion and Anne and Stella laughing over manuscripts, but not the girls laughing with Aunt Jamesina.",
+          "recorded": "2026-10-06T23:51:59"
+        },
+        "C057": {
+          "answer": "no",
+          "reason": "The citations cover Rachel's early home, adoption objections and insult to Anne, not Thomas's death or acceptance of Marilla's invitation.",
+          "recorded": "2026-10-06T23:51:59"
+        },
+        "C058": {
+          "answer": "no",
+          "reason": "The citations show the fall, broken ankle and Marilla's concern, but omit the later visits and Anne's longing for school.",
+          "recorded": "2026-10-06T23:51:59"
+        },
+        "C059": {
+          "answer": "no",
+          "reason": "The citations do not name Thomas or establish him as Rachel's husband.",
+          "recorded": "2026-10-06T23:51:59"
+        },
+        "C060": {
+          "answer": "yes",
+          "reason": "v01:c22:p0010 explicitly says the trustees hired the lady teacher Miss Muriel Stacy.",
+          "recorded": "2026-10-06T23:51:59"
+        }
+      }
+    },
+    "R": {
+      "start": "2026-10-06T23:51:59",
+      "end": "2026-10-06T23:57:37",
+      "answers": {
+        "R001": {
+          "answer": "no",
+          "reason": "Charlotta plans to go to Boston, but no displayed sentence says she will live with the Irvings; the other Boston moves concern different people.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R002": {
+          "answer": "no",
+          "reason": "Attention and favoritism toward Prissy are stated, but flirting or making eyes at her is not conveyed.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R003": {
+          "answer": "yes",
+          "reason": "Gilbert's attendance and graduation at Redmond convey the college move's core.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R004": {
+          "answer": "yes",
+          "reason": "The shared-page spouse line explicitly states Lavendar and Stephen married.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R005": {
+          "answer": "yes",
+          "reason": "Stella arranged for Aunt Jamesina to be their housekeeper.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R006": {
+          "answer": "yes",
+          "reason": "Anne's page and Marilla's page explicitly state Anne married Gilbert.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R007": {
+          "answer": "yes",
+          "reason": "Leslie's page explicitly says she eventually married Owen; Christmas is an incidental omitted date.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R008": {
+          "answer": "yes",
+          "reason": "Susan's page names her role as maid-of-all-work for the Blythe household.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R009": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly states the oath of eternal devotion with Anne.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R010": {
+          "answer": "yes",
+          "reason": "Josie's claim that nobody could walk a ridgepole includes Anne, and the displayed dare is directed at her.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R011": {
+          "answer": "partly",
+          "reason": "Meredith's absent-mindedness is conveyed, but none of the shown sentences calls him a wonderful preacher.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R012": {
+          "answer": "yes",
+          "reason": "Priscilla's page explicitly states her Redmond attendance and boarding at the same house as Anne.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R013": {
+          "answer": "no",
+          "reason": "Gilbert's goal to become a doctor and mentions of Four Winds do not establish his completed medical practice there; Doctor Dave is another person.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R014": {
+          "answer": "no",
+          "reason": "No displayed sentence identifies Anne's story or its heroine Averil Lester.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R015": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly says Anne refused his initial marriage proposal.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R016": {
+          "answer": "yes",
+          "reason": "Phil's origin and the shared location page explicitly identify Bolingbroke, Nova Scotia.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R017": {
+          "answer": "yes",
+          "reason": "Gilbert's affiliation names him President of the Avonlea Village Improvement Society.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R018": {
+          "answer": "yes",
+          "reason": "Stella's page explicitly says she taught a country school for two years after Queen's.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R019": {
+          "answer": "no",
+          "reason": "The sentences about Rilla never identify her as the youngest Blythe child.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R020": {
+          "answer": "partly",
+          "reason": "Anthony's sullen character and enrollment under Anne are conveyed, but his hostile stare at her is absent.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R021": {
+          "answer": "no",
+          "reason": "No shown sentence has Marilla urge Anne to attend Redmond.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R022": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly states attendance at Redmond College in Kingsport.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R023": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly states that she won the Avery Scholarship.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R024": {
+          "answer": "no",
+          "reason": "No shown sentence conveys Marilla urging Anne to continue to Redmond.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R025": {
+          "answer": "yes",
+          "reason": "Marshall's page explicitly says he married Cornelia Bryant.",
+          "recorded": "2026-10-06T23:52:29"
+        },
+        "R026": {
+          "answer": "yes",
+          "reason": "Harrison's page identifies his parrot Ginger and Dora's quoted account explicitly says Ginger swore.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R027": {
+          "answer": "yes",
+          "reason": "Marilla's page explicitly states the requested orphan boy and mix-up that brought Anne instead.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R028": {
+          "answer": "no",
+          "reason": "Ruby's illness and death are conveyed, but her own belief that she will soon die is not.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R029": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly names her birthplace as Bolingbroke, Nova Scotia.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R030": {
+          "answer": "yes",
+          "reason": "Paul's and Lavendar's pages explicitly describe Stephen and Lavendar's marriage.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R031": {
+          "answer": "yes",
+          "reason": "Dora's page explicitly calls her good and quiet.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R032": {
+          "answer": "no",
+          "reason": "No shown sentence conveys the mud-pie incident.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R033": {
+          "answer": "yes",
+          "reason": "Anthony's sullen expression and deliberate hostile challenge to Anne convey the core; the particular stare is incidental.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R034": {
+          "answer": "yes",
+          "reason": "Stella's page explicitly states teaching after graduating from Queen's.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R035": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly says Stephen marries Miss Lavendar.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R036": {
+          "answer": "no",
+          "reason": "Mary being found starving and taken in does not convey her ravenous eating at the manse.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R037": {
+          "answer": "yes",
+          "reason": "Matthew's relationship line explicitly identifies Anne's son as named partly after him.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R038": {
+          "answer": "yes",
+          "reason": "Susan's page identifies her past maid-of-all-work role and work for Gilbert and Anne's household.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R039": {
+          "answer": "yes",
+          "reason": "Anthony's page explicitly identifies him as an Avonlea pupil under Anne's instruction.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R040": {
+          "answer": "yes",
+          "reason": "Cornelia's page explicitly says she took Mary into her home to raise her.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R041": {
+          "answer": "no",
+          "reason": "No shown sentence states Diana's engagement.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R042": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly calls Stephen Irving his father.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R043": {
+          "answer": "yes",
+          "reason": "Matthew's extreme shyness and dread of strangers convey the trait's core.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R044": {
+          "answer": "yes",
+          "reason": "Diana's and Fred's pages explicitly state their engagement.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R045": {
+          "answer": "no",
+          "reason": "No shown sentence conveys the pig-riding dare; pig-girl is an insult, not an account of the event.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R046": {
+          "answer": "yes",
+          "reason": "Ruby's quoted words explicitly anticipate being dead in the graveyard while her friends remain alive.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R047": {
+          "answer": "yes",
+          "reason": "Lavendar's page explicitly states her former engagement to Stephen.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R048": {
+          "answer": "yes",
+          "reason": "Harrison's page explicitly identifies his swearing parrot Ginger.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R049": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly says Anne refused his marriage proposal.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R050": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly says she marries Fred Wright.",
+          "recorded": "2026-10-06T23:52:49"
+        },
+        "R051": {
+          "answer": "yes",
+          "reason": "Stacy's description explicitly supplies brightness, sympathy and winning pupils' affection.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R052": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly says Marilla faced failing eyesight.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R053": {
+          "answer": "yes",
+          "reason": "Dora's page explicitly calls her quiet and good.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R054": {
+          "answer": "yes",
+          "reason": "Jane's page explicitly says she traveled west to teach on the prairies.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R055": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly says she helped care for Davy and Dora while remaining at Green Gables.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R056": {
+          "answer": "yes",
+          "reason": "Leslie's page explicitly says her mother pressured her into marrying Dick.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R057": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly states the accidental intoxication of Diana with currant wine.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R058": {
+          "answer": "no",
+          "reason": "Dying of consumption is stated, but no displayed sentence states the completed death.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R059": {
+          "answer": "yes",
+          "reason": "Anne's and Diana's pages explicitly state the life-saving treatment of Minnie May's croup.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R060": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly states his near-fatal typhoid bout.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R061": {
+          "answer": "no",
+          "reason": "Carl's fascination with insects and small creatures does not state his collecting them.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R062": {
+          "answer": "no",
+          "reason": "No shown sentence names Averil Lester or Anne's story featuring her.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R063": {
+          "answer": "yes",
+          "reason": "Harrison's page explicitly states Anne accidentally sold his cow; the buyer and breed are omitted details of the same event.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R064": {
+          "answer": "yes",
+          "reason": "Meredith's wife's death and his widowed status are explicitly conveyed.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R065": {
+          "answer": "yes",
+          "reason": "Leslie's and Dick's pages explicitly state Dick died of yellow fever in Cuba.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R066": {
+          "answer": "yes",
+          "reason": "Anne's achievement line explicitly names the Avery Scholarship.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R067": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly identifies her as the society's treasurer.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R068": {
+          "answer": "yes",
+          "reason": "Josie's quoted claim that nobody could walk a ridgepole, alongside her challenge to Anne, conveys the core.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R069": {
+          "answer": "yes",
+          "reason": "Rosemary's page explicitly describes their upcoming double wedding and John has a goal to marry her.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R070": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly says Stephen marries Miss Lavendar.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R071": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly supplies currant wine mistaken by Anne for cordial, despite a conflicting cordial account elsewhere.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R072": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly says he elected to teach at White Sands and actually taught there.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R073": {
+          "answer": "no",
+          "reason": "None of the displayed sentences conveys Minnie May's rescue or croup.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R074": {
+          "answer": "yes",
+          "reason": "Marilla's page and a shared scene explicitly state Anne dyed her hair green.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R075": {
+          "answer": "yes",
+          "reason": "Dora's quiet and exceptionally well-behaved disposition conveys good and quiet.",
+          "recorded": "2026-10-06T23:53:15"
+        },
+        "R076": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly says Charlotta moves to Boston with his father and stepmother.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R077": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly names Stephen as his father.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R078": {
+          "answer": "yes",
+          "reason": "Harrison's page explicitly names his wife Emily.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R079": {
+          "answer": "no",
+          "reason": "Susan's devotion to the Blythe family is stated, but her particular worship of Anne is not conveyed.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R080": {
+          "answer": "yes",
+          "reason": "Anne's affiliation explicitly lists Improvers secretary, with nearby sentences identifying the society.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R081": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly states he went on to attend Redmond.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R082": {
+          "answer": "yes",
+          "reason": "Rosemary's relationship line explicitly says her former fiance died at sea.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R083": {
+          "answer": "no",
+          "reason": "The shown flower gift is roses after a walk, not orchids for the reception.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R084": {
+          "answer": "yes",
+          "reason": "Dora's page explicitly calls her well-behaved and quiet.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R085": {
+          "answer": "yes",
+          "reason": "Little Jem's page explicitly names Matthew Cuthbert as one of his namesakes.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R086": {
+          "answer": "yes",
+          "reason": "Marilla's page explicitly describes wanting a boy and the misunderstanding that brought Anne.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R087": {
+          "answer": "yes",
+          "reason": "Phillips's page explicitly says Anne broke her slate over Gilbert's head.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R088": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly says she helped Marilla raise Davy and Dora.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R089": {
+          "answer": "yes",
+          "reason": "Lavendar's page explicitly states the former engagement to Stephen.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R090": {
+          "answer": "no",
+          "reason": "The carrots remark shown is Gilbert's; no shown sentence attributes that comparison to Rachel.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R091": {
+          "answer": "yes",
+          "reason": "Harrison's page explicitly identifies the profanely vocal parrot Ginger.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R092": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly states her birthplace.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R093": {
+          "answer": "partly",
+          "reason": "Stacy's caring and inspiring teaching is conveyed, but winning her pupils' affection is not stated.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R094": {
+          "answer": "no",
+          "reason": "None of Jane's displayed sentences states her departure for the West.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R095": {
+          "answer": "no",
+          "reason": "No displayed sentence conveys Marilla urging Anne to attend Redmond.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R096": {
+          "answer": "yes",
+          "reason": "Matthew's extreme shyness and bashfulness convey the trait's core.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R097": {
+          "answer": "yes",
+          "reason": "Anne's school affiliation and history explicitly state teaching at Avonlea.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R098": {
+          "answer": "yes",
+          "reason": "Phillips's page explicitly says he courted Prissy while attending to her in class, conveying the romantic attention.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R099": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly states Anne accidentally served the wine and made her drunk.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R100": {
+          "answer": "yes",
+          "reason": "Gilbert's rescue of Anne when her flat sinks conveys the event's core; the boat approach is an incidental manner detail.",
+          "recorded": "2026-10-06T23:53:37"
+        },
+        "R101": {
+          "answer": "yes",
+          "reason": "Owen's page explicitly names Captain Jim Boyd.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R102": {
+          "answer": "yes",
+          "reason": "Anne's Improvers affiliation explicitly gives her office as secretary.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R103": {
+          "answer": "no",
+          "reason": "None of Carl's shown sentences mentions the wet-marsh incident or sore throat.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R104": {
+          "answer": "no",
+          "reason": "Walter's fight with Dan is conveyed, but fighting to defend others does not itself state hatred of Dan.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R105": {
+          "answer": "yes",
+          "reason": "Multiple pages and a shared scene explicitly state Anne smashed her slate over Gilbert's head.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R106": {
+          "answer": "yes",
+          "reason": "Walter's vivid imagination and love of poetry are explicitly described.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R107": {
+          "answer": "no",
+          "reason": "The cow trespass and reconciliation are conveyed, but no shown sentence states the mistaken sale.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R108": {
+          "answer": "yes",
+          "reason": "Lavendar's page explicitly calls Paul Stephen Irving's son.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R109": {
+          "answer": "yes",
+          "reason": "Shared scenes explicitly state the leaking-flat incident and Gilbert rowing by to rescue Anne.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R110": {
+          "answer": "no",
+          "reason": "Academic excellence is not a statement that Gilbert won either High Honors or the Cooper Prize.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R111": {
+          "answer": "yes",
+          "reason": "Billy's page explicitly states he sent Jane to propose on his behalf.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R112": {
+          "answer": "partly",
+          "reason": "Earned high honors are stated, but pursuit of the Cooper Prize does not convey winning it.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R113": {
+          "answer": "yes",
+          "reason": "Rosemary's page explicitly states her first lover was lost at sea.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R114": {
+          "answer": "no",
+          "reason": "The slate incident is absent from the shown sentences.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R115": {
+          "answer": "no",
+          "reason": "Rachel's criticism of Anne's looks is conveyed, but the carrots comparison shown is Gilbert's.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R116": {
+          "answer": "yes",
+          "reason": "Marilla's page explicitly says she took in the twins Davy and Dora.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R117": {
+          "answer": "yes",
+          "reason": "Roy's page explicitly says he sent Anne orchids; color and reception timing are incidental omissions.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R118": {
+          "answer": "yes",
+          "reason": "Matthew's status line and history explicitly connect his sudden death to shock from the Abbey Bank failure.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R119": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly says Anne broke her slate over his head.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R120": {
+          "answer": "yes",
+          "reason": "Gilbert's affiliation explicitly identifies White Sands as his teaching location, although it incorrectly labels the place White Sands Hotel.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R121": {
+          "answer": "no",
+          "reason": "None of Marilla's displayed sentences states her initial refusal to keep Anne.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R122": {
+          "answer": "no",
+          "reason": "Anne helping bring the twins home is stated, but later raising or caring for them is attributed only to Rachel and Marilla.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R123": {
+          "answer": "yes",
+          "reason": "Matthew's extreme shyness and aversion to strangers convey the trait's core.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R124": {
+          "answer": "no",
+          "reason": "No displayed sentence identifies Anne's story with the heroine Averil Lester.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R125": {
+          "answer": "yes",
+          "reason": "Dora's page explicitly places both twins under the care of Marilla and Anne at Green Gables.",
+          "recorded": "2026-10-06T23:54:01"
+        },
+        "R126": {
+          "answer": "no",
+          "reason": "Persuading Cornelia to adopt Mary is shown, but no sentence establishes Mary's actual residence with her.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R127": {
+          "answer": "no",
+          "reason": "Walter defending others against Dan does not itself convey that he hates Dan.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R128": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly states his proposal to Anne and her refusal.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R129": {
+          "answer": "yes",
+          "reason": "Meredith's widowed status and Cecilia's death are explicit.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R130": {
+          "answer": "no",
+          "reason": "Una's age at her mother's death is shown, but her current age of ten is not stated or derivable from this item's sentences.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R131": {
+          "answer": "partly",
+          "reason": "Dick's voyage to Havana is stated, but George's participation in that voyage is not.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R132": {
+          "answer": "yes",
+          "reason": "Philippa's origin is explicitly Bolingbroke, Nova Scotia.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R133": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly links his typhoid to Anne realizing her love.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R134": {
+          "answer": "yes",
+          "reason": "Both Anne's and Gilbert's pages explicitly convey the illness prompting Anne's realization.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R135": {
+          "answer": "no",
+          "reason": "Fascination with bugs and frogs is stated, but collecting them is not.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R136": {
+          "answer": "yes",
+          "reason": "Rilla's page explicitly calls her the youngest Blythe child.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R137": {
+          "answer": "yes",
+          "reason": "Matthew's page explicitly states the bank news, shock and instantaneous death.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R138": {
+          "answer": "yes",
+          "reason": "Multiple sentences explicitly state the birth of Anne's son James Matthew and identify Jem as her son.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R139": {
+          "answer": "yes",
+          "reason": "Phillips courting Prissy conveys the romantic attention's core.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R140": {
+          "answer": "yes",
+          "reason": "Captain Jim's page explicitly says he died shortly after receiving his published book.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R141": {
+          "answer": "yes",
+          "reason": "Josie's statement that nobody could walk a ridgepole includes Anne, alongside her directed challenge.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R142": {
+          "answer": "no",
+          "reason": "The shown care and upbringing are attributed to Marilla; Anne's participation in raising the twins is not stated.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R143": {
+          "answer": "yes",
+          "reason": "The shared scene explicitly reports Phil telling Anne that Gilbert was seen frequently with Christine.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R144": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly says she marries Fred Wright.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R145": {
+          "answer": "no",
+          "reason": "Jim shares life stories and had lost Margaret, but no displayed sentence says he tells Anne about Margaret.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R146": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly states she wins the Avery Scholarship.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R147": {
+          "answer": "yes",
+          "reason": "Marilla's initial intention to send Anne back conveys her initial refusal to keep her.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R148": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly states the oath of eternal friendship with Anne.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R149": {
+          "answer": "yes",
+          "reason": "The shared scene explicitly has Gilbert rowing by and rescuing Anne after the flat leaks.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R150": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly states she was mistakenly sent instead of the intended boy.",
+          "recorded": "2026-10-06T23:54:23"
+        },
+        "R151": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly states his move from the United States to his grandmother in Avonlea.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R152": {
+          "answer": "no",
+          "reason": "No displayed sentence states that Anne's son was named after Matthew.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R153": {
+          "answer": "yes",
+          "reason": "Marilla's page explicitly states her initial insistence on returning Anne and quotes her refusal to keep her.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R154": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly calls him Stephen Irving's son.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R155": {
+          "answer": "yes",
+          "reason": "Paul's page explicitly states arrival from the United States to live with his grandmother.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R156": {
+          "answer": "no",
+          "reason": "Making mud pies is stated, but pushing Dora into one is not.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R157": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly says she married Gilbert.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R158": {
+          "answer": "yes",
+          "reason": "Matthew is explicitly described as extremely shy and dreading women.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R159": {
+          "answer": "no",
+          "reason": "Josie's dare to Anne is shown, but a dare does not itself state her belief that Anne could not do it.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R160": {
+          "answer": "yes",
+          "reason": "Marilla's page explicitly states she takes in Davy and Dora.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R161": {
+          "answer": "yes",
+          "reason": "Gilbert's affiliation explicitly identifies White Sands as his teaching location, despite its erroneous Hotel label.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R162": {
+          "answer": "yes",
+          "reason": "Gilbert's page describes surrendering his Avonlea teaching appointment so Anne can remain near Green Gables.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R163": {
+          "answer": "yes",
+          "reason": "Marilla's page explicitly states her initial intention to return Anne.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R164": {
+          "answer": "no",
+          "reason": "Meredith's goal to marry Rosemary is shown, but neither her acceptance nor an agreed upcoming marriage is stated.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R165": {
+          "answer": "yes",
+          "reason": "Marshall's self-imposed uncut hair and extraordinarily long beard convey the eccentric appearance's core.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R166": {
+          "answer": "no",
+          "reason": "None of the shown sentences states that Gilbert gave up the school for Anne.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R167": {
+          "answer": "yes",
+          "reason": "Jonas's theological studies and charge of Point Prospect Mission Church are explicitly conveyed.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R168": {
+          "answer": "no",
+          "reason": "None of the shown sentences describes Matthew's shyness; physical awkwardness alone does not convey it.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R169": {
+          "answer": "yes",
+          "reason": "Susan's worship of young Mrs. and devotion to Anne as her mistress convey the core despite truncated honorifics.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R170": {
+          "answer": "yes",
+          "reason": "Paul's warm acceptance and affectionate Mother Lavendar name convey his love for her as stepmother.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R171": {
+          "answer": "yes",
+          "reason": "Dora's quiet, polite, well-behaved disposition conveys good and quiet.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R172": {
+          "answer": "yes",
+          "reason": "Anne's achievement line explicitly states birth in Bolingbroke, Nova Scotia.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R173": {
+          "answer": "yes",
+          "reason": "Anne's and Jem's pages explicitly place her living in the house of dreams at Four Winds.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R174": {
+          "answer": "yes",
+          "reason": "Diana's page explicitly states marriage to Fred Wright.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R175": {
+          "answer": "no",
+          "reason": "No displayed sentence conveys Diana's accidental intoxication.",
+          "recorded": "2026-10-06T23:54:44"
+        },
+        "R176": {
+          "answer": "no",
+          "reason": "Walter fighting Dan to defend others does not state that he hates him.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R177": {
+          "answer": "yes",
+          "reason": "Leslie's and Susan's pages explicitly place Anne living at the House of Dreams in Four Winds.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R178": {
+          "answer": "no",
+          "reason": "The child's name is shown, but no sentence identifies Matthew Cuthbert as his namesake.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R179": {
+          "answer": "no",
+          "reason": "Christine's name alone does not state that Gilbert goes about with her.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R180": {
+          "answer": "yes",
+          "reason": "Dora's quiet and exceptionally well-behaved nature is explicitly conveyed.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R181": {
+          "answer": "yes",
+          "reason": "Gilbert's page explicitly states he attended Redmond College after teaching.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R182": {
+          "answer": "yes",
+          "reason": "Josie's quoted disbelief that anyone could walk a ridgepole includes Anne, alongside her directed dare.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R183": {
+          "answer": "yes",
+          "reason": "Dick's page explicitly says his cousin George joined him on the voyage; Havana is an omitted location detail.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R184": {
+          "answer": "no",
+          "reason": "Gilbert's typhoid is stated, but Anne's realization of love is not shown.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R185": {
+          "answer": "no",
+          "reason": "No displayed sentence conveys Phillips criticizing Anne's spelling.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R186": {
+          "answer": "no",
+          "reason": "Paul's general trust that his father could choose a good second mother does not state his love for Miss Lavendar as that mother.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R187": {
+          "answer": "yes",
+          "reason": "Little Jem's page explicitly says he was named after Matthew Cuthbert and Captain Jim.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R188": {
+          "answer": "yes",
+          "reason": "Josie's quoted disbelief about anyone walking a ridgepole and her dare to Anne convey the core.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R189": {
+          "answer": "yes",
+          "reason": "The cow is described as Harrison's, sold by mistake as Anne's own; Shearer is an omitted buyer detail.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R190": {
+          "answer": "yes",
+          "reason": "Matthew expected a boy and found Anne, with the resulting mistake explicitly identified.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R191": {
+          "answer": "yes",
+          "reason": "Dora is explicitly quiet, polite and exceptionally well-behaved.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R192": {
+          "answer": "yes",
+          "reason": "Matthew's extreme and exceptional shyness convey the trait's core.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R193": {
+          "answer": "yes",
+          "reason": "Anne's page explicitly states Marilla initially intended to send her back.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R194": {
+          "answer": "yes",
+          "reason": "Gilbert's history explicitly states a severe bout of typhoid.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R195": {
+          "answer": "yes",
+          "reason": "Anne's red childhood braids and gray-green eyes convey both physical features; count and lighting are incidental details.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R196": {
+          "answer": "no",
+          "reason": "Phillips humiliating Anne with a marked slate is stated, but no shown sentence says it was her spelling or calls it disgraceful.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R197": {
+          "answer": "yes",
+          "reason": "Meredith is explicitly a widower after Cecilia's death; the omitted four-year date is incidental.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R198": {
+          "answer": "yes",
+          "reason": "Owen's role and family lines explicitly supply newspaper man and grandson of the house-building schoolmaster.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R199": {
+          "answer": "yes",
+          "reason": "Anthony's sullen nature and contempt for female teachers plus insolence to Anne convey the hostile pupil's core.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R200": {
+          "answer": "yes",
+          "reason": "Matthew's page explicitly links the fatal attack to reading the bank-collapse news.",
+          "recorded": "2026-10-06T23:55:06"
+        },
+        "R201": {
+          "answer": "yes",
+          "reason": "Matthew's page explicitly links the Abbey Bank failure to the shock, heart attack, and instant death.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R202": {
+          "answer": "no",
+          "reason": "Diana's accidental currant-wine intoxication is stated, but the displayed sentences do not say Anne gave her the wine or caused it.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R203": {
+          "answer": "yes",
+          "reason": "Harrison's page names Emily as his wife and describes their separation and reunion.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R204": {
+          "answer": "no",
+          "reason": "The displayed accounts of the twins and Davy's mischief do not state that he pushes Dora into a mud pie.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R205": {
+          "answer": "yes",
+          "reason": "Anne is explicitly identified as a founder and secretary of the Avonlea Village Improvement Society.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R206": {
+          "answer": "yes",
+          "reason": "Marilla's initial insistence on sending Anne back conveys her refusal to keep her at first.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R207": {
+          "answer": "yes",
+          "reason": "Rachel is invited to live at Green Gables and accepts; the spare-room arrangements convey the move.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R208": {
+          "answer": "yes",
+          "reason": "Gilbert's surrender of the Avonlea teaching position so Anne can remain at Green Gables is explicit.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R209": {
+          "answer": "yes",
+          "reason": "The friendship oath between Anne and Diana is explicitly described.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R210": {
+          "answer": "yes",
+          "reason": "Stella's suggestion that the girls share a house with her aunt Jamesina as housekeeper conveys the proposal.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R211": {
+          "answer": "no",
+          "reason": "The formation of the Good-Conduct Club and Jem's role as umpire are shown, but his suggesting its formation is not.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R212": {
+          "answer": "yes",
+          "reason": "Diana's engagement to Fred Wright is explicit.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R213": {
+          "answer": "no",
+          "reason": "The displayed account of Thomas's illness and death does not describe his spending increasing time on the lounge.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R214": {
+          "answer": "no",
+          "reason": "John's intention to propose and Rosemary's love are shown, but the displayed text does not establish their accepted forthcoming marriage; releasing Ellen's pact concerns Ellen and Norman.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R215": {
+          "answer": "yes",
+          "reason": "Both Dick's page and Leslie's page explicitly state Dick died of yellow fever in Cuba.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R216": {
+          "answer": "yes",
+          "reason": "Harrison explicitly acquired the swearing parrot Ginger; the surrounding account shows he keeps the bird.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R217": {
+          "answer": "yes",
+          "reason": "Marilla's initial intention to return Anne states the same initial refusal to keep her.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R218": {
+          "answer": "yes",
+          "reason": "Lavendar's earlier engagement to Stephen Irving and its breakup are explicitly stated.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R219": {
+          "answer": "partly",
+          "reason": "John's extreme absent-mindedness is explicit, but none of the displayed sentences calls him a wonderful preacher.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R220": {
+          "answer": "yes",
+          "reason": "Charlotta's completed move to Boston with the Irvings conveys the planned move in the fact.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R221": {
+          "answer": "no",
+          "reason": "None of the displayed sentences describes Gilbert rowing to Anne after the flat sinks.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R222": {
+          "answer": "yes",
+          "reason": "The newlyweds' settlement in their Four Winds cottage conveys Anne living at the House of Dreams.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R223": {
+          "answer": "no",
+          "reason": "Prissy receives favoritism and Phillips has a goal to court her, but the displayed text does not state an actual flirtatious gesture or courtship.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R224": {
+          "answer": "no",
+          "reason": "The displayed account of Anne's red hair does not state that she dyes it.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R225": {
+          "answer": "yes",
+          "reason": "Dick's voyage to Havana and his cousin George joining him are explicit.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R226": {
+          "answer": "no",
+          "reason": "Marilla arranging Rachel's move to permit Anne's college attendance does not state that she urges Anne to attend Redmond.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R227": {
+          "answer": "yes",
+          "reason": "Billy's proposal to Anne through his sister Jane is explicitly described.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R228": {
+          "answer": "no",
+          "reason": "Special attention and favoritism toward Prissy under the guise of lessons do not themselves establish flirting.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R229": {
+          "answer": "yes",
+          "reason": "Marilla's shock at receiving Anne instead of the expected boy explicitly conveys the adoption mistake.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R230": {
+          "answer": "yes",
+          "reason": "The account explicitly connects Gilbert's typhoid illness with Anne's realization that she loves him.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R231": {
+          "answer": "no",
+          "reason": "The displayed Thomas material does not describe his increasing use of the lounge.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R232": {
+          "answer": "yes",
+          "reason": "Anne's rejection of Roy Gardner's marriage proposal is explicit.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R233": {
+          "answer": "no",
+          "reason": "The displayed Gilbert material omits the boat rescue after Anne's flat sinks.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R234": {
+          "answer": "yes",
+          "reason": "The text explicitly says Phillips courted his older pupil Prissy Andrews, conveying his romantic attention.",
+          "recorded": "2026-10-06T23:57:37"
+        },
+        "R235": {
+          "answer": "yes",
+          "reason": "Stephen Irving is explicitly identified as Paul's father.",
+          "recorded": "2026-10-06T23:57:37"
+        }
+      }
+    },
+    "P": {
+      "start": "2026-10-06T23:57:37",
+      "end": "2026-10-07T00:07:11",
+      "answers": {
+        "P001": {
+          "answer": "yes",
+          "reason": "v03:c08:p0013 shows Jane proposing for Billy, and v03:c11:p0000 explicitly recalls Billy's rejection during Anne's college Christmas holiday.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P002": {
+          "answer": "yes",
+          "reason": "v05:c03:p0008 explicitly gives Jem his father's steady, humorous mouth.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P003": {
+          "answer": "partly",
+          "reason": "Anne and Gilbert walk and chat, and Gilbert asks about summer plans in v03:c29:p0018; changing lives appears in Anne's private reflections, not as an established topic of their conversation.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P004": {
+          "answer": "not shown",
+          "reason": "No paragraph about Harrison's wish to escape domestic strife is displayed; the quiet-life material concerns Anne or Hester.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P005": {
+          "answer": "yes",
+          "reason": "John Andrew acts in the paint-order episode in v02:c09:p0034 and p0037, with no displayed death; this supports the explicitly qualified assumption, rather than confirming survival in volume 4.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P006": {
+          "answer": "yes",
+          "reason": "v01:c15:p0031 places Gilbert among the scholars of Avonlea school, and p0024 describes his class placement.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P007": {
+          "answer": "yes",
+          "reason": "v01:c33:p0028 explicitly calls Billy a big youth.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P008": {
+          "answer": "partly",
+          "reason": "Miss Stacy advises ambitious academic work in v01:c34:p0011 and her pupils succeed; a goal to develop their full personal potential is not established, and the broader moral teaching paragraph concerns Anne.",
+          "recorded": "2026-10-06T23:58:05",
+          "pair": "n-a"
+        },
+        "P009": {
+          "answer": "yes",
+          "reason": "v02:c18:p0064 explicitly shows Diana driving and Anne holding the platter as they leave along the Tory Road; both participate in the shared scene.",
+          "recorded": "2026-10-06T23:58:21",
+          "pair": "yes"
+        },
+        "P010": {
+          "answer": "not shown",
+          "reason": "Davy is mentioned at home in v02:c08:p0063, but no displayed paragraph places him in Avonlea school; the student paragraphs concern other characters.",
+          "recorded": "2026-10-06T23:58:21",
+          "pair": "n-a"
+        },
+        "P011": {
+          "answer": "no",
+          "reason": "The only recommendation to whip pupils, v02:c04:p0004, has no identified speaker in the displayed excerpt. The named Jane paragraphs establish sensible conduct, not a commitment to discipline.",
+          "recorded": "2026-10-06T23:58:21",
+          "pair": "n-a"
+        },
+        "P012": {
+          "answer": "yes",
+          "reason": "v03:c09:p0013 says Jamesina will keep house for the girls in Kingsport, and the Patty's Place paragraphs show her joining that household.",
+          "recorded": "2026-10-06T23:58:21",
+          "pair": "n-a"
+        },
+        "P013": {
+          "answer": "yes",
+          "reason": "v04:c23:p0008 describes Owen as well-looking, and v04:c24:p0007 shows his immediately winning the household's affection and Susan's heart.",
+          "recorded": "2026-10-06T23:58:30",
+          "pair": "n-a"
+        },
+        "P014": {
+          "answer": "yes",
+          "reason": "v01:c02:p0003 explicitly describes Matthew's full, soft brown beard.",
+          "recorded": "2026-10-06T23:58:30",
+          "pair": "n-a"
+        },
+        "P015": {
+          "answer": "yes",
+          "reason": "The school discipline, class promotion, and farewell passages identify Phillips as Anne's schoolmaster.",
+          "recorded": "2026-10-06T23:58:30",
+          "pair": "n-a"
+        },
+        "P016": {
+          "answer": "yes",
+          "reason": "v01:c02:p0003 says Matthew wore his beard ever since he was twenty, supporting the stated approximate starting period.",
+          "recorded": "2026-10-06T23:58:30",
+          "pair": "n-a"
+        },
+        "P017": {
+          "answer": "yes",
+          "reason": "v02:c11:p0038 explicitly reports Paul's fight with St. Clair Donnell over their flags.",
+          "recorded": "2026-10-06T23:58:38",
+          "pair": "n-a"
+        },
+        "P018": {
+          "answer": "yes",
+          "reason": "v02:c09:p0000 and p0003 show Harrison irritated by Rachel's visits and blunt comments; the qualified statement can irritate is supported.",
+          "recorded": "2026-10-06T23:58:38",
+          "pair": "n-a"
+        },
+        "P019": {
+          "answer": "yes",
+          "reason": "Matthew's decision not to distress or abandon Anne in v01:c02:p0017 and the surrounding quiet, kindly conduct support gentleness.",
+          "recorded": "2026-10-06T23:58:38",
+          "pair": "n-a"
+        },
+        "P020": {
+          "answer": "yes",
+          "reason": "v01:c35:p0004 explicitly includes Stella in Anne's circle of thoughtful, imaginative, ambitious students.",
+          "recorded": "2026-10-06T23:58:38",
+          "pair": "n-a"
+        },
+        "P021": {
+          "answer": "yes",
+          "reason": "Matthew's protective conduct and advocacy for Anne, with v02:c15:p0000 explicitly recalling his love and sympathy, support quiet affection.",
+          "recorded": "2026-10-06T23:58:48",
+          "pair": "n-a"
+        },
+        "P022": {
+          "answer": "yes",
+          "reason": "v02:c14:p0035 shows Jane moving a society committee appointment, and p0049 assigns her to its delegation; this establishes active membership.",
+          "recorded": "2026-10-06T23:58:48",
+          "pair": "n-a"
+        },
+        "P023": {
+          "answer": "yes",
+          "reason": "v03:c24:p0015 explicitly describes Jonas's earnest preaching; the wider account of his counsel and conduct supports the characterization.",
+          "recorded": "2026-10-06T23:58:48",
+          "pair": "n-a"
+        },
+        "P024": {
+          "answer": "yes",
+          "reason": "Rachel's pessimistic adoption predictions and general expectation of disappointment recur in v01:c01:p0030, c13:p0019, and v02:c03:p0054.",
+          "recorded": "2026-10-06T23:58:48",
+          "pair": "n-a"
+        },
+        "P025": {
+          "answer": "yes",
+          "reason": "v05:c26:p0021 explicitly calls Norman clever and well read; v05:c15:p0038 also describes his reputation for extensive reading.",
+          "recorded": "2026-10-06T23:58:58",
+          "pair": "n-a"
+        },
+        "P026": {
+          "answer": "yes",
+          "reason": "Cornelia announces the planned marriage and names Marshall in v04:c37:p0004 and p0008. Anne is directly addressed in p0026 and reacts in p0015, so both named characters share the scene.",
+          "recorded": "2026-10-06T23:58:58",
+          "pair": "yes"
+        },
+        "P027": {
+          "answer": "yes",
+          "reason": "Marilla explicitly undertakes useful training and religious instruction, and aims at calm, proper behavior in v01:c06:p0034, c07:p0013, and c22:p0003.",
+          "recorded": "2026-10-06T23:58:58",
+          "pair": "n-a"
+        },
+        "P028": {
+          "answer": "yes",
+          "reason": "v01:c15:p0031 shows unattended classroom disorder while Phillips focuses on Prissy, and c19:p0032 says a stricter teacher would have stopped Anne and Diana's talking.",
+          "recorded": "2026-10-06T23:58:58",
+          "pair": "n-a"
+        },
+        "P029": {
+          "answer": "partly",
+          "reason": "Charlotta's bowl-breaking speech is in v02:c27:p0044, but the quoted opening changes 'I was dusting it just as careful' to 'I was just as careful' without marking the omission.",
+          "recorded": "2026-10-06T23:59:08",
+          "pair": "n-a"
+        },
+        "P030": {
+          "answer": "yes",
+          "reason": "Paul's rock people, unusual thoughts, dreams, and fancies in v02:c11:p0041, c19:p0033, and c11:p0038 establish an imaginative boy.",
+          "recorded": "2026-10-06T23:59:08",
+          "pair": "n-a"
+        },
+        "P031": {
+          "answer": "yes",
+          "reason": "v02:c07:p0013 explicitly states Gilbert has decided to become a doctor; medical study follows from that professional goal.",
+          "recorded": "2026-10-06T23:59:08",
+          "pair": "n-a"
+        },
+        "P032": {
+          "answer": "yes",
+          "reason": "v01:c35:p0001 explicitly characterizes Ruby as cheerful and good-tempered.",
+          "recorded": "2026-10-06T23:59:08",
+          "pair": "n-a"
+        },
+        "P033": {
+          "answer": "yes",
+          "reason": "v02:c11:p0009 explicitly says Anne encloses copies of student compositions. The cited episode is Anne's letter reporting pupils, not a shared scene with Paul and the separately named Shirley.",
+          "recorded": "2026-10-06T23:59:17",
+          "pair": "no"
+        },
+        "P034": {
+          "answer": "yes",
+          "reason": "v05:c04:p0007 explicitly describes Una's almond-shaped, dark-blue eyes.",
+          "recorded": "2026-10-06T23:59:17",
+          "pair": "n-a"
+        },
+        "P035": {
+          "answer": "yes",
+          "reason": "v05:c17:p0016 and p0062 explicitly report Dan insulting Walter's mother, in the school confrontation episode.",
+          "recorded": "2026-10-06T23:59:17",
+          "pair": "n-a"
+        },
+        "P036": {
+          "answer": "yes",
+          "reason": "v01:c22:p0003 explicitly describes Marilla's attempt to make Anne calm, demure, and proper, conveying the sensible-girl aim.",
+          "recorded": "2026-10-06T23:59:17",
+          "pair": "n-a"
+        },
+        "P037": {
+          "answer": "yes",
+          "reason": "v05:c13:p0009 explicitly says life taught Rosemary to be brave.",
+          "recorded": "2026-10-06T23:59:24",
+          "pair": "n-a"
+        },
+        "P038": {
+          "answer": "yes",
+          "reason": "v05:c04:p0014 contains Carl's quoted words; removing the intervening narrator attribution preserves the speech.",
+          "recorded": "2026-10-06T23:59:24",
+          "pair": "n-a"
+        },
+        "P039": {
+          "answer": "yes",
+          "reason": "Josie's insensitive remarks about Anne's tears, orphan background, and hair recur in v01:c34:p0019 and c37:p0032, supporting the general characterization.",
+          "recorded": "2026-10-06T23:59:24",
+          "pair": "n-a"
+        },
+        "P040": {
+          "answer": "yes",
+          "reason": "v02:c08:p0001 describes Marilla bringing the twins home and adopting them, and p0011 shows their arrival at her house.",
+          "recorded": "2026-10-06T23:59:24",
+          "pair": "n-a"
+        },
+        "P041": {
+          "answer": "partly",
+          "reason": "Davy confesses his temptation to Anne and later can pray in v03:c07:p0034 and p0046, but the intervening help and its gentle manner are not displayed. Davy hugs Anne while Dora holds her hand in p0014, establishing the pair's shared arrival scene.",
+          "recorded": "2026-10-06T23:59:35",
+          "pair": "yes"
+        },
+        "P042": {
+          "answer": "yes",
+          "reason": "Jonas laughs, jokes, and readily forms friendships in v03:c24:p0012 and is a general household favorite in c25:p0012.",
+          "recorded": "2026-10-06T23:59:35",
+          "pair": "n-a"
+        },
+        "P043": {
+          "answer": "yes",
+          "reason": "Charlotta's hearty laughter, cheerful greeting, and cheerful wedding preparations recur in v02:c21:p0073, c27:p0022, and c30:p0027.",
+          "recorded": "2026-10-06T23:59:35",
+          "pair": "n-a"
+        },
+        "P044": {
+          "answer": "yes",
+          "reason": "v01:c15:p0025 explicitly shows unnoticed cheating and p0031 describes the other pupils doing as they please while Phillips teaches Prissy.",
+          "recorded": "2026-10-06T23:59:35",
+          "pair": "n-a"
+        },
+        "P045": {
+          "answer": "partly",
+          "reason": "Priscilla and Ruby are shown studying at the Academy in v01:c35:p0004 and p0006, but neither their shared boarding house nor a direct comradeship is established.",
+          "recorded": "2026-10-06T23:59:45",
+          "pair": "n-a"
+        },
+        "P046": {
+          "answer": "yes",
+          "reason": "v02:c01:p0057 reports Priscilla's appointment to teach the Carmody school, supporting teaching ability.",
+          "recorded": "2026-10-06T23:59:45",
+          "pair": "n-a"
+        },
+        "P047": {
+          "answer": "yes",
+          "reason": "The early insult and later liking and pride appear in v01:c09:p0016, c10:p0038, and c32:p0048.",
+          "recorded": "2026-10-06T23:59:45",
+          "pair": "n-a"
+        },
+        "P048": {
+          "answer": "no",
+          "reason": "v01:c24:p0002 calls Stacy's voice sweet, but sweetness does not establish the asserted soft volume or tone; no other displayed paragraph does so.",
+          "recorded": "2026-10-06T23:59:45",
+          "pair": "n-a"
+        },
+        "P049": {
+          "answer": "partly",
+          "reason": "Stacy confirms deciding to remain in Avonlea in v01:c30:p0032, but the specific offer from her home district's grade school is presented only as rumor in p0031.",
+          "recorded": "2026-10-06T23:59:56",
+          "pair": "n-a"
+        },
+        "P050": {
+          "answer": "yes",
+          "reason": "v04:c03:p0043 and c04:p0016 explicitly call him Reverend Jo.",
+          "recorded": "2026-10-06T23:59:56",
+          "pair": "n-a"
+        },
+        "P051": {
+          "answer": "partly",
+          "reason": "v02:c22:p0009 and c01:p0047 establish Stephen leaving for the States after the breakup; Boston is explicit for the later reunited household, not for that first move.",
+          "recorded": "2026-10-06T23:59:56",
+          "pair": "n-a"
+        },
+        "P052": {
+          "answer": "yes",
+          "reason": "v01:c30:p0020 describes their continued inseparability, and v03:c28:p0023 recalls years of constant companionship until Diana's marriage; the history sentence precedes that marriage.",
+          "recorded": "2026-10-06T23:59:56",
+          "pair": "n-a"
+        },
+        "P053": {
+          "answer": "yes",
+          "reason": "v01:c33:p0028 describes Billy's habitual lack of chatter and conversational gifts; v03:c08:p0015 corroborates longstanding shyness.",
+          "recorded": "2026-10-07T00:00:06",
+          "pair": "n-a"
+        },
+        "P054": {
+          "answer": "no",
+          "reason": "The Haunted Wood paragraphs establish Anne's fear and Marilla's anger, but do not show Marilla sending her through it to teach a lesson. Ruby is merely mentioned in reported speech, not present in this scene.",
+          "recorded": "2026-10-07T00:00:06",
+          "pair": "no"
+        },
+        "P055": {
+          "answer": "yes",
+          "reason": "v02:c26:p0004 and the later quilt and courtship paragraphs explicitly use Mrs. Rachel for Rachel Lynde.",
+          "recorded": "2026-10-07T00:00:06",
+          "pair": "n-a"
+        },
+        "P056": {
+          "answer": "yes",
+          "reason": "Gilbert explicitly describes his teaching in v02:c07:p0008, and v03:c05:p0000 places him in Redmond's freshman class.",
+          "recorded": "2026-10-07T00:00:06",
+          "pair": "n-a"
+        },
+        "P057": {
+          "answer": "yes",
+          "reason": "v01:c15:p0068 explicitly says Anne drops the candy heart and grinds it to powder beneath her heel.",
+          "recorded": "2026-10-07T00:00:19",
+          "pair": "n-a"
+        },
+        "P058": {
+          "answer": "yes",
+          "reason": "v01:c23:p0030 explicitly diagnoses Anne's broken ankle. Rachel's recovery visits are reported to Marilla in p0041, rather than showing both women participating together in the cited event.",
+          "recorded": "2026-10-07T00:00:19",
+          "pair": "no"
+        },
+        "P059": {
+          "answer": "partly",
+          "reason": "v02:c29:p0011 and p0012 establish Diana and Fred's romance and Anne's surprise, but not deliberate secrecy. Charlotta is not shown participating in the chapter-29 scene with Anne; the shoe-throwing paragraph is a different chapter's wedding.",
+          "recorded": "2026-10-07T00:00:19",
+          "pair": "no"
+        },
+        "P060": {
+          "answer": "yes",
+          "reason": "v01:c23:p0015 and p0016 establish Anne's fall from the Barry roof. Diana acts in the scene, but her father is only someone Anne asks her to find in p0022, not a shown participant.",
+          "recorded": "2026-10-07T00:00:19",
+          "pair": "no"
+        },
+        "P061": {
+          "answer": "yes",
+          "reason": "v01:c30:p0020 places Jane and Anne in the same Queen's preparation class, and the school farewell and activity paragraphs corroborate their schoolmateship.",
+          "recorded": "2026-10-07T00:00:29",
+          "pair": "n-a"
+        },
+        "P062": {
+          "answer": "yes",
+          "reason": "v02:c04:p0028 explicitly describes repeated evening visits and conversations between Anne and her friend Harrison.",
+          "recorded": "2026-10-07T00:00:29",
+          "pair": "n-a"
+        },
+        "P063": {
+          "answer": "yes",
+          "reason": "v01:c31:p0007 describes Rachel as exceptionally kind and never shirking her share of work; her church aid work and sustained provision of quilts support the readiness-to-help characterization.",
+          "recorded": "2026-10-07T00:00:29",
+          "pair": "n-a"
+        },
+        "P064": {
+          "answer": "yes",
+          "reason": "Charlotta's attentive concern and statement that she must look after Lavendar in v02:c27:p0044, together with her loyal service in c21:p0076, support this goal.",
+          "recorded": "2026-10-07T00:00:29",
+          "pair": "n-a"
+        },
+        "P065": {
+          "answer": "yes",
+          "reason": "v05:c16:p0028 explicitly gives Norman Douglas a high, white forehead; the other person's beard details in the page context are outside this sampled atom.",
+          "recorded": "2026-10-07T00:00:39",
+          "pair": "n-a"
+        },
+        "P066": {
+          "answer": "yes",
+          "reason": "v03:c24:p0009 explicitly identifies Jonas Blake's summer charge of Point Prospect Mission Church.",
+          "recorded": "2026-10-07T00:00:39",
+          "pair": "n-a"
+        },
+        "P067": {
+          "answer": "yes",
+          "reason": "v03:c08:p0006 explicitly describes Billy as round-faced, corroborated by v01:c33:p0028.",
+          "recorded": "2026-10-07T00:00:39",
+          "pair": "n-a"
+        },
+        "P068": {
+          "answer": "yes",
+          "reason": "The displayed volume-4 paragraphs show Owen acting and speaking with the other characters, including v04:c24:p0030 and c36:p0050.",
+          "recorded": "2026-10-07T00:00:39",
+          "pair": "n-a"
+        },
+        "P069": {
+          "answer": "yes",
+          "reason": "The joyful visit in v02:c23:p0010 and Anne's three-week stay with the Irvings in v03:c40:p0000 establish Lavendar's continued welcome.",
+          "recorded": "2026-10-07T00:00:47",
+          "pair": "n-a"
+        },
+        "P070": {
+          "answer": "yes",
+          "reason": "v01:c18:p0015 and v02:c26:p0059 explicitly report Ruby's plan to have many beaus.",
+          "recorded": "2026-10-07T00:00:47",
+          "pair": "n-a"
+        },
+        "P071": {
+          "answer": "yes",
+          "reason": "v01:c24:p0001 explicitly describes Stacy bringing out her pupils' best mentally and morally; her decision to stay and see them through corroborates the goal.",
+          "recorded": "2026-10-07T00:00:47",
+          "pair": "n-a"
+        },
+        "P072": {
+          "answer": "yes",
+          "reason": "v02:c10:p0088 explicitly says Dora is not a bit of trouble and hardly noticeable in the house.",
+          "recorded": "2026-10-07T00:00:47",
+          "pair": "n-a"
+        },
+        "P073": {
+          "answer": "yes",
+          "reason": "v01:c15:p0013 and several later paragraphs explicitly refer to him as Mr. Phillips.",
+          "recorded": "2026-10-07T00:00:56",
+          "pair": "n-a"
+        },
+        "P074": {
+          "answer": "not shown",
+          "reason": "None of the displayed source paragraphs shows Rachel praising Anne's growth to Marilla in the chapter-30 visit. Other joint episodes occur in different chapters and do not establish participation in this sampled scene.",
+          "recorded": "2026-10-07T00:00:56",
+          "pair": "no"
+        },
+        "P075": {
+          "answer": "yes",
+          "reason": "v03:c02:p0004 explicitly describes Jane as neat; since v3 is treated as the evidence-volume marker, not a claim that she first became neat then.",
+          "recorded": "2026-10-07T00:00:56",
+          "pair": "n-a"
+        },
+        "P076": {
+          "answer": "yes",
+          "reason": "v03:c36:p0011 identifies Elizabeth as Jamesina's daughter and explicitly recalls her decision to become a missionary and move to the foreign field.",
+          "recorded": "2026-10-07T00:00:56",
+          "pair": "n-a"
+        },
+        "P077": {
+          "answer": "yes",
+          "reason": "v02:c25:p0047 places Emily in Carmody with Rachel, and p0059 announces their return during Anne's visit.",
+          "recorded": "2026-10-07T00:01:07",
+          "pair": "n-a"
+        },
+        "P078": {
+          "answer": "yes",
+          "reason": "v03:c13:p0007 explicitly describes Rachel trying to bring Davy up properly and influencing Marilla's decisions, while p0000 describes the twins' usual Sunday-school supervision.",
+          "recorded": "2026-10-07T00:01:07",
+          "pair": "n-a"
+        },
+        "P079": {
+          "answer": "yes",
+          "reason": "v02:c01:p0045 explicitly says Paul comes from the States, and c21:p0083 specifies Boston.",
+          "recorded": "2026-10-07T00:01:07",
+          "pair": "n-a"
+        },
+        "P080": {
+          "answer": "no",
+          "reason": "Captain Jim recalls the bride being overdue and later cooking a Christmas dinner, but no displayed paragraph shows him witnessing her arrival at the new house.",
+          "recorded": "2026-10-07T00:01:07",
+          "pair": "n-a"
+        },
+        "P081": {
+          "answer": "no",
+          "reason": "Mary rejects pity for her stripes in v05:c05:p0058 and repeatedly boasts of skills in c06:p0031, but none of the displayed text shows a habit of boasting about the hardships themselves.",
+          "recorded": "2026-10-07T00:01:22",
+          "pair": "n-a"
+        },
+        "P082": {
+          "answer": "partly",
+          "reason": "v02:c29:p0001 shows Paul bringing happy family news to Anne, but no displayed paragraph establishes his confiding his deepest feelings to her.",
+          "recorded": "2026-10-07T00:01:22",
+          "pair": "n-a"
+        },
+        "P083": {
+          "answer": "yes",
+          "reason": "v02:c01:p0004 explicitly describes Harrison angrily confronting Anne, with p0014 identifying him as irate.",
+          "recorded": "2026-10-07T00:01:22",
+          "pair": "n-a"
+        },
+        "P084": {
+          "answer": "yes",
+          "reason": "v02:c15:p0000 explicitly says Anne could never forget Matthew's first love and sympathy and would always cherish his memory.",
+          "recorded": "2026-10-07T00:01:22",
+          "pair": "n-a"
+        },
+        "P085": {
+          "answer": "yes",
+          "reason": "v03:c08:p0012 explicitly connects the upper farm being given to Billy with his wish to marry Anne.",
+          "recorded": "2026-10-07T00:01:30",
+          "pair": "n-a"
+        },
+        "P086": {
+          "answer": "yes",
+          "reason": "v02:c08:p0030 explicitly says Davy is almost constantly in or devising mischief; the mud-pie and well episodes corroborate it.",
+          "recorded": "2026-10-07T00:01:30",
+          "pair": "n-a"
+        },
+        "P087": {
+          "answer": "yes",
+          "reason": "Charlotta works for dear life in v02:c27:p0022, dashes to the oven in c28:p0056, and flies around with vim and briskness in c30:p0011.",
+          "recorded": "2026-10-07T00:01:30",
+          "pair": "n-a"
+        },
+        "P088": {
+          "answer": "yes",
+          "reason": "v01:c01:p0027 explicitly states Nova Scotia is right close to the Island.",
+          "recorded": "2026-10-07T00:01:30",
+          "pair": "n-a"
+        },
+        "P089": {
+          "answer": "partly",
+          "reason": "v01:c26:p0002 establishes the insult and three-month quarrel, but the volume-5 Enemy of label generalizes that temporary estrangement into an enduring relationship.",
+          "recorded": "2026-10-07T00:01:42",
+          "pair": "n-a"
+        },
+        "P090": {
+          "answer": "no",
+          "reason": "Matthew's sudden death is shown, but none of the displayed paragraphs establishes Marilla's failing eyesight or her resulting plan to sell Green Gables.",
+          "recorded": "2026-10-07T00:01:42",
+          "pair": "n-a"
+        },
+        "P091": {
+          "answer": "partly",
+          "reason": "The early adoption discussion establishes Matthew's farm work and heart trouble, and later paragraphs establish his death, but continued farm work right up to that death is not shown.",
+          "recorded": "2026-10-07T00:01:42",
+          "pair": "n-a"
+        },
+        "P092": {
+          "answer": "yes",
+          "reason": "v01:c02:p0074 places Rachel's window at Lynde's Hollow beside the route to Green Gables, and c01:p0001 describes her view of the main road through the hollow.",
+          "recorded": "2026-10-07T00:01:42",
+          "pair": "n-a"
+        },
+        "P093": {
+          "answer": "yes",
+          "reason": "v01:c15:p0031 and c17:p0037 identify Phillips teaching and managing pupils in Avonlea school.",
+          "recorded": "2026-10-07T00:01:51",
+          "pair": "n-a"
+        },
+        "P094": {
+          "answer": "partly",
+          "reason": "v02:c12:p0052 establishes Anthony's new respect after the whipping, but the displayed text does not describe his subsequent polite behavior toward Anne.",
+          "recorded": "2026-10-07T00:01:51",
+          "pair": "n-a"
+        },
+        "P095": {
+          "answer": "yes",
+          "reason": "Matthew directly urges Anne to finish the required apology in v01:c10:p0013, and her apology follows in p0030. He addresses Anne in the same scene, establishing participation by both.",
+          "recorded": "2026-10-07T00:01:51",
+          "pair": "yes"
+        },
+        "P096": {
+          "answer": "yes",
+          "reason": "v02:c09:p0010 explicitly says Rachel has a very kind heart and illustrates her generosity and forgiveness.",
+          "recorded": "2026-10-07T00:01:51",
+          "pair": "n-a"
+        },
+        "P097": {
+          "answer": "partly",
+          "reason": "Josie speaks with aggravating pity in v01:c34:p0019, but the other shown incidents establish criticism and mockery rather than a repeated pitying attitude; often goes beyond the example.",
+          "recorded": "2026-10-07T00:04:00",
+          "pair": "n-a"
+        },
+        "P098": {
+          "answer": "yes",
+          "reason": "Harrison calls himself a terrible outspoken old fellow in v02:c03:p0025, and v02:c04:p0028 explicitly describes the outspokenness on which he prides himself.",
+          "recorded": "2026-10-07T00:04:00",
+          "pair": "n-a"
+        },
+        "P099": {
+          "answer": "yes",
+          "reason": "His formal courtship, sincere proposal, failure to understand a joke, and description as a melancholy, inscrutable hero support a serious demeanor in v03:c27:p0036 and c38:p0017.",
+          "recorded": "2026-10-07T00:04:09",
+          "pair": "n-a"
+        },
+        "P100": {
+          "answer": "yes",
+          "reason": "Owen explicitly says I am Alice Selwyn's son in v04:c24:p0022; the following paragraph repeats the relationship.",
+          "recorded": "2026-10-07T00:04:09",
+          "pair": "n-a"
+        },
+        "P101": {
+          "answer": "yes",
+          "reason": "Stella's letter in v03:c09:p0013 proposes that she, Anne and Priscilla rent a house and board themselves, with Aunt Jamesina keeping house.",
+          "recorded": "2026-10-07T00:04:30",
+          "pair": "n-a"
+        },
+        "P102": {
+          "answer": "partly",
+          "reason": "Josie's face is triumphant and taunting in v01:c33:p0034 and she remarks condescendingly in v03:c02:p0001; these support condescension, but not a frequent facial expression.",
+          "recorded": "2026-10-07T00:04:30",
+          "pair": "n-a"
+        },
+        "P103": {
+          "answer": "not shown",
+          "reason": "The displayed passages concern later life, clothes, cooking and other events; none describes Marilla's original decision about returning Anne.",
+          "recorded": "2026-10-07T00:04:30",
+          "pair": "n-a"
+        },
+        "P104": {
+          "answer": "yes",
+          "reason": "Lavendar explicitly describes herself as a dreadfully sulky person and explains her prolonged sulking after the quarrel in v02:c23:p0019.",
+          "recorded": "2026-10-07T00:04:30",
+          "pair": "n-a"
+        },
+        "P105": {
+          "answer": "yes",
+          "reason": "Ruby joins the Queen's preparation class and subsequently obtains a school and teaches, supporting completion of her teacher training rather than merely an intention to attend.",
+          "recorded": "2026-10-07T00:04:45",
+          "pair": "n-a"
+        },
+        "P106": {
+          "answer": "yes",
+          "reason": "v01:c31:p0002 places Anne's renewed ambition in September and p0010 shows her class back at work. In that chapter Marilla acts on the doctor's warning and allows outings while Anne takes part in the resulting summer and school-year activities.",
+          "recorded": "2026-10-07T00:04:45",
+          "pair": "yes"
+        },
+        "P107": {
+          "answer": "yes",
+          "reason": "Phil explicitly says Alec and Alonzo are equally nice and difficult to choose between in v03:c19:p0024; her earlier discussion of Alonzo's nose and name also shows indecision.",
+          "recorded": "2026-10-07T00:04:50",
+          "pair": "n-a"
+        },
+        "P108": {
+          "answer": "partly",
+          "reason": "Stella says she is blue and discouraged in v03:c35:p0031, but this shows one mood rather than a general tendency to discouragement.",
+          "recorded": "2026-10-07T00:04:50",
+          "pair": "n-a"
+        },
+        "P109": {
+          "answer": "yes",
+          "reason": "v01:c35:p0004 directly describes Stella's dreams and fancies as aerial and rainbow-like.",
+          "recorded": "2026-10-07T00:04:55",
+          "pair": "n-a"
+        },
+        "P110": {
+          "answer": "yes",
+          "reason": "Lavendar recalls their engagement and planned wedding in v02:c23:p0017, and Marilla explicitly confirms the earlier engagement in c22:p0009.",
+          "recorded": "2026-10-07T00:04:55",
+          "pair": "n-a"
+        },
+        "P111": {
+          "answer": "yes",
+          "reason": "Rosemary is explicitly called a girl in v05:c02:p0063 and one of the two women in c34:p0006.",
+          "recorded": "2026-10-07T00:05:01",
+          "pair": "n-a"
+        },
+        "P112": {
+          "answer": "yes",
+          "reason": "v01:c33:p0029 says Billy could never think of any reply until it was too late during the drive, directly supporting the conversational difficulty.",
+          "recorded": "2026-10-07T00:05:01",
+          "pair": "n-a"
+        },
+        "P113": {
+          "answer": "yes",
+          "reason": "v01:c15:p0031 places Phillips teaching in Avonlea school, and c15:p0056 identifies him as the master watched by the Avonlea scholars.",
+          "recorded": "2026-10-07T00:05:10",
+          "pair": "n-a"
+        },
+        "P114": {
+          "answer": "no",
+          "reason": "The explicit cheerful and good-tempered description belongs to Ruby Gillis in v01:c35:p0001; Priscilla is described as mischievous and fun, without the claimed temperament.",
+          "recorded": "2026-10-07T00:05:10",
+          "pair": "n-a"
+        },
+        "P115": {
+          "answer": "partly",
+          "reason": "v03:c11:p0000 places Billy in the Harmon Andrews family and pew, with Mrs. Harmon sharing his wedding pride, but does not explicitly identify her as his mother.",
+          "recorded": "2026-10-07T00:05:20",
+          "pair": "n-a"
+        },
+        "P116": {
+          "answer": "yes",
+          "reason": "v01:c01:p0004 explicitly calls Matthew a man, using male pronouns throughout.",
+          "recorded": "2026-10-07T00:05:20",
+          "pair": "n-a"
+        },
+        "P117": {
+          "answer": "yes",
+          "reason": "The cited arrival and bedroom passages establish Anne's arrival with Matthew; v01:c34:p0003 explicitly recalls the evening Anne arrived at Green Gables.",
+          "recorded": "2026-10-07T00:05:25",
+          "pair": "n-a"
+        },
+        "P118": {
+          "answer": "partly",
+          "reason": "v03:c36:p0024 explicitly identifies Dorothy as Roy's favorite sister, but none of the shown passages establishes that he confides in her.",
+          "recorded": "2026-10-07T00:05:25",
+          "pair": "n-a"
+        },
+        "P119": {
+          "answer": "yes",
+          "reason": "Anne addresses Charlotta while hoping for the best in v02:c28:p0054 and proposes going to the kitchen to pass the time because she cannot think in p0068. Stephen greets Anne, but no displayed passage shows Lavendar participating in their reunion scene.",
+          "recorded": "2026-10-07T00:05:35",
+          "pair": "no"
+        },
+        "P120": {
+          "answer": "yes",
+          "reason": "As a goal, this is directly supported by Diana's intention to crochet doilies in preparation for married housekeeping in v02:c29:p0024; it does not assert that she has already made them.",
+          "recorded": "2026-10-07T00:05:35",
+          "pair": "n-a"
+        },
+        "P121": {
+          "answer": "yes",
+          "reason": "Stacy is appointed Avonlea's new teacher in the cited passages, and v01:c32:p0000 explicitly describes the end of her rule in Avonlea school.",
+          "recorded": "2026-10-07T00:05:42",
+          "pair": "n-a"
+        },
+        "P122": {
+          "answer": "partly",
+          "reason": "v03:c11:p0006 shows Ruby denying her illness and planning to teach again; childhood cheerfulness is also shown, but a cheerful front throughout her illness is not established.",
+          "recorded": "2026-10-07T00:05:42",
+          "pair": "n-a"
+        },
+        "P123": {
+          "answer": "yes",
+          "reason": "Leslie describes recurring envy and hatred in v04:c21:p0011; c13:p0005 calls her bitter and c25:p0015 contrasts her changed nature with her old bitterness.",
+          "recorded": "2026-10-07T00:05:47",
+          "pair": "n-a"
+        },
+        "P124": {
+          "answer": "yes",
+          "reason": "v05:c21:p0024 describes Ellen making a solemn rite of their mutual vow over the Bible, and p0026 explicitly identifies it as their mother's Bible.",
+          "recorded": "2026-10-07T00:05:47",
+          "pair": "n-a"
+        },
+        "P125": {
+          "answer": "yes",
+          "reason": "v01:c33:p0009 explicitly gives Diana a reputation for notable taste in dressing and says her advice was sought after.",
+          "recorded": "2026-10-07T00:05:53",
+          "pair": "n-a"
+        },
+        "P126": {
+          "answer": "yes",
+          "reason": "v01:c15:p0006 explicitly says Anne and Diana walked through Mr. Barry's back field on their route past Willowmere.",
+          "recorded": "2026-10-07T00:05:53",
+          "pair": "n-a"
+        },
+        "P127": {
+          "answer": "no",
+          "reason": "The explicit prominent political personage is Jerry Corcoran in v02:c14:p0061. Rachel's moving house, packing and receiving visits do not establish comparable community prominence.",
+          "recorded": "2026-10-07T00:06:00",
+          "pair": "n-a"
+        },
+        "P128": {
+          "answer": "yes",
+          "reason": "v05:c08:p0008 explicitly reports Mrs. Wiley's merciless whipping of Mary for minor faults and her death, supporting the former abusive guardian relationship.",
+          "recorded": "2026-10-07T00:06:00",
+          "pair": "n-a"
+        },
+        "P129": {
+          "answer": "yes",
+          "reason": "The cited schoolteacher is called that man; the other passages explicitly identify Phillips and consistently use male pronouns for him.",
+          "recorded": "2026-10-07T00:06:07",
+          "pair": "n-a"
+        },
+        "P130": {
+          "answer": "partly",
+          "reason": "Walter has great luminous eyes and an intense gaze in v05:c29:p0008, and strong feelings are described separately; the passages do not explicitly establish his eyes expressing great depth of feeling.",
+          "recorded": "2026-10-07T00:06:07",
+          "pair": "n-a"
+        },
+        "P131": {
+          "answer": "yes",
+          "reason": "v02:c27:p0001 explicitly says Anne came down in a new dress of pale green muslin.",
+          "recorded": "2026-10-07T00:06:12",
+          "pair": "n-a"
+        },
+        "P132": {
+          "answer": "yes",
+          "reason": "Diana explicitly asks for the right road to West Grafton after the girls took the wrong path in v02:c21:p0047, and the surrounding passages name both girls.",
+          "recorded": "2026-10-07T00:06:12",
+          "pair": "n-a"
+        },
+        "P133": {
+          "answer": "yes",
+          "reason": "Diana declares her unique love for Anne in v01:c17:p0005, visits daily during recovery, and Anne recalls their warm, true affection without quarrel or coolness in v02:c26:p0060.",
+          "recorded": "2026-10-07T00:06:22",
+          "pair": "n-a"
+        },
+        "P134": {
+          "answer": "partly",
+          "reason": "v04:c31:p0028 establishes George's identity and c32:p0012 the double-cousin relationship, but the displayed passages do not describe the procedure revealing it.",
+          "recorded": "2026-10-07T00:06:22",
+          "pair": "n-a"
+        },
+        "P135": {
+          "answer": "yes",
+          "reason": "Susan sobs over the sweet little baby in v04:c19:p0020 and tenderly blesses Anne's son's innocent heart and appearance in c40:p0055.",
+          "recorded": "2026-10-07T00:06:30",
+          "pair": "n-a"
+        },
+        "P136": {
+          "answer": "partly",
+          "reason": "Paul explicitly ranks his love for Anne just after his father and grandmother in v02:c15:p0009, but the displayed evidence concerns this one teacher rather than teachers in the plural.",
+          "recorded": "2026-10-07T00:06:30",
+          "pair": "n-a"
+        },
+        "P137": {
+          "answer": "yes",
+          "reason": "The cited arrival explicitly calls him Mr. Harrison, as do the other passages.",
+          "recorded": "2026-10-07T00:06:36",
+          "pair": "n-a"
+        },
+        "P138": {
+          "answer": "yes",
+          "reason": "v02:c25:p0045 treats his being shaved without the usual preaching occasion as noteworthy; together with the newly spruce grooming in p0046, this supports intermittent shaving.",
+          "recorded": "2026-10-07T00:06:36",
+          "pair": "n-a"
+        },
+        "P139": {
+          "answer": "yes",
+          "reason": "v05:c04:p0045 explicitly makes the manse and Ingleside children sworn friends and allies after a shared feast; later outings corroborate their role as chums and playmates.",
+          "recorded": "2026-10-07T00:06:44",
+          "pair": "n-a"
+        },
+        "P140": {
+          "answer": "yes",
+          "reason": "Harrison describes playing checkers with a neighbor in v02:c25:p0051, corroborating Anne's explanation that his visits are for checkers.",
+          "recorded": "2026-10-07T00:06:44",
+          "pair": "n-a"
+        },
+        "P141": {
+          "answer": "yes",
+          "reason": "v01:c21:p0005 explicitly refers to Mr. Allan's wife's people, and p0047 calls them the minister and his wife. In the chapter-21 scene Anne reports Rachel's opinions; Rachel is not shown acting or speaking there herself.",
+          "recorded": "2026-10-07T00:06:51",
+          "pair": "no"
+        },
+        "P142": {
+          "answer": "yes",
+          "reason": "After Anne's whipping, v02:c12:p0048 explicitly shows Anthony lifting his cap for the first time, supporting the change described.",
+          "recorded": "2026-10-07T00:06:51",
+          "pair": "n-a"
+        },
+        "P143": {
+          "answer": "yes",
+          "reason": "The cited paragraph explicitly calls Josie a young lady; other passages refer to her among the Pye girls.",
+          "recorded": "2026-10-07T00:06:56",
+          "pair": "n-a"
+        },
+        "P144": {
+          "answer": "yes",
+          "reason": "Captain Jim explicitly calls Cornelia that woman in v04:c06:p0040, and the other passages consistently identify her as Miss Cornelia.",
+          "recorded": "2026-10-07T00:06:56",
+          "pair": "n-a"
+        },
+        "P145": {
+          "answer": "yes",
+          "reason": "Josie contrasts town with the Avonlea where she has lived so long in v01:c34:p0019; p0017 and c38:p0040 corroborate her Avonlea background and schooling.",
+          "recorded": "2026-10-07T00:07:04",
+          "pair": "n-a"
+        },
+        "P146": {
+          "answer": "yes",
+          "reason": "Priscilla is on the doorstep in v02:c20:p0022 and explains the unexpected visit in p0024. During that chapter's preparation Marilla gives Anne instructions, Anne nods, and Marilla helps her carry the feather bed before departing.",
+          "recorded": "2026-10-07T00:07:04",
+          "pair": "yes"
+        },
+        "P147": {
+          "answer": "partly",
+          "reason": "v05:c15:p0000 shows Mary accompanying Cornelia and knitting under her supervision, supporting care and domestic tasks, but it does not establish residence or ward status in the Bryant household.",
+          "recorded": "2026-10-07T00:07:11",
+          "pair": "n-a"
+        },
+        "P148": {
+          "answer": "yes",
+          "reason": "v03:c11:p0006 explicitly says Ruby had been teaching before illness prevented it and sought another school; schoolteacher accurately describes her occupation.",
+          "recorded": "2026-10-07T00:07:11",
+          "pair": "n-a"
+        }
+      }
+    }
+  }
+}

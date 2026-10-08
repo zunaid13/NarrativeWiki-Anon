@@ -1,0 +1,107 @@
+# Plan 0015 step 4: seeded disclosures for the M4 candidate search (scripts/eval/m4_seed_test.py).
+# One entry per later gold fact of docs/eval/parametric/anne.yaml (reveal volumes 2..5), in file order.
+#   p = a natural paraphrase that STATES the fact in other words
+#   o = an oblique sentence that does not state the fact but from which a reader would conclude it
+# {N} is replaced by the character's name or by a pronoun, depending on the variant tested.
+#
+# VERSION 2 (2026-10-02), after semantic validation. Version 1 (anne_seeds_v1.yaml, results in
+# anne_sensitivity_v1.json) was written before the test and reviewed afterwards: many of its oblique
+# sentences did not establish their assigned fact (they dropped the fact's object, e.g. an unnamed
+# "wealthy suitor" for Roy Gardner, or described a different event, e.g. pneumonia after a graveyard
+# penance for Carl's sore throat after the marsh; "a year younger than Faith" for "Una is ten").
+# Rule applied to every sentence here, the same rule as M1's "conveyed": the sentence, read by someone
+# who knows volumes 1..t, must establish the fact's subject, its event / relation / attribute and its
+# object (a named person, place or thing that is the point of the fact must be identifiable); an
+# incidental qualifier may be missing. A paraphrase says it; an oblique sentence makes the reader
+# infer it. Each sentence was checked against that rule WITHOUT looking at whether the search finds
+# it; `v1` marks what was kept unchanged from version 1 (k) or rewritten (r) for the paraphrase and
+# the oblique sentence, in that order.
+seeds:
+- {c: "Anne helps raise the twins", v1: kr, p: "{N} shares in bringing up two orphaned twin children whom the household adopts.", o: "{N} soon has Davy and Dora, the twins Marilla took in, underfoot to mind and discipline."}
+- {c: "Anne studies at Redmond", v1: kr, p: "{N} goes away to university in Kingsport.", o: "{N} spends four winters in Kingsport and comes home a Redmond graduate."}
+- {c: "Anne refuses a marriage proposal from Roy", v1: kr, p: "{N} turns down Roy Gardner when he asks for her hand.", o: "{N} sends Roy Gardner away stunned after he finally speaks the words he has rehearsed for two years."}
+- {c: "Anne realises she loves Gilbert", v1: kr, p: "{N} understands her true feelings for Gilbert only when a fever nearly kills him.", o: "{N} keeps a night-long vigil of dread while Gilbert lies ill with typhoid, and knows her own heart by morning."}
+- {c: "Anne marries Gilbert", v1: kk, p: "{N} becomes the wife of Gilbert Blythe.", o: "{N} is later known as Mrs. Blythe."}
+- {c: "Anne's first baby", v1: kr, p: "{N} loses her firstborn daughter within a day of the birth.", o: "{N} is left with the tiny grave of little Joyce, her first child, to visit."}
+- {c: "Anne lives in the House of Dreams", v1: rr, p: "{N}'s first married home is the little house at Four Winds Harbour that she calls her house of dreams.", o: "{N} keeps house at Four Winds Harbour in the little white house she had dreamed of."}
+- {c: "Anne's son James Matthew", v1: kr, p: "{N} gives birth to a boy, who goes by Jem.", o: "{N} now has little Jem, christened James Matthew, in the cradle."}
+- {c: "Anne lives at Ingleside", v1: kr, p: "{N} has her later home at Ingleside in the Glen.", o: "{N}'s children grow up running in and out of Ingleside, the family house in Glen St. Mary."}
+- {c: "Anne sells Mr. Harrison's Jersey cow", v1: rr, p: "{N} mistakenly sells Mr. Harrison's Jersey to Mr. Shearer, believing the cow to be her own.", o: "{N} has to apologise to Mr. Harrison because the Jersey cow she let Mr. Shearer take away was his and not hers."}
+- {c: "Anne is secretary", v1: kr, p: "{N} serves as secretary of the village improvers.", o: "{N} keeps the minutes of the Avonlea Village Improvement Society."}
+- {c: "Anne writes a story whose heroine", v1: kr, p: "{N} composes a tale about a girl called Averil.", o: "{N} is proud of her heroine, Averil Lester, until the magazine sends the manuscript back."}
+- {c: "Anne is given old letters", v1: kr, p: "{N} receives a bundle of letters her mother once wrote.", o: "{N} is handed a yellowed packet and at last reads words in her own mother's handwriting."}
+- {c: "Gilbert proposes to Anne and she refuses", v1: kk, p: "{N} asks Anne to marry him and is rejected.", o: "{N} is told by Anne that she can never care for him in that way."}
+- {c: "Gilbert falls ill with typhoid", v1: kr, p: "{N} comes down with typhoid and is not expected to live.", o: "{N} lies for days between life and death while the typhoid runs its course."}
+- {c: "Gilbert becomes a doctor", v1: kr, p: "{N} takes over a medical practice at Four Winds.", o: "{N} is called out at all hours to patients around Four Winds Harbour."}
+- {c: "Gilbert marries Anne", v1: kk, p: "{N} weds Anne Shirley.", o: "{N} and Anne set up a household of their own."}
+- {c: "Gilbert is president", v1: kr, p: "{N} presides over the Avonlea improvement society.", o: "{N} takes the chair at every meeting of the Avonlea Village Improvement Society."}
+- {c: "Gilbert is to leave for Redmond", v1: kr, p: "{N} is about to go to Redmond College.", o: "{N} has saved enough from teaching to start at Redmond in the fall."}
+- {c: "Gilbert is said to be going about with Christine", v1: kr, p: "{N} is rumoured to be keeping company with Christine Stuart.", o: "{N} is seen everywhere with Christine Stuart, and people draw conclusions."}
+- {c: "Gilbert takes High Honors", v1: kr, p: "{N} graduates with High Honors in Classics and wins the Cooper Prize.", o: "{N}'s name heads the High Honors list in Classics, and the Cooper Prize goes to him as well."}
+- {c: "Marilla takes in the twins", v1: kr, p: "{N} gives a home to the orphaned twins Davy and Dora.", o: "{N} agrees to bring up a distant relative's twins, Davy and Dora."}
+- {c: "Marilla urges Anne to go on to Redmond", v1: kr, p: "{N} insists that Anne should go to college after all.", o: "{N} will not hear of Anne giving up Redmond a second time."}
+- {c: "Anne names her son James Matthew", v1: kr, p: "Anne's boy carries {N}'s name as his second name.", o: "{N} is remembered years later when Anne gives her first son the second name Matthew."}
+- {c: "Diana marries Fred", v1: kr, p: "{N} becomes Mrs. Fred Wright.", o: "{N} leaves Orchard Slope as Fred Wright's bride."}
+- {c: "Diana is treasurer", v1: kr, p: "{N} looks after the funds of the village improvers.", o: "{N} keeps the cash box and the accounts of the Avonlea Village Improvement Society."}
+- {c: "Diana becomes engaged", v1: kr, p: "{N} promises to marry Fred.", o: "{N} is wearing Fred's ring."}
+- {c: "Walter is a dreamy boy", v1: kr, p: "{N} is a dreamer who is devoted to verse.", o: "{N} would rather sit dreaming over a book of poems than play with the others."}
+- {c: "Faith Meredith dares Walter", v1: kr, p: "{N} is challenged by Faith to go down the main street on a pig's back.", o: "{N} cannot back out once Faith Meredith says he would never have the nerve to ride a pig down Main Street."}
+- {c: "Walter hates Dan Reese", v1: kr, p: "{N} detests a schoolmate named Dan Reese.", o: "{N} can hardly bear to be in the same schoolroom as Dan Reese."}
+- {c: "Rilla is the youngest", v1: kr, p: "{N} is the baby of the Blythe family.", o: "{N} has five older brothers and sisters at Ingleside and none younger."}
+- {c: "Captain Jim dies soon after", v1: kk, p: "{N} passes away shortly after his book of memories appears in print.", o: "{N} is found at dawn with the finished volume beside him, having crossed the bar."}
+- {c: "Captain Jim is a high-souled", v1: kr, p: "{N} is a noble, simple old man whose hair is iron-gray.", o: "{N}'s iron-gray locks frame the face of an old man with a child's simplicity and a lofty soul."}
+- {c: "Captain Jim's surname", v1: kk, p: "{N}'s family name is Boyd.", o: "{N} is properly Captain Boyd, though no one calls him so."}
+- {c: "Captain Jim keeps a life-book", v1: kk, p: "{N} has written down his adventures in a book of his life.", o: "{N} owns a battered record of his voyages that a writer might turn into a story."}
+- {c: "Captain Jim tells Anne about lost Margaret", v1: kr, p: "{N} confides to Anne the story of Margaret, his sweetheart who was lost.", o: "{N} lets Anne hear why he still waits for Margaret, who drifted out to sea fifty years ago."}
+- {c: "Leslie was pressured by her mother", v1: kr, p: "{N} was forced by her mother into wedding Dick Moore.", o: "{N} gave herself to Dick Moore at sixteen because her mother begged her to save the farm."}
+- {c: "Leslie and Owen Ford are to be married", v1: kr, p: "{N} will wed Owen Ford at Christmas.", o: "{N} has accepted Owen Ford, and the wedding is set for the Christmas holidays."}
+- {c: "Rachel Lynde's husband Thomas lies", v1: kr, p: "{N}'s husband Thomas rests on the lounge more than before.", o: "{N} finds her Thomas stretched on the lounge most days now."}
+- {c: "Rachel Lynde is to move to Green Gables", v1: kk, p: "{N} will come to live at Green Gables.", o: "{N} sells her own house and takes the north gable with Marilla."}
+- {c: "Mr. Harrison keeps a swearing parrot", v1: kr, p: "{N} owns a profane parrot named Ginger.", o: "{N} lives with Ginger, a parrot whose language shocks the neighbours."}
+- {c: "Mr. Harrison's wife is Emily", v1: kr, p: "{N} is married to a woman named Emily.", o: "{N} is not the bachelor Avonlea took him for, as a woman named Emily arrives to prove."}
+- {c: "Paul Irving comes from the States", v1: kr, p: "{N} has come from the United States to stay with his grandmother.", o: "{N} is an American-born child sent north to his grandmother in Avonlea."}
+- {c: "Paul Irving's father is Stephen", v1: kr, p: "{N} is the son of Stephen Irving.", o: "{N} writes every week to Stephen Irving and signs himself his loving boy."}
+- {c: "Paul Irving loves Miss Lavendar", v1: kr, p: "{N} is devoted to Miss Lavendar, who becomes his stepmother.", o: "{N} is glad to call Miss Lavendar his little mother now."}
+- {c: "Miss Lavendar lives alone", v1: kr, p: "{N} lives by herself in a stone house that she has named Echo Lodge.", o: "{N} has no company but a maid in the stone house in the woods, Echo Lodge, where the hills answer back."}
+- {c: "Miss Lavendar was once engaged", v1: kr, p: "{N} was betrothed to Stephen Irving in her youth.", o: "{N} quarrelled long ago with Stephen Irving on the eve of what was to have been their wedding."}
+- {c: "Miss Lavendar marries Stephen", v1: kr, p: "{N} becomes the wife of Stephen Irving.", o: "{N} leaves her stone house as Stephen Irving's bride."}
+- {c: "Charlotta the Fourth will go to Boston", v1: kr, p: "{N} is to move to Boston with the Irving household.", o: "{N} will follow her mistress to the Irvings' new home in Boston."}
+- {c: "Davy pushes Dora headfirst", v1: kr, p: "{N} shoves his sister face down into a mud pie.", o: "{N} leaves Dora spluttering with her face in his mud pie."}
+- {c: "Dora is good and quiet", v1: kk, p: "{N} is a well-behaved, silent child.", o: "{N} never gives a moment's trouble, unlike her brother."}
+- {c: "Anthony Pye is a sullen pupil", v1: kr, p: "{N} is a surly schoolboy who glares at Anne with dislike.", o: "{N} sits scowling at his new teacher, the one scholar Anne cannot win over."}
+- {c: "Philippa Gordon comes from Bolingbroke", v1: kk, p: "{N} is a native of Bolingbroke in Nova Scotia.", o: "{N} was born in the same town as Anne."}
+- {c: "Aunt Jamesina is proposed", v1: kr, p: "{N} is suggested as the one to keep house for the girls.", o: "{N} is the person Stella has in mind to run the house the four girls mean to rent."}
+- {c: "Jonas Blake is a theological student", v1: kr, p: "{N} is a divinity student who has charge of the mission church at Point Prospect.", o: "{N} has not finished his studies for the ministry, yet the little mission church at Point Prospect is his for the summer."}
+- {c: "Ruby Gillis believes she will soon be dead", v1: kr, p: "{N} is convinced she has not long to live.", o: "{N} at last admits to Anne that she knows she will not get better."}
+- {c: "Ruby Gillis dies", v1: kk, p: "{N} passes away.", o: "{N} is laid in the Avonlea graveyard in her white dress."}
+- {c: "Jane Andrews leaves for the West", v1: kk, p: "{N} goes out West.", o: "{N} takes a school on the prairies."}
+- {c: "Billy Andrews asks his sister", v1: kr, p: "{N} gets his sister Jane to ask Anne to marry him.", o: "{N} is too shy to ask Anne himself and lets Jane carry the question for him."}
+- {c: "Priscilla Grant goes to Redmond", v1: kr, p: "{N} attends Redmond and shares lodgings with Anne.", o: "{N} is Anne's roommate at their Redmond boardinghouse."}
+- {c: "Stella Maynard has been teaching", v1: kr, p: "{N} has taught school ever since leaving Queen's.", o: "{N} has faced a country schoolroom every year since Queen's and is tired of it."}
+- {c: "Roy Gardner sends Anne white orchids", v1: kr, p: "{N} has white orchids delivered to Anne for the reception.", o: "{N}'s white orchids arrive at Patty's Place for Anne on the evening of the reception."}
+- {c: "Marshall Elliott has turned himself", v1: kk, p: "{N} has made himself look like a dime-museum freak.", o: "{N} has not cut his hair or beard for eighteen years because of a vow."}
+- {c: "Miss Cornelia has a chronic spite", v1: kr, p: "{N} bears a lasting grudge against men and Methodists.", o: "{N} has never yet found a good word for a man or for a Methodist."}
+- {c: "Miss Cornelia marries Marshall", v1: kr, p: "{N} becomes the wife of Marshall Elliott.", o: "{N} surprises everyone by announcing a wedding of her own, to Marshall Elliott."}
+- {c: "Dick Moore went on a voyage to Havana", v1: kr, p: "{N} sailed for Havana in company with his cousin George.", o: "{N} and his cousin George Moore shipped together on a vessel bound for Havana."}
+- {c: "The man believed to be Dick Moore", v1: kr, p: "The man taken for {N} is really his cousin George.", o: "{N} is not the man in Leslie's house; the harbour has had his cousin George among it all these years."}
+- {c: "Dick Moore died of yellow fever", v1: kr, p: "{N} perished of yellow fever in Cuba.", o: "{N} has in truth lain in a Cuban grave since the yellow fever took him."}
+- {c: "Owen Ford is a newspaper man", v1: kr, p: "{N} is a journalist whose grandfather was the schoolmaster that built the house.", o: "{N} writes for a newspaper and has come to see the house his grandfather, the old schoolmaster, built."}
+- {c: "Susan Baker works as maid-of-all-work", v1: kr, p: "{N} is the general servant at the little house.", o: "{N} does the cooking, scrubbing and everything else at the little house."}
+- {c: "Susan worships Anne", v1: kr, p: "{N} adores Anne, whom she calls young Mrs. Doctor.", o: "{N} thinks no one the equal of her mistress, whom she addresses as Mrs. Doctor, dear."}
+- {c: "Mr. Meredith is moony", v1: kr, p: "{N} is dreamy and forgetful, yet preaches splendidly.", o: "{N} can walk past his own children without seeing them, yet holds the church spellbound on Sunday."}
+- {c: "Mr. Meredith is a widower", v1: kk, p: "{N} lost his wife four years ago.", o: "{N} is bringing up four children with no mother in the manse."}
+- {c: "Mr. Meredith and Rosemary West are to marry", v1: kr, p: "{N} is going to wed Rosemary West.", o: "{N} will soon give the manse a mistress again in Rosemary West."}
+- {c: "Una Meredith is ten", v1: kr, p: "{N} is aged ten.", o: "{N} has had her tenth birthday and not yet her eleventh."}
+- {c: "Una gives her father a letter", v1: kr, p: "{N} hands her father a note from Rosemary.", o: "{N} comes back from the house on the hill with something in Rosemary's hand for her father to read."}
+- {c: "Carl Meredith collects toads", v1: kr, p: "{N} keeps toads, insects and frogs as pets.", o: "{N} is apt to have a toad, a beetle or a frog in his pocket."}
+- {c: "Carl gets a sore throat", v1: kr, p: "{N} falls ill with a sore throat after a soaking in the marsh.", o: "{N} comes home soaked from the Rainbow Valley marsh and can hardly swallow the next morning."}
+- {c: "Faith Meredith dares Walter", v1: kr, p: "{N} challenges Walter Blythe to ride a pig.", o: "{N} tells Walter Blythe he would never have the nerve to get on the pig's back."}
+- {c: "Mary Vance eats ravenously", v1: kr, p: "{N} devours food hungrily at the manse.", o: "{N} clears every plate the manse children set before her as if she had not eaten for days."}
+- {c: "Mary Vance lives with Miss Cornelia", v1: kr, p: "{N} makes her home with Miss Cornelia.", o: "{N} is taken in by Miss Cornelia, who will not see her sent back to the asylum."}
+- {c: "Norman Douglas used to give", v1: kr, p: "{N} once paid a hundred dollars yearly to the church.", o: "{N}'s hundred dollars a year was sorely missed when he stopped supporting the church."}
+- {c: "Norman Douglas married Hester Reese", v1: kr, p: "{N} wed Hester Reese out of spite towards Ellen West.", o: "{N} took Hester Reese only to show Ellen West, after their quarrel, that he could."}
+- {c: "Ellen West went about with Norman", v1: kr, p: "{N} kept company with Norman Douglas for two years.", o: "{N} and Norman Douglas were seen everywhere together for a couple of years in their youth."}
+- {c: "Ellen West and Norman Douglas want to marry", v1: kr, p: "{N} and Norman Douglas wish to be wed.", o: "{N} asks to be released from an old compact because Norman Douglas has asked her to be his wife."}
+- {c: "Rosemary West has made a promise", v1: kr, p: "{N} is bound by a pledge given to her sister Ellen.", o: "{N} cannot accept any man unless her sister Ellen releases her from the word she once gave."}
+- {c: "Rosemary West's lover was lost", v1: kk, p: "{N}'s sweetheart was drowned at sea.", o: "{N} has kept faith with a young sailor who never came home."}
+- {c: "Jem suggests the manse children", v1: kr, p: "{N} proposes that the manse children start a Good-Conduct Club.", o: "{N} is the one who says the manse children ought to band into a club that punishes its own members for bad behaviour."}

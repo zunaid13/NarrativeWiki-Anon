@@ -1,0 +1,61 @@
+﻿item,verdict (stated / implied / neither / cannot tell),comment
+B001,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Friendship says nothing about academic honours or the Cooper Prize.
+B002,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); A marriage goal and engagement do not establish a completed marriage.
+B003,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Presumed romantic involvement does not establish marriage.
+B004,stated,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); The text says the Blythe family moves to Ingleside; this conveys Anne's household moving there, although the place name is truncated."
+B005,cannot tell,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Susan's employment and a truncated move with Dr. do not identify Anne's residence; the omitted text could matter.
+B006,neither,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); This concerns Dora and Mary Keith, not Mary Vance living with Cornelia."
+B007,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Supporting Marilla after Matthew dies does not establish raising Davy and Dora.
+B008,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Marilla's courtship supplies no fact about Meredith.
+B009,neither,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); The named suitor is Marshall Elliott, not Norman Douglas."
+B010,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Wanting love and a home does not establish marriage.
+B011,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); The fragment about Allan and his wife contains no such description of Marshall.
+B012,neither,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); Allowing Anne to attend is an enabling circumstance, not evidence that she has studied there; Kingsport is also absent."
+B013,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Engagement and a goal of winning her hand do not establish marriage.
+B014,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); The friendship quotation does not mention Christine Stuart.
+B015,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); A rejected proposal says nothing about becoming a doctor at Four Winds.
+B016,neither,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); Walter Shirley is Anne's father, not the Walter who hates Dan Reese."
+B017,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Wedding preparations for Lavendar do not reveal Anne's realization during Gilbert's illness.
+B018,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Marilla's former romance supplies no fact about Meredith.
+B019,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); School teasing and rivalry do not establish marriage.
+B020,stated,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); Accepting a teaching position in Winnipeg, West Canada conveys Jane's move west."
+B021,implied,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); Pursue her studies at Redmond presupposes Anne's studies there, although this is described through an enabling circumstance and Kingsport is omitted; human review recommended."
+B022,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Rejecting Billy's proposal says nothing about Anne's residence.
+B023,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Engagement does not give the illness-triggered realization or typhoid.
+B024,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Birthplace and parents do not establish later residence.
+B025,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Engagement does not establish completed marriage.
+B026,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Anne's parents and orphanhood do not establish raising the twins.
+B027,stated,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); Priscilla enters Redmond in Kingsport alongside Anne, conveying Anne's study there."
+B028,neither,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); Accepting a proposal establishes engagement, not marriage."
+B029,stated,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Jane is explicitly sent to propose marriage to Anne on Billy's behalf.
+B030,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); The twins' Green Gables placement gives no later Ingleside residence.
+B031,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Walter Shirley's parenthood is unrelated to Walter Blythe's poetic temperament.
+B032,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Diana's naming does not establish marriage to Fred.
+B033,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); An erroneous nickname does not establish Rachel moving to Green Gables.
+B034,neither,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); This concerns widowed Mary Keith, not Mary Vance eating at the manse."
+B035,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); The twins' orphanhood gives no Mary Vance eating scene.
+B036,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Romantic involvement alone does not convey Anne's realization when Gilbert has typhoid.
+B037,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Driving the girls to a concert does not convey a delegated proposal.
+B038,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Anne's parents dying is a different death from that of her baby Joyce.
+B039,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Fear of pretending to be dead does not establish belief in an impending real death.
+B040,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Janet and John's delayed proposal says nothing about Meredith's widowhood.
+B041,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Mary Keith's death is unrelated to Mary Vance eating at the manse.
+B042,stated,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Both Redmond attendance alongside Anne and living together at Patty's Place are explicit.
+B043,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Mary Keith's death does not establish Mary Vance's residence with Cornelia.
+B044,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Engagement does not establish completed marriage.
+B045,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Gilbert's marriage goal gives neither the house nor residence at Four Winds.
+B046,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); A buggy ride does not establish a delegated proposal.
+B047,neither,"agent:Codex (GPT-6; source-read AI pilot; human verification pending); The suitor named is Marshall Elliott, not Norman Douglas; the two-year duration is also absent."
+B048,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Anne's engagement does not establish Gilbert's medical practice or its location.
+B049,stated,agent:Codex (GPT-6; source-read AI pilot; human verification pending); The relationship line explicitly calls Rilla the youngest Blythe child.
+B050,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Josie's supposed aunt relation to Anthony does not identify Jamesina as housekeeper.
+B051,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Engagement does not establish completed marriage.
+B052,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Enabling attendance is not actual attendance or study; no Kingsport location is given.
+B053,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Cake preparations give no fact about Roy's proposal.
+B054,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Marilla's old courtship gives no encouragement to attend Redmond.
+B055,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Romantic involvement does not convey the realization triggered by typhoid.
+B056,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); School return and noticing Anne do not establish marriage.
+B057,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); A slate incident supplies no marriage fact.
+B058,stated,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Billy convinces Jane to ask Anne on his behalf in the explicit context of proposing.
+B059,stated,agent:Codex (GPT-6; source-read AI pilot; human verification pending); Billy explicitly asks Jane to convey his marriage proposal.
+B060,neither,agent:Codex (GPT-6; source-read AI pilot; human verification pending); A story club is a different organization and no secretary role is stated.

@@ -1,0 +1,37 @@
+# Diana Barry & Jane Andrews
+
+- [Diana Barry](../character/diana-barry.md) — Comrade of — [Jane Andrews](../character/jane-andrews.md) — traveling together to a concert in a buggy · since v1  <sub>[v1 CHAPTER XXXIII. The Hotel Concert P6](../source/v01-c33.md#nw-v01-c33-p0006)</sub>
+
+## Shared scenes
+
+> After Mr. [Phillips](../character/phillips.md) humiliates [Anne](../character/anne-shirley.md) by forcing her to sit next to [Gilbert Blythe](../character/gilbert-blythe.md), she rejects Gilbert's attempts to apologize and swears never to return to school. [Marilla](../character/marilla-cuthbert.md) consults Mrs. Rachel [Lynde](../character/rachel-lynde.md), who advises her to humor [Anne](../character/anne-shirley.md) until she cools down. Meanwhile, [Anne](../character/anne-shirley.md) maintains her fierce grudge against Gilbert while weeping melodramatically over the thought of [Diana](../character/diana-barry.md) eventually marrying and leaving her.
+>
+> — v1 · CHAPTER XV. A Tempest in the School Teapot
+
+> While [Marilla](../character/marilla-cuthbert.md) and Mrs. Rachel attend a political rally in [Charlottetown](../codex/places.md#charlottetown), [Anne](../character/anne-shirley.md) and [Matthew](../character/matthew-cuthbert.md) spend a quiet evening at [Green Gables](../codex/places.md#green-gables). [Diana Barry](../character/diana-barry.md) rushes in desperately seeking help because her little sister, [Minnie May](../character/minnie-may.md), is dangerously ill with croup and their parents are away. [Anne](../character/anne-shirley.md) uses her past experience with twins to treat [Minnie May](../character/minnie-may.md), saving her life, which leads Mrs. [Barry](../character/josephine-barry.md) to forgive [Anne](../character/anne-shirley.md) and allow her and [Diana](../character/diana-barry.md) to be best friends once again.
+>
+> — v1 · CHAPTER XVIII. Anne to the Rescue
+
+> During a game of dares at Diana's party, [Anne](../character/anne-shirley.md) attempts to walk the ridgepole of the Barrys' kitchen roof and falls, breaking her ankle. Mr. [Barry](../character/josephine-barry.md) carries [Anne](../character/anne-shirley.md) home to [Green Gables](../codex/places.md#green-gables), where [Marilla](../character/marilla-cuthbert.md) realizes how deeply she cares for her and [Matthew](../character/matthew-cuthbert.md) summons the doctor. During her seven weeks of bed rest, [Anne](../character/anne-shirley.md) is comforted by visits from her schoolmates, friends, and neighbors.
+>
+> — v1 · CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor
+
+> [Anne](../character/anne-shirley.md) returns to school in October and blossoms under the encouraging guidance of her new teacher, Miss [Stacy](../character/stacy.md). She enthusiastically discusses her school activities and composition writing with [Marilla](../character/marilla-cuthbert.md) and [Matthew](../character/matthew-cuthbert.md). When Miss [Stacy](../character/stacy.md) organizes a Christmas concert to raise money for a school flag, [Anne](../character/anne-shirley.md) eagerly prepares her recitations and roles despite Marilla's skepticism and Matthew's quiet support.
+>
+> — v1 · CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert
+
+> [Marilla](../character/marilla-cuthbert.md) informs [Anne](../character/anne-shirley.md) that Miss [Stacy](../character/stacy.md) visited to invite her to join an advanced class preparing for the [Entrance](../codex/places.md#entrance) examination to Queen's [Academy](../codex/places.md#academy). [Anne](../character/anne-shirley.md) enthusiastically agrees after [Marilla](../character/marilla-cuthbert.md) and [Matthew](../character/matthew-cuthbert.md) promise to support her education. The Queen's class is formed, though [Anne](../character/anne-shirley.md) feels disappointed that [Diana](../character/diana-barry.md) is not joining, while her academic rivalry and silent tension with [Gilbert Blythe](../character/gilbert-blythe.md) continue to intensify.
+>
+> — v1 · CHAPTER XXX. The Queen’s Class Is Organized
+
+> [Anne](../character/anne-shirley.md) reflects on her silent rivalry and unresolved feelings toward Gilbert as the school term comes to a close. Miss [Stacy](../character/stacy.md) reassures the class that she will return next year to guide them through the Queen's entrance preparation. After school ends, Mrs. Rachel [Lynde](../character/rachel-lynde.md) visits [Green Gables](../codex/places.md#green-gables), discussing Matthew's health with [Marilla](../character/marilla-cuthbert.md) and praising Anne's growth and maturity over the years.
+>
+> — v1 · CHAPTER XXX. The Queen’s Class Is Organized
+
+> [Anne](../character/anne-shirley.md) prepares at [Green Gables](../codex/places.md#green-gables) with [Diana](../character/diana-barry.md) and [Marilla](../character/marilla-cuthbert.md) before driving to the [White Sands Hotel](../codex/places.md#white-sands-hotel) with [Billy](../character/billy.md) and Jane for a charity concert. At the event, [Anne](../character/anne-shirley.md) suffers from severe stage fright upon facing the elegant audience and seeing professional performers. However, after spotting [Gilbert Blythe](../character/gilbert-blythe.md) in the crowd, she finds her resolve, performs wonderfully, receives an encore, and enjoys a triumphant evening.
+>
+> — v1 · CHAPTER XXXIII. The Hotel Concert
+
+> [Anne](../character/anne-shirley.md) performs an encore after her successful recitation, receiving praise from the audience, Mrs. [Evans](../character/evans.md), and a wealthy American lady. Afterward, [Anne](../character/anne-shirley.md), [Diana](../character/diana-barry.md), and Jane enjoy supper before riding home with [Billy](../character/billy.md). During the drive, they discuss the concert, high society, and Anne's hair, leading [Anne](../character/anne-shirley.md) to reflect that she is content with who she is.
+>
+> — v1 · CHAPTER XXXIII. The Hotel Concert

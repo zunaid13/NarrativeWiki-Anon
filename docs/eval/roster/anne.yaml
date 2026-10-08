@@ -1,0 +1,29 @@
+# Roster ground truth for the Anne series (Phase 32, req. 8). Converted from the hand-written
+# `entities.entity_overrides` in config/series.anne.yaml (until 2026-09-27), from the roster
+# review of 2026-09-26 (MEASUREMENTS §45). Scored by `scripts/eval/roster_gold.py`; it patches
+# nothing. Keys are surface forms. Bare first names used for several people in the text (Barry,
+# Shirley, Mary, George) were deliberately left unmerged.
+series: anne
+checked_through_vol: 6
+
+same_entity:
+  - ["Anne Shirley", "Anne", "Anne Blythe", "Mistress Blythe"]   # "Mistress Blythe": Captain Jim's name for her
+  - ["Matthew Cuthbert", "Matthew"]
+  - ["Diana Barry", "Diana", "Diana Wright"]                      # Diana Wright after v3
+  - ["Rachel Lynde", "Lynde"]                                     # "Mrs. Lynde"; Thomas is "Thomas"
+  - ["Jane Andrews", "Jane"]
+  - ["Fred Wright", "Fred"]
+  - ["Jerry Meredith", "Jerry"]
+  - ["Gertrude Oliver", "Oliver"]                                 # "Miss Oliver", v6
+  - ["Captain Jim", "Jim Boyd"]                                   # Captain Jim is James Boyd
+
+# Pairs the alias stage must keep apart.
+different_entities:
+  - ["Dick Moore", "Leslie Moore"]      # husband and wife, fused by the model tier
+  - ["Jim Anderson", "Jims"]            # the war baby and his father
+
+title_at_first_vol:
+  "Jim Boyd": "Captain Jim"
+
+not_an_entity:
+  - "Fourth"

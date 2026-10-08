@@ -1,0 +1,518 @@
+{
+ "series": "anne@x2",
+ "rows": [
+  {
+   "t": 1,
+   "future_only_vocabulary": 331,
+   "cutoff": {
+    "files": 15,
+    "strings_hit": 47,
+    "hits": {
+     "Anthony Pye": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Aunt Jamesina": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Bryant": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Captain": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Captain Jim": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Carl": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Charlotta": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Cornelia": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Cornelia Bryant": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Davy": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Davy Keith": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Dick": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Dick Moore": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Dora": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Ellen": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Ellen West": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Faith Meredith": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "George": [
+      "wiki\\v01\\character\\diana-barry.md"
+     ],
+     "Harrison": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Irving": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Jem": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Jim": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "John Meredith": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Lavendar": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Lavendar Lewis": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Leslie": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Leslie Moore": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Little Jem": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Marshall Elliott": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Mary Vance": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Norman Douglas": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Owen Ford": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Paul": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Paul Irving": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Philippa Gordon": [
+      "wiki\\v01\\_baseline.json",
+      "wiki\\v01\\character\\priscilla-grant.md"
+     ],
+     "Pris": [
+      "wiki\\v01\\character\\priscilla-grant.md"
+     ],
+     "Reverend Jo": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Rilla": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Rilla Blythe": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Rosemary": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Rosemary West": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Roy": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Roy Gardner": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Susan Baker": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Una": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Una Meredith": [
+      "wiki\\v01\\_baseline.json"
+     ],
+     "Walter Blythe": [
+      "wiki\\v01\\_baseline.json"
+     ]
+    }
+   },
+   "shared": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 15,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 2,
+   "future_only_vocabulary": 218,
+   "cutoff": {
+    "files": 22,
+    "strings_hit": 39,
+    "hits": {
+     "Aunt Jamesina": [
+      "wiki\\v02\\_baseline.json",
+      "wiki\\v02\\character\\priscilla-grant.md"
+     ],
+     "Bryant": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Captain": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Captain Jim": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Carl": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Cornelia": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Cornelia Bryant": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Dick": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Dick Moore": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Ellen West": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Faith Meredith": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Four Sisters": [
+      "wiki\\v02\\character\\charlotta.md"
+     ],
+     "Inglis": [
+      "wiki\\v02\\character\\jane-andrews.md"
+     ],
+     "Jem": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "John Meredith": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Kingsport": [
+      "wiki\\v02\\character\\priscilla-grant.md",
+      "wiki\\v02\\character\\ruby-gillis.md"
+     ],
+     "Leslie": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Leslie Moore": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Little Jem": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Marshall Elliott": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Mary Vance": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Nettie Blewett": [
+      "wiki\\v02\\character\\billy-andrews.md"
+     ],
+     "Norman Douglas": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Owen Ford": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Patty": [
+      "wiki\\v02\\character\\priscilla-grant.md"
+     ],
+     "Philippa Gordon": [
+      "wiki\\v02\\_baseline.json",
+      "wiki\\v02\\character\\priscilla-grant.md"
+     ],
+     "Pris": [
+      "wiki\\v02\\character\\priscilla-grant.md"
+     ],
+     "Reverend Jo": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Rilla": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Rilla Blythe": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Rosemary": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Rosemary West": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Roy": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Roy Gardner": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Spofford Avenue": [
+      "wiki\\v02\\character\\priscilla-grant.md"
+     ],
+     "Susan Baker": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Una": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Una Meredith": [
+      "wiki\\v02\\_baseline.json"
+     ],
+     "Walter Blythe": [
+      "wiki\\v02\\_baseline.json"
+     ]
+    }
+   },
+   "shared": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 22,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 3,
+   "future_only_vocabulary": 147,
+   "cutoff": {
+    "files": 26,
+    "strings_hit": 26,
+    "hits": {
+     "Bryant": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Captain Jim": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Carl": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Cornelia": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Cornelia Bryant": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Dick Moore": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Ellen West": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Faith Meredith": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Four Winds": [
+      "wiki\\v03\\character\\lavendar-lewis.md"
+     ],
+     "Jem": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "John Meredith": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Leslie Moore": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Little Jem": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Marshall Elliott": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Mary Vance": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Norman Douglas": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Owen Ford": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Reverend Jo": [
+      "wiki\\v03\\_baseline.json",
+      "wiki\\v03\\character\\reverend-jo.md"
+     ],
+     "Rilla": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Rilla Blythe": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Rosemary": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Rosemary West": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Susan Baker": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Una": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Una Meredith": [
+      "wiki\\v03\\_baseline.json"
+     ],
+     "Walter Blythe": [
+      "wiki\\v03\\_baseline.json"
+     ]
+    }
+   },
+   "shared": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 26,
+    "strings_hit": 1,
+    "hits": {
+     "Reverend Jo": [
+      "wiki/v03/character/reverend-jo.md"
+     ]
+    }
+   }
+  },
+  {
+   "t": 4,
+   "future_only_vocabulary": 67,
+   "cutoff": {
+    "files": 34,
+    "strings_hit": 14,
+    "hits": {
+     "Carl": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Ellen West": [
+      "wiki\\v04\\_baseline.json",
+      "wiki\\v04\\character\\marshall-elliott.md"
+     ],
+     "Faith Meredith": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Ingleside": [
+      "wiki\\v04\\character\\susan-baker.md"
+     ],
+     "John Meredith": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Mary Vance": [
+      "wiki\\v04\\_baseline.json",
+      "wiki\\v04\\character\\cornelia-bryant.md"
+     ],
+     "Norman Douglas": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Rilla": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Rilla Blythe": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Rosemary": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Rosemary West": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Una": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Una Meredith": [
+      "wiki\\v04\\_baseline.json"
+     ],
+     "Walter Blythe": [
+      "wiki\\v04\\_baseline.json"
+     ]
+    }
+   },
+   "shared": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 34,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 5,
+   "future_only_vocabulary": 0,
+   "cutoff": {
+    "files": 44,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 0,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 44,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  }
+ ]
+}

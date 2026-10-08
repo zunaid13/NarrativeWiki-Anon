@@ -1,0 +1,114 @@
+{
+ "1": "S",
+ "4": "S",
+ "6": "S",
+ "11": "S",
+ "17": "S",
+ "18": "S",
+ "19": "S",
+ "21": "S",
+ "25": "S",
+ "26": "S",
+ "27": "S",
+ "28": "S",
+ "31": "S",
+ "32": "S",
+ "36": "S",
+ "38": "S",
+ "8": [
+  "P",
+  "the marriage and the mother's part are cited (v04:c11:p0027); the threat over the mortgage is not"
+ ],
+ "16": [
+  "P",
+  "the night at the house is cited (v04:c34:p0001); the arrival itself (p0002) is not"
+ ],
+ "22": [
+  "P",
+  "her school years are cited (v01:c15:p0038, c26:p0020); her standing in class (v01:c17:p0036, c32:p0040) is not"
+ ],
+ "39": [
+  "P",
+  "one scene is cited, his confession (v04:c26:p0002); the trait is inferred from it"
+ ],
+ "0": [
+  "I",
+  "none of the six cited paragraphs is of v03:c11, where she is ill; three are of v04:c11 (the same chapter number of another volume)"
+ ],
+ "2": [
+  "I",
+  "the cited v04:c09:p0011-p0012 are the lighthouse beam; the dance is at the same paragraph number of chapter 16"
+ ],
+ "3": [
+  "I",
+  "the cited v04:c11:p0013-p0014 open the story; the accident is p0016"
+ ],
+ "5": [
+  "I",
+  "wrong person: the cited v01:c05:p0014 is another household"
+ ],
+ "7": [
+  "I",
+  "the cited paragraphs are a graveyard walk and a teacher of volume 1"
+ ],
+ "9": [
+  "I",
+  "wrong person: the cited v01:c15:p0011 is about Sukey Pullen"
+ ],
+ "10": [
+  "I",
+  "the 17 cited paragraphs are of volume 1; his honours are v03:c39:p0023"
+ ],
+ "12": [
+  "I",
+  "wrong person: the cited paragraphs have Nell at the bedside"
+ ],
+ "13": [
+  "I",
+  "wrong person for the page: the cited paragraphs are about Isolde"
+ ],
+ "14": [
+  "I",
+  "the eight cited paragraphs are of volume 1; their friendship is v02:c23"
+ ],
+ "15": [
+  "I",
+  "the two cited paragraphs are of volume 1, where she does not appear"
+ ],
+ "20": [
+  "I",
+  "as row 15; her braids are v02:c21:p0038"
+ ],
+ "23": [
+  "I",
+  "the five cited paragraphs are of volume 1; the journey is v02:c29:p0010"
+ ],
+ "24": [
+  "I",
+  "as row 15"
+ ],
+ "29": [
+  "I",
+  "the four cited paragraphs are of volumes 1 and 2, where she does not appear"
+ ],
+ "30": [
+  "I",
+  "wrong person: the cited v01:c05:p0014 is another household"
+ ],
+ "33": [
+  "I",
+  "wrong speaker: the cited v04:c20:p0010 is Captain Saul; the line is v02:c13:p0011"
+ ],
+ "34": [
+  "I",
+  "the eight cited paragraphs are of v01:c27 (Nell's dyed hair); the mouse is v02:c12, at about the same paragraph numbers"
+ ],
+ "35": [
+  "I",
+  "the cited v01:c25:p0036 and v02:c08:p0037 are of volumes where she does not appear"
+ ],
+ "37": [
+  "I",
+  "as row 15"
+ ]
+}

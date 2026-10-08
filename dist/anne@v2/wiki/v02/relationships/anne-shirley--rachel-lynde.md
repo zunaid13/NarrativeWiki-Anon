@@ -1,0 +1,155 @@
+# Anne Shirley & Rachel Lynde
+
+- [Anne Shirley](../character/anne-shirley.md) — Enemy of — [Rachel Lynde](../character/rachel-lynde.md) — open hostility after insults · since v1  <sub>[v1 CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified P16](../source/v01-c09.md#nw-v01-c09-p0016)</sub>
+
+## Shared scenes
+
+> Mrs. Rachel [Lynde](../character/rachel-lynde.md) visits [Green Gables](../codex/places.md#green-gables) to meet [Anne](../character/anne-shirley.md), but offends her with blunt remarks about her red hair and looks. [Anne](../character/anne-shirley.md) flies into a fiery rage, shouting at Mrs. [Lynde](../character/rachel-lynde.md) before storming off to her bedroom. After Mrs. [Lynde](../character/rachel-lynde.md) leaves in huff, [Marilla](../character/marilla-cuthbert.md) confronts [Anne](../character/anne-shirley.md) upstairs and orders her to remain in her room until she agrees to apologize.
+>
+> — v1 · CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified
+
+_Sources: [v1 CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified P14](../source/v01-c09.md#nw-v01-c09-p0014), [v1 CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified P16](../source/v01-c09.md#nw-v01-c09-p0016), [v1 CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified P30](../source/v01-c09.md#nw-v01-c09-p0030), [v1 CHAPTER IX. Mrs. Rachel Lynde Is Properly Horrified P47](../source/v01-c09.md#nw-v01-c09-p0047)_
+
+> [Matthew](../character/matthew-cuthbert.md) secretly visits [Anne](../character/anne-shirley.md) in her room and persuades her to apologize to Mrs. [Lynde](../character/rachel-lynde.md) so she can leave her punishment. [Anne](../character/anne-shirley.md) dramatically apologizes to Mrs. [Lynde](../character/rachel-lynde.md), who forgives her completely and gives her flowers. As [Marilla](../character/marilla-cuthbert.md) and [Anne](../character/anne-shirley.md) walk back to [Green Gables](../codex/places.md#green-gables), [Marilla](../character/marilla-cuthbert.md) feels a warm surge of affection for the girl despite her theatrical nature.
+>
+> — v1 · CHAPTER X. Anne’s Apology
+
+_Sources: [v1 CHAPTER X. Anne’s Apology P13](../source/v01-c10.md#nw-v01-c10-p0013), [v1 CHAPTER X. Anne’s Apology P30](../source/v01-c10.md#nw-v01-c10-p0030), [v1 CHAPTER X. Anne’s Apology P34](../source/v01-c10.md#nw-v01-c10-p0034), [v1 CHAPTER X. Anne’s Apology P50](../source/v01-c10.md#nw-v01-c10-p0050)_
+
+> After Mr. [Phillips](../character/phillips.md) publicly punishes [Anne](../character/anne-shirley.md) for being late by forcing her to sit next to [Gilbert Blythe](../character/gilbert-blythe.md), she refuses to ever return to his school. [Marilla](../character/marilla-cuthbert.md) consults [Rachel Lynde](../character/rachel-lynde.md), who advises letting [Anne](../character/anne-shirley.md) cool off at home for a while. Later, [Marilla](../character/marilla-cuthbert.md) is overcome with laughter when she finds [Anne](../character/anne-shirley.md) weeping over an imagined future scenario where [Diana](../character/diana-barry.md) gets married and leaves her.
+>
+> — v1 · CHAPTER XV. A Tempest in the School Teapot
+
+_Sources: [v1 CHAPTER XV. A Tempest in the School Teapot P61](../source/v01-c15.md#nw-v01-c15-p0061), [v1 CHAPTER XV. A Tempest in the School Teapot P81](../source/v01-c15.md#nw-v01-c15-p0081), [v1 CHAPTER XV. A Tempest in the School Teapot P89](../source/v01-c15.md#nw-v01-c15-p0089), [v1 CHAPTER XV. A Tempest in the School Teapot P96](../source/v01-c15.md#nw-v01-c15-p0096)_
+
+> After [Matthew](../character/matthew-cuthbert.md) convinces [Marilla](../character/marilla-cuthbert.md) to let [Anne](../character/anne-shirley.md) attend the concert and stay overnight at Diana's house, [Anne](../character/anne-shirley.md) and [Diana](../character/diana-barry.md) enjoy the performance and return to [Orchard Slope](../codex/places.md#orchard-slope) late at night. They run and leap onto the spare-room bed, inadvertently jumping on Diana's sleeping Great-[Aunt Josephine](../character/josephine-barry.md). The next day, after learning that [Miss Barry](../character/josephine-barry.md) is furious and threatening to cut off Diana's music lessons, [Anne](../character/anne-shirley.md) expresses her remorse to Mrs. [Lynde](../character/rachel-lynde.md).
+>
+> — v1 · CHAPTER XIX. A Concert, a Catastrophe, and a Confession
+
+_Sources: [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P27](../source/v01-c19.md#nw-v01-c19-p0027), [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P48](../source/v01-c19.md#nw-v01-c19-p0048), [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P52](../source/v01-c19.md#nw-v01-c19-p0052), [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P60](../source/v01-c19.md#nw-v01-c19-p0060)_
+
+> After discussing the situation with Mrs. [Lynde](../character/rachel-lynde.md), [Anne](../character/anne-shirley.md) goes to [Orchard Slope](../codex/places.md#orchard-slope) to confess to [Aunt Josephine](../character/josephine-barry.md) for jumping onto her bed. Anne's honest explanation and charm amuse [Miss Barry](../character/josephine-barry.md), persuading her to forgive [Diana](../character/diana-barry.md) and stay in [Avonlea](../codex/places.md#avonlea). The two become close friends, and [Miss Barry](../character/josephine-barry.md) eventually invites [Anne](../character/anne-shirley.md) to visit her in the city.
+>
+> — v1 · CHAPTER XIX. A Concert, a Catastrophe, and a Confession
+
+_Sources: [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P79](../source/v01-c19.md#nw-v01-c19-p0079), [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P83](../source/v01-c19.md#nw-v01-c19-p0083), [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P87](../source/v01-c19.md#nw-v01-c19-p0087), [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P90](../source/v01-c19.md#nw-v01-c19-p0090)_
+
+> [Anne](../character/anne-shirley.md) returns home after emotional farewells on the last day of school and learns about the arrival of the new minister, Mr. [Allan](../character/allan.md), and his wife. She bonds with Mrs. [Allan](../character/allan.md) at Sunday school and helps prepare a lavish tea for the couple at [Green Gables](../codex/places.md#green-gables). However, when Mrs. [Allan](../character/allan.md) and [Marilla](../character/marilla-cuthbert.md) taste the layer cake [Anne](../character/anne-shirley.md) specially baked for the occasion, [Marilla](../character/marilla-cuthbert.md) reacts in dismay to its strange taste.
+>
+> — v1 · CHAPTER XXI. A New Departure in Flavorings
+
+_Sources: [v1 CHAPTER XXI. A New Departure in Flavorings P0](../source/v01-c21.md#nw-v01-c21-p0000), [v1 CHAPTER XXI. A New Departure in Flavorings P6](../source/v01-c21.md#nw-v01-c21-p0006), [v1 CHAPTER XXI. A New Departure in Flavorings P15](../source/v01-c21.md#nw-v01-c21-p0015), [v1 CHAPTER XXI. A New Departure in Flavorings P35](../source/v01-c21.md#nw-v01-c21-p0035)_
+
+> At a party, [Josie Pye](../character/josie-pye.md) dares [Anne](../character/anne-shirley.md) to walk the ridgepole of the [Barry](../character/barry.md) kitchen roof. [Anne](../character/anne-shirley.md) attempts it, falls off, and breaks her ankle. During her long recovery at home, [Marilla](../character/marilla-cuthbert.md) realizes how deeply she cares for [Anne](../character/anne-shirley.md), who is visited by many supportive friends and neighbors while longing to return to school.
+>
+> — v1 · CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor
+
+_Sources: [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P11](../source/v01-c23.md#nw-v01-c23-p0011), [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P15](../source/v01-c23.md#nw-v01-c23-p0015), [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P24](../source/v01-c23.md#nw-v01-c23-p0024), [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P30](../source/v01-c23.md#nw-v01-c23-p0030)_
+
+> [Anne](../character/anne-shirley.md) returns to school in October and thrives under the guidance of her new teacher, Miss [Stacy](../character/stacy.md). At home, she enthusiastically shares her school experiences and upcoming concert roles with [Marilla](../character/marilla-cuthbert.md) and [Matthew](../character/matthew-cuthbert.md). While [Marilla](../character/marilla-cuthbert.md) remains skeptical of the concert's value, [Matthew](../character/matthew-cuthbert.md) offers [Anne](../character/anne-shirley.md) his warm encouragement.
+>
+> — v1 · CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert
+
+_Sources: [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P0](../source/v01-c24.md#nw-v01-c24-p0000), [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P1](../source/v01-c24.md#nw-v01-c24-p0001), [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P10](../source/v01-c24.md#nw-v01-c24-p0010), [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P16](../source/v01-c24.md#nw-v01-c24-p0016)_
+
+> Noticing that [Anne](../character/anne-shirley.md) lacks fashionable clothing like other girls, [Matthew](../character/matthew-cuthbert.md) tries to buy her a dress at Lawson's store but becomes flustered by the clerk, Miss [Harris](../character/harris.md). He seeks help from Mrs. [Lynde](../character/rachel-lynde.md), who agrees to buy and sew a stylish brown dress with puffed sleeves for [Anne](../character/anne-shirley.md). On [Christmas](../codex/places.md#merry-christmas) morning, [Anne](../character/anne-shirley.md) is overjoyed to receive the dress from [Matthew](../character/matthew-cuthbert.md), along with a pair of slippers sent by [Aunt Josephine](../character/josephine-barry.md).
+>
+> — v1 · CHAPTER XXV. Matthew Insists on Puffed Sleeves
+
+_Sources: [v1 CHAPTER XXV. Matthew Insists on Puffed Sleeves P2](../source/v01-c25.md#nw-v01-c25-p0002), [v1 CHAPTER XXV. Matthew Insists on Puffed Sleeves P7](../source/v01-c25.md#nw-v01-c25-p0007), [v1 CHAPTER XXV. Matthew Insists on Puffed Sleeves P25](../source/v01-c25.md#nw-v01-c25-p0025), [v1 CHAPTER XXV. Matthew Insists on Puffed Sleeves P32](../source/v01-c25.md#nw-v01-c25-p0032)_
+
+> As the school term comes to an end, [Anne](../character/anne-shirley.md) reflects on her ongoing rivalry and hidden regret regarding [Gilbert Blythe](../character/gilbert-blythe.md). Miss [Stacy](../character/stacy.md) confirms she will return to teach the Queen's class next year, to her students' delight. At home, [Anne](../character/anne-shirley.md) packs away her books for a summer vacation, and Mrs. [Lynde](../character/rachel-lynde.md) praises Anne's growth and character during a visit with [Marilla](../character/marilla-cuthbert.md).
+>
+> — v1 · CHAPTER XXX. The Queen’s Class Is Organized
+
+_Sources: [v1 CHAPTER XXX. The Queen’s Class Is Organized P25](../source/v01-c30.md#nw-v01-c30-p0025), [v1 CHAPTER XXX. The Queen’s Class Is Organized P32](../source/v01-c30.md#nw-v01-c30-p0032), [v1 CHAPTER XXX. The Queen’s Class Is Organized P36](../source/v01-c30.md#nw-v01-c30-p0036), [v1 CHAPTER XXX. The Queen’s Class Is Organized P43](../source/v01-c30.md#nw-v01-c30-p0043)_
+
+> After finishing school and taking her [Entrance](../codex/places.md#entrance) examinations in [Charlottetown](../codex/places.md#charlottetown), [Anne](../character/anne-shirley.md) anxiously awaits the results at home. [Diana](../character/diana-barry.md) rushes over to [Green Gables](../codex/places.md#green-gables) with the newspaper to announce that [Anne](../character/anne-shirley.md) tied for first place on the entire [Island](../codex/places.md#island), bringing great joy and pride to [Anne](../character/anne-shirley.md), [Matthew](../character/matthew-cuthbert.md), [Marilla](../character/marilla-cuthbert.md), and Mrs. [Lynde](../character/rachel-lynde.md).
+>
+> — v1 · CHAPTER XXXII. The Pass List Is Out
+
+_Sources: [v1 CHAPTER XXXII. The Pass List Is Out P38](../source/v01-c32.md#nw-v01-c32-p0038), [v1 CHAPTER XXXII. The Pass List Is Out P40](../source/v01-c32.md#nw-v01-c32-p0040), [v1 CHAPTER XXXII. The Pass List Is Out P45](../source/v01-c32.md#nw-v01-c32-p0045), [v1 CHAPTER XXXII. The Pass List Is Out P48](../source/v01-c32.md#nw-v01-c32-p0048)_
+
+> [Matthew](../character/matthew-cuthbert.md) collapses and dies suddenly after reading news of the bank failure. The household and community mourn, and [Anne](../character/anne-shirley.md) and [Marilla](../character/marilla-cuthbert.md) comfort each other in their shared sorrow. Later, [Anne](../character/anne-shirley.md) discusses her grief with Mrs. [Allan](../character/allan.md) and reminisces with [Marilla](../character/marilla-cuthbert.md) about past times and Marilla's youthful romance with John Blythe.
+>
+> — v1 · CHAPTER XXXVII. The Reaper Whose Name Is Death
+
+_Sources: [v1 CHAPTER XXXVII. The Reaper Whose Name Is Death P1](../source/v01-c37.md#nw-v01-c37-p0001), [v1 CHAPTER XXXVII. The Reaper Whose Name Is Death P9](../source/v01-c37.md#nw-v01-c37-p0009), [v1 CHAPTER XXXVII. The Reaper Whose Name Is Death P20](../source/v01-c37.md#nw-v01-c37-p0020), [v1 CHAPTER XXXVII. The Reaper Whose Name Is Death P40](../source/v01-c37.md#nw-v01-c37-p0040)_
+
+> [Marilla](../character/marilla-cuthbert.md) learns from an oculist that she must give up heavy eye work or face total blindness, putting the future of [Green Gables](../codex/places.md#green-gables) in jeopardy. [Anne](../character/anne-shirley.md) decides to forfeit her college scholarship, stay at home to care for [Marilla](../character/marilla-cuthbert.md), and take up a local teaching job instead. After learning [Gilbert Blythe](../character/gilbert-blythe.md) gave up the [Avonlea](../codex/places.md#avonlea) school so she could have it, [Anne](../character/anne-shirley.md) meets [Gilbert](../character/gilbert-blythe.md) on her way home and they finally end their feud to become close friends.
+>
+> — v1 · CHAPTER XXXVIII. The Bend in the Road
+
+_Sources: [v1 CHAPTER XXXVIII. The Bend in the Road P4](../source/v01-c38.md#nw-v01-c38-p0004), [v1 CHAPTER XXXVIII. The Bend in the Road P20](../source/v01-c38.md#nw-v01-c38-p0020), [v1 CHAPTER XXXVIII. The Bend in the Road P38](../source/v01-c38.md#nw-v01-c38-p0038), [v1 CHAPTER XXXVIII. The Bend in the Road P55](../source/v01-c38.md#nw-v01-c38-p0055)_
+
+> [Anne](../character/anne-shirley.md) is daydreaming outside when her new neighbor, Mr. [Harrison](../character/harrison.md), angrily confronts her after her cow breaks into his oatfield. Later, [Anne](../character/anne-shirley.md) and [Marilla](../character/marilla-cuthbert.md) discuss the encounter and local news over tea, joined by Mrs. Rachel [Lynde](../character/rachel-lynde.md), who shares gossip about upcoming changes and new residents in [Avonlea](../codex/places.md#avonlea).
+>
+> — v2 · I An Irate Neighbor
+
+_Sources: [v2 I An Irate Neighbor P1](../source/v02-c01.md#nw-v02-c01-p0001), [v2 I An Irate Neighbor P4](../source/v02-c01.md#nw-v02-c01-p0004), [v2 I An Irate Neighbor P15](../source/v02-c01.md#nw-v02-c01-p0015), [v2 I An Irate Neighbor P38](../source/v02-c01.md#nw-v02-c01-p0038)_
+
+> Mrs. [Lynde](../character/rachel-lynde.md), [Marilla](../character/marilla-cuthbert.md), and [Anne](../character/anne-shirley.md) discuss [Stephen](../character/stephen-irving.md) Irving's past relationship and his son, [Paul](../character/paul-irving.md), coming to live in [Avonlea](../codex/places.md#avonlea). The conversation shifts to Anne's plan to start a Village [Improvement Society](../codex/factions.md#improvers), which Mrs. [Lynde](../character/rachel-lynde.md) warns will be difficult. Mrs. [Lynde](../character/rachel-lynde.md) also shares that Anne's friend [Priscilla Grant](../character/priscilla-grant.md) has been hired to teach at [Carmody](../codex/places.md#carmody).
+>
+> — v2 · I An Irate Neighbor
+
+_Sources: [v2 I An Irate Neighbor P47](../source/v02-c01.md#nw-v02-c01-p0047), [v2 I An Irate Neighbor P50](../source/v02-c01.md#nw-v02-c01-p0050), [v2 I An Irate Neighbor P54](../source/v02-c01.md#nw-v02-c01-p0054), [v2 I An Irate Neighbor P57](../source/v02-c01.md#nw-v02-c01-p0057)_
+
+> [Anne](../character/anne-shirley.md) and [Diana](../character/diana-barry.md) discuss Village [Improvement Society](../codex/factions.md#improvers) plans on their drive home from [Carmody](../codex/places.md#carmody) when they spot a Jersey cow trampling Mr. Harrison's oat field. Believing the cow is her own nuisance Jersey, [Dolly](../character/dolly.md), [Anne](../character/anne-shirley.md) impulsively sells the stray cow on the spot to Mr. [Shearer](../character/shearer.md) for twenty dollars. Upon returning to [Green Gables](../codex/places.md#green-gables), [Anne](../character/anne-shirley.md) discovers [Dolly](../character/dolly.md) still in the barnyard and realizes she accidentally sold Mr. Harrison's cow, prompting her to head over to his house with the money and a cake to confess.
+>
+> — v2 · II Selling in Haste and Repenting at Leisure
+
+_Sources: [v2 II Selling in Haste and Repenting at Leisure P12](../source/v02-c02.md#nw-v02-c02-p0012), [v2 II Selling in Haste and Repenting at Leisure P24](../source/v02-c02.md#nw-v02-c02-p0024), [v2 II Selling in Haste and Repenting at Leisure P35](../source/v02-c02.md#nw-v02-c02-p0035), [v2 II Selling in Haste and Repenting at Leisure P42](../source/v02-c02.md#nw-v02-c02-p0042)_
+
+> On the eve of the school term, [Anne](../character/anne-shirley.md) discusses teaching methods and classroom discipline with [Jane](../character/jane-andrews.md) and [Gilbert](../character/gilbert-blythe.md), strongly opposing corporal punishment. After returning to [Green Gables](../codex/places.md#green-gables), she visits Mr. [Harrison](../character/harrison.md), who also doubts her plan to rule by affection rather than the rod. The next morning, a nervous [Anne](../character/anne-shirley.md) drinks ginger tea prepared by [Marilla](../character/marilla-cuthbert.md) before starting her first day of teaching.
+>
+> — v2 · IV Different Opinions
+
+_Sources: [v2 IV Different Opinions P0](../source/v02-c04.md#nw-v02-c04-p0000), [v2 IV Different Opinions P7](../source/v02-c04.md#nw-v02-c04-p0007), [v2 IV Different Opinions P35](../source/v02-c04.md#nw-v02-c04-p0035), [v2 IV Different Opinions P41](../source/v02-c04.md#nw-v02-c04-p0041)_
+
+> [Marilla](../character/marilla-cuthbert.md) brings the twins, [Davy](../character/davy-keith.md) and [Dora](../character/dora.md) Keith, home to [Green Gables](../codex/places.md#green-gables), where [Davy](../character/davy-keith.md) quickly displays his mischievous and unruly nature. Over the next few days, [Davy](../character/davy-keith.md) causes trouble by dropping a caterpillar down a girl's neck at church, making [Dora](../character/dora.md) fall into a pigpen, and hiding a toad in Marilla's bed.
+>
+> — v2 · VIII Marilla Adopts Twins
+
+_Sources: [v2 VIII Marilla Adopts Twins P11](../source/v02-c08.md#nw-v02-c08-p0011), [v2 VIII Marilla Adopts Twins P36](../source/v02-c08.md#nw-v02-c08-p0036), [v2 VIII Marilla Adopts Twins P49](../source/v02-c08.md#nw-v02-c08-p0049), [v2 VIII Marilla Adopts Twins P60](../source/v02-c08.md#nw-v02-c08-p0060)_
+
+> [Anne](../character/anne-shirley.md) converses with Mr. [Harrison](../character/harrison.md) regarding Mrs. [Lynde](../character/rachel-lynde.md) and the ongoing hall improvement project. Shortly after [Joshua Pye](../character/joshua-pye.md) paints the hall a shocking bright blue due to a mix-up with the paint numbers, news spreads across town. [Gilbert](../character/gilbert-blythe.md), [Fred](../character/fred-wright.md), [Jane](../character/jane-andrews.md), [Diana](../character/diana-barry.md), and Oliver gather with [Anne](../character/anne-shirley.md) at [Green Gables](../codex/places.md#green-gables) in shared dismay over the disaster.
+>
+> — v2 · IX A Question of Color
+
+_Sources: [v2 IX A Question of Color P0](../source/v02-c09.md#nw-v02-c09-p0000), [v2 IX A Question of Color P24](../source/v02-c09.md#nw-v02-c09-p0024), [v2 IX A Question of Color P28](../source/v02-c09.md#nw-v02-c09-p0028), [v2 IX A Question of Color P32](../source/v02-c09.md#nw-v02-c09-p0032)_
+
+> [Anne](../character/anne-shirley.md) returns to [Green Gables](../codex/places.md#green-gables) to find [Dora](../character/dora.md) missing and everyone frantically searching for her. After searching the well and surrounding area with Mr. [Barry](../character/barry.md), [Anne](../character/anne-shirley.md) finds [Dora](../character/dora.md) locked in Mr. Harrison's toolhouse by [Davy](../character/davy-keith.md). [Davy](../character/davy-keith.md) is confronted and tearfully promises never to lie again after realizing he made [Anne](../character/anne-shirley.md) cry, though he later questions [Anne](../character/anne-shirley.md) about Marilla's warning regarding prayers.
+>
+> — v2 · X Davy in Search of a Sensation
+
+_Sources: [v2 X Davy in Search of a Sensation P8](../source/v02-c10.md#nw-v02-c10-p0008), [v2 X Davy in Search of a Sensation P26](../source/v02-c10.md#nw-v02-c10-p0026), [v2 X Davy in Search of a Sensation P34](../source/v02-c10.md#nw-v02-c10-p0034), [v2 X Davy in Search of a Sensation P52](../source/v02-c10.md#nw-v02-c10-p0052)_
+
+> In a bad mood from a toothache, [Anne](../character/anne-shirley.md) accidentally causes fireworks to explode in the schoolroom and subsequently whips [Anthony Pye](../character/anthony-pye.md) after he puts a mouse in her desk. She goes home heartbroken over her bad day, but [Marilla](../character/marilla-cuthbert.md) comforts her. The next morning, Anthony treats [Anne](../character/anne-shirley.md) with new respect, and Mrs. Rachel [Lynde](../character/rachel-lynde.md) later confirms that the whipping gained his approval.
+>
+> — v2 · XII A Jonah Day
+
+_Sources: [v2 XII A Jonah Day P19](../source/v02-c12.md#nw-v02-c12-p0019), [v2 XII A Jonah Day P33](../source/v02-c12.md#nw-v02-c12-p0033), [v2 XII A Jonah Day P36](../source/v02-c12.md#nw-v02-c12-p0036), [v2 XII A Jonah Day P49](../source/v02-c12.md#nw-v02-c12-p0049)_
+
+> [Anne](../character/anne-shirley.md) discusses town matters with Mrs. [Lynde](../character/rachel-lynde.md) before returning home to learn from [Marilla](../character/marilla-cuthbert.md) that the twins must stay until fall. After dealing with Davy's jam-stealing and catechism confusions, [Anne](../character/anne-shirley.md) attends an Village [Improvement Society](../codex/factions.md#improvers) meeting where news breaks about [Judson Parker](../character/judson-parker.md) renting his fences for advertisements. The society sends a committee to reason with Judson, but he refuses to change his plans.
+>
+> — v2 · XIV A Danger Averted
+
+_Sources: [v2 XIV A Danger Averted P0](../source/v02-c14.md#nw-v02-c14-p0000), [v2 XIV A Danger Averted P15](../source/v02-c14.md#nw-v02-c14-p0015), [v2 XIV A Danger Averted P35](../source/v02-c14.md#nw-v02-c14-p0035), [v2 XIV A Danger Averted P50](../source/v02-c14.md#nw-v02-c14-p0050)_
+
+> [Marilla](../character/marilla-cuthbert.md) departs with [Dora](../character/dora.md), leaving [Anne](../character/anne-shirley.md) at [Green Gables](../codex/places.md#green-gables) where she accidentally dyes her nose scarlet while changing feather beds. [Priscilla Grant](../character/priscilla-grant.md) unexpectedly arrives with famous author Mrs. [Morgan](../character/morgan.md) and Mrs. [Pendexter](../character/pendexter.md) for a visit. Despite her initial embarrassment, [Anne](../character/anne-shirley.md) hosts a successful dinner and walk with the guests before they depart.
+>
+> — v2 · XX The Way It Often Happens
+
+_Sources: [v2 XX The Way It Often Happens P22](../source/v02-c20.md#nw-v02-c20-p0022), [v2 XX The Way It Often Happens P33](../source/v02-c20.md#nw-v02-c20-p0033), [v2 XX The Way It Often Happens P42](../source/v02-c20.md#nw-v02-c20-p0042), [v2 XX The Way It Often Happens P43](../source/v02-c20.md#nw-v02-c20-p0043)_
+
+> An unexpectedly neat woman arrives at [Green Gables](../codex/places.md#green-gables) looking for Mr. [Harrison](../character/harrison.md) and reveals herself to be his wife, [Emily](../character/emily.md), before heading over to his house. The news spreads quickly through the neighborhood, and Mr. [Harrison](../character/harrison.md) eventually asks [Anne](../character/anne-shirley.md) to come over so he can explain the whole story of their separation.
+>
+> — v2 · XXV An Avonlea Scandal
+
+_Sources: [v2 XXV An Avonlea Scandal P9](../source/v02-c25.md#nw-v02-c25-p0009), [v2 XXV An Avonlea Scandal P16](../source/v02-c25.md#nw-v02-c25-p0016), [v2 XXV An Avonlea Scandal P28](../source/v02-c25.md#nw-v02-c25-p0028), [v2 XXV An Avonlea Scandal P55](../source/v02-c25.md#nw-v02-c25-p0055)_
+
+> Mr. [Harrison](../character/harrison.md) explains the history of his marriage, housecleaning disagreements, and parrot-related falling out with [Emily](../character/emily.md) to [Anne](../character/anne-shirley.md). [Emily](../character/emily.md) returns from [Carmody](../codex/places.md#carmody) with Mrs. [Lynde](../character/rachel-lynde.md), welcomes [Anne](../character/anne-shirley.md) to tea, and walks home with her while expressing regret over their past feud. At [Green Gables](../codex/places.md#green-gables), Mrs. [Lynde](../character/rachel-lynde.md) discusses Mrs. [Harrison](../character/harrison.md) with [Marilla](../character/marilla-cuthbert.md), while [Davy](../character/davy-keith.md) affectionately expresses his fondness for [Anne](../character/anne-shirley.md) as she puts him to bed.
+>
+> — v2 · XXV An Avonlea Scandal
+
+_Sources: [v2 XXV An Avonlea Scandal P57](../source/v02-c25.md#nw-v02-c25-p0057), [v2 XXV An Avonlea Scandal P60](../source/v02-c25.md#nw-v02-c25-p0060), [v2 XXV An Avonlea Scandal P65](../source/v02-c25.md#nw-v02-c25-p0065), [v2 XXV An Avonlea Scandal P71](../source/v02-c25.md#nw-v02-c25-p0071)_

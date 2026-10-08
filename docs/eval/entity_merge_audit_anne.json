@@ -1,0 +1,413 @@
+[
+ {
+  "entity": "anne",
+  "flag": "span",
+  "forms": {
+   "Anne": 1,
+   "Miss Shirley": 4,
+   "Mistress Blythe": 4,
+   "young Mrs. Doctor": 4,
+   "Mrs. Doctor": 4,
+   "Mrs. Doctor, dear": 4,
+   "Mrs. Dr. dear": 5
+  }
+ },
+ {
+  "entity": "marilla-cuthbert",
+  "flag": "span",
+  "forms": {
+   "Marilla": 1,
+   "Cuthbert": 1,
+   "Marilla Cuthbert": 1,
+   "Aunt Marilla": 1,
+   "Miss Cuthbert": 4
+  }
+ },
+ {
+  "entity": "faith",
+  "flag": "span",
+  "forms": {
+   "Faith": 1,
+   "Faith Meredith": 5,
+   "Red Rose": 5
+  }
+ },
+ {
+  "entity": "faith",
+  "flag": "surname",
+  "surnames": [
+   "Meredith",
+   "Rose"
+  ],
+  "forms": {
+   "Faith Meredith": 5,
+   "Red Rose": 5
+  }
+ },
+ {
+  "entity": "cornelia-bryant",
+  "flag": "surname",
+  "surnames": [
+   "Bryant",
+   "Cornelia",
+   "Elliott"
+  ],
+  "forms": {
+   "Cornelia Bryant": 4,
+   "Mrs. Marshall Elliott": 5,
+   "The fair Cornelia": 5
+  }
+ },
+ {
+  "entity": "susan",
+  "flag": "span",
+  "forms": {
+   "Susan": 1,
+   "Susan Baker": 4,
+   "old Susan Baker": 5
+  }
+ },
+ {
+  "entity": "phil-gordon",
+  "flag": "surname",
+  "surnames": [
+   "Blake",
+   "Gordon"
+  ],
+  "forms": {
+   "Philippa Gordon": 3,
+   "Phil Gordon": 3,
+   "Phil Blake": 4
+  }
+ },
+ {
+  "entity": "priscilla-grant",
+  "flag": "span",
+  "forms": {
+   "Priscilla": 1,
+   "Priscilla Grant": 1,
+   "Grant": 2,
+   "Prissy": 3,
+   "Pris": 3
+  }
+ },
+ {
+  "entity": "walter",
+  "flag": "span",
+  "forms": {
+   "Walter": 1,
+   "Walter Blythe": 5,
+   "Miss Walter": 5
+  }
+ },
+ {
+  "entity": "davis",
+  "flag": "span",
+  "forms": {
+   "Davis": 3,
+   "Alec Davis": 5,
+   "Kitty Alec": 5
+  }
+ },
+ {
+  "entity": "davis",
+  "flag": "surname",
+  "surnames": [
+   "Alec",
+   "Davis"
+  ],
+  "forms": {
+   "Alec Davis": 5,
+   "Kitty Alec": 5
+  }
+ },
+ {
+  "entity": "di",
+  "flag": "span",
+  "forms": {
+   "Di": 1,
+   "Diana Barry": 1,
+   "Di Blythe": 5
+  }
+ },
+ {
+  "entity": "di",
+  "flag": "surname",
+  "surnames": [
+   "Barry",
+   "Blythe"
+  ],
+  "forms": {
+   "Diana Barry": 1,
+   "Di Blythe": 5
+  }
+ },
+ {
+  "entity": "marshall",
+  "flag": "span",
+  "forms": {
+   "Marshall": 1,
+   "Marshall Elliott": 4
+  }
+ },
+ {
+  "entity": "thomas-lynde",
+  "flag": "surname",
+  "surnames": [
+   "Lynde",
+   "husband"
+  ],
+  "forms": {
+   "Thomas Lynde": 1,
+   "Rachel Lynde’s husband": 1
+  }
+ },
+ {
+  "entity": "john-meredith",
+  "flag": "surname",
+  "surnames": [
+   "Meredith",
+   "manse",
+   "minister"
+  ],
+  "forms": {
+   "John Meredith": 5,
+   "the recluse of Glen St. Mary manse": 5,
+   "the Glen minister": 5
+  }
+ },
+ {
+  "entity": "jane-andrews",
+  "flag": "span",
+  "forms": {
+   "Jane Andrews": 1,
+   "Jane": 4
+  }
+ },
+ {
+  "entity": "harmon-andrews",
+  "flag": "span",
+  "forms": {
+   "Harmon Andrews": 1,
+   "Harmon": 3
+  }
+ },
+ {
+  "entity": "charlie-sloane",
+  "flag": "span",
+  "forms": {
+   "Charlie Sloane": 1,
+   "Goggle-eyes": 3
+  }
+ },
+ {
+  "entity": "prissy-andrews",
+  "flag": "span",
+  "forms": {
+   "Prissy Andrews": 1,
+   "Prissy": 1,
+   "Pris": 3
+  }
+ },
+ {
+  "entity": "billy-andrews",
+  "flag": "span",
+  "forms": {
+   "Billy": 1,
+   "Billy Andrews": 1,
+   "Billy Booth": 4
+  }
+ },
+ {
+  "entity": "billy-andrews",
+  "flag": "surname",
+  "surnames": [
+   "Andrews",
+   "Booth"
+  ],
+  "forms": {
+   "Billy Andrews": 1,
+   "Billy Booth": 4
+  }
+ },
+ {
+  "entity": "emily",
+  "flag": "span",
+  "forms": {
+   "Emily": 1,
+   "Cousin Emily": 3,
+   "the Fair Unknown": 2,
+   "Mrs. Harrison": 2
+  }
+ },
+ {
+  "entity": "clair-donnell",
+  "flag": "surname",
+  "surnames": [
+   "Donnell",
+   "son"
+  ],
+  "forms": {
+   "Clair Donnell": 2,
+   "Mrs. Donnell’s hopeful son": 2
+  }
+ },
+ {
+  "entity": "moody-spurgeon-macpherson",
+  "flag": "surname",
+  "surnames": [
+   "MacPherson",
+   "Spurgeon"
+  ],
+  "forms": {
+   "Moody Spurgeon": 1,
+   "Moody Spurgeon MacPherson": 1
+  }
+ },
+ {
+  "entity": "james-a",
+  "flag": "span",
+  "forms": {
+   "James A": 2,
+   "James": 3,
+   "James Matthew": 4
+  }
+ },
+ {
+  "entity": "james-a",
+  "flag": "surname",
+  "surnames": [
+   "A",
+   "Matthew"
+  ],
+  "forms": {
+   "James A": 2,
+   "James Matthew": 4
+  }
+ },
+ {
+  "entity": "martin",
+  "flag": "span",
+  "forms": {
+   "Martin": 1,
+   "Martin Crawford": 5
+  }
+ },
+ {
+  "entity": "shakespeare",
+  "flag": "span",
+  "forms": {
+   "Shakespeare": 2,
+   "Bertie Shakespeare": 4,
+   "Bertie Shakespeare Drew": 5
+  }
+ },
+ {
+  "entity": "shakespeare",
+  "flag": "surname",
+  "surnames": [
+   "Drew",
+   "Shakespeare"
+  ],
+  "forms": {
+   "Bertie Shakespeare": 4,
+   "Bertie Shakespeare Drew": 5
+  }
+ },
+ {
+  "entity": "twin-sailors",
+  "flag": "surname",
+  "surnames": [
+   "Sailor",
+   "Sailors"
+  ],
+  "forms": {
+   "Twin Sailors": 2,
+   "Twin Sailor": 2
+  }
+ },
+ {
+  "entity": "baxter",
+  "flag": "span",
+  "forms": {
+   "Baxter": 2,
+   "Robert Baxter": 4
+  }
+ },
+ {
+  "entity": "anne",
+  "flag": "split",
+  "with": [
+   "anne-shirley"
+  ]
+ },
+ {
+  "entity": "diana",
+  "flag": "split",
+  "with": [
+   "diana-wright"
+  ]
+ },
+ {
+  "entity": "matthew",
+  "flag": "split",
+  "with": [
+   "matthew-cuthbert"
+  ]
+ },
+ {
+  "entity": "mary",
+  "flag": "split",
+  "with": [
+   "mary-vance",
+   "mary-joe"
+  ]
+ },
+ {
+  "entity": "jane",
+  "flag": "split",
+  "with": [
+   "jane-andrews",
+   "jane-ann"
+  ]
+ },
+ {
+  "entity": "george",
+  "flag": "split",
+  "with": [
+   "george-moore",
+   "george-fletcher"
+  ]
+ },
+ {
+  "entity": "henry",
+  "flag": "split",
+  "with": [
+   "henry-warren"
+  ]
+ },
+ {
+  "entity": "elizabeth",
+  "flag": "split",
+  "with": [
+   "elizabeth-russell",
+   "elizabeth-kirk"
+  ]
+ },
+ {
+  "entity": "aunt-mary",
+  "flag": "split",
+  "with": [
+   "mary-vance",
+   "mary-joe"
+  ]
+ },
+ {
+  "entity": "minnie",
+  "flag": "split",
+  "with": [
+   "minnie-may",
+   "minnie-andrews"
+  ]
+ }
+]

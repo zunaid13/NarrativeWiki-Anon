@@ -1,0 +1,59 @@
+# Jane Andrews & Ruby Gillis
+
+- [Jane Andrews](../character/jane-andrews.md) — Friend of — [Ruby Gillis](../character/ruby-gillis.md) — spending the midsummer afternoon together playing games · since v1  <sub>[v1 CHAPTER XXVIII. An Unfortunate Lily Maid P7](../source/v01-c28.md#nw-v01-c28-p0007)</sub>
+
+## Shared scenes
+
+> After Mr. [Phillips](../character/phillips.md) publicly punishes [Anne](../character/anne-shirley.md) for being late by forcing her to sit next to [Gilbert Blythe](../character/gilbert-blythe.md), she refuses to ever return to his school. [Marilla](../character/marilla-cuthbert.md) consults [Rachel Lynde](../character/rachel-lynde.md), who advises letting [Anne](../character/anne-shirley.md) cool off at home for a while. Later, [Marilla](../character/marilla-cuthbert.md) is overcome with laughter when she finds [Anne](../character/anne-shirley.md) weeping over an imagined future scenario where [Diana](../character/diana-barry.md) gets married and leaves her.
+>
+> — v1 · CHAPTER XV. A Tempest in the School Teapot
+
+_Sources: [v1 CHAPTER XV. A Tempest in the School Teapot P61](../source/v01-c15.md#nw-v01-c15-p0061), [v1 CHAPTER XV. A Tempest in the School Teapot P81](../source/v01-c15.md#nw-v01-c15-p0081), [v1 CHAPTER XV. A Tempest in the School Teapot P89](../source/v01-c15.md#nw-v01-c15-p0089), [v1 CHAPTER XV. A Tempest in the School Teapot P96](../source/v01-c15.md#nw-v01-c15-p0096)_
+
+> [Anne](../character/anne-shirley.md) returns home after emotional farewells on the last day of school and learns about the arrival of the new minister, Mr. [Allan](../character/allan.md), and his wife. She bonds with Mrs. [Allan](../character/allan.md) at Sunday school and helps prepare a lavish tea for the couple at [Green Gables](../codex/places.md#green-gables). However, when Mrs. [Allan](../character/allan.md) and [Marilla](../character/marilla-cuthbert.md) taste the layer cake [Anne](../character/anne-shirley.md) specially baked for the occasion, [Marilla](../character/marilla-cuthbert.md) reacts in dismay to its strange taste.
+>
+> — v1 · CHAPTER XXI. A New Departure in Flavorings
+
+_Sources: [v1 CHAPTER XXI. A New Departure in Flavorings P0](../source/v01-c21.md#nw-v01-c21-p0000), [v1 CHAPTER XXI. A New Departure in Flavorings P6](../source/v01-c21.md#nw-v01-c21-p0006), [v1 CHAPTER XXI. A New Departure in Flavorings P15](../source/v01-c21.md#nw-v01-c21-p0015), [v1 CHAPTER XXI. A New Departure in Flavorings P35](../source/v01-c21.md#nw-v01-c21-p0035)_
+
+> At a party, [Josie Pye](../character/josie-pye.md) dares [Anne](../character/anne-shirley.md) to walk the ridgepole of the [Barry](../character/barry.md) kitchen roof. [Anne](../character/anne-shirley.md) attempts it, falls off, and breaks her ankle. During her long recovery at home, [Marilla](../character/marilla-cuthbert.md) realizes how deeply she cares for [Anne](../character/anne-shirley.md), who is visited by many supportive friends and neighbors while longing to return to school.
+>
+> — v1 · CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor
+
+_Sources: [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P11](../source/v01-c23.md#nw-v01-c23-p0011), [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P15](../source/v01-c23.md#nw-v01-c23-p0015), [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P24](../source/v01-c23.md#nw-v01-c23-p0024), [v1 CHAPTER XXIII. Anne Comes to Grief in an Affair of Honor P30](../source/v01-c23.md#nw-v01-c23-p0030)_
+
+> [Anne](../character/anne-shirley.md) returns to school in October and thrives under the guidance of her new teacher, Miss [Stacy](../character/stacy.md). At home, she enthusiastically shares her school experiences and upcoming concert roles with [Marilla](../character/marilla-cuthbert.md) and [Matthew](../character/matthew-cuthbert.md). While [Marilla](../character/marilla-cuthbert.md) remains skeptical of the concert's value, [Matthew](../character/matthew-cuthbert.md) offers [Anne](../character/anne-shirley.md) his warm encouragement.
+>
+> — v1 · CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert
+
+_Sources: [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P0](../source/v01-c24.md#nw-v01-c24-p0000), [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P1](../source/v01-c24.md#nw-v01-c24-p0001), [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P10](../source/v01-c24.md#nw-v01-c24-p0010), [v1 CHAPTER XXIV. Miss Stacy and Her Pupils Get Up a Concert P16](../source/v01-c24.md#nw-v01-c24-p0016)_
+
+> On her thirteenth birthday, [Anne](../character/anne-shirley.md) walks to school with [Diana](../character/diana-barry.md) and discusses growing up, her creative story writing, and a new plan to form a story club with their friends. Later, [Anne](../character/anne-shirley.md) tells [Marilla](../character/marilla-cuthbert.md) about the success and rules of the story club, though [Marilla](../character/marilla-cuthbert.md) remains skeptical of the endeavor.
+>
+> — v1 · CHAPTER XXVI. The Story Club Is Formed
+
+_Sources: [v1 CHAPTER XXVI. The Story Club Is Formed P3](../source/v01-c26.md#nw-v01-c26-p0003), [v1 CHAPTER XXVI. The Story Club Is Formed P19](../source/v01-c26.md#nw-v01-c26-p0019), [v1 CHAPTER XXVI. The Story Club Is Formed P20](../source/v01-c26.md#nw-v01-c26-p0020), [v1 CHAPTER XXVI. The Story Club Is Formed P21](../source/v01-c26.md#nw-v01-c26-p0021)_
+
+> [Anne](../character/anne-shirley.md) and her friends re-enact a poem on a flat-bottomed boat, but the boat begins to leak, stranding [Anne](../character/anne-shirley.md) on a bridge pile. [Gilbert Blythe](../character/gilbert-blythe.md) rows by and rescues her, but [Anne](../character/anne-shirley.md) angrily refuses his offer of friendship. After returning home safely, [Anne](../character/anne-shirley.md) reflects on learning another lesson, while [Matthew](../character/matthew-cuthbert.md) quietly encourages her not to abandon all her romance.
+>
+> — v1 · CHAPTER XXVIII. An Unfortunate Lily Maid
+
+_Sources: [v1 CHAPTER XXVIII. An Unfortunate Lily Maid P18](../source/v01-c28.md#nw-v01-c28-p0018), [v1 CHAPTER XXVIII. An Unfortunate Lily Maid P23](../source/v01-c28.md#nw-v01-c28-p0023), [v1 CHAPTER XXVIII. An Unfortunate Lily Maid P31](../source/v01-c28.md#nw-v01-c28-p0031), [v1 CHAPTER XXVIII. An Unfortunate Lily Maid P45](../source/v01-c28.md#nw-v01-c28-p0045)_
+
+> [Marilla](../character/marilla-cuthbert.md) informs [Anne](../character/anne-shirley.md) that Miss [Stacy](../character/stacy.md) visited to propose organizing an advanced class to prepare students for the Queen's [Entrance](../codex/places.md#entrance) examination, which [Marilla](../character/marilla-cuthbert.md) and [Matthew](../character/matthew-cuthbert.md) agree [Anne](../character/anne-shirley.md) should join. [Anne](../character/anne-shirley.md) eagerly accepts the opportunity to study to become a teacher. When the class begins, [Anne](../character/anne-shirley.md) faces intense academic rivalry with [Gilbert Blythe](../character/gilbert-blythe.md) and realizes she has secretly forgiven him.
+>
+> — v1 · CHAPTER XXX. The Queen’s Class Is Organized
+
+_Sources: [v1 CHAPTER XXX. The Queen’s Class Is Organized P14](../source/v01-c30.md#nw-v01-c30-p0014), [v1 CHAPTER XXX. The Queen’s Class Is Organized P16](../source/v01-c30.md#nw-v01-c30-p0016), [v1 CHAPTER XXX. The Queen’s Class Is Organized P20](../source/v01-c30.md#nw-v01-c30-p0020), [v1 CHAPTER XXX. The Queen’s Class Is Organized P25](../source/v01-c30.md#nw-v01-c30-p0025)_
+
+> [Anne](../character/anne-shirley.md) adjusts to life at Queen's [Academy](../codex/places.md#queen-s-academy), making new friends while maintaining her dedicated academic focus alongside her classmates. As examination time approaches, the students prepare for the upcoming tests, with [Anne](../character/anne-shirley.md) reflecting philosophically on her efforts and future.
+>
+> — v1 · CHAPTER XXXV. The Winter at Queen’s
+
+_Sources: [v1 CHAPTER XXXV. The Winter at Queen’s P4](../source/v01-c35.md#nw-v01-c35-p0004), [v1 CHAPTER XXXV. The Winter at Queen’s P5](../source/v01-c35.md#nw-v01-c35-p0005), [v1 CHAPTER XXXV. The Winter at Queen’s P7](../source/v01-c35.md#nw-v01-c35-p0007), [v1 CHAPTER XXXV. The Winter at Queen’s P11](../source/v01-c35.md#nw-v01-c35-p0011)_
+
+> [Anne](../character/anne-shirley.md) and [Priscilla](../character/priscilla-grant.md) settle into college life at [Redmond](../codex/places.md#redmond-college) as their freshman class wins the annual Arts Rush under [Gilbert](../character/gilbert-blythe.md) Blythe's leadership. [Philippa Gordon](../character/phil-gordon.md) quickly adopts [Anne](../character/anne-shirley.md) and [Priscilla](../character/priscilla-grant.md), introducing them into Redmond's active social circle. [Anne](../character/anne-shirley.md) receives a bundle of letters from home—including updates from [Jane](../character/jane-andrews.md), Ruby, [Diana](../character/diana-barry.md), [Marilla](../character/marilla-cuthbert.md), Mrs. [Lynde](../character/rachel-lynde.md), and [Davy](../character/davy-keith.md)—which helps connect her old life in [Avonlea](../codex/places.md#avonlea) to her new life in [Kingsport](../codex/places.md#kingsport).
+>
+> — v3 · Chapter V Letters from Home
+
+_Sources: [v3 ch.Home P0](../source/v03-c05.md#nw-v03-c05-p0000), [v3 ch.Home P2](../source/v03-c05.md#nw-v03-c05-p0002), [v3 ch.Home P7](../source/v03-c05.md#nw-v03-c05-p0007)_

@@ -1,0 +1,117 @@
+---
+entity_id: belinda
+canonical: Belinda
+type: CHARACTER
+aliases:
+- Belinda the Fourth
+- Leonora
+upto_vol: 4
+categories: []
+first_vol: 2
+---
+
+# Belinda
+
+## Overview
+
+- **Age:** fourteen  <sub>[v2 XXI Sweet Miss Rosalind P76](../source/v02-c21.md#nw-v02-c21-p0076)</sub>
+- **Gender:** female  <sub>[v2 XXI Sweet Miss Rosalind P61](../source/v02-c21.md#nw-v02-c21-p0061), [v3 ch.Revelation P0](../source/v03-c40.md#nw-v03-c40-p0000), [v4 CHAPTER 3 THE LAND OF DREAMS AMONG P37](../source/v04-c03.md#nw-v04-c03-p0037)</sub>
+- **Nicknames:** Belinda the Fourth  <sub>[v2 XXI Sweet Miss Rosalind P76](../source/v02-c21.md#nw-v02-c21-p0076), [v2 XXVIII The Prince Comes Back to the Enchanted Palace P47](../source/v02-c28.md#nw-v02-c28-p0047), [v2 XXX A Wedding at the Stone House P3](../source/v02-c30.md#nw-v02-c30-p0003), [v3 ch.People P1](../source/v03-c23.md#nw-v03-c23-p0001), [v4 CHAPTER 3 THE LAND OF DREAMS AMONG P9](../source/v04-c03.md#nw-v04-c03-p0009), [v4 CHAPTER 3 THE LAND OF DREAMS AMONG P37](../source/v04-c03.md#nw-v04-c03-p0037)</sub>
+- **Role:** handmaiden  <sub>[v2 XXVIII The Prince Comes Back to the Enchanted Palace P56](../source/v02-c28.md#nw-v02-c28-p0056)</sub>
+- **Status:** alive  _(assumed)_
+
+## Appearance
+
+Belinda has freckles on her face and a snub nose.
+
+_Sources: [v3 ch.People P7](../source/v03-c23.md#nw-v03-c23-p0007)_
+
+## Personality
+
+Belinda is an obedient and agreeable individual who warmly welcomes others with a broad grin, readily complying with her mistress's requests while holding those around her dear. Despite her generally joyful and hearty demeanor, she suffers from intense homesickness and strongly dislikes [Boston](../codex/places.md#boston).
+
+_Sources: [v2 XXI Sweet Miss Rosalind P73](../source/v02-c21.md#nw-v02-c21-p0073), [v2 XXIII Miss Rosalind’s Romance P3](../source/v02-c23.md#nw-v02-c23-p0003), [v2 XXVIII The Prince Comes Back to the Enchanted Palace P18](../source/v02-c28.md#nw-v02-c28-p0018), [v3 ch.Again P48](../source/v03-c07.md#nw-v03-c07-p0048)_
+
+## Traits
+
+- joyful  <sub>[v2 XXVIII The Prince Comes Back to the Enchanted Palace P18](../source/v02-c28.md#nw-v02-c28-p0018)</sub>
+- obedient and agreeable  <sub>[v2 XXI Sweet Miss Rosalind P73](../source/v02-c21.md#nw-v02-c21-p0073)</sub>
+- welcoming  <sub>[v2 XXIII Miss Rosalind’s Romance P3](../source/v02-c23.md#nw-v02-c23-p0003)</sub>
+- homesick (since v3)  <sub>[v3 ch.Again P48](../source/v03-c07.md#nw-v03-c07-p0048)</sub>
+
+## Abilities
+
+_Not yet known._
+
+## Goals
+
+_Not yet known._
+
+## History
+
+Belinda worked as a young helper for Miss Rosalind [Penrose](../character/rosalind-penrose.md) at [Echo Cottage](../codex/places.md#echo-cottage). While picking strawberries, she expressed her concern to [Nell](../character/nell-harcourt.md) regarding Rosalind's declining health and melancholic mood. She was later delighted when [Stephen Stanhope](../character/stephen-stanhope.md) arrived and embraced [Rosalind](../character/rosalind-penrose.md) in the garden as a lover. Belinda was eventually reunited with [Nell](../character/nell-harcourt.md) during a summer in [Brierley](../codex/places.md#brierley) and later attended [Nell](../character/nell-harcourt.md) and Hugh's wedding at [Grey Shutters](../codex/places.md#grey-shutters).
+
+_Sources: [v2 XXI Sweet Miss Rosalind P49](../source/v02-c21.md#nw-v02-c21-p0049), [v2 XXI Sweet Miss Rosalind P53](../source/v02-c21.md#nw-v02-c21-p0053), [v2 XXI Sweet Miss Rosalind P76](../source/v02-c21.md#nw-v02-c21-p0076), [v2 XXI Sweet Miss Rosalind P84](../source/v02-c21.md#nw-v02-c21-p0084), [v2 XXVII An Afternoon at the Stone House P43](../source/v02-c27.md#nw-v02-c27-p0043), [v2 XXVII An Afternoon at the Stone House P44](../source/v02-c27.md#nw-v02-c27-p0044), +14 more_
+
+## Background by volume
+
+_Not yet known._
+
+## Quotes
+
+> "I stole a glance through the kitchen window . . . and he is remarkably handsome . . . and precisely the proper age for Miss Rosalind. And oh, Miss Harcourt, ma’am, do you suppose there would be any great harm in eavesdropping at the door?"
+>
+> — Belinda — [v2 XXVIII The Prince Comes Back to the Enchanted Palace P65](../source/v02-c28.md#nw-v02-c28-p0065)
+
+> "but there’s so much to do yet . . . and oh, Miss Harcourt, ma’am, I’m skeered it’s going to rain and I wish you’d get up and tell me you think it ain’t."
+>
+> — Belinda — [v2 XXX A Wedding at the Stone House P19](../source/v02-c30.md#nw-v02-c30-p0019)
+
+> "Indeed, ma’am. Step inside, ma’am. I shall inform Miss Rosalind of your arrival, ma’am. Her ladyship is on the upper floor, ma’am."
+>
+> — Belinda — [v2 XXI Sweet Miss Rosalind P40](../source/v02-c21.md#nw-v02-c21-p0040)
+
+> "There is no poetry in a wedding. My goodness, Miss Harcourt, ma’am, tears are falling from your eyes! For what reason?"
+>
+> — Belinda — [v2 XXVIII The Prince Comes Back to the Enchanted Palace P74](../source/v02-c28.md#nw-v02-c28-p0074)
+
+> "Miss Harcourt, ma’am, you don’t suppose my speech sounds like a Yankee accent, do you?"
+>
+> — Belinda — [v3 ch.People P8](../source/v03-c23.md#nw-v03-c23-p0008)
+
+## Affiliations
+
+_None known yet._
+
+## Relationships
+
+### [Harcourt](../character/harcourt.md) · [the relationship](../relationships/belinda--harcourt.md)
+
+Belinda and [Harcourt](../character/harcourt.md) are close friends who reside in the same household. During a summer spent in [Brierley](../codex/places.md#brierley), they catch up following the return of several friends.
+
+_Sources: [v2 XXVIII The Prince Comes Back to the Enchanted Palace P48](../source/v02-c28.md#nw-v02-c28-p0048), [v3 ch.People P0](../source/v03-c23.md#nw-v03-c23-p0000), [v3 ch.People P11](../source/v03-c23.md#nw-v03-c23-p0011), +2 more_
+
+- Friend of — close friends residing in the same household  <sub>[v2 XXVIII The Prince Comes Back to the Enchanted Palace P48](../source/v02-c28.md#nw-v02-c28-p0048)</sub>
+
+### [Nell Harcourt](../character/nell-harcourt.md) · [the relationship](../relationships/belinda--nell-harcourt.md)
+
+Belinda and [Nell Harcourt](../character/nell-harcourt.md) are close friends who first met when [Nell](../character/nell-harcourt.md) stumbled upon [Echo Cottage](../codex/places.md#echo-cottage) and was invited inside for tea by Miss Rosalind [Penrose](../character/rosalind-penrose.md). Belinda works as Miss Rosalind's young helper, and she later confides her worries to [Nell](../character/nell-harcourt.md) regarding Miss Rosalind's declining health and melancholic mood. Together, they take delight in watching Miss Rosalind reunite with her lover, and they subsequently work together to assist with the preparations for Miss Rosalind's garden wedding.
+
+_Sources: [v2 XXI Sweet Miss Rosalind P0](../source/v02-c21.md#nw-v02-c21-p0000), [v2 XXI Sweet Miss Rosalind P7](../source/v02-c21.md#nw-v02-c21-p0007), [v2 XXI Sweet Miss Rosalind P16](../source/v02-c21.md#nw-v02-c21-p0016), +8 more_
+
+- Friend of — close friends  <sub>[v2 XXVIII The Prince Comes Back to the Enchanted Palace P48](../source/v02-c28.md#nw-v02-c28-p0048), [v3 ch.Revelation P0](../source/v03-c40.md#nw-v03-c40-p0000), [v4 CHAPTER 3 THE LAND OF DREAMS AMONG P9](../source/v04-c03.md#nw-v04-c03-p0009), +1 more</sub>
+
+### Organisations & places
+
+- [Brendan’s Island](../codex/places.md#brendan-s-island) — From (since v3)  <sub>[v3 ch.People P10](../source/v03-c23.md#nw-v03-c23-p0010)</sub>
+
+## Related
+
+- [Rosalind Penrose](../character/rosalind-penrose.md) — 9 shared scenes
+- [Hugh Carrow](../character/hugh-carrow.md) — 3 shared scenes
+- [Carrow](../character/carrow.md) — 1 shared scene
+- [Cedric Stanhope](../character/cedric-stanhope.md) — 6 shared scenes
+
+## Appearances
+
+Volumes 2-3

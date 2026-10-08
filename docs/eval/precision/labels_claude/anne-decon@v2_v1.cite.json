@@ -1,0 +1,21 @@
+{
+ "0": "S", "1": "S", "4": "S", "5": "S", "6": "S", "8": "S", "9": "S", "10": "S", "12": "S", "14": "S", "18": "S",
+ "20": "S", "25": "S", "29": "S", "33": "S", "35": "S", "38": "S",
+ "2": ["I", "the statement is false; the cited v01:c33:p0039 itself names Mrs. Evans"],
+ "3": ["I", "the cited paragraphs give Obed as Conservative; the Grits are not in them"],
+ "7": ["I", "the island and the brook around it are in v01:c20:p0010, which is not cited"],
+ "11": ["I", "the cited paragraphs show her sternness and her moralising, not her care for the girl"],
+ "15": ["I", "the cited paragraphs are the evening of the arrival (v01:c03); no gift is in them"],
+ "13": ["P", "Obed brings her in and she is given the east gable room (v01:c03:p0000, p0039); that he lives there is left to infer"],
+ "22": ["P", "the shop visit and the recourse to Mrs. Sowerby are cited (v01:c25:p0008, p0025); his embarrassment is not"],
+ "23": ["P", "the liniment cake is cited (v01:c21:p0043); Mrs. Wace coming to comfort her (p0050) is not"],
+ "27": ["P", "he walks with her and carries her bag (v01:c35:p0001); home from school is not said"],
+ "28": ["P", "he rows up in the dory as her arms give out (v01:c28:p0023); taking her off the pile is not cited"],
+ "30": ["P", "the doctor sends a message (v01:c31:p0000); its content is in the next paragraph, not cited"],
+ "31": ["P", "the concert and the leap onto the spare-room bed are cited (v01:c19:p0039, p0048); the late return is left to infer"],
+ "32": ["P", "she says young women of her day never did so (v01:c19:p0085); not a statement about her own youth"],
+ "34": ["P", "Hugh offers to walk her home (v01:c38:p0055); her coming in to Thirza (p0056) is not cited"],
+ "36": ["P", "Agatha speaks to Thirza (v01:c30:p0043); that this is a visit to Grey Shutters is not in the cited paragraphs"],
+ "37": ["P", "the quarrel and her regret are cited (v01:c37:p0040); that he was her beau (p0037) is not"],
+ "39": ["P", "the leak and her aching arms are cited (v01:c28:p0018, p0023); the pile she holds to is not named in them"]
+}

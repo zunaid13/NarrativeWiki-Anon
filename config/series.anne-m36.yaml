@@ -1,0 +1,22 @@
+# [33] 2026-09-28 model trial (docs/vision/PHASE_33.md): Anne built from the same corpus, v1 only, all
+# generative stages on one model. Scored against Anne's gold via `gold_from`. Development data.
+gold_from: anne
+# Phase 31 HEADLINE corpus (PHASE_31 2026-09-26): L. M. Montgomery's six public-domain Anne books,
+# in publication order, which is also story order (the later-written Windy Poplars, 1936, and
+# Ingleside, 1939, fall between v03/v04 and v04/v05 in story time and are not public domain).
+#   45 Anne of Green Gables · 47 Anne of Avonlea · 51 Anne of the Island
+#   544 Anne's House of Dreams · 5343 Rainbow Valley · 3796 Rilla of Ingleside
+#   curl -L -o corpus/anne/anne-vNN.epub https://www.gutenberg.org/ebooks/<id>.epub3.images
+series:
+  id: "anne-m36"
+  title: "Anne of Green Gables series (model trial, gemini-3.6-flash)"
+source:
+  dir: "corpus/anne"
+epub:
+  drop_chapter_titles: ["^The Project Gutenberg eBook", "^THE FULL PROJECT GUTENBERG", "^Contents$", "^CONTENTS$"]
+  # #544 and #3796 put ~12 chapters in one XHTML file under <h3> (number and title as two
+  # consecutive <h3>s). The other four books use one file per chapter and have no <h3>.
+  heading_tags: ["h2", "h3"]
+  split_within_documents: ["h3"]
+site:
+  default_upto: 6

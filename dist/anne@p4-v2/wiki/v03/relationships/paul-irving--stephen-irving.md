@@ -1,0 +1,3 @@
+# Paul Irving & Stephen Irving
+
+- [Paul Irving](../character/paul-irving.md) — Child of — [Stephen Irving](../character/stephen-irving.md) — father · since v2  <sub>[v2 I An Irate Neighbor P45](../source/v02-c01.md#nw-v02-c01-p0045), [v2 XV The Beginning of Vacation P8](../source/v02-c15.md#nw-v02-c15-p0008), [v2 XXIII Miss Lavendar’s Romance P27](../source/v02-c23.md#nw-v02-c23-p0027), +1 more</sub>

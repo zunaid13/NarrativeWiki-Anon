@@ -1,0 +1,105 @@
+anne t=2 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne t=2: 40/46 -> 39/46
+anne t=3 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne t=3: 58/66 -> 57/66
+anne t=4 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne t=4: 77/89 -> 76/89
+anne t=5 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne t=5: 94/111 -> 93/111
+anne-decon@b2 t=2 no->yes | Rachel Lynde says Anne's hair is as red as c | rachel-lynde: After making blunt comments about Anne's freckles and red hair that caused a dramatic outburst, Anne was forced by Marilla to deliver a grand apology, which Rachel accepted warmly, offering the girl flowers from her garden.
+== anne-decon@b2 t=2: 35/46 -> 36/46
+anne-decon@b2 t=3 no->yes | Rachel Lynde says Anne's hair is as red as c | rachel-lynde: Soon after Anne's arrival, Rachel visited Green Gables and made frank remarks about Anne's red hair and freckles, sparking an outburst from the girl for which Anne later apologized.
+== anne-decon@b2 t=3: 47/66 -> 48/66
+anne-decon@b2 t=5 yes->no | Walter hates Dan Reese | 
+== anne-decon@b2 t=5: 86/111 -> 85/111
+anne-decon@b4-v2 t=1 no->yes | Rachel Lynde says Anne's hair is as red as c | rachel-lynde: Lynde visited after recovering from influenza and made sharp remarks about Anne's plain appearance and red hair, provoking a passionate outburst from the young girl.
+== anne-decon@b4-v2 t=1: 14/23 -> 15/23
+anne-decon@b4-v2 t=3 no->yes | Rachel Lynde says Anne's hair is as red as c | rachel-lynde: When orphan Anne Shirley arrived at Green Gables, Rachel visited and made blunt comments about Anne's red hair and freckles, causing Anne to lose her temper at her; after Anne apologized, Rachel readily forgave her.
+== anne-decon@b4-v2 t=3: 49/66 -> 50/66
+anne-decon@b4-v2 t=4 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne-decon@b4-v2 t=4: 60/89 -> 59/89
+anne-decon@b4-v2 t=5 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne-decon@b4-v2 t=5: 87/111 -> 86/111
+anne-decon@v2 t=3 no->yes | Rachel Lynde says Anne's hair is as red as c | rachel-lynde: Rachel initially established an antagonistic relationship with Anne when she visited Green Gables and mocked the young girl's plain appearance and red hair, causing Anne to lose her temper.
+== anne-decon@v2 t=3: 55/66 -> 56/66
+anne-decon@v2 t=4 no->yes | Rachel Lynde says Anne's hair is as red as c | rachel-lynde: Rachel initially got off to a hostile start with Anne after rudely mocking the girl's plain appearance and red hair, provoking Anne into a violent temper.
+== anne-decon@v2 t=4: 74/89 -> 75/89
+anne-decon@v2 t=5 no->yes | Rachel Lynde says Anne's hair is as red as c | rachel-lynde: Rachel later visited Green Gables and mocked the plain appearance and red hair of the adopted girl, Anne, provoking a violent outburst; however, she forgave Anne when the girl delivered a humble apology.
+anne-decon@v2 t=5 yes->no | Carl Meredith collects toads, bugs and frogs | 
+anne@b1 t=2 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne@b1 t=2: 41/46 -> 40/46
+anne@b1 t=3 yes->no | Marilla urges Anne to go on to Redmond | 
+anne@b1 t=3 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@b1 t=3: 56/66 -> 54/66
+anne@b1 t=4 yes->no | Captain Jim tells Anne about lost Margaret | 
+anne@b1 t=4 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@b1 t=4: 77/89 -> 75/89
+anne@b1 t=5 yes->no | Marilla urges Anne to go on to Redmond | 
+anne@b1 t=5 yes->no | Walter hates Dan Reese | 
+anne@b1 t=5 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne@b1 t=5: 96/111 -> 93/111
+anne@b2 t=5 no->yes | Anne has two braids of very thick red hair a | In her youth, she was skinny with freckles, a small pointed chin, and prominent red braids that she once accidentally dyed green. || As she matures into adulthood, her gray-green eyes retain their sparkle, and her hair remains bright and long.
+anne@b2 t=5 yes->no | Walter hates Dan Reese | 
+anne@b3 t=2 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne@b3 t=2: 30/46 -> 29/46
+anne@b3 t=4 yes->no | Marilla urges Anne to go on to Redmond | 
+anne@b3 t=4 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne@b3 t=4: 56/89 -> 54/89
+anne@b3 t=5 yes->no | Marilla urges Anne to go on to Redmond | 
+anne@b3 t=5 yes->no | Walter hates Dan Reese | 
+anne@b3 t=5 yes->no | Captain Jim tells Anne about lost Margaret | 
+anne@b3 t=5 yes->no | Carl Meredith collects toads, bugs and frogs | 
+== anne@b3 t=5: 70/111 -> 66/111
+anne@b4 t=2 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@b4 t=2: 30/46 -> 29/46
+anne@b4 t=4 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne@b4 t=4: 68/89 -> 67/89
+anne@b4 t=5 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne@b4 t=5: 83/111 -> 82/111
+anne@b4-v2 t=4 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne@b4-v2 t=4: 71/89 -> 70/89
+anne@b4-v2 t=5 yes->no | Walter hates Dan Reese | 
+anne@b4-v2 t=5 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne@b4-v2 t=5: 84/111 -> 82/111
+anne@p2 t=2 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne@p2 t=2: 38/46 -> 37/46
+anne@p3 t=3 yes->no | Marilla urges Anne to go on to Redmond | 
+== anne@p3 t=3: 57/66 -> 56/66
+anne@v2 t=2 no->yes | Rachel Lynde says Anne's hair is as red as c | anne-shirley: Lynde rudely criticized Anne's red hair and physical appearance, sparking a fiery outburst from Anne.
+== anne@v2 t=2: 34/46 -> 35/46
+anne@v2 t=3 no->yes | Rachel Lynde says Anne's hair is as red as c | anne-shirley: Rachel Lynde and Anne began in open conflict after Rachel criticized Anne's red hair, provoking a dramatic outburst from Anne.
+== anne@v2 t=3: 52/66 -> 53/66
+anne@v2 t=4 no->yes | Anne has two braids of very thick red hair a | Her famous red hair, also called auburn or Titian, has been worn in long braids, closely shingled, as short silky curls, and adorned with loosened rings around her neck and forehead. || Her prominent eyes are large and variously described as solemn, gray-green, or luminous gray.
+anne@v2 t=4 no->yes | Rachel Lynde says Anne's hair is as red as c | anne-shirley: Rachel Lynde's relationship with Anne begins with open hostility after she bluntly criticizes Anne's red hair and appearance, causing Anne to fly into a rage [R22, S48].
+== anne@v2 t=4: 71/89 -> 73/89
+anne@v2 t=5 no->yes | Anne has two braids of very thick red hair a | Her hair, which is famously red, has been worn in long braids, shingled closely, and cut into short silky curls. || She has big, luminous gray eyes that are sometimes characterized as gray-green, set against cheeks that faint flushed with pink.
+anne@v2 t=5 no->yes | Rachel Lynde says Anne's hair is as red as c | anne-shirley: Rachel Lynde starts out as an outspoken neighbor who sparks open hostility with Anne by criticizing her red hair.
+== anne@v2 t=5: 87/111 -> 89/111
+anne@x1 t=2 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@x1 t=2: 31/46 -> 30/46
+anne@x1 t=3 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@x1 t=3: 44/66 -> 43/66
+anne@x1 t=4 yes->no | Captain Jim tells Anne about lost Margaret | 
+== anne@x1 t=4: 60/89 -> 59/89
+anne@x1 t=5 yes->no | Captain Jim tells Anne about lost Margaret | 
+anne@x1 t=5 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@x1 t=5: 71/111 -> 69/111
+anne@x2 t=2 no->yes | Anne sells Mr. Harrison's Jersey cow to Mr.  | listed
+anne@x2 t=2 yes->no | Marilla urges Anne to go on to Redmond | 
+anne@x2 t=2 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@x2 t=2: 36/46 -> 35/46
+anne@x2 t=3 yes->no | Marilla urges Anne to go on to Redmond | 
+anne@x2 t=3 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@x2 t=3: 55/66 -> 53/66
+anne@x2 t=4 no->yes | Anne has two braids of very thick red hair a | Anne is a tall, slender woman with a pale, flower-like complexion, luminous gray-green eyes, and thick, glossy auburn hair worn in soft curls or braids. || Anne is a tall, slender woman with a pale, flower-like complexion, luminous gray-green eyes, and thick, glossy auburn hair worn in soft curls or
+anne@x2 t=4 yes->no | Captain Jim tells Anne about lost Margaret | 
+anne@x2 t=4 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+== anne@x2 t=4: 76/89 -> 75/89
+anne@x2 t=5 yes->no | Marilla urges Anne to go on to Redmond | 
+anne@x2 t=5 yes->no | Walter hates Dan Reese | 
+anne@x2 t=5 yes->no | Captain Jim tells Anne about lost Margaret | 
+anne@x2 t=5 yes->no | Rachel Lynde says Anne's hair is as red as c | 
+anne@x2 t=5 yes->no | Carl Meredith collects toads, bugs and frogs | 
+== anne@x2 t=5: 93/111 -> 88/111
+== anne-decon@v2 t=5: 92/111 -> 92/111
+== anne@b2 t=5: 96/111 -> 96/111

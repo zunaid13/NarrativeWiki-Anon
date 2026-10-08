@@ -1,0 +1,12 @@
+{
+ "1": "S", "3": "S", "4": "S", "5": "S", "6": "S", "7": "S", "9": "S", "11": "S", "12": "S", "13": "S", "14": "S",
+ "15": "S", "16": "S", "17": "S", "19": "S", "20": "S", "22": "S", "23": "S", "24": "S", "26": "S", "27": "S",
+ "28": "S", "29": "S", "30": "S", "31": "S", "32": "S", "33": "S", "34": "S", "35": "S", "36": "S", "37": "S",
+ "38": "S",
+ "0": ["P", "the baby and his mother are cited (v04:c36); that Hugh is his father is not in a cited paragraph"],
+ "2": ["P", "'her being my sister' is cited (v02:c19:p0041); that they are twins is not"],
+ "8": ["I", "her strictness is cited (v01:c08:p0007); no disapproval of make-believe is"],
+ "10": ["I", "the paragraph on the Friday recitations (v01:c23:p0041) is not among the five cited"],
+ "18": ["I", "the cited paragraphs have him smirking and grinning (v01:c33:p0029, v03:c08:p0006); the expressionless face is v01:c33:p0028"],
+ "21": ["I", "the algebra paragraph (v01:c15:p0031) is not among the twelve cited"]
+}

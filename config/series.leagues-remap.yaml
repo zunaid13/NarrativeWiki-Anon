@@ -1,0 +1,47 @@
+# Phase 31: the REMAP-ONLY ablation of config/series.leagues.yaml -- names replaced, wording
+# untouched, which is what WHODUNIT and InfiniteBench do. Built for $0 by
+#   wiki decontaminate --series leagues-remap --volumes 1-2
+# The entity_map must stay identical to series.leagues-decon.yaml's (tests/test_decontaminate.py).
+# `wiki ingest` refuses this series on purpose.
+# The title is neutral: a series title can reach prompts, and the real one names the book.
+series:
+  id: "leagues-remap"
+  title: "Corpus L (names only)"
+source:
+  dir: "corpus/leagues"          # only used to count volumes; the text never comes from here
+  volume_breaks: ["^PART TWO"]
+decontaminate:
+  from_series: "leagues"
+  paraphrase: false               # names remapped, wording untouched
+  # Title-ID scoring (probe/memorization.py): `title` = named the book, `author` = named at
+  # least the author (answers like "The Mysterious Island, Jules Verne" count only here).
+  recognize:
+    title: ["twenty thousand leagues", "20,000 leagues", "20000 leagues"]
+    author: ["verne"]
+  # Hand-reviewed. Fictional people, ships, the vessel, its motto and invented places only.
+  # Real geography and historical people (La Pérouse, Dumont d'Urville, Maury, Lesseps) are
+  # facts of the story and stay. Every key also matches its UPPER-CASE form; longest key wins.
+  # Bare "Land" is NOT mapped (it is an English noun); "Ned Land" and "Master Land" are.
+  entity_map:
+    "Captain Nemo": "Captain Sorel"
+    "Nemo": "Sorel"
+    "Nautilus": "Meridian"
+    "Pierre Aronnax": "Étienne Delorme"
+    "Aronnax": "Delorme"
+    "Pierre": "Étienne"
+    "Conseil": "Baptiste"
+    "Ned Land": "Tom Harlan"
+    "Master Land": "Master Harlan"
+    "Ned": "Tom"
+    "Abraham Lincoln": "Evangeline"
+    "Farragut": "Hallett"
+    "Hobson": "Pruitt"
+    "Scotia": "Caledon"
+    "Governor Higginson": "Governor Ashby"
+    "Moravian": "Laurentian"
+    "Helvetia": "Albion"
+    "Shannon": "Tamar"
+    "Captain Anderson": "Captain Mercer"
+    "Mobilis in Mobili": "Semper in Motu"
+    "MOBILIS IN MOBILI": "SEMPER IN MOTU"
+    "Crespo": "Carrizo"

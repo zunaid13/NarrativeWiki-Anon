@@ -1,0 +1,3 @@
+# Grandma Irving & Paul Irving
+
+- [Grandma Irving](../character/grandma-irving.md) — Relative of — [Paul Irving](../character/paul-irving.md) — grandmother · since v2  <sub>[v2 XIX Just a Happy Day P3](../source/v02-c19.md#nw-v02-c19-p0003), [v2 XXVI Around the Bend P34](../source/v02-c26.md#nw-v02-c26-p0034), [v2 XXVII An Afternoon at the Stone House P24](../source/v02-c27.md#nw-v02-c27-p0024), +1 more</sub>

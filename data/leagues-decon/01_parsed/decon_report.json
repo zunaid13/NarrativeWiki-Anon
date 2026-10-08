@@ -1,0 +1,22 @@
+{
+  "v01": {
+    "n_paragraphs": 1170,
+    "paraphrased": 1165,
+    "remap_only": 5,
+    "identical_to_source": 8,
+    "words_source": 48542,
+    "words_derived": 49140,
+    "residual_name_paragraphs": 0,
+    "residual_names": {}
+  },
+  "v02": {
+    "n_paragraphs": 1136,
+    "paraphrased": 1131,
+    "remap_only": 5,
+    "identical_to_source": 7,
+    "words_source": 55518,
+    "words_derived": 56038,
+    "residual_name_paragraphs": 0,
+    "residual_names": {}
+  }
+}

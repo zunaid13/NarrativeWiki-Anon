@@ -1,0 +1,22 @@
+% T1: the evaluated corpus by volume, with gold counts by cutoff.
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}clrrrrr@{}}
+\toprule
+$t$ & Book & Par. & Words & Ch. & $|\Gt|$ & $|\Ft|$ \\
+\midrule
+1 & \emph{Anne of Green Gables} & \res{T1-anne-v1-par} & \res{T1-anne-v1-words} & \res{T1-anne-v1-ch} & \res{T1-anne-gold-t1} & \res{T1-anne-future-t1} \\
+2 & \emph{Anne of Avonlea} & \res{T1-anne-v2-par} & \res{T1-anne-v2-words} & \res{T1-anne-v2-ch} & \res{T1-anne-gold-t2} & \res{T1-anne-future-t2} \\
+3 & \emph{Anne of the Island} & \res{T1-anne-v3-par} & \res{T1-anne-v3-words} & \res{T1-anne-v3-ch} & \res{T1-anne-gold-t3} & \res{T1-anne-future-t3} \\
+4 & \emph{Anne's House of Dreams} & \res{T1-anne-v4-par} & \res{T1-anne-v4-words} & \res{T1-anne-v4-ch} & \res{T1-anne-gold-t4} & \res{T1-anne-future-t4} \\
+5 & \emph{Rainbow Valley} & \res{T1-anne-v5-par} & \res{T1-anne-v5-words} & \res{T1-anne-v5-ch} & \res{T1-anne-gold-t5} & \res{T1-anne-future-t5} \\
+\midrule
+ & Total & \best{\res{T1-anne-paras}} & \best{\res{T1-anne-words}} & \best{\res{T1-anne-chapters}} & & \\
+\bottomrule
+\end{tabular}
+\caption{The evaluated corpus. Paragraphs, words and chapters are per volume; $|\Gt|$ is the
+number of gold facts eligible at cutoff $t$ and $|\Ft|$ the number of later facts assessed for
+disclosure at $t$.}
+\label{tab:corpus}
+\end{table}

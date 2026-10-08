@@ -1,0 +1,29 @@
+{
+ "series": "anne-m36",
+ "rows": [
+  {
+   "t": 1,
+   "future_only_vocabulary": 0,
+   "cutoff": {
+    "files": 120,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 123,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 120,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  }
+ ]
+}

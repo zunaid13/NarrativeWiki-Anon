@@ -1,0 +1,388 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Community attendance and kindness after Matthew's death are explicit in v01:c37:p0010; the cited subset omits them. Anne and Matthew participate in the collapse scene.",
+    [
+      "v01:c37:p0010"
+    ]
+  ],
+  "1": [
+    "unsupported",
+    "supported",
+    "insufficient",
+    "Anne longs for school in v01:c23:p0041. Stacy is only discussed as the new teacher while Anne is absent; this is not their shared scene.",
+    [
+      "v01:c23:p0041"
+    ]
+  ],
+  "2": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The planned shared buggy trip is followed by Jane and Billy arriving to collect Anne and Diana.",
+    [
+      "v01:c33:p0006",
+      "v01:c33:p0027"
+    ]
+  ],
+  "3": [
+    "supported",
+    "supported",
+    "partial",
+    "The drive is explicit in v01:c33:p0029, with all four named in p0006. The cited p0028 identifies Billy and Anne but leaves the girls unnamed.",
+    [
+      "v01:c33:p0006",
+      "v01:c33:p0029"
+    ]
+  ],
+  "4": [
+    "partial",
+    "partial",
+    "none",
+    "Matthew shrinks from Anne's disappointment, but explicitly expects Marilla to tell her. The atom overstates his own obligation to announce the mistake.",
+    [
+      "v01:c02:p0074"
+    ]
+  ],
+  "5": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne expresses gratitude and joy on passing; Marilla and Rachel actively respond together at the lane fence.",
+    [
+      "v01:c32:p0043",
+      "v01:c32:p0044",
+      "v01:c32:p0045"
+    ]
+  ],
+  "6": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Matthew requests Rachel's help, but Anne is absent from that conversation and Rachel is absent from the Christmas presentation. Misplaced as an Anne/Rachel shared scene.",
+    [
+      "v01:c25:p0024",
+      "v01:c25:p0025",
+      "v01:c25:p0032"
+    ]
+  ],
+  "7": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Stacy's proposal is explicit. Anne and Jane subsequently join the class in the summarized chapter.",
+    [
+      "v01:c30:p0014",
+      "v01:c30:p0020"
+    ]
+  ],
+  "8": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The dramatic apology supports theatrical behavior; Marilla and Rachel both participate in the apology visit.",
+    [
+      "v01:c10:p0030",
+      "v01:c10:p0034",
+      "v01:c10:p0050"
+    ]
+  ],
+  "9": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Community mourning is supported by p0010 rather than the citations. Anne and Marilla are both active in the collapse and grief scenes.",
+    [
+      "v01:c37:p0010",
+      "v01:c37:p0020"
+    ]
+  ],
+  "10": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly calls Titian a very famous artist in the cited passage.",
+    [
+      "v01:c33:p0044"
+    ]
+  ],
+  "11": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Anne learns of Allan's arrival, but Minnie is only mentioned as a model pupil in recollection of the farewell. The minister/tea episode does not feature Minnie and Phillips acting together.",
+    [
+      "v01:c21:p0002",
+      "v01:c21:p0006"
+    ]
+  ],
+  "12": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The cited account says little girls are worse than women for Matthew; Marilla explicitly describes his mortal dread in v01:c06:p0037.",
+    [
+      "v01:c02:p0027",
+      "v01:c06:p0037"
+    ]
+  ],
+  "13": [
+    "supported",
+    "supported",
+    "sufficient",
+    "p0039 describes introductions and compliments, with Diana and Anne participating in the supper and return drive.",
+    [
+      "v01:c33:p0039"
+    ]
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "sufficient",
+    "His enjoyment of listening is explicit in p0027; Anne calls him a sympathetic listener in p0006 of chapter13.",
+    [
+      "v01:c02:p0027",
+      "v01:c13:p0006"
+    ]
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Jane is identified among Anne's schoolmates in v01:c15:p0013. Borrowing a book and Josie's dare do not establish shared school attendance.",
+    [
+      "v01:c15:p0013"
+    ]
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Marilla explicitly says Nova Scotia is right close to the Island in p0027; the citations stop before that statement.",
+    [
+      "v01:c01:p0027"
+    ]
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "none",
+    "The unit identifies Mrs. Barry, whose apology and renewed permission for friendship are explicit; shortened surname does not change the subject.",
+    [
+      "v01:c18:p0043"
+    ]
+  ],
+  "18": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel observes Matthew's unusual departure and investigates at Green Gables, supporting close scrutiny of the household.",
+    [
+      "v01:c01:p0003",
+      "v01:c01:p0006"
+    ]
+  ],
+  "19": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The girls leap onto Josephine's occupied bed, awakening her; both Anne and Josephine act in this episode.",
+    [
+      "v01:c19:p0048",
+      "v01:c19:p0052"
+    ]
+  ],
+  "20": [
+    "partial",
+    "partial",
+    "partial",
+    "The citation establishes cheerfulness at one dismal meal, but not an enduring reputation for a cheerful disposition.",
+    [
+      "v01:c14:p0054"
+    ]
+  ],
+  "21": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly calls Gilbert a clever young fellow.",
+    [
+      "v01:c35:p0003"
+    ]
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne tells Marilla the charge and Marilla investigates and replies; both participate.",
+    [
+      "v01:c16:p0042",
+      "v01:c16:p0046",
+      "v01:c16:p0057"
+    ]
+  ],
+  "23": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Marilla explicitly tells Rachel that Matthew went to Bright River during their conversation.",
+    [
+      "v01:c01:p0016"
+    ]
+  ],
+  "24": [
+    "supported",
+    "supported",
+    "none",
+    "The evening walk and Matthew's pride in his girl appear at the end of chapter36.",
+    [
+      "v01:c36:p0037"
+    ]
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana explicitly calls Josephine awfully prim and proper.",
+    [
+      "v01:c19:p0054"
+    ]
+  ],
+  "26": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne's grateful announcement and joyful response are explicit; Marilla responds in the same lane-fence scene.",
+    [
+      "v01:c32:p0043",
+      "v01:c32:p0045",
+      "v01:c32:p0047"
+    ]
+  ],
+  "27": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Diana's secret note is explicit, but no interaction between Diana and Gilbert occurs in this summarized episode. They participate separately with Anne.",
+    [
+      "v01:c17:p0028",
+      "v01:c17:p0036"
+    ]
+  ],
+  "28": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne offers dishes explicitly v01:c04:p0022, imaginative reverie p0020 and sympathetic/romantic talk p0026. Cites omit the offer.",
+    [
+      "v01:c04:p0020",
+      "v01:c04:p0022",
+      "v01:c04:p0026"
+    ]
+  ],
+  "29": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana describes the new teacher's fair curly hair, and the same paragraph names Miss Stacy.",
+    [
+      "v01:c23:p0041"
+    ]
+  ],
+  "30": [
+    "supported",
+    "supported",
+    "none",
+    "The Queen's class girds for the Entrance and Anne resolutely returns to studying.",
+    [
+      "v01:c31:p0010",
+      "v01:c31:p0031"
+    ]
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel explicitly contrasts Anne's punishment with other late pupils and advises Marilla; both act in their consultation.",
+    [
+      "v01:c15:p0061",
+      "v01:c15:p0089"
+    ]
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "partial",
+    "Marilla dismisses the storytelling in p0022; Diana and Jane participate in the club's readings. The cited subset omits Marilla's response.",
+    [
+      "v01:c26:p0020",
+      "v01:c26:p0021",
+      "v01:c26:p0022"
+    ]
+  ],
+  "33": [
+    "supported",
+    "supported",
+    "none",
+    "Anne's full apology is explicit in chapter10.",
+    [
+      "v01:c10:p0030"
+    ]
+  ],
+  "34": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Mr. Barry's back field is explicit in p0006, beyond the cited subset.",
+    [
+      "v01:c15:p0006"
+    ]
+  ],
+  "35": [
+    "uncertain",
+    "uncertain",
+    "none",
+    "Exact shared-scene count needs an independently defined event boundary and a full scene audit. The page reports a system count; this is not a verified novel fact.",
+    []
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "none",
+    "Matthew explicitly asks Anne to keep a little romance.",
+    [
+      "v01:c28:p0048"
+    ]
+  ],
+  "37": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne is present in the Cuthbert home and recounts being unwanted because she is not a boy.",
+    [
+      "v01:c03:p0001",
+      "v01:c03:p0008"
+    ]
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Chapter34 identifies Jane among the scholars reaching town and enrolling at Queen's; the citations concern only the earlier concert.",
+    [
+      "v01:c34:p0011"
+    ]
+  ],
+  "39": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The overnight stay follows the permission and bed incident; Anne and Rachel later discuss it directly.",
+    [
+      "v01:c19:p0048",
+      "v01:c19:p0060"
+    ]
+  ]
+}

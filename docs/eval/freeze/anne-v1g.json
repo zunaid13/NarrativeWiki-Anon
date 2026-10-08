@@ -1,0 +1,310 @@
+{
+ "commit": "940bfaee0a98e385c3afef566b811e9175a21dfb",
+ "trees": {
+  "src": "045019abbe58a0d9bba3f9589ab1bbbec2d3f432",
+  "config": "4e198f01e860871cbb6909290a75028218566785",
+  "scripts": "0151704e69ac5ba1116865ebc7d68544a66d1a1d"
+ },
+ "config_sha256": {
+  "extraction.yaml": "bd93dbf34c855aebd68aba39152f2664385220cbc46263d0ea82e8d8bcec3116",
+  "models.yaml": "bd6e8b56785d4ca0e133d9e7af0bde02e0cf6ccdbd915281397761f4b55e1fc4",
+  "series.86.yaml": "21361f050477ec70c98a389b8f1cc622bc910563b28d78eae73892e118521546",
+  "series.anne-decon.yaml": "b09a55cf586f630dbacfa2463292428c5781e182f66ca2076520904330c6a253",
+  "series.anne-m31.yaml": "dc3dba6175783b3dad70c2786efc050969cd100cb873c723246545a12c7dd7b1",
+  "series.anne-m36.yaml": "4d961a56ef55483eb9fc890321a11f273f48ff32aca7ff2f9e45d3ef6de4a4dd",
+  "series.anne-remap.yaml": "ab91949021302a8c03b077d54df4f420b0836de9d44ef216fc868e7fb8e6c222",
+  "series.anne.yaml": "836ce35ddf0f1719dee86be0a96d7c29ca813e721c8b221b681c8d587196ad6c",
+  "series.bookworm.yaml": "a00501906544668ab95877ff54c65c29b45ef09456ae222bb9f9dc147098a5f9",
+  "series.leagues-decon.yaml": "7e6ffefdc2668f3bd0a83e2fbed8186805136ab1a2baed2dd470a60cb518de7f",
+  "series.leagues-remap.yaml": "2b9ea16ba35ff30f851804e322f94e20ba1407b9dd53e7190280f7c823cd905b",
+  "series.leagues.yaml": "b605b3ba1a524676b0e78bdf08932987b22e43678b0ffed2826a3a18269bc164",
+  "series.littlewomen.yaml": "7f498942d0c514b70714412f0287a7b39aa41f90e9bb5c0f655ee0332addfc74",
+  "series.middlemarch.yaml": "873195259b459cbd55c81540325fb6b5033c49d0f6be44bed098278f188fc7d0",
+  "series.overlord.yaml": "aff1e159ed7f64054ad72870ce973a99f1f69ebaf4c63872a5aff803df10b597",
+  "series.oz.yaml": "bac4ec06c72f7ee0b48f5d4190783d2a319fc392fe2ad84a0e52851269f02d5d",
+  "series.pride.yaml": "959e391a90f5aebe9aa1e23f1b5b40a192c194cee42665b499ce44f08a2f85b6",
+  "series.probe-gutenberg.yaml": "d51d93713b054607332cb4c259e65f5b53b72c74806f2e5c2a12f9848c8679b1",
+  "series.spice-and-wolf.yaml": "2ae347b119ba369cfe9de95ddad799686bd0a847bbde0ba83a524432dca1f156"
+ },
+ "routes": {
+  "arbitrate": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "backstory_extract": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "baseline_embed": {
+   "role": "embed",
+   "provider": "ollama",
+   "model": "bge-m3:latest",
+   "price_in": 0.0,
+   "price_out": 0.0,
+   "options": {}
+  },
+  "baseline_lightrag": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "baseline_page": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "canonicalize": {
+   "role": "embed",
+   "provider": "ollama",
+   "model": "bge-m3:latest",
+   "price_in": 0.0,
+   "price_out": 0.0,
+   "options": {}
+  },
+  "claim_extract": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "codex_summary": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "decon_paraphrase": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "entity_alias": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "entity_classify": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "eval_atomize": {
+   "role": "local_fast",
+   "provider": "ollama",
+   "model": "qwen2.5:14b",
+   "price_in": 0.0,
+   "price_out": 0.0,
+   "options": {
+    "num_ctx": 16384,
+    "num_predict": 1536,
+    "repeat_penalty": 1.05,
+    "temperature": 0.1,
+    "top_p": 0.9
+   }
+  },
+  "eval_judge": {
+   "role": "local_fast",
+   "provider": "ollama",
+   "model": "qwen2.5:14b",
+   "price_in": 0.0,
+   "price_out": 0.0,
+   "options": {
+    "num_ctx": 16384,
+    "num_predict": 1536,
+    "repeat_penalty": 1.05,
+    "temperature": 0.1,
+    "top_p": 0.9
+   }
+  },
+  "eval_perturb": {
+   "role": "local_fast",
+   "provider": "ollama",
+   "model": "qwen2.5:14b",
+   "price_in": 0.0,
+   "price_out": 0.0,
+   "options": {
+    "num_ctx": 16384,
+    "num_predict": 1536,
+    "repeat_penalty": 1.05,
+    "temperature": 0.1,
+    "top_p": 0.9
+   }
+  },
+  "infobox_extract": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "parametric_page": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "probe_memorization": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "prose": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "prose_polish": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "scene_extract": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  },
+  "support": {
+   "role": "minicheck_ft5",
+   "provider": "minicheck",
+   "model": "lytang/MiniCheck-Flan-T5-Large",
+   "price_in": 0.0,
+   "price_out": 0.0,
+   "options": {
+    "cache_dir": "data/cache/models",
+    "device": "cpu",
+    "max_input_tokens": 2048,
+    "revision": "96eafd01cee2d16cf81aaa2fb226b14f422a37b3"
+   }
+  },
+  "verify": {
+   "role": "vertex_flash",
+   "provider": "google",
+   "model": "gemini-3.6-flash",
+   "price_in": 0.375,
+   "price_out": 1.875,
+   "options": {
+    "max_output_tokens": 8192,
+    "shared_request_type": "flex",
+    "temperature": 0.4,
+    "thinking_budget": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+  "series": "anne-decon",
+  "volumes": [
+    {
+      "vol": 1,
+      "title": "Corpus A, Vol. 01",
+      "isbn": null,
+      "pub_date": null,
+      "n_chapters": 38,
+      "n_paragraphs": 1788,
+      "n_words": 109987,
+      "source_file": "decontaminated from anne"
+    },
+    {
+      "vol": 2,
+      "title": "Corpus A, Vol. 02",
+      "isbn": null,
+      "pub_date": null,
+      "n_chapters": 30,
+      "n_paragraphs": 1705,
+      "n_words": 98129,
+      "source_file": "decontaminated from anne"
+    },
+    {
+      "vol": 3,
+      "title": "Corpus A, Vol. 03",
+      "isbn": null,
+      "pub_date": null,
+      "n_chapters": 41,
+      "n_paragraphs": 1759,
+      "n_words": 84203,
+      "source_file": "decontaminated from anne"
+    },
+    {
+      "vol": 4,
+      "title": "Corpus A, Vol. 04",
+      "isbn": null,
+      "pub_date": null,
+      "n_chapters": 40,
+      "n_paragraphs": 1606,
+      "n_words": 86214,
+      "source_file": "decontaminated from anne"
+    },
+    {
+      "vol": 5,
+      "title": "Corpus A, Vol. 05",
+      "isbn": null,
+      "pub_date": null,
+      "n_chapters": 35,
+      "n_paragraphs": 1631,
+      "n_words": 88713,
+      "source_file": "decontaminated from anne"
+    }
+  ]
+}

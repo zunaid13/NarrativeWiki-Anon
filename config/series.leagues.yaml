@@ -1,0 +1,16 @@
+# Phase 31 publication corpus: Twenty Thousand Leagues Under the Sea (Jules Verne), Project
+# Gutenberg #164, the book *Living the Novel* (arXiv 2512.07474) evaluated on.
+#   curl -L -o corpus/leagues/twenty-thousand-leagues.epub https://www.gutenberg.org/ebooks/164.epub3.images
+# The ORIGINAL-text condition. Its decontaminated twin is config/series.leagues-decon.yaml.
+series:
+  id: "leagues"
+  title: "Twenty Thousand Leagues Under the Sea"
+source:
+  dir: "corpus/leagues"
+  # One EPUB, two reading volumes: Part Two starts volume 2 (ingest/epub.py::select_reading_volume).
+  volume_breaks: ["^PART TWO"]
+epub:
+  drop_chapter_titles: ["^The Project Gutenberg eBook"]
+site:
+  # Without this, --upto falls back to 1 and the wiki silently stops at volume 1 (MEASUREMENTS section 44).
+  default_upto: 2

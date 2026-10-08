@@ -1,0 +1,117 @@
+{
+  "0": [
+    "yes",
+    "character/marilla-cuthbert.md",
+    "History: Matthew fetched a boy; mix-up brought Anne."
+  ],
+  "1": [
+    "yes",
+    "character/anne-shirley.md",
+    "History explicitly says she broke a slate over Gilbert's head."
+  ],
+  "2": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "History explicitly says Anne won Avery; not relying on the separate Shirley page."
+  ],
+  "3": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "History says Gilbert gave up Avonlea schoolteacher post for Anne; Anne history says she took local teaching."
+  ],
+  "4": [
+    "no",
+    "character/anne-shirley.md",
+    "Long red braids and gray eyes shown; eyes looking green is missing. Whole-tree appearance search did not establish both."
+  ],
+  "5": [
+    "yes",
+    "relationships/anne-shirley--marilla-cuthbert.md",
+    "Scene: disappointed plain dresses lack puffed sleeves; her desire is conveyed."
+  ],
+  "6": [
+    "yes",
+    "character/anne-shirley.md",
+    "Minnie May relationship states Anne saved her through severe croup."
+  ],
+  "7": [
+    "yes",
+    "character/anne-shirley.md",
+    "History explicitly describes mistaken green dye."
+  ],
+  "8": [
+    "yes",
+    "character/anne-shirley.md",
+    "Born in Bolingbroke, Nova Scotia stated."
+  ],
+  "9": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "History explicitly gives up Avonlea position for Anne."
+  ],
+  "10": [
+    "no",
+    "character/gilbert-blythe.md",
+    "Role teacher but no White Sands school assignment; whole-tree White Sands matches concern hotel/concert or return journey."
+  ],
+  "11": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "History: rescues Anne when boat leaks; core rescue proposition, incidental rowing wording omitted."
+  ],
+  "12": [
+    "yes",
+    "character/marilla-cuthbert.md",
+    "History: oculist warns of blindness without giving up eye work."
+  ],
+  "13": [
+    "yes",
+    "character/marilla-cuthbert.md",
+    "History explicitly initially insisted on sending Anne back."
+  ],
+  "14": [
+    "yes",
+    "character/matthew-cuthbert.md",
+    "History explicitly sudden death from shock of bank failure."
+  ],
+  "15": [
+    "yes",
+    "character/matthew-cuthbert.md",
+    "Extremely shy; accepted paraphrase under uniform fairness rule."
+  ],
+  "16": [
+    "yes",
+    "character/anne-shirley.md",
+    "History explicitly accidental currant-wine intoxication of Diana."
+  ],
+  "17": [
+    "yes",
+    "relationships/anne-shirley--diana-barry.md",
+    "Friend relation states solemn oath of friendship."
+  ],
+  "18": [
+    "yes",
+    "character/rachel-lynde.md",
+    "Quote: hair as red as carrots; history identifies insult to Anne."
+  ],
+  "19": [
+    "yes",
+    "character/josie-pye.md",
+    "History explicitly ridgepole dare; quote disbelief anyone could walk it."
+  ],
+  "20": [
+    "yes",
+    "character/stacy.md",
+    "Personality explicitly bright, sympathetic, wins pupils' affection."
+  ],
+  "21": [
+    "no",
+    "character/phillips.md",
+    "School discipline present, spelling criticism absent from whole-tree disgraceful/spelling search."
+  ],
+  "22": [
+    "no",
+    "character/phillips.md",
+    "Discipline and Minnie Andrews pupil relation present; whole-tree Prissy/makes-eyes search does not convey this."
+  ]
+}

@@ -1,0 +1,220 @@
+# COPY of anne.yaml (identical below this header), made 2026-10-05 21:35 UTC. Do not edit: edit anne.yaml and copy again.
+# Why it exists: for a variant series (anne-decon@x1, @v2, ...) the settings loader sets gold_from to the base id
+# (anne-decon), which wins over decontaminate.from_series in run_baseline.py::gold_cast, m4_tree.py,
+# pipeline_page_leak.py and paper_observations.py. Those tools then remap the names below with the series' own
+# entity_map, so the names here must be the ORIGINAL ones. The first comparison cell of the decontaminated
+# matrix failed on the missing file (data/fix_v2_decon.out, 21:29 UTC).
+# Plan 0009/0010: multi-cutoff facts for the Anne series (six public-domain books, v01-v06).
+# Hand-written 2026-09-26; every `evidence` para_id was located by search and its text read
+# (data/anne/01_parsed/v0N.jsonl). A fact's volume is its evidence id's volume, so one file
+# serves every cutoff t: `future` at t when first_vol > t, `control` otherwise
+# (probe/parametric.py::facts_of).
+# `keywords` are lexical markers of the later fact. One that also occurs in the volumes <= t text
+# is dropped at run time (valid_keywords), so a generic word only counts where it is new.
+# Character keys must equal the gazetteer's canonical names (pages are looked up by slug).
+series: anne
+characters:
+  Anne Shirley:
+    facts:
+      - {claim: "Matthew and Marilla wanted a boy, and Anne was sent to them by mistake.", evidence: v01:c06:p0003}
+      - {claim: "Anne breaks her slate over Gilbert's head.", evidence: v01:c15:p0038}
+      - {claim: "Anne wins the Avery scholarship.", evidence: v01:c36:p0022}
+      # 2026-09-26: was v02:c04:p0001, but v01 ends with Anne taking the school ("thank you for
+      # giving up the school for me", v01:c38:p0050) -- the t=1 leak check's first positive.
+      - {claim: "Anne becomes the teacher at the Avonlea school.", evidence: v01:c38:p0050, keywords: ["teach my own old schoolmates", "teacher at Avonlea", "Avonlea school teacher"]}
+      - {claim: "Anne helps raise the twins Davy and Dora at Green Gables.", evidence: v02:c08:p0011, keywords: ["Davy", "Dora"]}
+      - {claim: "Anne studies at Redmond College in Kingsport.", evidence: v03:c01:p0013, keywords: ["Redmond", "Kingsport"]}
+      - {claim: "Anne refuses a marriage proposal from Roy Gardner.", evidence: v03:c38:p0035, keywords: ["Roy Gardner"]}
+      - {claim: "Anne realises she loves Gilbert when he falls ill with typhoid.", evidence: v03:c40:p0016, keywords: ["typhoid"]}
+      - {claim: "Anne marries Gilbert Blythe.", evidence: v04:c04:p0000, keywords: ["married Gilbert", "marries Gilbert", "Anne Blythe", "Mrs. Blythe", "Mrs. Gilbert Blythe"]}
+      - {claim: "Anne's first baby, Joyce, dies.", evidence: v04:c21:p0027, keywords: ["Joyce"]}
+      - {claim: "Anne lives in the House of Dreams at Four Winds Harbour.", evidence: v04:c01:p0016, keywords: ["Four Winds", "House of Dreams"]}
+      - {claim: "Anne's son James Matthew, called Jem, is born.", evidence: v04:c34:p0021, keywords: ["James Matthew", "Jem"]}
+      - {claim: "Anne lives at Ingleside in Glen St. Mary.", evidence: v05:c01:p0001, keywords: ["Ingleside", "Glen St. Mary"]}
+      - {claim: "Anne's son Jem enlists to fight in the war.", evidence: v06:c05:p0007, keywords: ["enlist"]}
+      - {claim: "Anne's son Walter is killed in action at Courcelette.", evidence: v06:c22:p0043, keywords: ["Courcelette", "killed in action"]}
+      - {claim: "Anne has two braids of very thick red hair and eyes that look green in some lights.", evidence: v01:c02:p0013, reader: agent-2026-09-28}
+      - {claim: "Anne longs for a dress with puffed sleeves.", evidence: v01:c11:p0009, reader: agent-2026-09-28}
+      - {claim: "Anne saves Minnie May Barry's life when she has croup.", evidence: v01:c18:p0043, reader: agent-2026-09-28}
+      - {claim: "Anne dyes her hair.", evidence: v01:c27:p0020, reader: agent-2026-09-28}
+      - {claim: "Anne sells Mr. Harrison's Jersey cow to Mr. Shearer by mistake.", evidence: v02:c02:p0035, keywords: ["Shearer", "Jersey"], reader: agent-2026-09-28}
+      - {claim: "Anne is secretary of the Avonlea Village Improvement Society.", evidence: v02:c06:p0008, keywords: ["Improvement Society"], reader: agent-2026-09-28}
+      - {claim: "Anne was born in Bolingbroke, Nova Scotia.", evidence: v01:c05:p0011, reader: agent-2026-09-28, note: "was v03:c04:p0033; stated in v1 (leak audit 2026-09-28)"}
+      - {claim: "Anne writes a story whose heroine is named Averil Lester.", evidence: v03:c11:p0050, keywords: ["Averil"], reader: agent-2026-09-28}
+      - {claim: "Anne is given old letters that belonged to her mother.", evidence: v03:c21:p0018, keywords: ["letters"], reader: agent-2026-09-28}
+  Gilbert Blythe:
+    facts:
+      - {claim: "Gilbert gives up the Avonlea school so that Anne can teach there.", evidence: v01:c38:p0050}
+      - {claim: "Gilbert is going to teach at the White Sands school.", evidence: v01:c38:p0038, note: "was v02:c01:p0055; v1 already states it (gold audit 2026-09-28)"}
+      - {claim: "Gilbert proposes to Anne and she refuses him.", evidence: v03:c20:p0037, keywords: ["refused him", "turned him down"]}
+      - {claim: "Gilbert falls ill with typhoid fever.", evidence: v03:c40:p0009, keywords: ["typhoid"]}
+      - {claim: "Gilbert becomes a doctor at Four Winds Harbour.", evidence: v04:c01:p0016, keywords: ["Four Winds"]}
+      - {claim: "Gilbert marries Anne Shirley.", evidence: v04:c04:p0000, keywords: ["married Anne", "marries Anne", "Mrs. Blythe", "his wife"]}
+      - {claim: "Gilbert rows up to Anne in a boat when her flat sinks.", evidence: v01:c28:p0027, reader: agent-2026-09-28}
+      - {claim: "Gilbert is president of the Avonlea Village Improvement Society.", evidence: v02:c06:p0008, keywords: ["Improvement Society", "president"], reader: agent-2026-09-28}
+      - {claim: "Gilbert is to leave for Redmond College.", evidence: v02:c30:p0000, keywords: ["Redmond"], reader: agent-2026-09-28}
+      - {claim: "Gilbert is said to be going about with Christine Stuart.", evidence: v03:c26:p0012, keywords: ["Christine Stuart"], reader: agent-2026-09-28}
+      - {claim: "Gilbert takes High Honors in Classics and the Cooper Prize.", evidence: v03:c39:p0023, keywords: ["Cooper Prize"], reader: agent-2026-09-28}
+  Marilla Cuthbert:
+    facts:
+      - {claim: "Marilla's eyesight is failing.", evidence: v01:c36:p0032}
+      - {claim: "Marilla takes in the twins Davy and Dora.", evidence: v02:c08:p0030, keywords: ["Davy", "Dora", "twins"]}
+      - {claim: "Marilla at first says she is not going to keep Anne.", evidence: v01:c03:p0065, reader: agent-2026-09-28}
+      - {claim: "Marilla urges Anne to go on to Redmond.", evidence: v02:c26:p0013, keywords: ["Redmond"], reader: agent-2026-09-28}
+  Matthew Cuthbert:
+    facts:
+      - {claim: "Matthew dies suddenly from the shock of a bank failure.", evidence: v01:c37:p0009}
+      - {claim: "Anne names her son James Matthew partly after Matthew.", evidence: v04:c34:p0021, keywords: ["James Matthew"]}
+      - {claim: "Matthew is the shyest man alive.", evidence: v01:c01:p0004, reader: agent-2026-09-28}
+  Diana Barry:
+    facts:
+      - {claim: "Anne accidentally gets Diana drunk on currant wine.", evidence: v01:c16:p0048}
+      - {claim: "Diana marries Fred Wright.", evidence: v03:c28:p0014, keywords: ["Fred Wright"]}
+      - {claim: "Anne and Diana swear an oath of friendship.", evidence: v01:c12:p0035, reader: agent-2026-09-28}
+      - {claim: "Diana is treasurer of the Avonlea Village Improvement Society.", evidence: v02:c06:p0008, keywords: ["Improvement Society", "treasurer"], reader: agent-2026-09-28}
+      - {claim: "Diana becomes engaged.", evidence: v02:c29:p0016, keywords: ["engaged"], reader: agent-2026-09-28}
+  Walter Blythe:
+    facts:
+      - {claim: "Walter is a dreamy boy who loves poetry.", evidence: v05:c03:p0012}
+      - {claim: "Walter is killed in action at Courcelette.", evidence: v06:c23:p0009, keywords: ["Courcelette", "killed in action", "killed instantly"]}
+      - {claim: "Faith Meredith dares Walter to ride a pig through Main Street.", evidence: v05:c12:p0009, keywords: ["pig"], reader: agent-2026-09-28}
+      - {claim: "Walter hates Dan Reese.", evidence: v05:c16:p0020, keywords: ["Dan Reese"], reader: agent-2026-09-28}
+  Rilla Blythe:
+    facts:
+      - {claim: "Rilla is the youngest of the Blythe children.", evidence: v05:c01:p0003}
+      - {claim: "Rilla looks after a war baby she names Jims.", evidence: v06:c09:p0010, keywords: ["Jims", "war baby"]}
+      - {claim: "Rilla is in love with Kenneth Ford.", evidence: v06:c03:p0061, keywords: ["Kenneth"]}
+  Captain Jim:
+    facts:
+      - {claim: "Captain Jim dies soon after his life-book is published.", evidence: v04:c39:p0028, keywords: ["crossed the bar", "Life-Book"]}
+      - {claim: "Captain Jim is a high-souled, simple-minded old man with iron-gray hair.", evidence: v04:c06:p0014, reader: agent-2026-09-28}
+      - {claim: "Captain Jim's surname is Boyd.", evidence: v04:c06:p0008, keywords: ["Captain Boyd"], reader: agent-2026-09-28}
+      - {claim: "Captain Jim keeps a life-book.", evidence: v04:c09:p0036, keywords: ["life-book"], reader: agent-2026-09-28}
+      - {claim: "Captain Jim tells Anne about lost Margaret.", evidence: v04:c20:p0012, keywords: ["lost Margaret"], reader: agent-2026-09-28}
+  Leslie Moore:
+    facts:
+      - {claim: "Leslie was pressured by her mother into marrying Dick Moore.", evidence: v04:c11:p0027}
+      - {claim: "Leslie and Owen Ford are to be married at Christmas.", evidence: v04:c40:p0011, keywords: ["Owen"], reader: agent-2026-09-28}
+  Rachel Lynde:
+    facts:
+      - {claim: "Rachel Lynde says Anne's hair is as red as carrots.", evidence: v01:c09:p0014, reader: agent-2026-09-28}
+      - {claim: "Rachel Lynde's husband Thomas lies on the lounge more than he used to.", evidence: v02:c08:p0001, reader: agent-2026-09-28}
+      - {claim: "Rachel Lynde is to move to Green Gables.", evidence: v02:c30:p0000, keywords: ["move to Green Gables"], reader: agent-2026-09-28}
+  Josie Pye:
+    facts:
+      - {claim: "Josie Pye says Anne could not walk a ridgepole.", evidence: v01:c23:p0009, reader: agent-2026-09-28}
+  Stacy:
+    facts:
+      - {claim: "Miss Stacy is a bright, sympathetic teacher who wins her pupils' affection.", evidence: v01:c24:p0001, reader: agent-2026-09-28}
+  Phillips:
+    facts:
+      - {claim: "Mr. Phillips says Anne's spelling is disgraceful.", evidence: v01:c15:p0013, reader: agent-2026-09-28}
+      - {claim: "Mr. Phillips makes eyes at Prissy Andrews.", evidence: v01:c15:p0011, reader: agent-2026-09-28}
+  Harrison:
+    facts:
+      - {claim: "Mr. Harrison keeps a swearing parrot called Ginger.", evidence: v02:c01:p0010, keywords: ["Ginger"], reader: agent-2026-09-28}
+      - {claim: "Mr. Harrison's wife is Emily.", evidence: v02:c25:p0047, keywords: ["Emily"], reader: agent-2026-09-28}
+  Paul Irving:
+    facts:
+      - {claim: "Paul Irving comes from the States to live with his grandmother.", evidence: v02:c01:p0045, keywords: ["Paul Irving"], reader: agent-2026-09-28}
+      - {claim: "Paul Irving's father is Stephen Irving.", evidence: v02:c01:p0045, keywords: ["Stephen Irving"], reader: agent-2026-09-28}
+      - {claim: "Paul Irving loves Miss Lavendar as his new second mother.", evidence: v02:c29:p0002, keywords: ["second mother"], reader: agent-2026-09-28}
+  Lavendar Lewis:
+    facts:
+      - {claim: "Miss Lavendar lives alone in a stone house she calls Echo Lodge.", evidence: v02:c01:p0047, keywords: ["Echo Lodge"], reader: agent-2026-09-28}
+      - {claim: "Miss Lavendar was once engaged to Stephen Irving.", evidence: v02:c21:p0036, keywords: ["Stephen Irving"], reader: agent-2026-09-28}
+      - {claim: "Miss Lavendar marries Stephen Irving.", evidence: v02:c30:p0030, keywords: ["Mrs. Irving"], reader: agent-2026-09-28}
+  Charlotta:
+    facts:
+      - {claim: "Charlotta the Fourth will go to Boston to live with the Irvings.", evidence: v02:c29:p0004, keywords: ["Boston"], reader: agent-2026-09-28}
+  Davy Keith:
+    facts:
+      - {claim: "Davy pushes Dora headfirst into a mud pie.", evidence: v02:c01:p0033, keywords: ["mud pie"], reader: agent-2026-09-28}
+  Dora:
+    facts:
+      - {claim: "Dora is good and quiet.", evidence: v02:c07:p0030, reader: agent-2026-09-28}
+  Anthony Pye:
+    facts:
+      - {claim: "Anthony Pye is a sullen pupil who stares at Anne with hostility.", evidence: v02:c05:p0004, keywords: ["Anthony Pye"], reader: agent-2026-09-28}
+  Philippa Gordon:
+    facts:
+      - {claim: "Philippa Gordon comes from Bolingbroke, Nova Scotia.", evidence: v03:c04:p0032, keywords: ["Bolingbroke"], reader: agent-2026-09-28}
+  Aunt Jamesina:
+    facts:
+      - {claim: "Aunt Jamesina is proposed as the girls' housekeeper.", evidence: v03:c09:p0013, keywords: ["Jamesina"], reader: agent-2026-09-28}
+  Reverend Jo:
+    facts:
+      - {claim: "Jonas Blake is a theological student in charge of the Point Prospect Mission Church.", evidence: v03:c24:p0009, keywords: ["Jonas Blake"], reader: agent-2026-09-28}
+  Ruby Gillis:
+    facts:
+      - {claim: "Ruby Gillis believes she will soon be dead.", evidence: v03:c14:p0007, reader: agent-2026-09-28}
+      - {claim: "Ruby Gillis dies.", evidence: v03:c14:p0033, keywords: ["before she died"], reader: agent-2026-09-28}
+  Jane Andrews:
+    facts:
+      - {claim: "Jane Andrews leaves for the West.", evidence: v03:c14:p0030, keywords: ["the West"], reader: agent-2026-09-28}
+  Billy Andrews:
+    facts:
+      - {claim: "Billy Andrews asks his sister Jane to propose to Anne for him.", evidence: v03:c08:p0012, keywords: ["Billy wants to marry"], reader: agent-2026-09-28}
+  Priscilla Grant:
+    facts:
+      - {claim: "Priscilla Grant goes to Redmond and boards with Anne.", evidence: v03:c01:p0021, keywords: ["Redmond"], reader: agent-2026-09-28}
+  Stella Maynard:
+    facts:
+      - {claim: "Stella Maynard has been teaching school since Queen's.", evidence: v03:c09:p0007, reader: agent-2026-09-28}
+  Roy Gardner:
+    facts:
+      - {claim: "Roy Gardner sends Anne white orchids for the reception.", evidence: v03:c26:p0001, keywords: ["orchids"], reader: agent-2026-09-28}
+  Marshall Elliott:
+    facts:
+      - {claim: "Marshall Elliott has turned himself into a kind of dime museum freak.", evidence: v04:c09:p0032, keywords: ["Marshall Elliott"], reader: agent-2026-09-28}
+  Cornelia Bryant:
+    facts:
+      - {claim: "Miss Cornelia has a chronic spite against men and Methodists.", evidence: v04:c06:p0040, keywords: ["Cornelia"], reader: agent-2026-09-28}
+      - {claim: "Miss Cornelia marries Marshall Elliott.", evidence: v04:c40:p0011, keywords: ["Mrs. Marshall Elliott"], reader: agent-2026-09-28}
+  Dick Moore:
+    facts:
+      - {claim: "Dick Moore went on a voyage to Havana with his cousin George Moore.", evidence: v04:c11:p0028, keywords: ["Havana", "George Moore"], reader: agent-2026-09-28}
+      - {claim: "The man believed to be Dick Moore is his cousin George Moore.", evidence: v04:c31:p0028, keywords: ["George Moore"], reader: agent-2026-09-28}
+      - {claim: "Dick Moore died of yellow fever in Cuba.", evidence: v04:c31:p0028, keywords: ["yellow fever"], reader: agent-2026-09-28}
+  Owen Ford:
+    facts:
+      - {claim: "Owen Ford is a newspaper man and a grandson of the schoolmaster who built the house.", evidence: v04:c22:p0019, keywords: ["Owen Ford"], reader: agent-2026-09-28}
+  Susan Baker:
+    facts:
+      - {claim: "Susan Baker works as maid-of-all-work at the little house.", evidence: v04:c18:p0052, keywords: ["Susan Baker"], reader: agent-2026-09-28}
+      - {claim: "Susan worships Anne as young Mrs. Doctor.", evidence: v04:c19:p0000, keywords: ["Mrs. Doctor"], reader: agent-2026-09-28}
+  John Meredith:
+    facts:
+      - {claim: "Mr. Meredith is moony and absent-minded but a wonderful preacher.", evidence: v05:c02:p0013, keywords: ["Meredith"], reader: agent-2026-09-28}
+      - {claim: "Mr. Meredith is a widower whose wife died four years ago.", evidence: v05:c02:p0025, keywords: ["widower"], reader: agent-2026-09-28}
+      - {claim: "Mr. Meredith and Rosemary West are to marry.", evidence: v05:c35:p0002, keywords: ["trousseau"], reader: agent-2026-09-28}
+  Una Meredith:
+    facts:
+      - {claim: "Una Meredith is ten years old.", evidence: v05:c02:p0034, keywords: ["Una"], reader: agent-2026-09-28}
+      - {claim: "Una gives her father a letter from Rosemary.", evidence: v05:c34:p0044, keywords: ["letter"], reader: agent-2026-09-28}
+  Carl Meredith:
+    facts:
+      - {claim: "Carl Meredith collects toads, bugs and frogs.", evidence: v05:c02:p0034, keywords: ["toads"], reader: agent-2026-09-28}
+      - {claim: "Carl gets a sore throat after getting wet in the Rainbow Valley marsh.", evidence: v05:c10:p0018, keywords: ["sore throat"], reader: agent-2026-09-28}
+  Faith Meredith:
+    facts:
+      - {claim: "Faith Meredith dares Walter Blythe to ride a pig.", evidence: v05:c12:p0009, keywords: ["pig"], reader: agent-2026-09-28}
+  Mary Vance:
+    facts:
+      - {claim: "Mary Vance eats ravenously at the manse.", evidence: v05:c05:p0027, keywords: ["Mary Vance"], reader: agent-2026-09-28}
+      - {claim: "Mary Vance lives with Miss Cornelia.", evidence: v05:c12:p0034, keywords: ["Mary Vance"], reader: agent-2026-09-28}
+  Norman Douglas:
+    facts:
+      - {claim: "Norman Douglas used to give a hundred dollars a year to the church.", evidence: v05:c15:p0027, keywords: ["Norman Douglas"], reader: agent-2026-09-28}
+      - {claim: "Norman Douglas married Hester Reese to spite Ellen West.", evidence: v05:c15:p0031, keywords: ["Hester Reese"], reader: agent-2026-09-28}
+  Ellen West:
+    facts:
+      - {claim: "Ellen West went about with Norman Douglas for two years.", evidence: v05:c15:p0031, keywords: ["Norman Douglas"], reader: agent-2026-09-28}
+      - {claim: "Ellen West and Norman Douglas want to marry.", evidence: v05:c32:p0022, keywords: ["Norman Douglas"], reader: agent-2026-09-28}
+  Rosemary West:
+    facts:
+      - {claim: "Rosemary West has made a promise to her sister Ellen.", evidence: v05:c13:p0034, keywords: ["promise"], reader: agent-2026-09-28}
+      - {claim: "Rosemary West's lover was lost at sea.", evidence: v05:c21:p0015, keywords: ["lover"], reader: agent-2026-09-28}
+  Little Jem:
+    facts:
+      - {claim: "Jem suggests the manse children form a Good-Conduct Club.", evidence: v05:c23:p0054, keywords: ["Good-Conduct Club"], reader: agent-2026-09-28}

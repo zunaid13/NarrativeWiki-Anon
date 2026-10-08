@@ -1,0 +1,616 @@
+# Extraction taxonomy — the closed vocabularies the pipeline extracts into.
+#
+# These lists are deliberately closed. An open vocabulary produces "FRIEND_OF", "IS_FRIEND",
+# "FRIENDS_WITH" and "ALLY_OF" for the same relationship, which then fails to merge in the graph
+# and renders as four contradictory rows. Anything the model cannot fit here is dropped.
+#
+# Adding a predicate or attribute here is all that is needed — rendering is generic.
+
+entity_types:
+  CHARACTER:  { page: unique,  route: "/character/{slug}" }
+  FACTION:    { page: codex,   route: "/codex/factions#{slug}",  codex: factions }
+  LOCATION:   { page: codex,   route: "/codex/places#{slug}",    codex: places
+              , roster_labels: { members: "Associated with", adversaries: "In conflict with" } }
+  EVENT:      { page: codex,   route: "/codex/places#{slug}",    codex: places
+              , roster_labels: { members: "Participants", adversaries: "Opposing sides" } }
+  TECH:       { page: codex,   route: "/codex/tech#{slug}",      codex: tech
+              , roster_labels: { members: "Used by", adversaries: "Used against" } }
+  # [30] `roster_labels` names a codex entry's rosters per entity type. "Members" is a FACTION
+  # word, and every type was inheriting it: Pasloe, a village, shipped "Members: Count Ehrendott,
+  # Holo", because ORIGIN_FROM declares `membership: true` and so being *from* a place filed you
+  # as one of its members. Omit the key to keep "Members"/"Adversaries".
+# Only CHARACTER gets a unique page. FACTION/LOCATION/EVENT/TECH become anchored entries on
+# shared codex pages: factions & organizations on one, locations & battles on another,
+# technology on a third. Every link still resolves — no dead ends.
+
+codex_pages:
+  factions: { title: "Factions & Organizations", types: [FACTION], max_key_events: 5 }
+  places:   { title: "Locations & Battles",      types: [LOCATION, EVENT], max_key_events: 5 }
+  tech:     { title: "Technology, Magic & Items", types: [TECH] }   # [32] one title for every genre
+  # `max_key_events` (Phase 21 part 2): caps a codex entry's `key_events` field -- scenes where
+  # >= 2 of its current members co-appear, or (Phase 30) whose `location` IS this entity
+  # (site/bundle.py::_faction_key_events).
+  # [30] `places` gains it. Phase 21 left it off on the reasoning that "a location/battle codex
+  # entry's own evidence already covers what happened here (it IS the event/place)". Measured,
+  # that was not true: all 13 place entries shipped with no events at all, a one-sentence summary
+  # and nothing else, while 19 of the 53 v1-2 events carried a resolved location no reader ever
+  # looked at. TECH still has none -- no TECH entity in this corpus is a scene location or a
+  # group of co-present people, so the field would be empty rather than merely unused.
+
+# ---------------------------------------------------------------------------
+# Attributes — kind: "attribute". Scalar values about one character.
+# `single` means one value may be true at a time, so a new value supersedes the old one
+# (this is what makes rank promotions render as history rather than as a contradiction).
+# ---------------------------------------------------------------------------
+attributes:
+  AGE:          { single: true,  format: number_or_range, display: "Age" }
+  GENDER:       { single: true,  format: short_text,      display: "Gender" }
+  STATUS:       { single: true,  format: short_text,      display: "Status", default: "alive"
+                , note: "alive / deceased / missing in action / captured. Use polarity=presumed when the text only reports a belief. `default` (Phase 22 A5, U6): materialized by synth/assemble.py when zero STATUS claims exist -- 'alive' is the reader's safe default at any cutoff (a later death is itself a claim that only appears once the reader reaches it), marked inferred: true so it never masquerades as evidence." }
+  # [32] RANK had no definition, so one slot held a game level at v1 ("level 100") and a guild
+  # grade at v2 ("copper plate"), and the second superseded the first (req. 5). The note is in the
+  # extraction prompt; it makes RANK one kind of value in every series.
+  RANK:         { single: true,  format: short_text,      display: "Rank", name_like: true
+                , note: "A formal grade inside a named organisation or hierarchy: a military rank, a guild or adventurer grade, a noble or church rank. Always a category, never a number. NOT a power level, a game level or any other statistic, NOT a job (OCCUPATION), NOT an honorific or epithet (TITLE)." }
+  TITLE:        { single: false, format: short_text,      display: "Titles", name_like: true
+                , note: "An honorific, epithet or office the text calls the character by (Supreme Being, the Wisewolf of Yoitsu, head of the branch). A grade in a hierarchy is RANK; a job is OCCUPATION." }
+  NICKNAME:     { single: false, format: short_text,      display: "Nicknames", name_like: true
+                , note: "Includes call signs and code names. first_vol matters: an alias revealed in V3 must not appear on a V1 page." }
+  # Phase 30 `name_like`: these attributes name the subject rather than describe it, so
+  # synth/assemble.py::_dedupe_name_fields drops the canonical name from them (Holo's page
+  # offered "Nicknames: Holo") and stops one value rendering under two of them ("Wisewolf of
+  # Yoitsu" appeared as both a Nickname and a Title). Declaration order here IS the precedence:
+  # TITLE is declared first, so it keeps a value NICKNAME would otherwise repeat.
+  # [30] RANK and OCCUPATION label the subject too: 8 of 51 v2 pages repeated one value under
+  # Rank/Role/Titles (Albedo "captain of the floor guardians" as both Rank and Title).
+  ORIGIN:       { single: true,  format: short_text,      display: "Origin"
+                , note: "Where the character comes from: a birthplace, homeland, village or people. Never a job or a past occupation (that is OCCUPATION or BACKGROUND)." }
+  OCCUPATION:   { single: true,  format: short_text,      display: "Role", name_like: true
+                , note: "What the character does in the world: their job, trade or standing role (merchant, maid, village chief, floor guardian). NOT a combat class or skill, NOT a species, NOT a rank." }
+  APPEARANCE:   { single: false, format: short_phrase,    display: "Appearance", subsume: true
+                , note: "subsume (Phase 22 A2): drop a value that is redundant next to a longer sibling ('hair' next to 'long brown hair') or a bare single-word noun standing alone -- see graph/canonicalize.py::subsume_values. Deterministic, no embed call." }
+
+# ---------------------------------------------------------------------------
+# Relations — kind: "relation". Subject and object are BOTH entity_ids.
+# `symmetric` relations are stored once and rendered from both sides.
+# `inverse` gives the label to show on the object's page.
+# ---------------------------------------------------------------------------
+relations:
+  PARENT_OF:      { family: child, inverse: CHILD_OF,     display: "Parent of", requires_both_endpoints: true
+                , note: "An actual stated parent/child relationship -- never inferred from a shared surname, a title like 'son of', or a false identity a character claims for themselves (e.g. giving a false name 'son of so-and-so' to a stranger is NOT evidence of real parentage)." }
+  CHILD_OF:       { family: parent, inverse: PARENT_OF,    display: "Child of", requires_both_endpoints: true
+                , note: "Same rule as PARENT_OF, reversed. Never infer from a claimed/false identity, a title, or a name resemblance." }
+  SIBLING_OF:     { family: sibling, symmetric: true,       display: "Sibling of", requires_both_endpoints: true
+                , conflicts_with: [RELATIVE_OF, SPOUSE_OF, ROMANTIC_WITH]
+                , note: "An actual stated sibling relationship -- not two characters who merely travel or fight together." }
+  RELATIVE_OF:    { family: relative, symmetric: true,       display: "Relative of", requires_both_endpoints: true, object_types: [CHARACTER]
+                , conflicts_with: [SIBLING_OF, SPOUSE_OF, ROMANTIC_WITH]
+                , qualifier_disqualifiers: [pet, dog, horse, pretend, pretence, pretense, feign, ruse, "posing as", "posed as", disguise]
+                , note: "An actual stated or clearly implied FAMILY relationship (aunt, cousin, in-law, guardian, etc. -- anything not covered by PARENT_OF/CHILD_OF/SIBLING_OF). Never use this for a friend, comrade, or someone merely mentioned alongside the character -- use FRIEND_OF or COMRADE_OF for those. An ANIMAL -- a pet, a horse, a working dog -- is never a relative, however close the bond: the live v1-2 graph produced `enek RELATIVE_OF norah-arendt` with the qualifier \"pet\" for a shepherdess and her sheepdog." }
+  SPOUSE_OF:      { family: spouse, symmetric: true,       display: "Spouse of", requires_both_endpoints: true
+                , conflicts_with: [SIBLING_OF, RELATIVE_OF]
+                , qualifier_disqualifiers: [pretend, pretence, pretense, feign, ruse, "posing as"
+                  , "posed as", disguise, "false identity", "false name", "cover story"]
+                , note: "Only an EXPLICITLY STATED marriage counts -- a wife, husband, or a wedding. A business, travel, or trading PARTNER or COMPANION is NOT a spouse: 'partner' in this genre overwhelmingly means a business associate. If the passage never uses a marriage word for these two specific people, do not use this predicate. `qualifier_disqualifiers` (2026-09-24) carries RELATIVE_OF's pretence list plus the wording this corpus actually produced: `holo SPOUSE_OF kraft-lawrence` was extracted at confidence 1.0 with the qualifier \"false identity for travel\" from Lawrence introducing Holo as \"My wife\" to get her into a church. The note above did not stop it, and neither did verification reliably -- the batched per-character pass caught it, the per-fact pass that replaced it did not, and it shipped on 6 pages (MEASUREMENTS §30). A fixed phrase belongs in a rule, not in a judgement call." }
+  ROMANTIC_WITH:  { symmetric: true,       display: "Romantically involved with", requires_both_endpoints: true
+                , conflicts_with: [SIBLING_OF, RELATIVE_OF]
+                , note: "An explicitly stated romantic/courting relationship between these two specific people -- not admiration, teasing, or narrative chemistry the reader might infer." }
+  # `conflicts_with` above (Phase 23 A4) deliberately excludes SPOUSE_OF<->ROMANTIC_WITH (a
+  # married couple is unremarkable to also describe as romantically involved -- not a
+  # contradiction) and excludes PARENT_OF/CHILD_OF entirely: those two are NOT `symmetric`, and
+  # _relation_conflict_groups/pair_claims bucket by the already-direction-canonicalized (subject,
+  # object) pair, which does not resolve a raw same-predicate reversal (CHILD_OF(A,B) and
+  # CHILD_OF(B,A) both extracted) -- that shape is instead caught by
+  # `_strip_mutual_direction_collisions` in graph/contradictions.py, which runs before
+  # canonicalization and applies to every non-symmetric predicate, not just these two.
+  FRIEND_OF:      { symmetric: true,       display: "Friend of"
+                , conflicts_with: [ENEMY_OF], requires_qualifier: true
+                , object_types: [CHARACTER, FACTION]   # [31] `conseil FRIEND_OF france` reached the graph
+                , note: "An actual stated friendship or demonstrated mutual goodwill between these two specific people -- not merely appearing in the same scene, giving a battlefield order ('Fall back.'), or exchanging a single unrelated line of dialogue." }
+  RIVAL_OF:       { symmetric: true,       display: "Rival of", requires_qualifier: true
+                , note: "An actual stated or shown competition between these two for the same goal, standing or person -- not a single disagreement." }
+  ENEMY_OF:       { symmetric: true,       display: "Enemy of"
+                , conflicts_with: [FRIEND_OF], requires_qualifier: true
+                , object_types: [CHARACTER, FACTION]
+                , note: "Open hostility between these two: they fight, plot against each other, or are stated to be enemies. Not wariness, not one quarrel, and never a group whose members are on this character's side in the passage." }
+  # ENEMY_OF `object_types` (2026-09-25): the live graph shipped `norah-arendt ENEMY_OF
+  # ruvinheigen` -- a town -- from "they would ... kill her after handing off the sheep" on the
+  # road TO Ruvinheigen. A place is never an enemy. `object_types` is not in the extraction
+  # prompt (only `note`/`requires_*` are, extract/adequacy.py::prompt_rules), so this is
+  # enforced at graph build by `_strip_object_type_mismatches` with no re-extraction.
+  # `conflicts_with` (Phase 17) marks predicate pairs that cannot both be true of the same pair
+  # at once -- graph/contradictions.py routes a same-volume FRIEND_OF/ENEMY_OF pair through
+  # `arbitrate` exactly like a single-valued attribute tie, and a cross-volume one through
+  # supersession (closes the old edge). Deliberately narrow: only the pair the corpus actually
+  # produced (VISION.md 2026-09-04's Enek example). RIVAL_OF is NOT declared a conflict of
+  # FRIEND_OF/ENEMY_OF -- "friendly rivals" and "hated rivals" are both real, unforced readings
+  # of the word, so treating it as a hard conflict would invent a bigger taxonomy than the
+  # evidence justifies. Both sides must declare each other or the pair is silently not grouped
+  # (graph/contradictions.py::_relation_conflict_groups), the same one-sided-declaration
+  # tolerance `symmetric`/`inverse` already have. Phase 23 A4 extends this to the family-vs-
+  # intimacy predicate groups below.
+  MENTOR_OF:      { inverse: STUDENT_OF,   display: "Mentor of", requires_both_endpoints: true
+                , note: "An actual stated teacher/student relationship -- not just two characters exchanging advice once." }
+  STUDENT_OF:     { inverse: MENTOR_OF,    display: "Student of", requires_both_endpoints: true
+                , note: "Same rule as MENTOR_OF, reversed." }
+  COMMANDS:       { inverse: SERVES_UNDER, display: "Commands",   membership: true, requires_both_endpoints: true
+                , note: "An actual stated command/superior-subordinate relationship (rank, giving orders as a superior, leading a unit the other belongs to) -- not just one character praising, thanking, or talking to another." }
+  SERVES_UNDER:   { inverse: COMMANDS,     display: "Serves under", membership: true, requires_both_endpoints: true
+                , note: "Same rule as COMMANDS, reversed." }
+  COMRADE_OF:     { symmetric: true,       display: "Comrade of"
+                , requires_qualifier: true, object_types: [CHARACTER]
+                , note: "An actual stated bond as fellow soldiers/workers/travelers -- not merely being present in the same unit, company, or scene as another named character." }
+  # [32] A LOCATION too, for every series: a place can be the organisation its people serve
+  # (Overlord's Great Tomb of Nazarick; a school, an abbey). Was an Overlord-only overlay, which
+  # req. 8 forbids. `object_types` is not in the prompt, so this changes which answers survive.
+  AFFILIATED_WITH: { object_types: [FACTION, LOCATION], display: "Affiliation", membership: true
+                , note: "This character is a genuine MEMBER, employee, or willing associate of the organization. Being held captive by, imprisoned by, indebted to, or opposed by an organization is NOT affiliation -- use ENEMY_OF or leave the fact out instead." }
+  ORIGIN_FROM:    { object_types: [LOCATION], display: "From",     membership: true }
+  PARTICIPATED_IN: { object_types: [EVENT],  display: "Fought in", membership: true }
+  PILOTS:         { object_types: [TECH],   display: "Pilots",    membership: true }
+  KILLED:         { display: "Killed", object_display: "Killed by", conflicts_with: [SAVED]
+                , object_status_implies: "dead", requires_both_endpoints: true
+                , object_types: [CHARACTER], requires_realis: true }
+  SAVED:          { display: "Saved",  object_display: "Saved by",  conflicts_with: [KILLED]
+                , requires_both_endpoints: true, object_types: [CHARACTER], requires_realis: true
+                , mutual: true
+                , note: "Who saved whom is the ENTIRE content of this fact, so the cited paragraph must name both people. Never extract it from hedged narration about an unnamed rescuer -- the live v1-2 graph produced `holo SAVED yarei` at confidence 0.99 from \"She may have mistaken whoever came to her aid for Lawrence\", which names neither Yarei nor any rescuer." }
+  # Phase 26 addition to `conflicts_with`: SAVED/KILLED, found live in the shipped v1-2 graph.
+  # `holo KILLED liebert` (conf 0.96) and `holo SAVED liebert` (conf 0.95) cite the SAME
+  # sentence ("Holo shook her head slightly and let the man drop to the ground."), and
+  # Liebert's page rendered "Status: alive" directly above "Holo — Killed". Killing and saving
+  # the same person in the same volume is a genuine mutual exclusion.
+  #
+  # COMRADE_OF/ENEMY_OF was tried here and REVERTED after measuring it on the real graph. It
+  # is not a true exclusion -- COMRADE_OF's own note scopes it to "fellow soldiers/workers/
+  # travelers", a role co-membership rather than an affective bond, and Holo travels with
+  # Norah while openly hostile to shepherds. Worse, declaring it actively lost a true fact:
+  # a spurious `kraft-lawrence ENEMY_OF holo` (conf 0.9, no qualifier) pulled the genuine
+  # COMRADE_OF into a three-way clique with FRIEND_OF, and arbitration dropped it. Same
+  # reasoning as RIVAL_OF above -- do not invent a bigger taxonomy than the corpus forces.
+  #
+  # Declaration must be MUTUAL: `_relation_conflict_groups` (graph/contradictions.py)
+  # silently ignores a one-sided `conflicts_with`, which is why SAVED/KILLED was never
+  # arbitrated at all despite the machinery existing since Phase 17. Asserted by
+  # tests/test_config.py::test_every_conflicts_with_declaration_is_mutual.
+  #
+  # `object_status_implies` (Phase 26 part B): the post-state this predicate asserts about its
+  # OBJECT. `graph/contradictions.py::_strip_status_contradicting_relations` drops the relation
+  # when the object carries an evidenced, still-open STATUS interval saying otherwise. This is
+  # the audit's most visible single error: `holo KILLED liebert` (0.96) and `liebert STATUS
+  # alive` (0.95) both came out of Volume 2 -- off the SAME sentence, "Holo shook her head
+  # slightly and let the man drop to the ground." -- and Liebert's page shipped "Holo — Killed"
+  # directly above "Status: alive". Neither existing mechanism could see it: `conflicts_with`
+  # compares two relations on one pair, `single: true` arbitration compares two values of one
+  # attribute, and nothing compared a relation against an attribute of its object.
+  #
+  # `object_display` (Phase 26): passive wording for a DIRECTIONAL predicate with no declared
+  # `inverse`, used by synth/assemble.py when this entity is the relation's `object`. Without
+  # it, `cfg.get("inverse", predicate)` falls back to the predicate itself and the victim's
+  # page renders the subject's own wording -- Liebert's page said "Holo — Killed" rather than
+  # "Holo — Killed by". Deliberately NOT a second predicate (KILLED_BY): every key in this
+  # block is enumerated into the extractor's prompt vocabulary by
+  # extract/claims.py::_vocab_lines, and giving the model two ways to state one fact invites
+  # exactly the canonicalization problem `inverse` exists to solve.
+  # `requires_both_endpoints` (Phase 23 A2): for these predicates, the paragraph cited as
+  # evidence must name BOTH the subject and the object (by canonical name or a known alias) --
+  # not just the subject (already required of every kind/predicate by the global
+  # `subject_must_be_named` behaviour setting below), with the object merely somewhere in the
+  # wider window/span. Enforced by extract/adequacy.py, called from both
+  # extract/claims.py::_build_claim and extract/scenes.py::_build_participant_fact immediately
+  # after object resolution. Reserved for predicates where "these two specific people" is the
+  # entire content of the fact (family, intimacy, command structure) -- this is what removes the
+  # false SPOUSE_OF between Marheit and Lawrence: the cited paragraph names Marheit but never
+  # Lawrence. A looser predicate like FRIEND_OF/COMRADE_OF is not held to this stricter bar (only
+  # its own note-guided restraint, above) -- a real friendship's evidence more often reads as one
+  # party's own account of the other, not a co-appearance in the same sentence.
+  # `qualifier_disqualifiers` (Phase 26 part B): substrings which, if they appear in a claim's
+  # own QUALIFIER, disqualify that claim -- the model has written down, in its own words, why the
+  # predicate does not hold. The live v1-2 graph produced both `norah-arendt RELATIVE_OF enek`
+  # (qualifiers "pet" and "shepherd's sheepdog" -- a sheepdog) and `kraft-lawrence RELATIVE_OF
+  # holo` (qualifier "pretended debt as excuse to remain together"), all three of `wiki audit
+  # eval`'s negative-fact violations. Prompt guidance alone did not hold: RELATIVE_OF's note has
+  # said "an ANIMAL ... is never a relative" since the previous run, and the model emitted it
+  # anyway, twice, in both directions. A substring list is a blunt instrument and deliberately
+  # scoped to the one predicate where the failure was measured, not applied globally -- matching
+  # is case-insensitive substring, so "dog" also catches "sheepdog". Enforced in
+  # extract/adequacy.py alongside the other per-predicate gates.
+  # `blurb` (Phase 22 A5, U4): optional per-predicate template for the combined label+qualifier
+  # line a relationship card renders, `.format(label=..., note=...)`. Omitted -- as for every
+  # predicate above -- falls back to synth/assemble.py's generic "{label} -- {note}" composition
+  # (or bare label when no qualifier was extracted). `label` itself is now always the config
+  # `display` text; the free-text qualifier a claim carries is demoted to `note` instead of
+  # silently replacing the label (the audit's Holo badges: "Comrade of" / "wife (false identity
+  # claimed)" / "fake" for the same predicate, because the old code let qualifier win outright).
+  # `membership` (Phase 22 A3): marks a predicate as genuinely placing a CHARACTER as an
+  # associated member/participant of the codex entity on the other end -- site/bundle.py::
+  # _members_and_related builds a codex entry's `members` list from these predicates ONLY, not
+  # from any relation that happens to touch the entity. Before this flag existed, an ENEMY_OF
+  # edge to a faction (the company that captured a character) or any other stray relation made
+  # that character render as a "member" of the thing that opposed them. Extends past the
+  # AFFILIATED_WITH/SERVES_UNDER/COMMANDS trio the audit named to ORIGIN_FROM/PARTICIPATED_IN/
+  # PILOTS too, so LOCATION/EVENT/TECH codex entries keep showing "who's from here"/"who fought
+  # here"/"who pilots this" -- the same associative meaning `members` already had for those
+  # kinds, just now opt-in and closed-vocabulary instead of "any relation at all". ENEMY_OF/
+  # RIVAL_OF are deliberately NOT membership -- they route to a separate `adversaries` bucket
+  # instead (site/bundle.py), never to `members`.
+
+# ---------------------------------------------------------------------------
+# Traits — kind: "trait". Short phrases, never sentences. These feed the personality prose;
+# they are not themselves rendered as paragraphs.
+# ---------------------------------------------------------------------------
+traits:
+  PERSONALITY:  { display: "Personality", max_words: 6, requires_typicality: true
+                , note: "Adjective or short noun phrase: 'outwardly detached', 'fiercely loyal'. Not a sentence. Narrated BEHAVIOUR is evidence too, not just a stated description -- a passage that shows the character grinning, laughing easily or speaking gently supports a trait like 'warm' or 'good-humoured' even though it never uses that word. Require the passage to present the behaviour as characteristic (it recurs, or narration marks it as usual -- 'again', 'as always', 'as ever'); a single one-off reaction in one scene is an event, not a trait, so omit it." }
+  # [32] MOTIVATION/SKILL/FEAR had no definitions, so the verifier (which now judges by them)
+  # passed a narrator's rhetorical question as a goal and a night's chore as an ability.
+  MOTIVATION:   { display: "Motivation",  max_words: 10
+                , note: "Something the character wants or means to do, stated by the character or stated as fact by the narrator. Not the narrator wondering or guessing ('Was he dreaming of...?'), and not one passing wish." }
+  SKILL:        { display: "Skill",       max_words: 6
+                , note: "A lasting ability, expertise or power the character has, stated or shown as theirs. Not a single action they performed once." }
+  FEAR:         { display: "Fear",        max_words: 8
+                , note: "Something the character is stated or shown to fear as a rule, not a single fright." }
+  BACKGROUND:   { display: "Background",  max_words: 20
+                , note: "A biographical fact, not a narrative. 'Orphaned in the First Offensive' — the prose stage joins these." }
+
+# ---------------------------------------------------------------------------
+# Extraction behaviour
+# ---------------------------------------------------------------------------
+extraction:
+  window:
+    # Phase 23 D2: raised from 2 -> 4. The false SPOUSE_OF's actual referent ("Holo", the person
+    # Lawrence's "partner" line was about) sat 3 paragraphs past the old boundary -- a window this
+    # narrow routinely excludes the very referent a pronoun/vague-noun ("partner", "the wolf",
+    # "her") needs. Safe to widen now that Phase 23 A2's evidence-adequacy gate (requires_both_
+    # endpoints, subject_must_be_named) checks the CITED PARAGRAPH specifically, not "does the
+    # window contain a plausible name somewhere" -- a wider window can no longer let a fact hide
+    # behind a citation that is verbatim but unrelated to what it's attached to.
+    context_paragraphs_before: 4
+    context_paragraphs_after: 4
+    never_cross_hard_break: true     # img.ornament is a POV change; text across it is not context
+    max_windows_per_entity_per_volume: 40  # sizes the per-volume pool (Phase 22 B3): base_cap * num_characters, split by sqrt(mentions)
+    min_windows_per_entity_per_volume: 3   # floor so a low-mention character is never squeezed below a flat share
+    max_tokens_per_request: 6000
+
+    # Phase 26 part C: how many windows go into ONE `claim_extract` request. The stage was one
+    # call per (character, window) -- 361 calls for two volumes, median 3.6k in / 216 out, with
+    # ~2.2k of every input being the same system prompt re-sent. OpenRouter's free tier is capped
+    # on CALLS (1000/day), not tokens, so most of a day's budget was being spent on empty space.
+    # Bounded by a window COUNT rather than by the input budget alone because the binding
+    # constraint is the output cap (`max_tokens: 4096` on the free profile): facts scale with
+    # passages, and a truncated JSON response costs a repair retry -- spending the very call the
+    # packing saves. Median output is 216 tokens, so 4 passages sits well inside the cap.
+    #
+    # SHIPPED AT 1 (off) DELIBERATELY. Measured offline against the real v1-2 corpus, 4 would cut
+    # this stage from 359 requests to 101 -- but the only smoke test available the day it was
+    # written ran against local qwen2.5:14b (OpenRouter was at 0/1000 all day), and that model
+    # returned 101 facts whose quotes were not verbatim in the paragraph they cited, against 3
+    # facts unpacked. That is plausibly the local model's own documented weakness at this stage
+    # rather than the packing itself -- but plausibly is not measured, and this file's own
+    # repeated lesson is to smoke-test before trusting a real run.
+    # To flip it: run ONE character both ways against the routed model and compare claim count and
+    # the `quote_not_verbatim` drop counter (~10 calls; docs/vision/PHASE_26.md has the snippet).
+    max_windows_per_request: 1
+    max_request_tokens: 24000       # input budget for a packed request, used only when the profile
+                                     # declares no `num_ctx` (every API profile). A profile WITH
+                                     # num_ctx packs to its own usable context instead, so a local
+                                     # run never builds a request it cannot send.
+    context_safety_tokens: 256      # extra framing allowance when fitting claim requests to profile num_ctx
+    merge_overlapping: true          # adjacent windows are merged rather than sent twice
+    codex_max_evidence_tokens: 2000  # site/bundle.py::_cap_codex_evidence's total token budget (Phase 22 B4)
+
+  confidence:
+    min_to_keep: 0.5                 # below this the claim is dropped
+    min_for_structured_field: 0.7    # rendered fields need a higher bar than prose evidence
+
+  # A claim whose subject or object cannot be resolved to a gazetteer entity is DROPPED,
+  # never invented. Set to false only when debugging recall.
+  drop_unresolved_entities: true
+
+  # Verbatim quotes are checked against the cited paragraph by `wiki audit claims`.
+  require_verbatim_quote: true
+  max_quote_chars: 240
+
+  # Phase 23 A2. The verbatim-quote check above proves a quote EXISTS in the cited paragraph; it
+  # proves nothing about whether that quote actually SUPPORTS the fact. extract/adequacy.py reads
+  # this block. A claim failing any check here is dropped with its own counter, never rendered as
+  # "unconfirmed" -- CLAUDE.md's zero-evidence rule (null, not an invented/hedged sentence).
+  # [30] extract/infobox.py: one long-context call per character-volume for the infobox fields
+  # the windowed pass leaves empty (GENDER 2/14 pages, ORIGIN 1/14, AGE 2/14 on v1-2). Not read
+  # by any claim_extract prompt, so editing it re-rolls only this pass. MEASUREMENTS section 34.
+  infobox:
+    fields: [GENDER, AGE, ORIGIN]
+    max_request_tokens: 150000
+  # [30] Same module, second pass: the character's past (`wiki infobox --pass backstory`). The
+  # windowed pass left 7 BACKGROUND rows across 3 characters in v1-2, and the gold eval's misses
+  # are mostly backstory (Norah's almshouse childhood, the Church's witch suspicion). Writes
+  # backstory_vNN.jsonl. MEASUREMENTS section 37.
+  backstory:
+    fields: [BACKGROUND]
+    max_request_tokens: 150000
+
+  evidence_adequacy:
+    min_quote_words: 6           # a quote this short or shorter cannot, alone, support any fact
+                                  # ("Fall back." / "Are they not?" -- the corpus's own worst
+                                  # offenders, both well under this bar)
+    subject_must_be_named: true  # the subject's own canonical name or a known alias must appear
+    # 2026-09-23: ...within `subject_named_within_paragraphs` paragraphs of the cited one, not
+    # only inside it. Prose carries a subject across paragraph breaks with pronouns constantly
+    # ("She had travelled with him for two weeks"), and the strict single-paragraph form dropped
+    # 325 of 670 otherwise-valid facts on a real v1-2 re-run -- more than it kept. 1 = the cited
+    # paragraph plus its immediate neighbours IN THE SAME WINDOW the model was shown; 0 restores
+    # the old strict behaviour. The misattribution this gate exists to catch still is: a
+    # neighbourhood that never names the character anywhere is not about them.
+    subject_named_within_paragraphs: 1  # the subject's own canonical name or a known alias must appear
+                                  # in the CITED PARAGRAPH itself, not merely somewhere in the
+                                  # wider window/span it was drawn from -- a general guard against
+                                  # a fact attributed to whichever entity the model was told to
+                                  # extract for, from a paragraph that is not actually about them
+                                  # at all (scenes.py's chapter-wide resolution scope is the
+                                  # likelier place this fires: claims.py's own subject is fixed
+                                  # for the whole call, but a chapter-major pass resolves a fact
+                                  # group's subject from a name string per call, same as an
+                                  # object). For the Marheit/Lawrence spouse claim specifically,
+                                  # Marheit's own name IS in the cited paragraph (he is the one
+                                  # being asked about) -- `requires_both_endpoints` above is what
+                                  # catches that one, since the same paragraph never names Lawrence
+
+    # `irrealis_markers` (Phase 26 part C, enforced by extract/adequacy.py on any predicate
+    # declaring `requires_realis: true` -- KILLED and SAVED today). A counterfactual, imagined or
+    # hypothetical sentence is not evidence that the event happened, and for these two predicates
+    # the event IS the whole fact. Every marker below was taken from a quote that actually put a
+    # false relation into the live v1-2 graph: "If it had been up to Lawrence, he would have
+    # killed the man" (kraft-lawrence KILLED liebert), "The image of Yarei's torso in Holo's fangs
+    # came unbidden to Lawrence's mind" (holo KILLED yarei, conf 0.99), "he would just have Holo
+    # rescue her if need be" (holo SAVED norah-arendt), "if Norah were to take the gold and
+    # disappear" (norah-arendt SAVED kraft-lawrence). Substring match on the CITED QUOTE, not the
+    # paragraph -- the quote is what the model offered as proof. Deliberately opt-in per
+    # predicate: "he may have been her friend" is a weak FRIEND_OF, not a false one, and dropping
+    # every hedged sentence corpus-wide would cost far more history than it buys.
+    irrealis_markers: ["would have", "would've", "could have", "might have", "may have",
+                       "if it had", "if need be", "were to ", "came unbidden", "imagin",
+                       "would just have", "could be killed", "had it not"]
+
+    # `atypical_markers` (2026-09-21, enforced by extract/adequacy.py on any predicate declaring
+    # `requires_typicality: true` -- PERSONALITY only). Same lesson as `irrealis_markers` above,
+    # one layer along: a trait is a claim about what someone is USUALLY like, so a sentence that
+    # explicitly marks the behaviour as a departure is evidence AGAINST the trait, not for it.
+    # The PERSONALITY prompt note already asks for characteristic behaviour and was ignored on
+    # the first real test -- `jakob PERSONALITY "capable of empathy"` (conf 0.95) extracted from
+    # "For the first time, a flicker of empathy appeared there", a sentence whose whole point is
+    # that this was NOT how he usually behaves. Prompt guidance is not a gate; this project has
+    # now learned that three times (RELATIVE_OF, then requires_realis, now here).
+    # Substring match on the CITED QUOTE, same as irrealis_markers.
+    atypical_markers: ["for the first time", "for once", "uncharacteristic", "unusually",
+                       "unlike him", "unlike her", "rarely ", "never before", "not normally",
+                       "for a change", "this once"]
+
+    # `requires_qualifier` (Phase 26 part B, declared per-predicate above, enforced here by
+    # extract/adequacy.py): a symmetric social predicate carries almost no information without
+    # the short phrase saying what the bond consists of. The audit found 24 of 89 relations in
+    # the live graph rendering as a bare label -- worst exactly where the label carries the least
+    # meaning (FRIEND_OF 7/12, ENEMY_OF 7/16, RIVAL_OF 2/3) -- and the maintainer's own words for
+    # it were "'friend of' doesn't make much sense". An unexplained edge is dropped rather than
+    # rendered, the same "null, not a softened claim" rule every other check here follows.
+
+  # Phase 18 -- chapter-major second pass (`wiki scenes`). Coverage is 100% by construction (every
+  # paragraph is exactly one span's core), so there is deliberately no max-spans-per-chapter cap:
+  # a chapter is naturally bounded (docs/vision/PHASE_17.md's Phase 18 bullet).
+  scene:
+    span_target_tokens: 4000       # ~4k-token overlapping spans, per the vision doc's own figure
+    span_overlap_tokens: 500       # trailing context carried into the next span, for antecedent
+                                    # resolution across the boundary -- spans.py's analogue of
+                                    # window.context_paragraphs_before/after
+    max_tokens_per_request: 6000   # same shrink ceiling windows.py uses, for consistent LLM-call
+                                    # sizing across both passes
+    min_epithet_confidence: 0.6    # epithet mentions below this stay in epithets_vNN.jsonl for
+                                    # audit but are excluded by `gazetteer --merge-epithets` --
+                                    # higher than confidence.min_to_keep above since an epithet
+                                    # mutates the gazetteer, a higher-stakes write than a
+                                    # disk-only scene record.
+
+  # Phase 23 B5. `audit/reports.py::_verify_report` reads this to decide whether `wiki verify`'s
+  # own results (data/04_graph/verification.json) constitute a FAIL, not just a report -- a
+  # precision problem this severe should stop a run the same way a broken link or a crashed
+  # extraction does, not just print yellow text a human might not read.
+  verify:
+    max_unsupported_rate: 0.15   # fraction of checked facts flagged unsupported; audit FAILs above this
+
+  support:                     # opt-in --nli; probability threshold, not extractor confidence
+    threshold: 0.5
+    templates:
+      OCCUPATION: "{subject} works as a {value}."
+      AGE: "{subject} is {value} years old."
+      GENDER: "{subject} is {value}."
+      STATUS: "{subject} is {value}."
+      ORIGIN: "{subject} is from {value}."
+      PARENT_OF: "{subject} is a parent of {object}."
+      CHILD_OF: "{subject} is a child of {object}."
+      SIBLING_OF: "{subject} is a sibling of {object}."
+      RELATIVE_OF: "{subject} is a family relative of {object}."
+      SPOUSE_OF: "{subject} is married to {object}."
+      ROMANTIC_WITH: "{subject} is romantically involved with {object}."
+      FRIEND_OF: "{subject} is a friend of {object}."
+      ENEMY_OF: "{subject} is an enemy of {object}."
+      RIVAL_OF: "{subject} is a rival of {object}."
+      MENTOR_OF: "{subject} is a mentor of {object}."
+      STUDENT_OF: "{subject} is a student of {object}."
+      COMMANDS: "{subject} commands {object}."
+      SERVES_UNDER: "{subject} serves under {object}."
+      COMRADE_OF: "{subject} is a comrade of {object}."
+      AFFILIATED_WITH: "{subject} is a member or willing associate of {object}."
+      ORIGIN_FROM: "{subject} is from {object}."
+      PARTICIPATED_IN: "{subject} participated in {object}."
+      PILOTS: "{subject} pilots {object}."
+      KILLED: "{subject} killed {object}."
+      SAVED: "{subject} saved {object}."
+
+polarity:
+  values: [asserted, denied, presumed]
+  # `presumed` is essential in this genre and must never be collapsed into `asserted`:
+  # a character believed dead in V2 who returns in V5 generates a presumed STATUS claim at V2,
+  # not a false one. At cutoff 2 the page reads "presumed dead"; at cutoff 5 it reads "alive"
+  # with the V2 belief kept in the expandable history.
+  default: asserted
+
+# ---------------------------------------------------------------------------
+# Conflict handling. See docs/CONTRACTS.md §4.2.
+# ---------------------------------------------------------------------------
+conflicts:
+  same_volume: extraction_error      # arbitrate; the text should not contradict itself
+  cross_volume: narrative_change     # supersede: close the old interval, open a new one
+  escalate_when_confidence_within: 0.10   # ask the arbitrate role instead of coin-flipping
+  # (Phase 32: `quiet_change` removed. It hid a superseded value's "previously: X (vA-vB)" line
+  # for AGE/RANK/TITLE/OCCUPATION, so a v2 page erased what v1 had said. Every superseded value
+  # now renders with the volumes in which it held.)
+
+# ---------------------------------------------------------------------------
+# Value canonicalization (Phase 17). Applies to multi-valued attributes (TITLE/NICKNAME/
+# APPEARANCE) and traits (PERSONALITY/MOTIVATION/SKILL/FEAR/BACKGROUND) -- the predicates most
+# prone to near-duplicate phrasing across many evidence windows. Never applied to `single: true`
+# attributes (those already go through same-volume arbitration + cross-volume supersession) or
+# to relations (object is already an entity_id, always canonical). See graph/canonicalize.py.
+# ---------------------------------------------------------------------------
+canonicalize:
+  enabled: true
+  similarity_threshold: 0.86   # bge-m3 cosine; below this, two phrasings stay distinct
+  min_group_size: 2            # nothing to cluster below this; skip the embed call entirely
+
+prose:
+  codex_summary: { max_sentences: 1 }
+  # Prose may only reference claims in the filtered set it was given. The prompt says so and
+  # tests/test_spoiler_leak.py verifies it.
+  forbid_uncited_specifics: true
+
+# ---------------------------------------------------------------------------
+# Page gate (Phase 22 A5, S5). `wiki synthesize` skips writing a page for a character+cutoff
+# with fewer than `min_claims` distinct visible intervals -- a crash-truncated run left 5 of 14
+# characters with zero real evidence (the audit's S1 finding); a blank page is worse than no
+# page. Counts state_at + history_at + relations_at intervals only (synth/assemble.py::
+# has_min_evidence, sharing claim_set_hash's own query) -- U6's `default:` fields never count,
+# since by construction they carry no evidence.
+# ---------------------------------------------------------------------------
+page_gate:
+  min_claims: 1
+
+# ---------------------------------------------------------------------------
+# Page outline — kind: "section". The closed vocabulary of CHARACTER page sections, in `order`.
+# Replaces what used to be two independently hand-maintained section lists (site/okf.py's
+# Markdown renderer and site/templates/app.js's HTML renderer) with one declaration both read.
+# `kind` is itself a closed vocabulary: "fields" (the generic attribute loop), "affiliations",
+# "relationships" (existing per-kind renderers), "prose" (LLM-generated from the listed `traits`),
+# "derived" (computed from the already-built page dict, e.g. Appearances). A per-series overlay
+# may add, override, or remove (explicit `null`) one section here -- never by editing a renderer.
+# ---------------------------------------------------------------------------
+page_outline:
+  lead:          { order: -1, kind: lead,         title: "" }
+  # Phase 22 A5 (S6): a compact one-line summary strip -- current status (polarity-prefixed) and
+  # primary affiliation, deterministically composed by synth/assemble.py::_build_lead from fields
+  # already on the page (no new evidence read). `title: ""` means no "## " heading is printed;
+  # site/okf.py/app.js render it as a bare paragraph above the infobox/body layout, not as a
+  # normal `page_outline` body section. `order: -1` keeps it first regardless of what a
+  # per-series overlay inserts ahead of `overview`.
+  overview:      { order: 0, kind: fields,        title: "Overview" }
+  # Phase 23 E1/E2: APPEARANCE is deliberately absent from `overview`'s infobox loop below -- it
+  # now feeds the `appearance` prose section instead of rendering as an infobox bullet list.
+  appearance:    { order: 1, kind: prose,         title: "Appearance"
+                 , traits: [APPEARANCE], min_sentences: 2, max_sentences: 4
+                 , sentences_per_evidence: 0.5
+                 , subject: "a physical description", source: "attributes"
+                 # source: "attributes" (Phase 23 E2, new sentinel parallel to "events"/"history"
+                 # below): synth/prose.py::generate_attribute_prose reads ATTRIBUTE rows (via
+                 # state_at, filtered to this section's own traits list against settings.
+                 # attributes, not settings.traits) instead of TRAIT rows -- APPEARANCE is a
+                 # kind: "attribute" predicate (list-valued, subsume: true), never a trait.
+                 # synth/assemble.py::assemble_page excludes any attribute predicate claimed by a
+                 # source: "attributes" prose section from the generic `overview` fields loop
+                 # (keyed off this file, not hard-coded), so APPEARANCE no longer double-renders
+                 # as an infobox bullet.
+                 }
+  history:       { order: 3, kind: prose,         title: "History"
+                 , traits: [BACKGROUND], min_sentences: 3, max_sentences: 12
+                 , sentences_per_evidence: 0.4
+                 # max_sentences raised back to 12 now that synth/prose.py::_prose_schema_for's
+                 # per-sentence char budget was widened 200->280 (this file's own earlier attempt
+                 # at 12 failed at the OLD 200-char budget) -- the combined evidence pool
+                 # (background facts + events) needs more room than the old Chronology-only
+                 # section did, or biographical facts get crowded out by event content sharing one
+                 # bounded response (observed live: Marheit's gold-recall facts about his
+                 # personality/history dropped at max_sentences: 10, recovered at 12).
+                 # min_sentences raised 2->3 for the same reason, from the model side.
+                 , subject: "a narrative biography covering both background and what the character did and experienced"
+                 , source: "history"
+                 # Phase 23 E1: replaces the old separate Chronology (source: "events") + Background
+                 # (traits: [BACKGROUND]) split -- every gold file's own `outline` lists "History",
+                 # never "Chronology" (docs/eval/gold/spice-and-wolf/*.yaml), matching the Fandom
+                 # reference this phase targets. source: "history" is the sentinel synth/prose.py
+                 # checks to route through generate_history(), which combines this section's own
+                 # `traits` (BACKGROUND biographical facts) with events.db's scene summaries into
+                 # ONE narrative, adaptive bounds computed from their combined evidence count. The
+                 # old source: "events" / generate_chronology() path stays in synth/prose.py, unused
+                 # by this base taxonomy but still directly callable/tested.
+                 }
+  quotes:        { order: 3.5, kind: quotes,      title: "Quotes"
+                 , max_quotes: 5
+                 # Phase 20: deterministic quote selection from events.db -- no LLM call.
+                 # Top-N quotes by confidence, deduplicated, speaker must be this character.
+                 # Section is omitted (null) if events.db absent or no quotes for this character.
+                 }
+  affiliations:  { order: 4, kind: affiliations,  title: "Affiliations" }
+  relationships: { order: 4.5, kind: relationships, title: "Relationships" }
+  personality:   { order: 2, kind: prose,         title: "Personality"
+                 , traits: [PERSONALITY, MOTIVATION, SKILL, FEAR], min_sentences: 2, max_sentences: 6
+                 , sentences_per_evidence: 0.5
+                 # Phase 20: adaptive budget -- 0.5 sentences per trait fact, floor 2, ceil 6.
+                 , subject: "a short characterisation", source: "personality, motivation, skill and fear traits" }
+  abilities:     { order: 2.5, kind: traits,      title: "Abilities", traits: [SKILL]
+                 # [30] A deficit is a true SKILL row but not an ability: Bookworm listed Lutz
+                 # "illiterate" and Myne "physically weak", "poor knife handling" under Abilities.
+                 # Rows matching `exclude_pattern` (case-insensitive) stay out of this list; they
+                 # still reach the personality prose, which can say them in a sentence.
+                 , exclude_pattern: '^(poor|lacks?|lacking|unable|cannot|can.t|bad at|clumsy|weak|physically weak|illiterate)\b|^(not|no) '
+                 # Phase 30: SKILL rows rendered as a structured list instead of reaching the
+                 # reader only through the capped `personality` paragraph. Holo's page showed 3
+                 # of her 14 skills; 43% of SKILL intervals left no trace in the prose at all.
+                 # PERSONALITY, MOTIVATION and FEAR deliberately stay prose-only: a professional
+                 # page characterises in sentences and bullet-lists capabilities, and a list of
+                 # 152 personality adjectives would be worse than the paragraph it replaced.
+                 # SKILL is still in `personality`'s traits list, so a skill can appear in both
+                 # the list and the paragraph.
+                 # ponytail: accepted redundancy -- removing SKILL from that list changes the
+                 # prose prompt, which invalidates the prose cache and bills a regeneration for a
+                 # cosmetic win. Do it in the next pass that has to regenerate prose anyway.
+                 }
+  goals:         { order: 2.6, kind: traits,      title: "Goals", traits: [MOTIVATION]
+                 # [30] MOTIVATION rows as a list, as `abilities` does for SKILL. Lawrence's goal
+                 # of opening his own shop -- the drive behind both volumes -- was extracted twice,
+                 # verified, and absent from his page: the capped `personality` paragraph dropped
+                 # it. Motivations are few (4 in v1-2 against 122 PERSONALITY rows), so the
+                 # Phase 30 reason for keeping them prose-only does not apply. No prompt changes.
+                 }
+  # [32] Recall at no precision cost. PERSONALITY/FEAR and BACKGROUND reached the reader only as
+  # whatever survived a capped paragraph: 8 of Spice and Wolf's 34 v1-2 gold misses were "in the
+  # graph, page omitted it" (MEASUREMENTS §48). These list every verified row with its citation,
+  # deterministically, like Abilities and Goals (contained rows fold into longer siblings).
+  # `by_volume` groups rows under the volume that established them, so a later page keeps what an
+  # earlier volume said (req. 6).
+  traits_list:   { order: 2.2, kind: traits,      title: "Traits", traits: [PERSONALITY, FEAR] }
+  events:        { order: 3.2, kind: traits,      title: "Background by volume", traits: [BACKGROUND], by_volume: true }
+  related:       { order: 5, kind: related,       title: "Related"
+                 # Phase 30: reverse routes. `mentions_of` (PPR neighbours, minus anyone already
+                 # shown under Affiliations/Relationships) was computed and rendered nowhere, so a
+                 # connection reached the reader only if prose happened to name it -- 12 of 40
+                 # character-to-character links ran one way. Entries the pipeline cannot explain
+                 # (`note: null`, a multi-hop-only PPR hit) are deliberately not shown.
+                 }
+  appearances:   { order: 6, kind: derived,       title: "Appearances"
+                 # Unrelated to the new `appearance` (singular) prose section above -- this is the
+                 # pre-existing "which volumes named this character" utility strip, not one of the
+                 # five Fandom headings; kept at the very end so its similarly-spelled key doesn't
+                 # get confused for the physical-description section a reader hits first.
+                 }
+  # Phase 23 E1: "Trivia" (the fifth Fandom heading, docs/vision/PHASE_23.md's 2026-09-10 entry)
+  # is deliberately NOT added here -- eval/gold.py's own `_HEADING_ALIASES` already treats it as a
+  # permanent, expected recall gap ("CLAUDE.md §2's 'structured fields are never LLM-generated'
+  # rule leaves no room for trivia"). Adding a section without a real, evidence-gated source would
+  # mean inventing unsourced trivia text, which CLAUDE.md forbids.

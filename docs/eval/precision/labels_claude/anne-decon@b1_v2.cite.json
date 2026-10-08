@@ -1,0 +1,18 @@
+{
+ "0": "S", "1": "S", "2": "S", "3": "S", "4": "S", "8": "S", "9": "S", "11": "S", "12": "S", "13": "S", "14": "S",
+ "15": "S", "16": "S", "21": "S", "22": "S", "23": "S", "24": "S", "25": "S", "26": "S", "27": "S", "28": "S",
+ "31": "S", "32": "S", "33": "S", "35": "S", "36": "S", "39": "S",
+ "5": ["P", "the romance in her tales is cited (v01:c26:p0021); her talk of boys and courting (v01:c18:p0010, c26:p0020) is not"],
+ "6": ["P", "the making-up is cited (v01:c38:p0055); it is of volume 1, not of the teaching years"],
+ "10": ["P", "the caterpillar is cited (v02:c08:p0036); the screams in the next paragraph are not"],
+ "19": ["P", "the parting address is cited (v01:c21:p0002); the cited v01:c19:p0040 is Hugh's recitation, his own is one paragraph earlier"],
+ "20": ["P", "'a position at a different school' is cited (v01:c30:p0032); the grade school of her home district (v01:c30:p0031) is not"],
+ "29": ["P", "the third cousins and the arrival are cited (v02:c07:p0027, c08:p0000); the mother's death is in the next paragraph"],
+ "30": ["P", "'I would prefer looking like you' is cited (v02:c27:p0040); her copying of Nell (p0039) is not"],
+ "34": ["P", "the muslin dress is cited (v02:c21:p0045); it has no ribbons"],
+ "7": ["I", "the cited v01:c19:p0020 is Obed; the remark is at the same chapter and paragraph number of volume 2"],
+ "17": ["I", "none of the six cited paragraphs has flowers or her garden"],
+ "18": ["I", "the cited v01:c17:p0036 is the rivalry; the promotion is the next paragraph, and none of the 23 has it"],
+ "37": ["I", "the cited v02:c01:p0031 reads 'Six minutes after . . . a pair of twins' in the treated text (a paraphrase error for their age, six) and gives no seven"],
+ "38": ["I", "the cited v01:c13:p0002 names her father's field, not her"]
+}

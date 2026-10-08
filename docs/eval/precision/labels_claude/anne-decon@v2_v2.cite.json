@@ -1,0 +1,14 @@
+{
+ "0": "S", "1": "S", "2": "S", "4": "S", "6": "S", "7": "S", "8": "S", "9": "S", "10": "S", "17": "S", "19": "S",
+ "20": "S", "21": "S", "22": "S", "23": "S", "27": "S", "28": "S", "29": "S", "30": "S", "31": "S", "32": "S",
+ "33": "S", "34": "S", "35": "S", "36": "S", "38": "S", "39": "S",
+ "3": ["P", "an old stone house is cited (v02:c28:p0073); the cited paragraphs do not name it Echo Cottage"],
+ "5": ["P", "she tells Obed (v01:c32:p0045) and is congratulated (p0048); Mrs. Sowerby is not named in the cited paragraphs"],
+ "12": ["P", "the cited paragraphs give the plan and its end (v02:c14:p0050, p0066), not a lease made"],
+ "13": ["P", "her care of him is cited (v02:c08:p0001, p0030); guidance is left to infer"],
+ "24": ["P", "the cited v02:c24:p0000 gives it as the view of the young people of Brierley"],
+ "26": ["P", "Mrs. Sowerby overtakes Nell (v02:c14:p0000); the bazaar talk (p0004-p0005) is not cited"],
+ "37": ["P", "Nell begs forgiveness (v01:c16:p0062); the answer that turns her away is not cited"],
+ "11": ["I", "the cited paragraphs are the evening of the arrival (v01:c03)"],
+ "18": ["I", "the description of the Avenue is in the paragraph after the four cited (v01:c02:p0040-p0043)"]
+}

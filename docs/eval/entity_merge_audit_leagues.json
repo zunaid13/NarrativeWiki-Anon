@@ -1,0 +1,39 @@
+[
+ {
+  "entity": "captain-nemo",
+  "flag": "surname",
+  "surnames": [
+   "avenger",
+   "commander",
+   "man",
+   "sea",
+   "waters"
+  ],
+  "forms": {
+   "this strange man": 1,
+   "the man of the waters": 2,
+   "its commander": 2,
+   "that terrible avenger": 2,
+   "the genie of the sea": 2
+  }
+ },
+ {
+  "entity": "ned-land",
+  "flag": "surname",
+  "surnames": [
+   "Homer",
+   "Land",
+   "Ned",
+   "harpooners"
+  ],
+  "forms": {
+   "Ned Land": 1,
+   "Master Land": 1,
+   "Friend Ned": 1,
+   "Master Ned": 1,
+   "the prince of harpooners": 1,
+   "a Canadian Homer": 1,
+   "the king of harpooners": 1
+  }
+ }
+]

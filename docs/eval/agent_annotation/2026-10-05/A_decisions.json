@@ -1,0 +1,722 @@
+{
+  "A001": [
+    "cannot tell",
+    "n-a",
+    "no",
+    "Gilbert is handsome and frank-faced; fair could mean complexion or attractiveness, and the shown text does not resolve that wording."
+  ],
+  "A002": [
+    "cannot tell",
+    "n-a",
+    "no",
+    "The cited she describes childhood mischief, but its antecedent is not supplied; none of the other shown passages identifies that speaker as Stacy."
+  ],
+  "A003": [
+    "yes",
+    "n-a",
+    "yes",
+    "Lavendar entertains Paul naturally and provides a feast; the extra passage explicitly describes her hospitable intentions."
+  ],
+  "A004": [
+    "partly",
+    "n-a",
+    "no",
+    "The other Academy paragraph establishes a reputation for a sharp tongue, but the cited paragraphs do not; Kingsport is not established by the supplied material."
+  ],
+  "A005": [
+    "yes",
+    "n-a",
+    "yes",
+    "The woman explicitly identifies herself as Harrison's wife and says he is already married."
+  ],
+  "A006": [
+    "no",
+    "n-a",
+    "none cited",
+    "The supplied paragraphs describe social and romantic interests but do not establish genuine goodwill toward friends."
+  ],
+  "A007": [
+    "cannot tell",
+    "n-a",
+    "none cited",
+    "Eliza's arrival while Thomas is ill suggests contact, but the displayed passages do not show or count a shared scene."
+  ],
+  "A008": [
+    "cannot tell",
+    "no",
+    "none cited",
+    "No supplied passage depicts the hair-colour reassurance or shows both Marilla and Rachel participating in that scene; the page excerpt itself is the claim, not source evidence."
+  ],
+  "A009": [
+    "yes",
+    "n-a",
+    "none cited",
+    "The school-teacher passage reports that Stacy dresses beautifully and has larger sleeve puffs than anyone else, supporting fashionable dress."
+  ],
+  "A010": [
+    "partly",
+    "no",
+    "none cited",
+    "Anne's reflection establishes Nettie as the alternative, but not directly Jane's stated prediction; none of the shown scene evidence places Diana in the overnight conversation."
+  ],
+  "A011": [
+    "no",
+    "n-a",
+    "no",
+    "Affection and remorse are shown, but no displayed explanation is followed by easy persuasion; the asserted general mechanism is not established."
+  ],
+  "A012": [
+    "no",
+    "n-a",
+    "no",
+    "The full concert paragraph calls Josie fat, not short; the other shown paragraphs do not establish short stature."
+  ],
+  "A013": [
+    "yes",
+    "n-a",
+    "yes",
+    "Marilla brings both twins home and Anne receives them at the gate; the subsequent household scenes establish their placement."
+  ],
+  "A014": [
+    "yes",
+    "n-a",
+    "yes",
+    "Diana explicitly says she could love nobody as she loves Anne, supporting affectionate friendship."
+  ],
+  "A015": [
+    "no",
+    "n-a",
+    "no",
+    "The displayed citations and other passages concern other people; none establishes Susan's work habits."
+  ],
+  "A016": [
+    "yes",
+    "n-a",
+    "yes",
+    "Harrison explicitly says he got the parrot from his sailor brother."
+  ],
+  "A017": [
+    "partly",
+    "n-a",
+    "none cited",
+    "Jane's participation in a school dialogue and correspondence are shown, but regular socializing with Ruby is not directly established in the supplied passages."
+  ],
+  "A018": [
+    "no",
+    "n-a",
+    "no",
+    "The passages establish college life and studies, but none states or implies a journey to Japan."
+  ],
+  "A019": [
+    "yes",
+    "n-a",
+    "no",
+    "The extra ghost paragraph explicitly has Carl bolt and the girls follow; the cited passages concern other incidents."
+  ],
+  "A020": [
+    "yes",
+    "n-a",
+    "none cited",
+    "The Academy paragraph explicitly calls Priscilla a pale spiritual-looking maiden."
+  ],
+  "A021": [
+    "no",
+    "n-a",
+    "no",
+    "Rosemary is a prospective second wife and a wedding is scheduled; no supplied paragraph establishes a completed marriage."
+  ],
+  "A022": [
+    "yes",
+    "no",
+    "none cited",
+    "Richard's executor explicitly reports money held in trust for the twins. Lavendar and Paul are discussed, not shown taking part in this breakfast/news scene."
+  ],
+  "A023": [
+    "yes",
+    "n-a",
+    "none cited",
+    "Philippa frankly acknowledges her previous inability to hold fast and recounts the family resistance, supporting candour."
+  ],
+  "A024": [
+    "partly",
+    "n-a",
+    "partly",
+    "Rachel's work in the Sewing Circle and Church Aid Society supports the general organizing role, but the displayed evidence does not establish the named concert and bazaars."
+  ],
+  "A025": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited kettle-and-bread paragraph explicitly contrasts his slow, halting movements with his former briskness."
+  ],
+  "A026": [
+    "yes",
+    "n-a",
+    "no",
+    "The additional Avonlea-school paragraph places Ruby at a pupil's desk; the citation only describes the school building."
+  ],
+  "A027": [
+    "no",
+    "n-a",
+    "no",
+    "Practical teaching ambitions and Anne's explanation of poetry do not establish Jane's lack of interest in poetry."
+  ],
+  "A028": [
+    "cannot tell",
+    "n-a",
+    "no",
+    "Phillips punishes Anne, but the displayed passage gives boys' company rather than lateness as the reason; the surrounding lateness event is missing."
+  ],
+  "A029": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited end-of-term paragraph explicitly calls her tenure Miss Stacy's rule in Avonlea school."
+  ],
+  "A030": [
+    "yes",
+    "n-a",
+    "no",
+    "The additional paragraphs report George recovering memory and identify the supposed Dick as his lookalike cousin; the citations shown cover Leslie's earlier life."
+  ],
+  "A031": [
+    "no",
+    "n-a",
+    "none cited",
+    "The extra passage depicts preparations for the fight and Dan's drawings, but no supplied passage states an insult to Walter's mother."
+  ],
+  "A032": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited description explicitly gives Matthew long iron-gray hair touching his shoulders."
+  ],
+  "A033": [
+    "yes",
+    "n-a",
+    "yes",
+    "Faith expressly wants everybody to know the stocking incident was not her father's fault."
+  ],
+  "A034": [
+    "yes",
+    "n-a",
+    "yes",
+    "v05:c32:p0000 explicitly describes Norman vaulting as airily as a stripling over a stone dyke; this was outside the initial clipped window."
+  ],
+  "A035": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited rivalry paragraph explicitly says Gilbert talked and jested with the other girls."
+  ],
+  "A036": [
+    "partly",
+    "n-a",
+    "none cited",
+    "The breakup and a later Boston home are supported, but the shown passages do not place the move to Boston immediately after the breakup rather than after the reunion."
+  ],
+  "A037": [
+    "no",
+    "n-a",
+    "no",
+    "The adjoining source describes Mrs. Lynde looking at Anne; the quotation is not attributable to Marshall Elliott."
+  ],
+  "A038": [
+    "no",
+    "n-a",
+    "none cited",
+    "None of the supplied source paragraphs concerns Marilla's eyesight."
+  ],
+  "A039": [
+    "partly",
+    "no",
+    "none cited",
+    "Gilbert explicitly weighs Anne's and Jane's corporal-punishment views, but the supplied sources do not establish the evening-before-school timing. Diana is not shown participating."
+  ],
+  "A040": [
+    "yes",
+    "n-a",
+    "partly",
+    "The citations establish the twins and repeated teasing; the additional paragraph supplies Davy's protective threat against anyone else pulling Dora's hair."
+  ],
+  "A041": [
+    "cannot tell",
+    "yes",
+    "none cited",
+    "Anne's accident and later conversation with Miss Copp are shown, but the rescue and Sarah identification are not. Anne and Diana both act in the platter expedition."
+  ],
+  "A042": [
+    "yes",
+    "n-a",
+    "none cited",
+    "Jamesina cheerfully reassures Anne and advocates having a good time, supporting this modest disposition claim."
+  ],
+  "A043": [
+    "yes",
+    "n-a",
+    "yes",
+    "Paul explicitly distinguishes Mother Lavendar from his deceased mother and says he loves her; the additional wedding material confirms the stepmother relationship."
+  ],
+  "A044": [
+    "no",
+    "n-a",
+    "no",
+    "The displayed source paragraphs concern adoption and other events, not the outburst at Rachel."
+  ],
+  "A045": [
+    "yes",
+    "n-a",
+    "yes",
+    "Cornelia is explicitly grimly determined and says she has stuck to Leslie despite being kept at a distance."
+  ],
+  "A046": [
+    "partly",
+    "n-a",
+    "partly",
+    "Paul explicitly grew big, brown and sturdy, but brown is not identified as changed hair colour; the parenthetical interpretation is unsupported."
+  ],
+  "A047": [
+    "partly",
+    "n-a",
+    "none cited",
+    "Diana's daily visits and tearful farewell establish deep affection; the absolute unwavering description goes beyond the displayed evidence."
+  ],
+  "A048": [
+    "no",
+    "no",
+    "none cited",
+    "No supplied source shows Davy's funeral complaint or Charlie and Gilbert taking part in that June conversation."
+  ],
+  "A049": [
+    "yes",
+    "n-a",
+    "no",
+    "The additional Academy description explicitly calls Stella black-eyed; the cited school anecdotes do not concern her eyes."
+  ],
+  "A050": [
+    "no",
+    "n-a",
+    "none cited",
+    "The shown household passages do not establish Matthew as head of household."
+  ],
+  "A051": [
+    "no",
+    "no",
+    "none cited",
+    "The displayed sources concern a walking party and other events, not cat chaos during the Gardners' visit; Gilbert is not shown participating in that visit."
+  ],
+  "A052": [
+    "cannot tell",
+    "n-a",
+    "none cited",
+    "Phil and Blake's relationship is established, but the shown passages do not depict and count two shared scenes."
+  ],
+  "A053": [
+    "cannot tell",
+    "no",
+    "none cited",
+    "Preparations and the adults' return from the concert are shown, but neither Anne's successful recitations nor both girls' actual participation is supplied."
+  ],
+  "A054": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited school report explicitly names Mr. Phillips."
+  ],
+  "A055": [
+    "no",
+    "yes",
+    "none cited",
+    "The shown passages establish stage fright, not the subsequent pride response. Anne performs while Jane is present in the audience enjoying the concert."
+  ],
+  "A056": [
+    "no",
+    "n-a",
+    "none cited",
+    "The source describes Priscilla's mischief and pranks; the good-tempered girl in another paragraph is not identified as Priscilla."
+  ],
+  "A057": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited recollection gives knowing Marshall since age ten, liking him, and cod-fishing together, supporting long friendship and fishing companionship."
+  ],
+  "A058": [
+    "no",
+    "no",
+    "none cited",
+    "The displayed sources establish Anne's end of term and thoughts about Paul, not their stated conversation; neither Marilla nor Matthew is shown participating in it."
+  ],
+  "A059": [
+    "partly",
+    "n-a",
+    "none cited",
+    "Stacy's work at Avonlea school is established, but these displayed paragraphs do not establish her succession after Phillips's departure."
+  ],
+  "A060": [
+    "yes",
+    "n-a",
+    "no",
+    "Anne calls Stella the dearest girl apart from Diana, supporting an appealing disposition. The cited sentence concerns Anne and Diana instead."
+  ],
+  "A061": [
+    "yes",
+    "n-a",
+    "none cited",
+    "v02:c08:p0001 shows Rachel remembering Anne's arrival and observing her mature ability with children; v03:c05:p0007 shows their continuing correspondence."
+  ],
+  "A062": [
+    "partly",
+    "n-a",
+    "none cited",
+    "Rachel's approval of Anne staying to teach supports being a supporter, but the initial offence and motherly role are not established by the shown material."
+  ],
+  "A063": [
+    "yes",
+    "n-a",
+    "yes",
+    "Jamesina explicitly advises duty by God as part of her philosophy; an additional passage states respect for the cloth."
+  ],
+  "A064": [
+    "partly",
+    "n-a",
+    "partly",
+    "The passages connect Leslie's guardedness and sullen moods to tragic burdens, but do not specifically establish poverty as the cause of deep bitterness."
+  ],
+  "A065": [
+    "yes",
+    "n-a",
+    "yes",
+    "Anne explicitly reports that Phillips did not see Josie peeping in her book."
+  ],
+  "A066": [
+    "yes",
+    "no",
+    "none cited",
+    "The household's continuing aching loss after Matthew's death supports Marilla's grief; no supplied passage places Moody in the mourning scene."
+  ],
+  "A067": [
+    "no",
+    "no",
+    "none cited",
+    "The extra passages show different group gatherings, not Phil joining the specified twentieth-birthday conversation; Rusty is not shown in that scene."
+  ],
+  "A068": [
+    "partly",
+    "n-a",
+    "partly",
+    "Ruby's lovely long golden hair is explicit, but its thickness is not established in the supplied passages."
+  ],
+  "A069": [
+    "no",
+    "n-a",
+    "none cited",
+    "Anne says she readily loves Matthew, but the displayed passages do not establish his belief in her or its lasting effect on her life."
+  ],
+  "A070": [
+    "yes",
+    "n-a",
+    "none cited",
+    "Anne and Jane share an enjoyable concert outing and school activities, supporting shared youthful amusements."
+  ],
+  "A071": [
+    "partly",
+    "n-a",
+    "no",
+    "The extra letter confirms Lavendar and Stephen's Boston home and Charlotta's presence. Paul's move is described as a plan rather than confirmed there; early-life citations do not establish the move."
+  ],
+  "A072": [
+    "yes",
+    "n-a",
+    "none cited",
+    "The Academy arrival paragraph places Josie in the First Year alongside the teacher-license classes, supporting study toward that qualification."
+  ],
+  "A073": [
+    "yes",
+    "n-a",
+    "yes",
+    "Cornelia explicitly says Captain Jim is seventy-six."
+  ],
+  "A074": [
+    "partly",
+    "n-a",
+    "partly",
+    "The cited passage establishes an initial approach to the girl seen at Redmond, but does not identify this first meeting's setting as Old St. John's Cemetery."
+  ],
+  "A075": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited description explicitly gives Marilla the hard little knot behind, secured with two hairpins."
+  ],
+  "A076": [
+    "no",
+    "n-a",
+    "none cited",
+    "The shown sixty-year age statements concern Matthew, not Marilla, and do not establish her age in volume 3."
+  ],
+  "A077": [
+    "partly",
+    "n-a",
+    "none cited",
+    "Susan's household service and accompanying Jem in the move support helping care for him, but the displayed passages do not establish adoration from infancy."
+  ],
+  "A078": [
+    "no",
+    "n-a",
+    "none cited",
+    "Jane is described as neat and plain; a pleasant countenance is not established."
+  ],
+  "A079": [
+    "yes",
+    "n-a",
+    "yes",
+    "The citation reports Ruby had taught before illness and intends to resume; this supports a historical teaching skill, not current health."
+  ],
+  "A080": [
+    "no",
+    "n-a",
+    "no",
+    "Neither the displayed citations nor the other passages establishes football captaincy."
+  ],
+  "A081": [
+    "yes",
+    "n-a",
+    "no",
+    "The extra passage presents Roy's pleading voice as irresistible to Anne, supporting a charming voice; the citations do not describe it."
+  ],
+  "A082": [
+    "partly",
+    "n-a",
+    "partly",
+    "Jamesina's joke about mocking her own beaux supports a teasing sense of humour, but frequent teasing of others is not established."
+  ],
+  "A083": [
+    "partly",
+    "n-a",
+    "no",
+    "The additional journey passage places Davy's prior home at East Grafton; Marysville belongs to Anne's childhood in the citation."
+  ],
+  "A084": [
+    "yes",
+    "n-a",
+    "yes",
+    "Jane explicitly says their father gave Billy the upper farm; the Harmon Andrews family pew provides the family identification."
+  ],
+  "A085": [
+    "no",
+    "n-a",
+    "no",
+    "The displayed material establishes Avonlea schooling but does not identify Phillips as its teacher; the claim's own page text cannot supply evidence."
+  ],
+  "A086": [
+    "no",
+    "n-a",
+    "no",
+    "The shown passages establish Paul's family and wedding plans, but not his immense joy caused by the reconciliation and marriage."
+  ],
+  "A087": [
+    "no",
+    "n-a",
+    "no",
+    "The volume-1/2 passages concern Queen's Academy and Carmody teaching, not Priscilla's later Redmond campus social life."
+  ],
+  "A088": [
+    "yes",
+    "n-a",
+    "none cited",
+    "Anne explicitly says she and Diana imagined the wood haunted for romantic amusement."
+  ],
+  "A089": [
+    "yes",
+    "n-a",
+    "yes",
+    "The citation attributes the displayed words verbatim to Ruby Gillis."
+  ],
+  "A090": [
+    "yes",
+    "n-a",
+    "yes",
+    "The citations explicitly say Paul comes from the States and Boston."
+  ],
+  "A091": [
+    "yes",
+    "n-a",
+    "partly",
+    "The exact words are in the citation, and the extra illness passage connects the conversation to Ruby; the cited line alone has no named speaker."
+  ],
+  "A092": [
+    "partly",
+    "n-a",
+    "partly",
+    "The household move is explicit, but the proposal paragraph is an untagged quotation and does not identify Philippa as its speaker. Verify proposer identity in human review."
+  ],
+  "A093": [
+    "no",
+    "n-a",
+    "none cited",
+    "Charlotta dresses with blue ribbons for the wedding, but neatness reflecting an eager nature is not established; the explicitly neat woman in another paragraph is someone else."
+  ],
+  "A094": [
+    "yes",
+    "n-a",
+    "yes",
+    "Marilla identifies John as her former beau and explicitly recounts the unforgiven quarrel and his not returning."
+  ],
+  "A095": [
+    "partly",
+    "n-a",
+    "partly",
+    "The citations establish fiery eyes in strong emotion, but fire of youth is a simile in old age rather than evidence of his actual youthful appearance."
+  ],
+  "A096": [
+    "yes",
+    "n-a",
+    "no",
+    "The other supplied v03:c05:p0007 explicitly calls Ruby's admirers numerous; the page's cited schooling/illness passages do not establish this."
+  ],
+  "A097": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited paragraph gives the quotation and links the speaker's heartbreak to Stephen Irving, supporting Lavendar's attribution."
+  ],
+  "A098": [
+    "no",
+    "no",
+    "none cited",
+    "The story-club membership is supported, but the shown sources do not give Anne's Mrs. Allan aspiration or place Jane and Ruby in her later conversation with Marilla."
+  ],
+  "A099": [
+    "partly",
+    "n-a",
+    "partly",
+    "The displayed passages establish Matthew and Marilla's joint household decisions and Matthew's quiet patience, but do not explicitly establish their sibling relationship."
+  ],
+  "A100": [
+    "partly",
+    "n-a",
+    "none cited",
+    "Billy's inability to reply during the drive supports social awkwardness, but does not distinguish exceptional bashfulness from slow thinking."
+  ],
+  "A101": [
+    "yes",
+    "n-a",
+    "yes",
+    "Rachel explicitly reports having brought up ten children and buried two."
+  ],
+  "A102": [
+    "no",
+    "n-a",
+    "none cited",
+    "No displayed paragraph establishes Rachel's numerical age range."
+  ],
+  "A103": [
+    "partly",
+    "n-a",
+    "partly",
+    "Josie's sulk over not being fairy queen is explicit, but the maid-of-honour role is stated by Anne of herself, not established for Josie."
+  ],
+  "A104": [
+    "yes",
+    "n-a",
+    "yes",
+    "Matthew explicitly expected a boy, found a girl instead and brought her home."
+  ],
+  "A105": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited arrival and subsequent household paragraphs establish Jamesina's Sarah-cat living with her at Patty's Place."
+  ],
+  "A106": [
+    "no",
+    "no",
+    "none cited",
+    "The shown source material does not depict the post-apology warmth or Marilla and Matthew sharing that scene; the later homecoming is a different event."
+  ],
+  "A107": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited school description explicitly says Walter seldom joins sports, preferring solitary reading, especially poetry."
+  ],
+  "A108": [
+    "no",
+    "n-a",
+    "none cited",
+    "Their later friendship and tramps are established, but no supplied passage shows an agreement to exchange visits at their first meeting."
+  ],
+  "A109": [
+    "no",
+    "n-a",
+    "no",
+    "The evidence establishes Ruby's Story Club membership, not membership of the distinct Village Improvement Society."
+  ],
+  "A110": [
+    "yes",
+    "n-a",
+    "none cited",
+    "Rachel's blunt prediction that Marilla would regret adopting Anne, and Marilla's objection to Rachel's comments, support occasional tactlessness."
+  ],
+  "A111": [
+    "no",
+    "n-a",
+    "no",
+    "The shown sources concern Davy's early mischief and other people's farms, not his developing an interest in farming."
+  ],
+  "A112": [
+    "yes",
+    "n-a",
+    "none cited",
+    "Rosemary explicitly reports Una asking her to marry her father; the reassurance conversation supports affection and the prospective family role."
+  ],
+  "A113": [
+    "no",
+    "n-a",
+    "none cited",
+    "The shown adoption and education passages do not establish the location or entirety of Matthew's savings."
+  ],
+  "A114": [
+    "yes",
+    "n-a",
+    "yes",
+    "The cited drive description explicitly says Billy admired Anne immensely."
+  ],
+  "A115": [
+    "yes",
+    "n-a",
+    "yes",
+    "The rental proposal and Jamesina's arrival with Priscilla establish the shared home; the extra room-allocation passage identifies it as Patty's Place."
+  ],
+  "A116": [
+    "yes",
+    "n-a",
+    "yes",
+    "The citation explicitly attributes the exact displayed words to Mrs. Rachel."
+  ],
+  "A117": [
+    "yes",
+    "n-a",
+    "no",
+    "The additional report explicitly gives Phillips's farewell speech and its opening words; the citations shown cover earlier teaching incidents."
+  ],
+  "A118": [
+    "partly",
+    "n-a",
+    "partly",
+    "The visit to Green Gables is explicit; the supplied paragraphs do not establish driving as the means of travel."
+  ],
+  "A119": [
+    "partly",
+    "n-a",
+    "partly",
+    "Davy explicitly says he is seven in the later breakfast scene; the supplied evidence does not establish seven at his earlier arrival."
+  ],
+  "A120": [
+    "yes",
+    "n-a",
+    "yes",
+    "Stella's own letter explicitly describes back-country teaching, the past two years and her decision to attend Redmond."
+  ]
+}

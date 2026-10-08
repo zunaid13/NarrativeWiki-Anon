@@ -1,0 +1,3 @@
+# Anne & Katie Maurice
+
+- [Anne](../character/anne.md) — presumed Friend of — [Katie Maurice](../character/katie-maurice.md) — imaginary friend and reflection in bookcase door · since v1  <sub>[v1 CHAPTER VIII. Anne’s Bringing-up Is Begun P43](../source/v01-c08.md#nw-v01-c08-p0043), [v1 CHAPTER VIII. Anne’s Bringing-up Is Begun P58](../source/v01-c08.md#nw-v01-c08-p0058), [v1 CHAPTER XVII. A New Interest in Life P14](../source/v01-c17.md#nw-v01-c17-p0014)</sub>

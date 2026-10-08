@@ -1,0 +1,21 @@
+{
+ "2": "S", "3": "S", "4": "S", "7": "S", "9": "S", "10": "S", "11": "S", "12": "S", "13": "S", "16": "S", "17": "S",
+ "18": "S", "19": "S", "20": "S", "22": "S", "24": "S", "25": "S", "27": "S", "28": "S", "30": "S", "34": "S",
+ "36": "S", "37": "S",
+ "0": ["P", "'a position at a different school' is cited (v01:c30:p0032); that it was in her home district (p0031) is not"],
+ "6": ["P", "the quarrel and the night of the croup are cited (v01:c16:p0063, c18:p0032); the making-up (v01:c18:p0043) is not"],
+ "29": ["P", "one scene is cited, her fright when Nell falls (v01:c23:p0018); the trait is inferred from it"],
+ "32": ["P", "the friendship is cited (v01:c01:p0012); the later move is not of this cutoff"],
+ "35": ["P", "her sisters 'not old enough' and Posy Fay's illness are cited (v01:c12:p0027, c18:p0021); that Posy Fay is her sister is not stated in them"],
+ "1": ["I", "the cited v01:c22:p0009 is Nell watching fireflies; Mabel is described at v01:c35:p0004"],
+ "5": ["I", "none of the three cited paragraphs has him grown or manly (v01:c37:p0037)"],
+ "8": ["I", "unsupported atom: the cited paragraphs do not name her"],
+ "14": ["I", "wrong person: both cited paragraphs are about Flora Odette, Mrs. Tranter's daughter"],
+ "15": ["I", "later content: the six cited paragraphs are of volume 1 and none has the house"],
+ "23": ["I", "the cited v01:c15:p0088 and p0091 are about Mr. Pidgeon's school, before she comes"],
+ "26": ["I", "the request is cited (v01:c08:p0008, p0012); the refusal that follows is not"],
+ "31": ["I", "the cited v01:c14:p0065 is Thirza sending Nell to the picnic; the lilies are v01:c14:p0068"],
+ "33": ["I", "the cited v01:c15:p0011 is about Sukey and the teacher; no relation is in it"],
+ "38": ["I", "the cited v01:c14:p0065 names Tobias, not Barney"],
+ "39": ["I", "none of the seven cited paragraphs has a fear of hers"]
+}

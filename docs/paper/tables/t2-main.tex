@@ -1,0 +1,29 @@
+% T2: main comparison (two-column table*). Means over cutoffs; every cell is in Appendix E.
+% The decontaminated block is tables/t2b-decon.tex, read only under \nwdecontrue.
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{@{}llccccrr@{}}
+\toprule
+ & & \multicolumn{1}{c}{Recall} & \multicolumn{1}{c}{Precision} & \multicolumn{1}{c}{Citation} & Later facts & Distinct & Tokens \\
+\multicolumn{2}{@{}l}{System (cutoff enforced by)} & \multicolumn{1}{c}{$\uparrow$} & \multicolumn{1}{c}{$\uparrow$} & \multicolumn{1}{c}{sufficiency $\uparrow$} & disclosed $\downarrow$ & assertions & in / out (M) \\
+\midrule
+B1 & Long context (input) & \best{\res{M1-anne-avg-B1}}$\pm$\res{STAT-M1-B1-sd} & \res{M3-anne-avg-B1}$\pm$\res{STAT-M3-B1-sd} & \res{M8-anne-avg-B1}$\pm$\res{STAT-M8-B1-sd} & \res{M4-anne-total-B1} & \res{ND-anne-avg-B1} & \res{TOK-anne-B1} \\
+B2 & Prefix retrieval (input) &\res{M1-anne-avg-B2}$\pm$\res{STAT-M1-B2-sd} & \best{\res{M3-anne-avg-B2}}$\pm$\res{STAT-M3-B2-sd} & \best{\res{M8-anne-avg-B2}}$\pm$\res{STAT-M8-B2-sd} & \res{M4-anne-total-B2} & \res{ND-anne-avg-B2} & \best{\res{TOK-anne-B2}} \\
+B3 & LightRAG (input) & \res{M1-anne-avg-B3}$\pm$\res{STAT-M1-B3-sd} & \res{M3-anne-avg-B3}$\pm$\res{STAT-M3-B3-sd} & -- & \res{M4-anne-total-B3} & \res{ND-anne-avg-B3} & \res{TOK-anne-B3} \\
+B5 & \sys (data) & \res{M1-anne-avg-B5}$\pm$\res{STAT-M1-B5-sd} & \res{M3-anne-avg-B5}$\pm$\res{STAT-M3-B5-sd} & \res{M8-anne-avg-B5}$\pm$\res{STAT-M8-B5-sd} & \best{\res{M4-anne-total-B5}} & \best{\res{ND-anne-avg-B5}} & \res{TOK-anne-B5} \\
+\midrule
+X1 & Closed book (none) & \res{M1-anne-avg-X1}$\pm$\res{STAT-M1-X1-sd} & \res{M3-anne-avg-X1}$\pm$\res{STAT-M3-X1-sd} & -- & \best{\res{M4-anne-total-X1}} & \res{ND-anne-avg-X1} & \res{TOK-anne-X1} \\
+X2 & Full text (instruction) & \res{M1-anne-avg-X2}$\pm$\res{STAT-M1-X2-sd} & \res{M3-anne-avg-X2}$\pm$\res{STAT-M3-X2-sd} & -- & \best{\res{M4-anne-total-X2}} & \res{ND-anne-avg-X2} & \res{TOK-anne-X2} \\
+\bottomrule
+\end{tabular}
+\caption{Main comparison on the Anne series: mean $\pm$ sample standard deviation over cutoffs $t=1..5$
+(Table~\ref{tab:stats} has the median and range). Recall is over the eligible gold facts; precision is over 40 sampled
+atomic assertions per cutoff, judged on the page that prints them; citation sufficiency is the
+share of the same atoms established by the paragraphs cited for them, labelled for \sys, B1
+and B2. Later facts disclosed counts stated or implied disclosures over
+fact-by-cutoff reads at $t=1..4$, without uncertain verdicts (Section~\ref{sec:results-main}).
+Distinct assertions are per cutoff; tokens are for one clean build. X1
+and X2 are diagnostics. Bold: best of B1--B5; non-zero disclosure.}
+\label{tab:main}
+\end{table*}

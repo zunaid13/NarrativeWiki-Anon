@@ -1,0 +1,278 @@
+{
+  "run_id": "codex-annotation-20261005",
+  "reader": "agent:Codex (GPT-6; source-read AI pilot; human verification pending)",
+  "packet": {
+    "A": {
+      "cannot tell": 8,
+      "yes": 55,
+      "partly": 24,
+      "no": 33
+    },
+    "B": {
+      "neither": 50,
+      "stated": 8,
+      "cannot tell": 1,
+      "implied": 1
+    }
+  },
+  "precision": {
+    "anne@v2_v1.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 36,
+        "partial": 2,
+        "unsupported": 2
+      },
+      "human_atom": {
+        "supported": 36,
+        "partial": 2,
+        "unsupported": 2
+      },
+      "cite": {
+        "sufficient": 34,
+        "partial": 4,
+        "insufficient": 2
+      }
+    },
+    "anne@v2_v1_all.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 33,
+        "unsupported": 4,
+        "partial": 2,
+        "uncertain": 1
+      },
+      "human_atom": {
+        "supported": 37,
+        "partial": 2,
+        "uncertain": 1
+      },
+      "cite": {
+        "insufficient": 7,
+        "sufficient": 20,
+        "partial": 6,
+        "none": 7
+      }
+    },
+    "anne@v2_v2.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 38,
+        "partial": 1,
+        "unsupported": 1
+      },
+      "human_atom": {
+        "supported": 38,
+        "partial": 1,
+        "unsupported": 1
+      },
+      "cite": {
+        "sufficient": 32,
+        "partial": 6,
+        "insufficient": 2
+      }
+    },
+    "anne@v2_v2_all.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 27,
+        "frame_error": 1,
+        "uncertain": 1,
+        "unsupported": 10,
+        "partial": 1
+      },
+      "human_atom": {
+        "supported": 35,
+        "frame_error": 1,
+        "uncertain": 1,
+        "unsupported": 2,
+        "partial": 1
+      },
+      "cite": {
+        "partial": 8,
+        "frame_error": 1,
+        "none": 7,
+        "insufficient": 8,
+        "sufficient": 16
+      }
+    },
+    "anne@v2_v3.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 40
+      },
+      "human_atom": {
+        "supported": 40
+      },
+      "cite": {
+        "sufficient": 38,
+        "partial": 2
+      }
+    },
+    "anne@v2_v3_all.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 33,
+        "unsupported": 6,
+        "partial": 1
+      },
+      "human_atom": {
+        "supported": 38,
+        "partial": 1,
+        "unsupported": 1
+      },
+      "cite": {
+        "none": 6,
+        "sufficient": 17,
+        "partial": 7,
+        "insufficient": 10
+      }
+    },
+    "anne@v2_v4.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 38,
+        "unsupported": 2
+      },
+      "human_atom": {
+        "supported": 38,
+        "unsupported": 2
+      },
+      "cite": {
+        "sufficient": 32,
+        "insufficient": 2,
+        "partial": 6
+      }
+    },
+    "anne@v2_v4_all.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 30,
+        "unsupported": 9,
+        "uncertain": 1
+      },
+      "human_atom": {
+        "supported": 39,
+        "uncertain": 1
+      },
+      "cite": {
+        "partial": 10,
+        "sufficient": 18,
+        "insufficient": 5,
+        "none": 7
+      }
+    },
+    "anne@v2_v5.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 35,
+        "unsupported": 1,
+        "partial": 3,
+        "uncertain": 1
+      },
+      "human_atom": {
+        "supported": 35,
+        "unsupported": 1,
+        "partial": 3,
+        "uncertain": 1
+      },
+      "cite": {
+        "sufficient": 32,
+        "insufficient": 1,
+        "partial": 7
+      }
+    },
+    "anne@v2_v5_all.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 26,
+        "unsupported": 11,
+        "partial": 3
+      },
+      "human_atom": {
+        "supported": 36,
+        "uncertain": 1,
+        "partial": 3
+      },
+      "cite": {
+        "sufficient": 20,
+        "none": 3,
+        "partial": 9,
+        "insufficient": 8
+      }
+    },
+    "anne@b4-v2_v1_all.jsonl": {
+      "rows": 40,
+      "human": {
+        "supported": 39,
+        "partial": 1
+      },
+      "human_atom": {
+        "supported": 40
+      },
+      "cite": {
+        "sufficient": 37,
+        "partial": 3
+      }
+    }
+  },
+  "recall_audit": {
+    "1": {
+      "rows": 23,
+      "proposed": {
+        "yes": 19,
+        "no": 4
+      },
+      "differences": 0
+    },
+    "2": {
+      "rows": 46,
+      "proposed": {
+        "yes": 34,
+        "no": 12
+      },
+      "differences": 1
+    },
+    "3": {
+      "rows": 66,
+      "proposed": {
+        "yes": 52,
+        "no": 14
+      },
+      "differences": 0
+    },
+    "4": {
+      "rows": 89,
+      "proposed": {
+        "yes": 71,
+        "no": 18
+      },
+      "differences": 0
+    },
+    "5": {
+      "rows": 111,
+      "proposed": {
+        "yes": 88,
+        "no": 23
+      },
+      "differences": 3
+    }
+  },
+  "coverage": {
+    "A": 120,
+    "B": 60,
+    "precision": 440,
+    "recall": 335
+  },
+  "checks": {
+    "all_rows_covered": true,
+    "allowed_verdicts": true,
+    "witness_cutoffs": true,
+    "passages_match_parsed_source": true,
+    "recall_pages_unchanged": true,
+    "original_recall_unchanged": true,
+    "blinded_zip_unchanged": true,
+    "precision_nonannotation_fields_unchanged": true
+  },
+  "human_verification": "pending; not human labels or inter-reader agreement"
+}

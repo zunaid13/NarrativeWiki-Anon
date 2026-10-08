@@ -1,0 +1,65 @@
+# Anne of Green Gables series (model trial, gemini-3.6-flash) — up to Volume 1
+
+## Characters
+
+- [Anne Shirley](character/anne-shirley.md) — [Academy](codex/places.md#academy)
+- [Marilla Cuthbert](character/marilla-cuthbert.md) — [Conservative](codex/factions.md#conservative)
+- [Diana Barry](character/diana-barry.md)
+- [Matthew Cuthbert](character/matthew-cuthbert.md) — deceased · [Conservative](codex/factions.md#conservative)
+- [Rachel Lynde](character/rachel-lynde.md)
+- [Allan](character/allan.md)
+- [Gilbert Blythe](character/gilbert-blythe.md) — [Academy](codex/places.md#academy)
+- [Stacy](character/stacy.md) — [Avonlea](codex/places.md#avonlea)
+- [Josephine Barry](character/josephine-barry.md) — [Beechwood](codex/places.md#beechwood)
+- [Phillips](character/phillips.md)
+- [Ruby Gillis](character/ruby-gillis.md)
+- [Josie Pye](character/josie-pye.md)
+- [Alexander Spencer](character/alexander-spencer.md)
+- [Thomas](character/thomas.md)
+- [Jane Andrews](character/jane-andrews.md) — [Academy](codex/places.md#academy)
+- [Moody Spurgeon MacPherson](character/moody-spurgeon-macpherson.md)
+- [Elaine](character/elaine.md)
+- [God](character/god.md)
+- [Hammond](character/hammond.md) — deceased
+- [Minnie May](character/minnie-may.md)
+- [Charlie Sloane](character/charlie-sloane.md)
+- [Prissy Andrews](character/prissy-andrews.md)
+- [Blewett](character/blewett.md)
+- [Geraldine](character/geraldine.md)
+- [Katie Maurice](character/katie-maurice.md)
+- [Ben Hur](character/ben-hur.md)
+- [Carrie Sloane](character/carrie-sloane.md)
+- [Gertie Pye](character/gertie-pye.md)
+- [Julia Bell](character/julia-bell.md)
+- [Minnie Andrews](character/minnie-andrews.md)
+- [Harris](character/harris.md)
+- [Rogerson](character/rogerson.md)
+- [Young Mary Joe](character/young-mary-joe.md)
+- [Bertram](character/bertram.md) — deceased
+- [Billy](character/billy.md)
+- [Bonny](character/bonny.md)
+- [Chester Ross](character/chester-ross.md)
+- [Harmon Andrews](character/harmon-andrews.md)
+- [Superintendent Bell](character/superintendent-bell.md)
+- [Violetta](character/violetta.md)
+- [William Blair](character/william-blair.md)
+- [Evans](character/evans.md)
+- [Flora Jane](character/flora-jane.md)
+- [Frank Stockley](character/frank-stockley.md)
+- [Lauretta](character/lauretta.md)
+- [Martin](character/martin.md)
+- [Stella Maynard](character/stella-maynard.md)
+- [Tillie Boulter](character/tillie-boulter.md)
+- [Bentley](character/bentley.md) — [Avonlea](codex/places.md#avonlea)
+- [Susan](character/susan.md)
+- [Titian](character/titian.md)
+
+## Codex
+
+- [Factions & Organizations](codex/factions.md)
+- [Locations & Battles](codex/places.md)
+
+## Reference
+
+- [Source text](source/index.md)
+- [Timeline](timeline/v01.md)

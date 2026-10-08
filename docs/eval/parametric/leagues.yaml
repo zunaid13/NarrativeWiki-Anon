@@ -1,0 +1,60 @@
+# Plan 0009 E3: facts for the parametric-leak experiment on Twenty Thousand Leagues.
+# Hand-written 2026-09-25 from the parsed text; every `evidence` para_id was read (grep + print
+# of data/leagues/01_parsed/v0N.jsonl). Names are the ORIGINAL ones; the decontaminated
+# conditions remap each claim through their series' `decontaminate.entity_map`.
+#
+# future (first_vol 2): established only in Part Two. A page written from Part One's text alone
+#   that states one of these got it from the model's memory: that is the leak being measured.
+# control (first_vol 1): established in Part One. Shows the page is informative at all.
+# Claims are single self-contained sentences, the shape MiniCheck scores.
+# `keywords` (future facts): case-insensitive markers for the lexical tier. A keyword that also
+# occurs in the volumes <= t text of the condition is not a future marker and is dropped at run
+# time (probe/parametric.py::valid_keywords), so a generic word like "ice" or "escape" only
+# counts where Part One never uses it.
+series: leagues
+characters:
+  Captain Nemo:
+    future:
+      - {claim: "Captain Nemo kills a shark with a dagger to save an Indian pearl diver.", evidence: v02:c02:p0040, keywords: ["shark"]}
+      - {claim: "Captain Nemo gives a poor pearl diver a bag of pearls.", evidence: v02:c02:p0051, keywords: ["pearl"]}
+      - {claim: "Captain Nemo takes the Nautilus from the Red Sea to the Mediterranean through a secret underwater tunnel beneath Suez.", evidence: v02:c03:p0074, keywords: ["Suez", "Arabian Tunnel", "tunnel"]}
+      - {claim: "Captain Nemo's wealth comes from the gold of Spanish galleons sunk in Vigo Bay.", evidence: v02:c07:p0053, keywords: ["Vigo", "galleon"]}
+      - {claim: "Captain Nemo reaches the South Pole and plants a black flag bearing a gold N.", evidence: v02:c13:p0049, keywords: ["South Pole", "black flag", "black banner"]}
+      - {claim: "Captain Nemo weeps for a crewman killed by a giant squid.", evidence: v02:c18:p0001, keywords: ["squid", "poulp", "octopus", "kraken", "cuttlefish"]}
+      - {claim: "Captain Nemo saves Ned Land from a giant squid with an axe.", evidence: v02:c17:p0062, keywords: ["squid", "poulp", "octopus", "kraken", "cuttlefish"]}
+      - {claim: "Captain Nemo lost his wife and children to his enemies.", evidence: v02:c20:p0035, keywords: ["wife", "children", "family"]}
+      - {claim: "Captain Nemo keeps a portrait of a young woman and two children in his room.", evidence: v02:c20:p0053, keywords: ["portrait"]}
+      - {claim: "Captain Nemo sinks a warship that attacks the Nautilus.", evidence: v02:c20:p0049, keywords: ["warship", "man-of-war", "ship-of-war", "sinks a ship", "rams"]}
+      - {claim: "Captain Nemo cries out \"Almighty God! enough! enough!\"", evidence: v02:c21:p0024, keywords: ["Almighty God"]}
+      - {claim: "The Nautilus is drawn into the Maelstrom off the coast of Norway.", evidence: v02:c21:p0033, keywords: ["Maelstrom", "Norway"]}
+    control:
+      - {claim: "Captain Nemo says he has broken with society and does not obey its laws.", evidence: v01:c10:p0018}
+      - {claim: "The Nautilus is powered by electricity.", evidence: v01:c11:p0006}
+      - {claim: "Captain Nemo buries a crewman in a coral cemetery.", evidence: v01:c23:p0052}
+      - {claim: "Captain Nemo invites Professor Aronnax to hunt in the forests of the island of Crespo.", evidence: v01:c14:p0019}
+  Professor Aronnax:
+    future:
+      - {claim: "Professor Aronnax sees the ruins of Atlantis on the sea floor.", evidence: v02:c08:p0049, keywords: ["Atlantis"]}
+      - {claim: "Professor Aronnax nearly suffocates when the Nautilus is trapped under the Antarctic ice.", evidence: v02:c15:p0047, keywords: ["Antarctic", "ice", "suffocat"]}
+      - {claim: "Professor Aronnax escapes from the Nautilus in its small boat with Ned Land and Conseil.", evidence: v02:c21:p0026, keywords: ["escapes", "escaped", "escape from the"]}
+      - {claim: "Professor Aronnax wakes up in a fisherman's hut on the Lofoten Islands.", evidence: v02:c22:p0001, keywords: ["Lofoten", "Loffoden", "fisherman"]}
+      - {claim: "Professor Aronnax travels twenty thousand leagues under the sea in less than ten months.", evidence: v02:c22:p0004, keywords: ["twenty thousand leagues", "20,000 leagues", "ten months"]}
+    control:
+      - {claim: "Professor Aronnax is taken aboard the Nautilus after being thrown into the sea from the Abraham Lincoln.", evidence: v01:c07:p0048}
+      - {claim: "Professor Aronnax's servant is Conseil.", evidence: v01:c03:p0004}
+  Ned Land:
+    future:
+      - {claim: "Ned Land harpoons and kills a dugong in the Red Sea.", evidence: v02:c04:p0042, keywords: ["dugong"]}
+      - {claim: "Ned Land is saved by Captain Nemo from a giant squid.", evidence: v02:c17:p0062, keywords: ["squid", "poulp", "octopus", "kraken", "cuttlefish"]}
+      - {claim: "Ned Land helps dig through the ice with a pickaxe to free the Nautilus.", evidence: v02:c15:p0012, keywords: ["pickaxe", "ice"]}
+      - {claim: "Ned Land gives his own air to keep Professor Aronnax alive under the ice.", evidence: v02:c16:p0003, keywords: ["suffocat", "air"]}
+      - {claim: "Ned Land plans the final escape from the Nautilus and secretly stores food and water in its boat.", evidence: v02:c21:p0008, keywords: ["food and water", "stores food", "the boat"]}
+    control:
+      - {claim: "Ned Land is a Canadian harpooner.", evidence: v01:c08:p0023}
+  Conseil:
+    future:
+      - {claim: "Conseil is stunned by the shock of an electric fish.", evidence: v02:c16:p0018, keywords: ["electric fish", "torpedo", "cramp-fish", "eel", "shock"]}
+      - {claim: "Conseil gives his own air to keep Professor Aronnax alive under the ice.", evidence: v02:c16:p0003, keywords: ["suffocat", "air"]}
+      - {claim: "Conseil escapes from the Nautilus with Professor Aronnax and Ned Land.", evidence: v02:c21:p0026, keywords: ["escapes", "escaped", "escape from the"]}
+    control:
+      - {claim: "Conseil is Professor Aronnax's devoted Flemish servant.", evidence: v01:c03:p0004}

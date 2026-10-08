@@ -1,0 +1,383 @@
+{
+ "series": "anne",
+ "units": "fact-by-cutoff, t=1..4",
+ "variants": {
+  "direct, name, own page": {
+   "found": 220,
+   "total": 220,
+   "rate": 1.0,
+   "rules": {
+    "keyword": 133,
+    "overlap": 87
+   }
+  },
+  "paraphrase, name, own page": {
+   "found": 186,
+   "total": 220,
+   "rate": 0.8454545454545455,
+   "rules": {
+    "none": 34,
+    "keyword": 100,
+    "overlap": 72,
+    "event": 14
+   }
+  },
+  "paraphrase, name, other page": {
+   "found": 186,
+   "total": 220,
+   "rate": 0.8454545454545455,
+   "rules": {
+    "none": 34,
+    "keyword": 100,
+    "overlap": 72,
+    "event": 14
+   }
+  },
+  "paraphrase, pronoun, own page": {
+   "found": 169,
+   "total": 220,
+   "rate": 0.7681818181818182,
+   "rules": {
+    "none": 51,
+    "keyword": 68,
+    "overlap": 87,
+    "event": 14
+   }
+  },
+  "paraphrase, pronoun, other page": {
+   "found": 68,
+   "total": 220,
+   "rate": 0.3090909090909091,
+   "rules": {
+    "none": 152,
+    "keyword": 68
+   }
+  },
+  "oblique, name, own page": {
+   "found": 157,
+   "total": 220,
+   "rate": 0.7136363636363636,
+   "rules": {
+    "keyword": 110,
+    "none": 63,
+    "overlap": 41,
+    "event": 6
+   }
+  },
+  "oblique, name, other page": {
+   "found": 157,
+   "total": 220,
+   "rate": 0.7136363636363636,
+   "rules": {
+    "keyword": 110,
+    "none": 63,
+    "overlap": 41,
+    "event": 6
+   }
+  },
+  "oblique, pronoun, own page": {
+   "found": 137,
+   "total": 220,
+   "rate": 0.6227272727272727,
+   "rules": {
+    "keyword": 78,
+    "none": 83,
+    "overlap": 52,
+    "event": 7
+   }
+  },
+  "oblique, pronoun, other page": {
+   "found": 78,
+   "total": 220,
+   "rate": 0.35454545454545455,
+   "rules": {
+    "keyword": 78,
+    "none": 142
+   }
+  }
+ },
+ "per_cutoff": {
+  "1": {
+   "direct, name, own page": [
+    88,
+    88
+   ],
+   "paraphrase, name, own page": [
+    72,
+    88
+   ],
+   "paraphrase, name, other page": [
+    72,
+    88
+   ],
+   "paraphrase, pronoun, own page": [
+    66,
+    88
+   ],
+   "paraphrase, pronoun, other page": [
+    29,
+    88
+   ],
+   "oblique, name, own page": [
+    63,
+    88
+   ],
+   "oblique, name, other page": [
+    63,
+    88
+   ],
+   "oblique, pronoun, own page": [
+    56,
+    88
+   ],
+   "oblique, pronoun, other page": [
+    35,
+    88
+   ]
+  },
+  "2": {
+   "direct, name, own page": [
+    65,
+    65
+   ],
+   "paraphrase, name, own page": [
+    57,
+    65
+   ],
+   "paraphrase, name, other page": [
+    57,
+    65
+   ],
+   "paraphrase, pronoun, own page": [
+    52,
+    65
+   ],
+   "paraphrase, pronoun, other page": [
+    20,
+    65
+   ],
+   "oblique, name, own page": [
+    46,
+    65
+   ],
+   "oblique, name, other page": [
+    46,
+    65
+   ],
+   "oblique, pronoun, own page": [
+    40,
+    65
+   ],
+   "oblique, pronoun, other page": [
+    23,
+    65
+   ]
+  },
+  "3": {
+   "direct, name, own page": [
+    45,
+    45
+   ],
+   "paraphrase, name, own page": [
+    39,
+    45
+   ],
+   "paraphrase, name, other page": [
+    39,
+    45
+   ],
+   "paraphrase, pronoun, own page": [
+    35,
+    45
+   ],
+   "paraphrase, pronoun, other page": [
+    13,
+    45
+   ],
+   "oblique, name, own page": [
+    33,
+    45
+   ],
+   "oblique, name, other page": [
+    33,
+    45
+   ],
+   "oblique, pronoun, own page": [
+    28,
+    45
+   ],
+   "oblique, pronoun, other page": [
+    15,
+    45
+   ]
+  },
+  "4": {
+   "direct, name, own page": [
+    22,
+    22
+   ],
+   "paraphrase, name, own page": [
+    18,
+    22
+   ],
+   "paraphrase, name, other page": [
+    18,
+    22
+   ],
+   "paraphrase, pronoun, own page": [
+    16,
+    22
+   ],
+   "paraphrase, pronoun, other page": [
+    6,
+    22
+   ],
+   "oblique, name, own page": [
+    15,
+    22
+   ],
+   "oblique, name, other page": [
+    15,
+    22
+   ],
+   "oblique, pronoun, own page": [
+    13,
+    22
+   ],
+   "oblique, pronoun, other page": [
+    5,
+    22
+   ]
+  }
+ },
+ "control": {
+  "total": 224,
+  "flagged": 14
+ },
+ "missed_examples": {
+  "paraphrase, name, other page": [
+   {
+    "t": 1,
+    "claim": "Anne helps raise the twins Davy and Dora at Green Gables.",
+    "sentence": "Anne Shirley shares in bringing up two orphaned twin children whom the household adopts."
+   },
+   {
+    "t": 1,
+    "claim": "Anne realises she loves Gilbert when he falls ill with typhoid.",
+    "sentence": "Anne Shirley understands her true feelings for Gilbert only when a fever nearly kills him."
+   },
+   {
+    "t": 1,
+    "claim": "Anne is secretary of the Avonlea Village Improvement Society.",
+    "sentence": "Anne Shirley serves as secretary of the village improvers."
+   },
+   {
+    "t": 1,
+    "claim": "Marilla urges Anne to go on to Redmond.",
+    "sentence": "Marilla Cuthbert insists that Anne should go to college after all."
+   },
+   {
+    "t": 1,
+    "claim": "Anne names her son James Matthew partly after Matthew.",
+    "sentence": "Anne's boy carries Matthew Cuthbert's name as his second name."
+   },
+   {
+    "t": 1,
+    "claim": "Diana is treasurer of the Avonlea Village Improvement Society.",
+    "sentence": "Diana Barry looks after the funds of the village improvers."
+   },
+   {
+    "t": 1,
+    "claim": "Walter is a dreamy boy who loves poetry.",
+    "sentence": "Walter Blythe is a dreamer who is devoted to verse."
+   },
+   {
+    "t": 1,
+    "claim": "Faith Meredith dares Walter to ride a pig through Main Street.",
+    "sentence": "Walter Blythe is challenged by Faith to go down the main street on a pig's back."
+   },
+   {
+    "t": 1,
+    "claim": "Captain Jim dies soon after his life-book is published.",
+    "sentence": "Captain Jim passes away shortly after his book of memories appears in print."
+   },
+   {
+    "t": 1,
+    "claim": "Mr. Harrison keeps a swearing parrot called Ginger.",
+    "sentence": "Harrison owns a profane parrot named Ginger."
+   },
+   {
+    "t": 1,
+    "claim": "Paul Irving loves Miss Lavendar as his new second mother.",
+    "sentence": "Paul Irving is devoted to Miss Lavendar, who becomes his stepmother."
+   },
+   {
+    "t": 1,
+    "claim": "Charlotta the Fourth will go to Boston to live with the Irvings.",
+    "sentence": "Charlotta is to move to Boston with the Irving household."
+   }
+  ],
+  "paraphrase, pronoun, own page": [
+   {
+    "t": 1,
+    "claim": "Anne helps raise the twins Davy and Dora at Green Gables.",
+    "sentence": "They shares in bringing up two orphaned twin children whom the household adopts."
+   },
+   {
+    "t": 1,
+    "claim": "Anne realises she loves Gilbert when he falls ill with typhoid.",
+    "sentence": "They understands her true feelings for Gilbert only when a fever nearly kills him."
+   },
+   {
+    "t": 1,
+    "claim": "Anne is secretary of the Avonlea Village Improvement Society.",
+    "sentence": "They serves as secretary of the village improvers."
+   },
+   {
+    "t": 1,
+    "claim": "Marilla urges Anne to go on to Redmond.",
+    "sentence": "They insists that Anne should go to college after all."
+   },
+   {
+    "t": 1,
+    "claim": "Anne names her son James Matthew partly after Matthew.",
+    "sentence": "Anne's boy carries They's name as his second name."
+   },
+   {
+    "t": 1,
+    "claim": "Diana is treasurer of the Avonlea Village Improvement Society.",
+    "sentence": "They looks after the funds of the village improvers."
+   },
+   {
+    "t": 1,
+    "claim": "Walter is a dreamy boy who loves poetry.",
+    "sentence": "They is a dreamer who is devoted to verse."
+   },
+   {
+    "t": 1,
+    "claim": "Faith Meredith dares Walter to ride a pig through Main Street.",
+    "sentence": "They is challenged by Faith to go down the main street on a pig's back."
+   },
+   {
+    "t": 1,
+    "claim": "Captain Jim dies soon after his life-book is published.",
+    "sentence": "They passes away shortly after his book of memories appears in print."
+   },
+   {
+    "t": 1,
+    "claim": "Mr. Harrison keeps a swearing parrot called Ginger.",
+    "sentence": "They owns a profane parrot named Ginger."
+   },
+   {
+    "t": 1,
+    "claim": "Paul Irving loves Miss Lavendar as his new second mother.",
+    "sentence": "They is devoted to Miss Lavendar, who becomes his stepmother."
+   },
+   {
+    "t": 1,
+    "claim": "Charlotta the Fourth will go to Boston to live with the Irvings.",
+    "sentence": "They is to move to Boston with the Irving household."
+   }
+  ]
+ }
+}

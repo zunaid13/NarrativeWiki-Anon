@@ -1,0 +1,40 @@
+# [33] 2026-09-30: which page(s) of the `anne` wiki (B5, the system) carry each gold character.
+# Every scorer looks a gold character up through `probe/parametric.py::gold_pages`; a character not
+# listed here is looked up by slugify(gold name), which is how every baseline is scored (baselines
+# take the gold names as their cast, so their slugs always match).
+#
+# Why this exists: the v1-5 rebuild (freeze anne-v1g) gave several characters short canonical names
+# ("Diana", "Susan", "Walter", "Jem") and split others over two pages ("Anne" + "Anne Shirley"). Scored
+# by gold slug alone, 12 of 43 gold characters read as page-less at t=5 -- recall and the leak screen
+# both blind to what B5 did write about them.
+#
+# Rule (agent-drafted 2026-09-30, maintainer to confirm): list every B5 CHARACTER page whose content is
+# about the gold character, checked by reading the page at t=5 (lead, prose, aliases). Pages are scored
+# as their union. A page that MERGES two people is listed for the gold character it contains, so its
+# other person's text counts against that character's precision and a later person's facts on it count
+# as leaks -- merges are system errors and stay visible, never filtered. Merges found while drafting
+# (report as B5 entity-resolution errors):
+#   di      Diana Barry's description (black hair, dimples; alias "Diana Barry") + Di Blythe (v5)
+#   diana   Diana Barry, plus Di Blythe's "red hair, gray-green eyes"
+#   walter  Walter Shirley (Anne's father, v1) + Walter Blythe (v5)
+#   marshall  the candidate minister "Mr. Marshall" (v1) + Marshall Elliott (v4)
+#   mary    Davy's dead mother Mary Keith (v2) + Mary Vance (v5)
+#   west    Rosemary West + Leslie Moore's grandmother (wrong kinship)
+#   anne    aliases "Mistress Blythe", "Mrs. Doctor" (v4) on the v1 entity
+Anne Shirley: [anne-shirley, anne]
+Matthew Cuthbert: [matthew-cuthbert, matthew]
+Diana Barry: [diana, di]
+Rachel Lynde: [rachel-lynde, lynde]
+Jane Andrews: [jane-andrews, jane]
+Walter Blythe: [walter]
+Captain Jim: [uncle-jim]
+Philippa Gordon: [phil-gordon]
+Reverend Jo: [jonas]
+Marshall Elliott: [marshall]
+Dick Moore: [dick]
+Susan Baker: [susan]
+Carl Meredith: [carl]
+Faith Meredith: [faith]
+Mary Vance: [mary-vance, mary]
+Rosemary West: [rosemary-west, west]
+Little Jem: [jem]

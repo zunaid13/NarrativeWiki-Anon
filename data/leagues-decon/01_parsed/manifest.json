@@ -1,0 +1,25 @@
+{
+  "series": "leagues-decon",
+  "volumes": [
+    {
+      "vol": 1,
+      "title": "Corpus L, Vol. 01",
+      "isbn": null,
+      "pub_date": null,
+      "n_chapters": 23,
+      "n_paragraphs": 1170,
+      "n_words": 49140,
+      "source_file": "decontaminated from leagues"
+    },
+    {
+      "vol": 2,
+      "title": "Corpus L, Vol. 02",
+      "isbn": null,
+      "pub_date": null,
+      "n_chapters": 23,
+      "n_paragraphs": 1136,
+      "n_words": 56038,
+      "source_file": "decontaminated from leagues"
+    }
+  ]
+}

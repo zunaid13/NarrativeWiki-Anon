@@ -1,0 +1,292 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Captain Jim's full cited paragraph explicitly names Persis Leigh and says she is coming to marry John Selwyn.",
+    [
+      "v04:c07:p0007"
+    ]
+  ],
+  "1": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Forty-five is the reported age in volume2; it is the last stated historical age, not independently verified as her current age at cutoff4. Timing needs human review.",
+    []
+  ],
+  "2": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly recalls living with Mrs. Thomas.",
+    []
+  ],
+  "3": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Cornelia explicitly calls George a scalawag for mischief.",
+    []
+  ],
+  "4": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Marilla says stopping Matthew working would be like telling him not to breathe.",
+    []
+  ],
+  "5": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Marilla explicitly says she kept still when told as a child.",
+    []
+  ],
+  "6": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Joshua is explicitly surly.",
+    []
+  ],
+  "7": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mrs. Irving explicitly raises her grandson Paul.",
+    []
+  ],
+  "8": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator describes Marilla as unsympathetic in these earlier exchanges; historical personality characterization.",
+    []
+  ],
+  "9": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Jane explicitly cooks so well that her wealthy husband forbids her cooking.",
+    []
+  ],
+  "10": [
+    "unsupported",
+    "unsupported",
+    "insufficient",
+    "Phil feared and briefly believed she had scarlet fever, but the full cited paragraph explicitly says she was well next morning and it could not have been the fever.",
+    []
+  ],
+  "11": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Eliza explicitly states fifty-seven years; historical stated age in volume2, not a fresh cutoff4 age measurement.",
+    []
+  ],
+  "12": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Martin is the hired farmhand named in the Cuthbert farm discussion.",
+    []
+  ],
+  "13": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Charlotta explicitly prefers the Island to the States and discusses her native accent.",
+    []
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Gilbert's hope for Anne's love is explicitly narrated; this does not imply reciprocal love at the earlier scene.",
+    []
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mr. and Mrs. Chester Ross are explicitly from Spencervale.",
+    []
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "partial",
+    "Jamesina explicitly recalls mocking beaux; speaker identity is resolved in surrounding chapter35 context.",
+    []
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly calls Rachel's heart officious.",
+    []
+  ],
+  "18": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Frank West's hanging and funeral are explicit in p0020; the other citation concerns a different suicide but p0020 independently suffices.",
+    []
+  ],
+  "19": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Davy explicitly recounts Minnie May crying after being called ugly.",
+    []
+  ],
+  "20": [
+    "supported",
+    "supported",
+    "partial",
+    "The marriage is explicit; the honeysuckle arbor location is in v02:c29:p0010, not the sole citation.",
+    [
+      "v02:c29:p0010"
+    ]
+  ],
+  "21": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Priscilla is repeatedly identified as a girl and with feminine pronouns.",
+    []
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Cornelia is explicitly referred to with feminine pronouns.",
+    []
+  ],
+  "23": [
+    "unsupported",
+    "unsupported",
+    "insufficient",
+    "Henry Hammond living at the Glen is not Anne's deceased Mr. Hammond, the sawmill worker on this page. Homonym merge.",
+    []
+  ],
+  "24": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Barbara is explicitly an awkward girl, consistent with the subsequent account of broken dishes.",
+    []
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Captain Jim explicitly recounts sea-going relatives on his mother's side.",
+    []
+  ],
+  "26": [
+    "supported",
+    "supported",
+    "partial",
+    "The cited visits establish friendship; correspondence is established by Anne sharing Owen's letters in v04:c28:p0024.",
+    [
+      "v04:c28:p0024"
+    ]
+  ],
+  "27": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mrs. Skinner explicitly says Thomas courted her for quite a spell.",
+    []
+  ],
+  "28": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Henry Sprott is explicitly a man.",
+    []
+  ],
+  "29": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly says Marilla is fond of moral lessons.",
+    []
+  ],
+  "30": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Patty is explicitly named.",
+    []
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "partial",
+    "The letter names Uncle Joseph; Barbara's authorship requires v02:c11:p0031. The uncle must be distinguished from the later cat named Joseph.",
+    [
+      "v02:c11:p0031"
+    ]
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne describes Jane as never worrying about exams; unflappable is grounded in this context.",
+    []
+  ],
+  "33": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Leslie's history of summer boarders is explicitly stated.",
+    []
+  ],
+  "34": [
+    "supported",
+    "supported",
+    "partial",
+    "A lady clerk is described in the citation; Harris's name is introduced in adjacent v01:c25:p0008.",
+    [
+      "v01:c25:p0008"
+    ]
+  ],
+  "35": [
+    "supported",
+    "supported",
+    "partial",
+    "Both girls say they are from the Island; Priscilla and Anne's speaker identities require the surrounding exchange in chapter4.",
+    []
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Robert Bell's former neighboring farm is explicit.",
+    []
+  ],
+  "37": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The full passage explicitly calls Dora fifteen-year-old.",
+    []
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Owen explicitly meditates writing a novel.",
+    []
+  ],
+  "39": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Leslie finding Frank's body when she is fourteen is explicit.",
+    []
+  ]
+}

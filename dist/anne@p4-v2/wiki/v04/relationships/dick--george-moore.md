@@ -1,0 +1,4 @@
+# Dick & George Moore
+
+- [Dick](../character/dick.md) — Comrade of — [George Moore](../character/george-moore.md) — shipmates on a voyage to Havana · since v4  <sub>[v4 CHAPTER 11 THE STORY OF LESLIE MOORE P28](../source/v04-c11.md#nw-v04-c11-p0028)</sub>
+- [Dick](../character/dick.md) — Relative of — [George Moore](../character/george-moore.md) — cousin · since v4  <sub>[v4 CHAPTER 11 THE STORY OF LESLIE MOORE P28](../source/v04-c11.md#nw-v04-c11-p0028), [v4 CHAPTER 31 THE TRUTH MAKES FREE P28](../source/v04-c31.md#nw-v04-c31-p0028), [v4 CHAPTER 32 MISS CORNELIA DISCUSSES THE AFFAIR P12](../source/v04-c32.md#nw-v04-c32-p0012), +1 more</sub>

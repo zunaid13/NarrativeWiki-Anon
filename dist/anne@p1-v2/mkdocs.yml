@@ -1,0 +1,30 @@
+site_name: Anne of Green Gables series
+docs_dir: wiki
+site_dir: wiki-html
+theme:
+  name: material
+  # [30] One top tab per cutoff ("Up to Volume N"): the reader picks how far they have read
+  # before seeing anything, which is the site's whole contract.
+  features: [navigation.tabs, navigation.top, toc.follow]
+  palette:
+    - scheme: default
+      toggle: {icon: material/brightness-7, name: Dark mode}
+    - scheme: slate
+      toggle: {icon: material/brightness-4, name: Light mode}
+# [30] No search. MkDocs' default index spans every cutoff, so a Volume 1 reader searching a name
+# was shown snippets quoted from Volume 2 pages without clicking into them -- a passive spoiler,
+# the one thing this site must never do. Navigation stays per volume.
+plugins: []
+markdown_extensions:
+  - attr_list
+  - admonition
+strict: true
+nav:
+  - Home: index.md
+  - Up to Volume 1:
+      - Overview: v01/index.md
+      - Codex:
+          - "Factions & Organizations": v01/codex/factions.md
+          - "Locations & Battles": v01/codex/places.md
+      - Timeline: v01/timeline/v01.md
+      - Source text: v01/source/index.md

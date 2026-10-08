@@ -1,0 +1,12 @@
+{
+ "0": "S", "1": "S", "2": "S", "3": "S", "4": "S", "5": "S", "6": "S", "7": "S", "8": "S", "9": "S", "10": "S",
+ "11": "S", "12": "S", "13": "S", "14": "S", "15": "S", "16": "S", "17": "S", "18": "S", "20": "S", "21": "S",
+ "22": "S", "23": "S", "24": "S", "25": "S", "26": "S", "31": "S", "32": "S", "33": "S", "35": "S", "36": "S",
+ "37": "S", "38": "S", "39": "S",
+ "19": ["P", "the atom itself is partial: the cited paragraph has the proposal and the engagement (v01:c26:p0017), no marriage"],
+ "27": ["P", "the brother is Nell's child (v05:c01:p0004) and the two walk together (v05:c30:p0001); that she is his sister is not in a cited paragraph"],
+ "28": ["P", "her laughter is cited (v01:c12:p0036, c19:p0052); no prank of hers is"],
+ "29": ["P", "her work is cited (v05:c06:p0015, c12:p0036); the same paragraph has her unwilling to go to school"],
+ "30": ["P", "his friendship with Nell is cited (v02:c03:p0039, c04:p0028); 'quiet neighbourliness' is an inference from it"],
+ "34": ["I", "envy of children with mothers and of a new cap is cited (v05:c04:p0026, c18:p0005); the music lessons (v05:c04:p0051) are not"]
+}

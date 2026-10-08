@@ -1,0 +1,153 @@
+{
+ "series": "anne",
+ "rows": [
+  {
+   "t": 1,
+   "future_only_vocabulary": 331,
+   "cutoff": {
+    "files": 166,
+    "strings_hit": 1,
+    "hits": {
+     "Conservatives": [
+      "wiki\\v01\\codex\\factions.md"
+     ]
+    }
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 169,
+    "strings_hit": 1,
+    "hits": {
+     "Conservatives": [
+      "wiki-html\\v01\\codex\\factions\\index.html"
+     ]
+    }
+   },
+   "slugs": {
+    "files": 166,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 2,
+   "future_only_vocabulary": 218,
+   "cutoff": {
+    "files": 309,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 312,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 309,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 3,
+   "future_only_vocabulary": 147,
+   "cutoff": {
+    "files": 431,
+    "strings_hit": 3,
+    "hits": {
+     "Methodists": [
+      "wiki\\v03\\codex\\factions.md"
+     ],
+     "Reverend Jo": [
+      "wiki\\v03\\codex\\places.md"
+     ],
+     "The Methodists": [
+      "wiki\\v03\\codex\\factions.md"
+     ]
+    }
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 434,
+    "strings_hit": 3,
+    "hits": {
+     "Methodists": [
+      "wiki-html\\v03\\codex\\factions\\index.html"
+     ],
+     "Reverend Jo": [
+      "wiki-html\\v03\\codex\\places\\index.html"
+     ],
+     "The Methodists": [
+      "wiki-html\\v03\\codex\\factions\\index.html"
+     ]
+    }
+   },
+   "slugs": {
+    "files": 431,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 4,
+   "future_only_vocabulary": 67,
+   "cutoff": {
+    "files": 536,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 539,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 536,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  },
+  {
+   "t": 5,
+   "future_only_vocabulary": 0,
+   "cutoff": {
+    "files": 664,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "shared": {
+    "files": 2,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "html": {
+    "files": 667,
+    "strings_hit": 0,
+    "hits": {}
+   },
+   "slugs": {
+    "files": 664,
+    "strings_hit": 0,
+    "hits": {}
+   }
+  }
+ ]
+}

@@ -1,0 +1,634 @@
+# Model routing and provider profiles.
+#
+# Nothing in src/ hard-codes a model name. Every stage names a ROLE below, and this file maps
+# roles to profiles. Swapping providers is an edit here, never a code change.
+#
+# The pipeline is designed to run end to end with NO API key at all. Roles that would use an
+# API provider fall back to their `fallback` role automatically when the key is absent, so a
+# fully local run works out of the box and just produces less polished prose.
+
+default_role: local_fast
+
+# ---------------------------------------------------------------------------
+# Provider profiles
+# ---------------------------------------------------------------------------
+profiles:
+
+  minicheck_ft5:
+    provider: minicheck
+    model: "lytang/MiniCheck-Flan-T5-Large"
+    options:
+      revision: "96eafd01cee2d16cf81aaa2fb226b14f422a37b3"
+      device: cpu
+      max_input_tokens: 2048
+      cache_dir: "data/cache/models"
+    price_per_mtok: { input: 0.0, output: 0.0 }
+
+  # --- Local (Ollama). The workhorse: free, private, and where bulk extraction goes now that
+  # a local server is reachable again in this environment (VISION.md 2026-09-03: routing reset,
+  # supersedes the 2026-09-02 Mistral-standing-in entry). Verified live: `ollama list` on this
+  # machine has qwen2.5:14b, qwen2.5:32b, and bge-m3 (embeddings) pulled and reachable.
+  local_fast:
+    provider: ollama
+    model: "qwen2.5:14b"     # ~9 GB, 14.8B Q4_K_M
+    base_url_env: OLLAMA_HOST              # default http://localhost:11434
+    options:
+      num_ctx: 16384          # raise to 32768 if you have headroom; costs VRAM
+      temperature: 0.1        # extraction is not creative work
+      top_p: 0.9
+      num_predict: 1536
+      repeat_penalty: 1.05
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 1            # one request at a time; Ollama does not batch usefully here
+
+  # [34] 2026-10-04: the evaluation atomizer only (`eval_atomize`). local_fast's model, weights and
+  # sampling, four requests in flight (Ollama started with OLLAMA_NUM_PARALLEL=4). num_ctx 4096: an
+  # atomizer prompt is one paragraph and one sentence, and each parallel slot holds its own context,
+  # so 16384 x 4 would not fit beside the 9 GB of weights on a 16 GB card. Equivalence with the
+  # serial runs is measured, not assumed (MEASUREMENTS, CHANGES C32).
+  local_eval:
+    provider: ollama
+    model: "qwen2.5:14b"
+    base_url_env: OLLAMA_HOST
+    options:
+      num_ctx: 4096
+      temperature: 0.1
+      top_p: 0.9
+      num_predict: 1536
+      repeat_penalty: 1.05
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 4
+
+  # Same model, tuned for prose rather than JSON. Local-prose fallback for the API-routed prose
+  # roles below when no key is present or a call fails.
+  local_prose:
+    provider: ollama
+    model: "qwen2.5:14b"
+    base_url_env: OLLAMA_HOST
+    options:
+      num_ctx: 16384
+      temperature: 0.4        # a little warmth so biographies do not read like a form
+      top_p: 0.95
+      num_predict: 512        # background/personality are 2-4 sentences; this is generous
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 1
+
+  # A smaller local option for machines with less VRAM. Not used unless you point a role at it.
+  local_small:
+    provider: ollama
+    model: "qwen2.5:7b-instruct-q4_K_M"
+    base_url_env: OLLAMA_HOST
+    options: { num_ctx: 16384, temperature: 0.1, num_predict: 1024 }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 1
+
+  # The bigger local model (32B, ~20 GB) -- reserved for arbitration, which needs better
+  # reasoning than the 14B extraction workhorse but is called far less often (once per unresolved
+  # contradiction, not once per paragraph), so the extra VRAM/latency cost is worth paying.
+  local_best:
+    provider: ollama
+    model: "qwen2.5:32b"
+    base_url_env: OLLAMA_HOST
+    options: { num_ctx: 16384, temperature: 0.1, num_predict: 1024 }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 1
+
+  # Local embedding model (bge-m3, 566M) -- used for value canonicalization (deduping
+  # near-duplicate Appearance/Nickname fragments) and outline-quality evaluation (heading soft
+  # recall against a reference outline). Routed from the `canonicalize` stage below since Phase
+  # 17 added `llm/providers/ollama.py::embed()` (`/api/embed`) and `LLMClient.embed()`. Free,
+  # local, zero token cost either way.
+  embed:
+    provider: ollama
+    model: "bge-m3:latest"
+    base_url_env: OLLAMA_HOST
+    options: {}
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 1
+
+  # --- API providers. Optional; used only where prose quality is visible to the reader. ------
+  anthropic_best:
+    provider: anthropic
+    model: "claude-opus-5"
+    api_key_env: ANTHROPIC_API_KEY
+    options: { max_tokens: 2048, temperature: 0.4 }
+    price_per_mtok: { input: 5.00, output: 25.00 }
+    concurrency: 4
+
+  anthropic_cheap:
+    provider: anthropic
+    model: "claude-haiku-4-5"
+    api_key_env: ANTHROPIC_API_KEY
+    options: { max_tokens: 2048, temperature: 0.2 }
+    price_per_mtok: { input: 1.00, output: 5.00 }
+    concurrency: 4
+
+  # 2026-09-28: the AI Studio profiles (google_best/google_fast, GOOGLE_API_KEY on
+  # generativelanguage.googleapis.com) are removed -- every Gemini call goes through Vertex AI
+  # (aiplatform.googleapis.com), the vertex_* profiles below. llm/providers/google.py refuses
+  # a google profile without `use_vertex: true`.
+
+  openai_best:
+    provider: openai
+    model: "gpt-4.1"
+    api_key_env: OPENAI_API_KEY
+    base_url: "https://api.openai.com/v1"
+    options: { max_tokens: 2048, temperature: 0.4 }
+    price_per_mtok: { input: 2.00, output: 8.00 }
+    concurrency: 4
+
+  # Any OpenAI-compatible endpoint. Point base_url wherever you like.
+  openrouter:
+    provider: openai
+    model: "anthropic/claude-sonnet-5"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1"
+    options: { max_tokens: 2048, temperature: 0.4 }
+    price_per_mtok: { input: 2.00, output: 10.00 }
+    concurrency: 4
+
+  # OpenRouter's free tier. 2026-09-11 (Phase 23 Part F): three specific `:free` models
+  # (dots-studio/dots-3-note-preview, nvidia/nemotron-3-super-120b-a12b, nex-agi/nex-n2.5-mini)
+  # each failed a live one-chapter scene_extract smoke test differently -- empty response, empty
+  # response, and a reasoning-model narrating ("We need to parse the passage...") until it burned
+  # the whole token budget and never reached the JSON. Switched to `openrouter/free`, OpenRouter's
+  # own dynamic router across its free catalog (confirmed live: id exists, $0/$0 pricing, 200K
+  # context, supports response_format+structured_outputs) -- and added `reasoning: {exclude:
+  # true}` below, OpenRouter's unified param for suppressing chain-of-thought narration, which
+  # fixed the exact failure the router first hit (same narrate-until-truncated pattern as
+  # nemotron above). groq_prose/local_prose remain as fallbacks if this rate-limits or the key is
+  # absent. If this router itself proves unreliable, re-run the query this comment describes:
+  # `curl -s https://openrouter.ai/api/v1/models | jq` and filter for `id` ending `:free` with
+  # `response_format` in `supported_parameters` -- then smoke-test with one real chapter/character
+  # before trusting it for a full run, per this file's own repeated lesson.
+  openrouter_free:
+    provider: openai
+    model: "openrouter/free"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1"
+    options: { max_tokens: 2048, temperature: 0.4, reasoning: { exclude: true } }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 2   # free-tier rate limits are tight; do not parallelize hard against it
+
+  # 2026-09-11 (Phase 23 Part F, second attempt): a named non-reasoning free model instead of
+  # OpenRouter's auto-router, on the theory that the router's own model selection (not the free
+  # tier itself) was landing on reasoning models that narrate until truncation. Gemma 4 31B's own
+  # catalog entry declares `reasoning.default_enabled: false` (no chain-of-thought unless asked
+  # for), unlike nemotron/nex/openrouter-auto-router which all defaulted to narrating. Smoke-test
+  # against one real chapter before trusting for the bulk run -- see this file's own repeated
+  # lesson above `openrouter_free`.
+  openrouter_free_gemma:
+    provider: openai
+    model: "google/gemma-4-31b-it:free"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1"
+    options: { max_tokens: 4096, temperature: 0.1, reasoning: { exclude: true } }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 2
+
+  # [31] Second model family for the parametric-leak probes (plan 0009 E3), used only via
+  # `--model parametric_page=openrouter_free_nemotron_ultra`. Unrouted: the free tier has a daily
+  # request cap, so it runs only where a probe's call count fits it (E3: 12 pages/condition).
+  # 1M context (Part One is ~65k tokens). Temperature 0.4 matches vertex_flash, for comparability.
+  openrouter_free_nemotron_ultra:
+    provider: openai
+    model: "nvidia/nemotron-3-ultra-550b-a55b:free"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1"
+    options: { max_tokens: 4096, temperature: 0.4, reasoning: { exclude: true } }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 1
+
+  # Smaller/faster sibling (MoE, 3.8B active params) -- fallback if the 31B dense model rate-limits
+  # or degrades under load; same reasoning-off default per its catalog entry.
+  openrouter_free_gemma_moe:
+    provider: openai
+    model: "google/gemma-4-26b-a4b-it:free"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1"
+    options: { max_tokens: 4096, temperature: 0.1, reasoning: { exclude: true } }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 2
+
+  # Both Gemma 4 free variants above 429 unconditionally (2026-09-11 smoke test): OpenRouter's
+  # `:free` tier for this family proxies to "Google AI Studio" specifically
+  # (`limit_source: upstream_provider_shared_pool` in the error body) -- a pool shared across
+  # every OpenRouter free user, saturated regardless of which Gemma size is picked. Not a
+  # per-model quality problem, a capacity one. Trying Nex-N2.5-Pro next: `structured_outputs`
+  # supported, and its `reasoning_effort` can be forced to "none" (unlike the mini sibling that
+  # already failed empty in the first Part F attempt) via the `effort` sub-key rather than the
+  # blunter `exclude` flag.
+  openrouter_free_nex_pro:
+    provider: openai
+    model: "nex-agi/nex-n2.5-pro:free"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1"
+    options: { max_tokens: 4096, temperature: 0.1, reasoning: { effort: "none" } }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 2
+
+  # TRIED AND FAILED (2026-09-11 Part F) -- kept defined, not deleted, as a record so this isn't
+  # retried without new evidence. Idea: same model with reasoning turned back ON, against
+  # `verify` specifically, to see whether "thinking" helps it catch a genuine miss
+  # `openrouter_free_nex_pro` (reasoning off) made TWICE live even with an explicit guardrail --
+  # a sarcastic self-introduction ("I'm Kraft Lawrence, son of the great Jakob Tarantino") read
+  # as literal parentage, despite PARENT_OF/CHILD_OF's own extraction-time note AND verify's own
+  # prompt (graph/verify.py) both explicitly naming this exact anti-pattern. Result: `wiki verify
+  # --model verify=openrouter_free_nex_pro_reasoning` failed outright -- "did not produce valid
+  # VerificationResult after 3 attempts... empty response" -- the SAME narrate-until-truncated/
+  # empty-response failure mode every other reasoning-enabled OpenRouter free model hit earlier
+  # in this same session (nemotron, the `openrouter/free` auto-router), reproduced here even at
+  # "medium" effort with 8192 tokens of headroom. Reasoning-enabled free-tier models remain
+  # unreliable for this pipeline's call shape across every model tried so far -- this was not an
+  # exception. The Jakob/Lawrence miss stays an open, documented finding (LOG.md), not something
+  # this session's tools could close.
+  openrouter_free_nex_pro_reasoning:
+    provider: openai
+    model: "nex-agi/nex-n2.5-pro:free"
+    api_key_env: OPENROUTER_API_KEY
+    base_url: "https://openrouter.ai/api/v1"
+    options: { max_tokens: 8192, temperature: 0.1, reasoning: { effort: "medium" } }
+    price_per_mtok: { input: 0.0, output: 0.0 }
+    concurrency: 2
+
+  # --- Mistral (24B, API). DEAD as of 2026-09-03: MISTRAL_API_KEY is no longer present in .env
+  # at all (previously present-but-expired, now unset entirely). Nothing in `routing` below
+  # points here any more -- `local_fast`/`local_best` cover the same ground for free now that
+  # Ollama is reachable again. Left defined, not deleted, so `--model <stage>=mistral_fast`
+  # still works the instant a real key is added back; `resolve_role`'s missing-key fallback
+  # path makes an unset key here harmless if something did reference it.
+  mistral_fast:
+    provider: openai
+    model: "mistral-small-latest"    # verify current id/pricing at admin.mistral.ai — 24B tier
+    api_key_env: MISTRAL_API_KEY
+    base_url: "https://api.mistral.ai/v1"
+    options: { max_tokens: 1536, temperature: 0.1 }
+    price_per_mtok: { input: 0.10, output: 0.30 }   # approximate; confirm against current pricing
+    concurrency: 4
+
+  mistral_prose:
+    provider: openai
+    model: "mistral-small-latest"
+    api_key_env: MISTRAL_API_KEY
+    base_url: "https://api.mistral.ai/v1"
+    options: { max_tokens: 512, temperature: 0.4 }
+    price_per_mtok: { input: 0.10, output: 0.30 }
+    concurrency: 4
+
+  # --- Groq (free tier, low-latency inference; verified working 2026-09-03). Groq's API is
+  # also OpenAI-compatible, so this reuses llm/providers/openai.py the same way Mistral does.
+  # Open-weight gpt-oss models; ids confirmed live against api.groq.com/openai/v1/models.
+  # gpt-oss is a reasoning model: it spends part of max_tokens on a hidden "reasoning" field
+  # before the actual `content`, and on a long/real evidence prompt a tight max_tokens can burn
+  # the whole budget on reasoning and return empty content -> a 400 "Failed to validate JSON"
+  # (reproduced against real codex_summary evidence 2026-09-03; a short synthetic prompt did NOT
+  # reproduce it, so this is a real-prompt-length issue, not a broken key/endpoint). Budgeted
+  # generously here rather than trimmed tight like the other API profiles.
+  #
+  # Now the PRIMARY route for the prose-quality stages (routing section below), not just a
+  # fallback: it is free, verified working, and produces noticeably better prose than the local
+  # 14B model, which is exactly the gap the pipeline-review memo asked a frontier-tier model to
+  # close. Move `prose`/`prose_polish`/`codex_summary` to `vertex_frontier` once that key exists
+  # (see the commented-out profile below) -- Groq remains a good zero-cost fallback either way.
+  groq_fast:
+    provider: openai
+    model: "openai/gpt-oss-20b"
+    api_key_env: GROQ_API_KEY
+    base_url: "https://api.groq.com/openai/v1"
+    options: { max_tokens: 2048, temperature: 0.1 }
+    price_per_mtok: { input: 0.0, output: 0.0 }   # free tier
+    concurrency: 4
+
+  # 120b's free-tier TPM limit (8000) is too tight for a real evidence prompt plus its own
+  # reasoning overhead — a single request can exceed it and then wait out a many-second retry
+  # (reproduced 2026-09-03). 20b's free-tier limits are far more generous, so it does the prose
+  # role too; quality is more than enough for 1-4 sentence background/personality/codex text.
+  groq_prose:
+    provider: openai
+    model: "openai/gpt-oss-20b"
+    api_key_env: GROQ_API_KEY
+    base_url: "https://api.groq.com/openai/v1"
+    options: { max_tokens: 1024, temperature: 0.4 }
+    price_per_mtok: { input: 0.0, output: 0.0 }   # free tier
+    concurrency: 4
+
+  # --- Vertex AI (paid, Google Cloud credits) -- 2026-09-23: ACTIVATED AND ROUTED.
+  #
+  # This is the "hard push" the project has been holding OpenRouter's free tier for. It is now
+  # the default for every generative stage below, with the free tier demoted to `fallback:` --
+  # the reverse of the 2026-09-14 policy, and deliberate (CLAUDE.md §2, docs/vision/PHASE_28.md).
+  #
+  # Model choice was MEASURED, not assumed, on real stored `claim_extract` prompts from
+  # data/spice-and-wolf/_runs (2026-09-23, 8 parallel calls each, same 8 prompts):
+  #   gemini-3.1-flash-lite   8/8 ok, 6.0s wall, 6.8 facts/call, 0 thinking tokens  <- chosen
+  #   gemini-3.5-flash-lite   8/8 ok, 2.3s wall, 2.4 facts/call  (terser; measurably lower yield)
+  #   gemini-3.5-flash        7/8 ok (one 429), 31.9s wall, 2.6k THINKING tokens per call
+  #   gemini-3.8-flash        1 call in 48s, then 429 RESOURCE_EXHAUSTED -- unusable at 700 calls
+  # On prose the four were indistinguishable at 3 sentences, so the cheap fast one wins outright.
+  # Thinking tokens bill at the OUTPUT rate; flash-lite does not think, which is most of why the
+  # projected cost of a full v1-2 run is ~$1.65 rather than ~$17.
+  #
+  # The guardrails are unchanged in kind, only in number -- three independent layers:
+  #   1. `tier: frontier` + `max_volumes: 2`: llm/client.py::_enforce_frontier_scope refuses ANY
+  #      call on this profile once a run's volume scope exceeds 2, before the provider is ever
+  #      contacted. This is what keeps "Spice and Wolf volumes 1-2 only" mechanical rather than
+  #      a promise -- pointing this at 13 volumes fails closed.
+  #   2. `max_calls_per_run`: 2000, ~3x a full v1-2 run (~670 calls). It catches a runaway loop,
+  #      not ordinary spend; the dollar caps below are what bound the cost.
+  #   3. `budget.hard_stop_usd` (per run) and `budget.lifetime_cap_usd` (survives re-running).
+  #
+  # Vertex authenticates with Application Default Credentials + GOOGLE_CLOUD_PROJECT, never an
+  # api_key; `Profile.is_callable` (config.py) is what stops the routing table below from
+  # silently reading "no key" and falling back. GOOGLE_CLOUD_LOCATION must be `global` -- the
+  # gemini-3.x family is not served from us-central1 (404 NOT_FOUND).
+  # 2026-09-28 (maintainer): "continue the project using 3.6 without lite" -- every generative
+  # stage now runs gemini-3.6-flash (docs/vision/PHASE_33.md). The measurements above this block
+  # describe the flash-lite era; builds made before this change are flash-lite and must not be
+  # compared with 3.6 numbers.
+  vertex_flash:
+    provider: google
+    model: "gemini-3.6-flash"
+    use_vertex: true
+    tier: frontier
+    max_volumes: 5   # 2 -> 5 on 2026-09-27: five volumes per series (docs/vision/PHASE_32.md)
+    max_calls_per_run: 5000   # 2000 was ~3x a v1-2 run; a v1-5 run is ~2.5x larger
+    # thinking_budget: 0 -- flash-lite does not think by default, but a future model id swapped
+    # in here would, and thinking tokens both cost output rate and eat max_output_tokens.
+    # shared_request_type: flex (2026-09-28) -- Flex PayGo, same model at half price; a request
+    # waits up to 30 min for shared capacity instead of an instant 429 (llm/providers/google.py).
+    # Transport-only: kept out of the cache key (llm/cache.py), so nothing cached re-bills.
+    # Price is the Flex rate (50% of Standard) so the lifetime cap tracks the real bill; drop
+    # shared_request_type and the price must go back to Standard ($0.75/$3.75 for 3.6 Flash,
+    # introductory through 2026-12-31; $1.50/$7.50 from 2027-01-01).
+    # 2026-09-28 14:09 UTC: STANDARD, not Flex, for the Anne v1-5 build -- 3.6's Standard pool answered
+    # 30/30 at 2.3 s (MEASUREMENTS), ~5x faster than Flex. To fall back to Flex (same model, same
+    # cache keys) add `shared_request_type: flex` back AND set the price to 0.375/1.875.
+    # 2026-09-28 ~17:50 UTC: back to FLEX. Under the overnight load (S01 + 20k-token baseline calls)
+    # the Standard pool answered 429 (S01 infobox, 16:38); Flex queues instead of refusing, at half
+    # price. Same model and cache keys: a transport change only (freeze anne-v1d).
+    # 2026-10-01: STANDARD again, on the maintainer's word ("work faster ... if you need to use
+    # standard, go for it"). Flex queueing was the wall-clock bottleneck. Same model, same cache
+    # keys (transport only, freeze anne-v1o); cost comparisons use tokens repriced at one rate.
+    # flex_on_429: a Standard 429 is retried once through Flex, same model (llm/providers/google.py).
+    # 2026-10-01 night: FLEX again for the unattended overnight batch (decontaminated matrix) — same model,
+    # half price; the maintainer set a $300 real-spend ceiling (CHANGES C18).
+    options: { max_output_tokens: 8192, temperature: 0.4, thinking_budget: 0, shared_request_type: flex }
+    price_per_mtok: { input: 0.375, output: 1.875 }   # cloud.google.com/vertex-ai/pricing, 3.6 Flash Standard (intro rate to 2026-12-31)
+    concurrency: 4         # 2026-09-23: 8 tripped Vertex's shared quota (429 RESOURCE_
+                            # EXHAUSTED) once detail calls got long; 4 has run clean.
+
+  # 2026-09-28: candidates to replace vertex_flash, per the maintainer ("flash 3.8 or 3.6 from
+  # now on, higher limits"). Same interlock/Flex/no-thinking settings; price is Google's
+  # introductory rate through 2026-12-31 ($1.50/$7.50 from 2027-01-01). One of them replaces
+  # vertex_flash for EVERY stage and series at once -- compared metrics need one model.
+  vertex_flash38:
+    provider: google
+    model: "gemini-3.8-flash"
+    use_vertex: true
+    tier: frontier
+    max_volumes: 5
+    max_calls_per_run: 5000
+    options: { max_output_tokens: 8192, temperature: 0.4, thinking_budget: 0, shared_request_type: flex }
+    price_per_mtok: { input: 0.375, output: 1.875 }   # Flex: 50% of $0.75/$3.75
+    concurrency: 4
+  vertex_flash36:
+    provider: google
+    model: "gemini-3.6-flash"
+    use_vertex: true
+    tier: frontier
+    max_volumes: 5
+    max_calls_per_run: 5000
+    options: { max_output_tokens: 8192, temperature: 0.4, thinking_budget: 0, shared_request_type: flex }
+    price_per_mtok: { input: 0.375, output: 1.875 }   # Flex: 50% of $0.75/$3.75
+    concurrency: 4
+
+  # Same credentials and guardrails, a reasoning-tier model. Unrouted on purpose: measured
+  # worse per dollar on every stage this pipeline has (see the block above). Reach for it with
+  # `--model <stage>=vertex_pro` only if an audit shows flash-lite output is actually wrong.
+  vertex_pro:
+    provider: google
+    model: "gemini-3.1-pro-preview"
+    use_vertex: true
+    tier: frontier
+    max_volumes: 2
+    max_calls_per_run: 200
+    options: { max_output_tokens: 4096, temperature: 0.4 }
+    price_per_mtok: { input: 1.25, output: 10.00 }
+    concurrency: 2
+# ---------------------------------------------------------------------------
+# Stage -> role routing.
+#
+# `fallback` is used when the profile's API key is missing. Local roles need no fallback.
+# Change `prose`/`prose_polish`/`arbitrate` to a local role for a zero-cost run, or point
+# everything at an API profile if you would rather spend money than GPU hours.
+# ---------------------------------------------------------------------------
+routing:
+
+  # 2026-09-23: SECOND standing policy flip, and the one this project was holding the free tier
+  # open for -- Vertex AI is working, so every generative stage below routes to `vertex_flash`
+  # (gemini-3.1-flash-lite, measured; see its profile comment above) and keeps its previous
+  # OpenRouter free-tier role as `fallback:`. `resolve_role` takes that fallback automatically
+  # whenever GOOGLE_CLOUD_PROJECT is unset, so a machine with no Google Cloud project runs
+  # exactly as it did yesterday, and a machine with no keys at all still runs fully local.
+  # Guardrails: `tier: frontier` + `max_volumes: 2` makes this refuse any run past volume 2, and
+  # budget.lifetime_cap_usd below is the ceiling that survives re-running. Measured cost of a
+  # full v1-2 re-run at these prices: ~$1.65.
+
+  # 2026-09-14: standing policy flip, an explicit maintainer instruction ("use the openrouter
+  # free tier LLM API calls from now on, only use local when absolutely necessary"), superseding
+  # CLAUDE.md §2's older "Local first" framing (updated alongside this file) and the routing
+  # history below. Every completion-shaped stage now defaults to `openrouter_free_nex_pro`
+  # (reasoning off) -- the one free-tier profile with a REAL, live-confirmed success against this
+  # pipeline's bulk-extraction call shape (see `claim_extract`'s own comment below, and the
+  # profile's own comment above). Every stage keeps its previous local role as `fallback:`, which
+  # `resolve_role` uses automatically when OPENROUTER_API_KEY is absent (config.py:221) -- so a
+  # zero-key environment still runs end to end, just entirely on local Ollama, unchanged from
+  # before. Local is NOT an automatic runtime failover for a live call that fails or returns
+  # empty after retries (`resolve_role`'s fallback only checks key presence, not call success --
+  # see its own docstring) -- if a specific run hits the same "empty response"/"narrate until
+  # truncated" failure mode the comments below document for OTHER free models, the fix is the
+  # established pattern already used throughout this file: an explicit `--model
+  # <stage>=local_fast` (or `local_prose`/`local_best`) override for that one invocation
+  # (CLAUDE.md §6), not silent automatic degradation -- there is no code path that does that today,
+  # and adding one was out of scope for this config-only change. `scene_extract` and
+  # `arbitrate`/`verify` are flipped on the same policy but do NOT have a live confirmed success
+  # against their own specific call shapes (scene_extract's shape is exactly what several other
+  # free models failed against below; arbitrate/verify's reasoning-off nex-pro run produced a real
+  # quality miss, not a technical failure -- see `openrouter_free_nex_pro_reasoning`'s comment) --
+  # smoke-test before trusting a real run's output, per this file's own repeated lesson.
+  # `canonicalize`/`embed` is the one deliberate exception: it is an embedding call, not a chat
+  # completion, OpenRouter is a chat-completions proxy here, and bge-m3 is already $0 either way
+  # with no quality/cost motive to move it -- left local, not treated as part of this flip.
+
+  entity_classify:                        # type a candidate name. High volume, easy task.
+    role: vertex_flash                    # 2026-09-23: Vertex flip. Free auto-router next, then
+    fallback: [openrouter_free, local_fast]   # local. A short JSON call; any of the three does it -- classification is a short JSON call, any
+                                          # non-reasoning free model handles it fine, and the
+                                          # auto-router picks the fastest available rather than
+                                          # waiting on one specific model's queue.
+  entity_alias:                           # decide whether two surface forms are one person.
+    role: vertex_flash                    # same reasoning as entity_classify above.
+    fallback: [openrouter_free, local_fast]
+  # 2026-09-11 (Phase 23 Part F): GOOGLE_API_KEY is empty in this environment (google_fast/
+  # google_best silently fall back to local -- resolve_role only treats a MISSING key as fallback
+  # trigger, so this is not an error, just quiet degradation). Tried OpenRouter's free tier
+  # instead of Google or local: four different configurations (dots-studio, nvidia/nemotron-3-
+  # super-120b-a12b, nex-agi/nex-n2.5-mini, and OpenRouter's own `openrouter/free` auto-router --
+  # the last one both with and without the `reasoning: {exclude: true}` suppression param added
+  # to llm/providers/openai.py this session) ALL failed a real one-chapter scene_extract smoke
+  # test -- empty responses or a reasoning model narrating ("We need to parse the passage...")
+  # until it burned the whole token budget and never reached JSON. Convergent evidence the free
+  # tier cannot currently serve this stage's shape (long context + wide multi-field schema),
+  # independent of which specific free model gets picked -- of everything tried, only
+  # `openrouter_free_nex_pro` (below) has since been confirmed live-working for THIS pipeline's
+  # extraction shape (see `claim_extract`'s comment) and is what the 2026-09-14 policy flip above
+  # now routes here; smoke-test before a real run, this stage's shape specifically was never
+  # itself re-verified against nex-pro. **Known residual, not yet fixed:** a local qwen2.5:14b
+  # scene_extract detail call also came back corrupted this session (random CJK/Hangul fragments
+  # spliced into English subject/quote fields) -- suspected cause is the shared repeat_penalty:1.3
+  # tuning (Phase 3, chosen to stop a *different* failure mode, a degenerate repeat-loop) pushing
+  # this small quantized model into low-probability off-vocabulary tokens on its harder free-text
+  # fields. `extract/scenes.py`'s `_DETAIL_GENERATION_OPTIONS`/`_BEAT_GENERATION_OPTIONS` need a
+  # real repeat_penalty retune (try ~1.1-1.15) and a fresh smoke test before trusting local output
+  # again -- see docs/handover/PHASE_23.md for the exact next step -- relevant now only if a run
+  # falls through to the `local_fast` fallback below.
+  claim_extract:                          # THE bulk stage.
+    role: vertex_flash                    # 2026-09-23 Vertex flip; measured 6.8 facts/call on
+    fallback: [openrouter_free_nex_pro, local_fast]   # real stored prompts of this exact shape.
+    # 2026-09-11 Part F's actual V1-2 re-run used the free nex-pro profile
+    # profile via `wiki extract --model claim_extract=openrouter_free_nex_pro` (CLAUDE.md §6) and
+    # it worked live -- that override is why this is the specific free model the 2026-09-14 flip
+    # picked as primary here rather than any of the ones documented as failing above. Local is
+    # `fallback:` (used automatically only when OPENROUTER_API_KEY is missing, per config.py:221)
+    # so a zero-key environment is unaffected by this change.
+  scene_extract:                          # Phase 18: chapter-major second pass -- scene records
+    role: vertex_flash                    # + epithet mining, one call per ~4k-token chapter span.
+    fallback: [openrouter_free_nex_pro, local_fast]   # the free tier was NEVER live-confirmed for
+    # this stage's specific shape (see `entity_classify`'s comment above); smoke-test one chapter
+    # before trusting a real run's scene/epithet output.
+  decon_paraphrase:                       # [31] one paragraph in, the same paragraph in new words
+    role: vertex_flash                    # (ingest/decontaminate.py). Corpus construction for the
+    fallback: [openrouter_free_nex_pro, local_prose]   # decontaminated condition; ~2.3k calls per novel.
+  probe_memorization:                     # [31] name-cloze / title-ID probe of the GENERATOR's
+    role: vertex_flash                    # memory (probe/memorization.py). Must be the model that
+    fallback: [openrouter_free_nex_pro, local_prose]   # writes pages; try others with --model.
+  parametric_page:                        # [31] E3: a character page from volumes <= t only, or
+    role: vertex_flash                    # from the name alone (probe/parametric.py). Must be the
+    fallback: [openrouter_free_nex_pro, local_prose]   # generator whose memory is measured.
+  codex_summary:                          # one-sentence definitions for the shared codex pages.
+    role: vertex_flash                    # light single-sentence output,
+    fallback: [openrouter_free_nex_pro, local_prose]   # the shape least likely to hit narrate-until-
+                                           # truncated failure mode documented above.
+  prose:                                  # background + personality for ordinary characters.
+    role: vertex_flash                    # 2026-09-23 Vertex flip (see block comment above).
+    fallback: [openrouter_free_nex_pro, local_prose]
+  prose_polish:                           # only for major characters, only with --polish.
+    role: vertex_flash                    # 2026-09-23 Vertex flip (see block comment above).
+    fallback: [openrouter_free_nex_pro, local_prose]
+  arbitrate:                              # same-volume contradictions the rules cannot settle.
+    role: vertex_flash                    # 2026-09-23: this stage finally has the frontier-ish
+    fallback: [openrouter_free_nex_pro, local_best]   # model it was designed for.
+    # GOOGLE_API_KEY (AI Studio) has been empty since 2026-09-11
+    # (silently landing on `local_best` regardless of this file, per resolve_role's key-presence
+    # check -- see the long comment this replaced, kept in git history rather than repeated here),
+    # so this was already running local in practice; routing here for real is what "only use local
+    # when absolutely necessary" means for a stage whose only working non-local option was a key
+    # that's been empty for days. Caveat, not a technical failure: the one live test of
+    # reasoning-off nex-pro against this kind of judgment call (`openrouter_free_nex_pro_reasoning`
+    # profile's own comment, 2026-09-11) produced a real quality miss -- a sarcastic self-
+    # introduction read as literal parentage -- so treat arbitration output as needing the same
+    # scrutiny `wiki audit` already gives it, not as a regression this flip introduced (the miss
+    # predates the flip; only the default routing that would hit it again is new).
+  infobox_extract:                        # [30] extract/infobox.py -- one whole-volume dossier
+    role: vertex_flash                    # per character, a few infobox fields. Long context is
+    fallback: [openrouter_free_nex_pro, local_fast]   # the point; local splits it to fit.
+  backstory_extract:                      # [30] extract/infobox.py's second pass -- same
+    role: vertex_flash                    # dossier shape, the character's past only.
+    fallback: [openrouter_free_nex_pro, local_fast]
+  verify:                                 # Phase 22 C3: one cheap call per character, checking
+    role: vertex_flash                    # facts against their own cited evidence. Same flip as
+    fallback: [openrouter_free_nex_pro, local_best]   # arbitrate above, same caveat.
+  codex_check:                            # [34] C33: one call per codex summary, checking it against
+    role: vertex_flash                    # the passages it was written from (site/bundle.py). Replaced a
+    fallback: [openrouter_free_nex_pro, local_best]   # MiniCheck gate that rejected supported text.
+  canonicalize:                           # Phase 17: embed multi-valued attribute/trait values
+    role: embed                           # for near-duplicate clustering. Always local -- an
+                                           # embedding call, not a chat completion; deliberately
+                                           # NOT part of the 2026-09-14 flip (see block comment).
+  support:
+    role: minicheck_ft5                    # opt-in --nli; classifier, no chat fallback
+  eval_judge:                             # [32] evaluation only (scripts/eval/assertion_precision.py):
+    role: local_fast                      # a pre-screen before a human reads every item. Local and
+                                          # free by rule ("measurement is free"); no paid fallback.
+  eval_atomize:                           # [32] evaluation only (scripts/eval/assertion_inventory.py):
+    role: local_eval                      # page prose -> name-only atomic facts. Local, no fallback.
+                                          # [34] local_fast -> local_eval: same model, 4 in flight
+  eval_perturb:                           # [32] evaluation only (scripts/eval/challenge_set.py):
+    role: local_fast                      # gold fact -> minimally false variant. Local, no fallback.
+  baseline_page:                          # [33] S10 baselines (scripts/baselines/): one character page
+    role: vertex_flash                    # per call. The SAME generator as B5 (plan 0013 §4.1), so it
+    fallback: [openrouter_free_nex_pro, local_fast]   # follows whatever model vertex_flash names.
+  baseline_embed:                         # [33] B2's dense half: bge-m3 over prefix chunks. Local, $0.
+    role: embed
+  baseline_lightrag:                       # [33] B3: LightRAG's own index-build and keyword calls
+    role: vertex_flash                    # (scripts/baselines/b3_lightrag.py), same generator as B5.
+    fallback: [openrouter_free_nex_pro, local_fast]
+
+# ---------------------------------------------------------------------------
+# Client behaviour
+# ---------------------------------------------------------------------------
+client:
+  cache_enabled: true                     # disk cache at data/cache/llm; safe to delete
+  cache_dir: "data/cache/llm"
+  max_retries: 3                       # real failures: more attempts mostly waste time
+  retry_backoff_seconds: 2.0
+  # A 429 is "not yet", not a failure, so it has its own budget and its own much longer waits
+  # (llm/client.py::_is_rate_limited). 8 attempts at 20s, 40s, ... rides out a ~12-minute squeeze
+  # of Vertex's shared quota; measured 2026-09-23, when 5 attempts on the old shared ladder
+  # (max 14s of waiting) crashed `wiki scenes` mid-volume twice.
+  # 2026-09-28: every retry during an outage is a request, so the ladder is shorter and slower:
+  # 4 retries at ~60s, 120s, 240s, 480s (jittered), ~15 min in all, instead of 8 at 20s steps.
+  rate_limit_retries: 4
+  rate_limit_backoff_seconds: 60.0
+  request_timeout_seconds: 300            # local 14B on a long prompt can genuinely take minutes
+  json_repair_attempts: 2                 # re-ask with the validation error before giving up
+  # [33] 2026-09-28, maintainer: keep the same model. A content-filter refusal is not answered by the
+  # next routing rung; a JSON stage gets its schema's empty answer (no facts) and the refusal stays
+  # in calls.jsonl. true restores [30]'s next-rung fallback (a second model in the build).
+  content_block_fallback: false
+  log_prompts: false                      # true writes every prompt to data/cache/llm/prompts.log
+
+budget:
+  # Advisory ceilings. The run warns when a stage crosses its limit and stops at hard_stop_usd.
+  warn_usd: 2.00                # a full v1-2 run measures ~$1.65; crossing this is a signal
+  hard_stop_usd: 10.00          # PER RUN, and it resets on every process start.
+  # lifetime_cap_usd is the ceiling that does NOT reset. It is checked against this run's spend
+  # plus every dollar already in data/cache/llm/budget.json, so no sequence of re-runs can pass
+  # it -- which is the only thing that bounds a real bill, because `hard_stop_usd` permits its
+  # own value again on each new run (24 runs happened on 2026-09-21 alone). Unset = disabled.
+  # Set it to whatever you are willing to lose before handing over a paid key, and treat raising
+  # it as a decision, not a formality. `wiki budget` shows the running total it is measured
+  # against; `wiki budget --reset` is the deliberate way to start a new accounting period.
+  # 2026-09-23: $20. Sized from a measured full v1-2 re-run (~$1.65 at vertex_flash prices), so
+  # it buys roughly a dozen of them before it has to be raised deliberately. It does NOT reset
+  # per-run the way hard_stop_usd does -- `wiki budget` shows the running total, `wiki budget
+  # --reset` starts a new accounting period.
+  # 2026-09-25: raised to $200 by the maintainer for the Gutenberg publication track
+  # (docs/vision/PHASE_31.md). $12.79 was already spent under the $20 cap.
+  # 2026-09-27: the maintainer's console read $26.00 billed when the ledgers summed $23.93
+  # (per-call logs $24.46; killed runs never reach RunContext.finish, which is what writes the
+  # ledger). `billed_offset_usd` adds that difference to every lifetime check; the cap is $185 so
+  # an ~8% undercount on the remaining spend still stays under the maintainer's hard $200.
+  # Re-read the console and update the offset before any large run.
+  # 2026-09-28: console $40.00 vs ledger $37.81 -> 2.19.
+  # 2026-09-28: maintainer ceiling raised to $275 real bill (model choice 3.6 Flash vs 3.1
+  # Flash-Lite, docs/vision/PHASE_33.md); cap $255 keeps the same ~8% cushion as 185/200.
+  # 2026-10-01: console $130 vs ledger $149.85 -- the ledger now OVERcounts (implicit-cache
+  # discount not credited). Offset recalibrated to the console so the $255 cap tracks the real bill.
+  billed_offset_usd: -19.85
+  # 2026-10-01 night: maintainer ceiling $300 real. Ledger increments over-count the bill by ~13%
+  # (console ratio), so a check value of 318 is ~$294 real.
+  lifetime_cap_usd: 318.00
+  # Characters ranked above this importance percentile get --polish routing. Everyone else
+  # gets local prose regardless, which is where most of the savings live.
+  polish_importance_percentile: 0.85

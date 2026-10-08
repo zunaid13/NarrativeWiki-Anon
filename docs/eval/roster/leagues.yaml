@@ -1,0 +1,24 @@
+# Roster ground truth for Twenty Thousand Leagues Under the Sea (Phase 32, req. 8). Converted
+# from the hand-written `entities.entity_overrides` in config/series.leagues.yaml (until
+# 2026-09-27), roster review of 2026-09-25 (docs/vision/PHASE_31.md). Scored by
+# `scripts/eval/roster_gold.py`; it patches nothing. Keys are surface forms.
+series: leagues
+checked_through_vol: 2
+
+same_entity:
+  - ["Ned Land", "Master Land", "Friend Ned", "Master Ned"]
+  - ["Captain Nemo", "Nemo", "The Captain"]      # capitalised "The Captain" is Nemo; Farragut is "Commander"
+  - ["Abraham Lincoln", "The Abraham Lincoln"]   # the frigate, mined twice
+  - ["Professor Aronnax", "Aronnax", "M. Aronnax", "Pierre Aronnax"]
+
+title_at_first_vol:
+  "Nemo": "Captain Nemo"
+  "Aronnax": "Professor Aronnax"
+
+entity_type:
+  "Abraham Lincoln": TECH       # a ship
+
+# Cited authorities, mythology and adjectives, not people or groups in the story. La Pérouse and
+# Dillon are entities: their wreck and its discovery are Part One plot.
+not_an_entity: ["Moses", "Aristotle", "Pliny", "Neptune", "Hercules", "Maury", "Bouguer", "Lesseps",
+                "Entrecasteaux", "Admiral Chateau", "American", "Union", "Israelites"]

@@ -1,0 +1,57 @@
+{
+  "v01": {
+    "n_paragraphs": 1788,
+    "paraphrased": 1783,
+    "remap_only": 5,
+    "verbatim": 0,
+    "identical_to_source": 10,
+    "words_source": 101965,
+    "words_derived": 109987,
+    "residual_name_paragraphs": 0,
+    "residual_names": {}
+  },
+  "v02": {
+    "n_paragraphs": 1705,
+    "paraphrased": 1698,
+    "remap_only": 6,
+    "verbatim": 1,
+    "identical_to_source": 9,
+    "words_source": 90685,
+    "words_derived": 98129,
+    "residual_name_paragraphs": 0,
+    "residual_names": {}
+  },
+  "v03": {
+    "n_paragraphs": 1759,
+    "paraphrased": 1757,
+    "remap_only": 2,
+    "verbatim": 0,
+    "identical_to_source": 20,
+    "words_source": 76061,
+    "words_derived": 84203,
+    "residual_name_paragraphs": 0,
+    "residual_names": {}
+  },
+  "v04": {
+    "n_paragraphs": 1606,
+    "paraphrased": 1604,
+    "remap_only": 2,
+    "verbatim": 0,
+    "identical_to_source": 8,
+    "words_source": 78931,
+    "words_derived": 86214,
+    "residual_name_paragraphs": 0,
+    "residual_names": {}
+  },
+  "v05": {
+    "n_paragraphs": 1631,
+    "paraphrased": 1626,
+    "remap_only": 5,
+    "verbatim": 0,
+    "identical_to_source": 17,
+    "words_source": 80480,
+    "words_derived": 88713,
+    "residual_name_paragraphs": 0,
+    "residual_names": {}
+  }
+}

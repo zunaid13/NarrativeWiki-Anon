@@ -1,0 +1,15 @@
+{
+ "2": "S", "3": "S", "6": "S", "7": "S", "9": "S", "10": "S", "13": "S", "14": "S", "16": "S", "18": "S", "22": "S",
+ "24": "S", "25": "S", "26": "S", "28": "S", "29": "S", "31": "S", "34": "S", "35": "S", "38": "S",
+ "0": ["P", "the winter weeks pass (v01:c26:p0003); the return to routine after the concert (p0000) is not cited"],
+ "1": ["P", "puffed sleeves are the fashion (v01:c11:p0009); that the other girls wore them is in her report, not cited"],
+ "8": ["P", "the guests who do not come are named (v02:c17:p0042); that the morning's work was for them is left to infer"],
+ "15": ["P", "her distress in the first days is cited (v01:c04); a standing trait is not stated in the cited paragraphs"],
+ "17": ["P", "'Smudge will not be slain another time' (v03:c16:p0046) implies a failed attempt; who made it is not cited"],
+ "39": ["P", "the proposal and that she turned him down are cited (v03:c20:p0031, p0048); her wish to stay friends is not"],
+ "12": ["I", "her question about Stephen Stanhope's son (v02:c21:p0057) is not among the six cited"],
+ "19": ["I", "only the vow of friendship is cited (v01:c12)"],
+ "21": ["I", "the sale and the drive away are cited (v02:c18:p0062, p0064); the meal is not"],
+ "23": ["I", "the cited paragraphs are the visit to Mrs. Tranter (v01:c06), before any attachment"],
+ "33": ["I", "the cited paragraphs are the concert and the spare-room bed (v01:c19); the Exhibition is v01:c29"]
+}

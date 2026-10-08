@@ -1,0 +1,23 @@
+{
+ "4": "S", "6": "S", "7": "S", "8": "S", "9": "S", "11": "S", "12": "S", "13": "S", "15": "S", "17": "S", "19": "S",
+ "25": "S", "26": "S", "27": "S", "29": "S", "30": "S", "31": "S", "32": "S", "33": "S", "34": "S", "35": "S",
+ "37": "S",
+ "21": ["P", "one occasion is cited (v01:c15:p0025); 'is known to' is inferred from it"],
+ "22": ["P", "her talk of twins and Robin's hug are cited (v02:c07:p0029, c08:p0053); that he is a ward raised at Grey Shutters is not stated in them"],
+ "0": ["I", "wrong person: the cited v01:c15:p0011 has Sukey Pullen preparing for the examination; v01:c17:p0036 does not name Odette"],
+ "1": ["I", "later content: two of the three cited paragraphs are of volume 3, the third (v01:c31:p0005) is Nell's talk with Thirza"],
+ "2": ["I", "the four cited paragraphs are of v01:c27 (Nell's dyed hair); he first appears in volume 2 (the paragraph numbers match v02:c05)"],
+ "3": ["I", "wrong person for the page: the cited paragraphs are about Isolde"],
+ "5": ["I", "none of the 14 cited paragraphs has the cake (v02:c03:p0028)"],
+ "10": ["I", "the three cited paragraphs are of volume 1; her hair is v02:c21:p0045 (the page cites v01:c19:p0044)"],
+ "14": ["I", "wrong person: the cited paragraphs are about Isolde"],
+ "16": ["I", "the four cited paragraphs are of volume 1, where she does not appear"],
+ "18": ["I", "wrong person for the page: the cited paragraphs are about Isolde"],
+ "20": ["I", "the nine cited paragraphs are of volume 1; the visit is v02:c28"],
+ "23": ["I", "as row 16: volume 1 only"],
+ "24": ["I", "none of the four cited paragraphs has the drive (v01:c33:p0006)"],
+ "28": ["I", "the five cited paragraphs are of volume 1; the visit is v02:c21"],
+ "36": ["I", "none of the 18 cited paragraphs gives her class"],
+ "38": ["I", "wrong person for the page: the cited paragraphs are about Isolde"],
+ "39": ["I", "the cited v01:c16:p0028 is about Isolde; his face is at the same paragraph number of chapter 33"]
+}

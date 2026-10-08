@@ -1,0 +1,232 @@
+{
+  "0": [
+    "yes",
+    "character/marilla-cuthbert.md",
+    "History explicitly boy requested and girl arrived by mix-up."
+  ],
+  "1": [
+    "yes",
+    "character/anne-shirley.md",
+    "History explicitly slate broken over Gilbert's head."
+  ],
+  "2": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "History explicitly Anne won Avery Scholarship."
+  ],
+  "3": [
+    "yes",
+    "character/anne-shirley.md",
+    "History: village schoolteacher; Gilbert yields local teaching post."
+  ],
+  "4": [
+    "yes",
+    "character/anne-shirley.md",
+    "History explicitly helped Marilla raise twins Davy and Dora at Green Gables."
+  ],
+  "5": [
+    "no",
+    "character/anne-shirley.md",
+    "Red braids and gray eyes stated; green-looking eyes missing."
+  ],
+  "6": [
+    "yes",
+    "character/anne-shirley.md",
+    "History explicitly long-desired puffed-sleeve dress."
+  ],
+  "7": [
+    "yes",
+    "character/anne-shirley.md",
+    "Minnie May relation: saved through severe croup."
+  ],
+  "8": [
+    "yes",
+    "character/marilla-cuthbert.md",
+    "History explicitly Anne mistakenly dyed hair green."
+  ],
+  "9": [
+    "yes",
+    "relationships/anne-shirley--diana-barry.md",
+    "Cow scene identifies Jersey sold to Shearer then discovery it was Harrison's."
+  ],
+  "10": [
+    "yes",
+    "character/anne-shirley.md",
+    "Improvers affiliation explicitly secretary; history supplies AVIS expansion."
+  ],
+  "11": [
+    "yes",
+    "character/anne-shirley.md",
+    "Background explicitly birthplace Bolingbroke, Nova Scotia."
+  ],
+  "12": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "History explicitly gives up Avonlea school teacher post for Anne."
+  ],
+  "13": [
+    "no",
+    "character/gilbert-blythe.md",
+    "White Sands Hotel affiliation says resigned from employment or school position, not a White Sands school teaching appointment. Review mixed place/role wording."
+  ],
+  "14": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "History rescues Anne stranded on bridge pile; relationship says boat leaked."
+  ],
+  "15": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "Overview title president and history membership of AVIS; combine same-page context. Human review title attachment."
+  ],
+  "16": [
+    "yes",
+    "character/gilbert-blythe.md",
+    "Redmond College student affiliation conveys departure/attendance."
+  ],
+  "17": [
+    "yes",
+    "character/marilla-cuthbert.md",
+    "History oculist warns total blindness without reducing eye work."
+  ],
+  "18": [
+    "yes",
+    "timeline/v02.md",
+    "Twins scene explicitly brought home by Marilla."
+  ],
+  "19": [
+    "yes",
+    "character/marilla-cuthbert.md",
+    "History explicitly initially determined to send girl back."
+  ],
+  "20": [
+    "no",
+    "character/marilla-cuthbert.md",
+    "Enables attendance by inviting Rachel; no urging/encouragement stated. Whole-tree Redmond search read."
+  ],
+  "21": [
+    "yes",
+    "timeline/v01.md",
+    "Scene explicitly collapses/dies suddenly after bank-failure news."
+  ],
+  "22": [
+    "yes",
+    "character/matthew-cuthbert.md",
+    "Extremely shy in history; uniform accepted paraphrase."
+  ],
+  "23": [
+    "yes",
+    "timeline/v01.md",
+    "Tea scene explicitly accidental wine instead of cordial causing intoxication."
+  ],
+  "24": [
+    "yes",
+    "relationships/anne-shirley--diana-barry.md",
+    "Solemn oath of friendship relation."
+  ],
+  "25": [
+    "no",
+    "character/diana-barry.md",
+    "AVIS canvassing/fellow officer stated; treasurer not specified anywhere in tree."
+  ],
+  "26": [
+    "yes",
+    "character/diana-barry.md",
+    "History and Fred Wright relation explicitly engaged."
+  ],
+  "27": [
+    "no",
+    "character/rachel-lynde.md",
+    "Blunt remarks about red hair stated; carrot comparison missing in whole-tree search (Gilbert uses Carrots)."
+  ],
+  "28": [
+    "no",
+    "character/rachel-lynde.md",
+    "Thomas death stated; increased lounge resting missing in whole-tree lounge search."
+  ],
+  "29": [
+    "yes",
+    "character/rachel-lynde.md",
+    "History Marilla invites widowed Rachel to move into Green Gables."
+  ],
+  "30": [
+    "yes",
+    "character/josie-pye.md",
+    "Ridgepole dare and disbelief quote convey taunt."
+  ],
+  "31": [
+    "yes",
+    "character/stacy.md",
+    "Personality bright, sympathetic and easily wins/retains pupils' affection."
+  ],
+  "32": [
+    "no",
+    "character/phillips.md",
+    "Discipline stated, spelling criticism missing after whole-tree search."
+  ],
+  "33": [
+    "no",
+    "character/phillips.md",
+    "Prissy romance missing after whole-tree search; pupil named Minnie is a different person."
+  ],
+  "34": [
+    "yes",
+    "character/ginger.md",
+    "Profane swearing parrot explicitly; Harrison history identifies Ginger as his parrot."
+  ],
+  "35": [
+    "yes",
+    "character/harrison.md",
+    "History explicitly wife Emily reunited with him."
+  ],
+  "36": [
+    "no",
+    "character/paul-irving.md",
+    "States origin and grandmother relation present, but move to live with grandmother not conveyed; whole-tree States/grandmother search read."
+  ],
+  "37": [
+    "yes",
+    "character/paul-irving.md",
+    "Stephen Irving explicitly father."
+  ],
+  "38": [
+    "no",
+    "character/paul-irving.md",
+    "Lavendar marries father and Paul says she would make splendid mother; does not convey accepting/loving her as new second mother. Review implication."
+  ],
+  "39": [
+    "yes",
+    "codex/places.md",
+    "Echo Lodge stone house inhabited by Lavendar; helper does not negate her living independently."
+  ],
+  "40": [
+    "yes",
+    "character/lavendar-lewis.md",
+    "Formerly engaged to Stephen Irving explicitly."
+  ],
+  "41": [
+    "yes",
+    "character/lavendar-lewis.md",
+    "Stephen relation/history explicitly marriage in intimate ceremony."
+  ],
+  "42": [
+    "no",
+    "character/charlotta.md",
+    "Excitement about moving to Boston present; living with Irvings not stated. Whole-tree Boston/Irvings search read; review contextual implication."
+  ],
+  "43": [
+    "no",
+    "character/dora.md",
+    "Pigpen and toolhouse mischief present; mud-pie assault missing after whole-tree mud-pie search."
+  ],
+  "44": [
+    "yes",
+    "character/dora.md",
+    "Demure, well-behaved, exceptionally quiet explicitly."
+  ],
+  "45": [
+    "yes",
+    "character/anthony-pye.md",
+    "Sullen pupil and hostile black-eyed expression convey core hostility toward teacher; human review direction from page context."
+  ]
+}

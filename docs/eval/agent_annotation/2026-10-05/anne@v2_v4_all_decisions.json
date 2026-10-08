@@ -1,0 +1,378 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne's summer visit includes Paul at Echo Lodge. Charlotta and Lavendar come home with Paul and Stephen and share the household, but their presence requires uncited p0001.",
+    [
+      "v03:c23:p0001",
+      "v03:c23:p0019"
+    ]
+  ],
+  "1": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana and Ruby actively spend the afternoon together in games; since v1 is historical, not a claim Ruby survives cutoff4.",
+    []
+  ],
+  "2": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Cornelia explicitly sews during her visit and Anne joins her thimble party in v04:c08:p0026 and v04:c08:p0027; the citations precede Cornelia's arrival.",
+    [
+      "v04:c08:p0026",
+      "v04:c08:p0027"
+    ]
+  ],
+  "3": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana drives and Anne carries the platter while they laugh on the Tory Road.",
+    [
+      "v02:c18:p0064"
+    ]
+  ],
+  "4": [
+    "supported",
+    "supported",
+    "none",
+    "Anne and Jane debate classroom discipline with Gilbert in v02:c04:p0000 and v02:c04:p0007.",
+    [
+      "v02:c04:p0000",
+      "v02:c04:p0007"
+    ]
+  ],
+  "5": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Anne meets her pupils and Paul, but this relationship pairs Paul with an unresolved separate Shirley identity rather than clearly identifying Anne.",
+    [
+      "v02:c05:p0003",
+      "v02:c05:p0007"
+    ]
+  ],
+  "6": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Lavendar's welcome is in the later tea visit; Davy and Milty actively share a school bench in the opening scene, although they are absent from the visit.",
+    [
+      "v02:c21:p0000",
+      "v02:c21:p0053"
+    ]
+  ],
+  "7": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Captain Jim escorts the man believed to be Dick, and Anne observes Leslie actively weeping before withdrawing. Both women are co-present and acting, though they do not converse.",
+    [
+      "v04:c13:p0005",
+      "v04:c13:p0006"
+    ]
+  ],
+  "8": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Rachel warns Marilla, while Matthew is away at Bright River. Observation of his departure is not a shared scene with him.",
+    [
+      "v01:c01:p0016",
+      "v01:c01:p0025"
+    ]
+  ],
+  "9": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Anne and Gilbert discover the wild apple tree. Rachel watches from inside and discusses them with Marilla; she does not participate with Anne.",
+    [
+      "v03:c02:p0019",
+      "v03:c02:p0029"
+    ]
+  ],
+  "10": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Marilla and Rachel's window conversation is explicit in v03:c02:p0019, omitted from the citations.",
+    [
+      "v03:c02:p0019"
+    ]
+  ],
+  "11": [
+    "supported",
+    "supported",
+    "none",
+    "Anne lists the supportive visitors and desire to return to school in v01:c23:p0041.",
+    [
+      "v01:c23:p0041"
+    ]
+  ],
+  "12": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Marilla is away at the political meeting in v01:c18:p0002. The cited statement about absent parents concerns Minnie May's parents, not Marilla.",
+    [
+      "v01:c18:p0002"
+    ]
+  ],
+  "13": [
+    "supported",
+    "supported",
+    "partial",
+    "Leslie lives nearby at Four Winds; the introduction identifies her, and Anne actively tells Gilbert about her on returning home. Neighbor location is more explicit in surrounding chapter10 context.",
+    [
+      "v04:c10:p0010",
+      "v04:c10:p0058"
+    ]
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mirabel is explicitly described as reckless.",
+    []
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Anne's founding of the Story Club is explicit in v01:c26:p0020; the citations only concern the concert.",
+    [
+      "v01:c26:p0020"
+    ]
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Davy's guilty confession is explicit, and Anne speaks with him directly.",
+    [
+      "v03:c13:p0056",
+      "v03:c13:p0094"
+    ]
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "none",
+    "The girls and Jamesina exchange humorous stories about Phil's mother, beaux and travel in v03:c35:p0010 and v03:c35:p0021.",
+    [
+      "v03:c35:p0010",
+      "v03:c35:p0021"
+    ]
+  ],
+  "18": [
+    "supported",
+    "supported",
+    "none",
+    "Owen is physically present in the volume4 story-telling scene v04:c24:p0030, rather than merely named.",
+    [
+      "v04:c24:p0030"
+    ]
+  ],
+  "19": [
+    "supported",
+    "supported",
+    "partial",
+    "The lifelong oath is explicit; its setting is established by the surrounding visit. Anne and Marilla actively interact before and after the garden vow.",
+    [
+      "v01:c12:p0022",
+      "v01:c12:p0035",
+      "v01:c12:p0042"
+    ]
+  ],
+  "20": [
+    "supported",
+    "supported",
+    "partial",
+    "Gilbert's purchase proposal is explicit; the old Morgan place is named in adjacent uncited v04:c40:p0013.",
+    [
+      "v04:c40:p0013"
+    ]
+  ],
+  "21": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The medal contestants include Gilbert, Anne and Lewis Wilson.",
+    []
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "partial",
+    "Marilla recognizes the theatrical enjoyment during Anne's apology in uncited p0032. Matthew and Anne converse in the opening persuasion scene.",
+    [
+      "v01:c10:p0013",
+      "v01:c10:p0032"
+    ]
+  ],
+  "23": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Phil takes Priscilla into her social circle, a figurative adoption. Rachel and Marilla only write separate letters from home; no shared action between them is depicted.",
+    [
+      "v03:c05:p0002",
+      "v03:c05:p0007"
+    ]
+  ],
+  "24": [
+    "uncertain",
+    "uncertain",
+    "none",
+    "John Andrew acts in volume2, but no evidence here establishes survival through cutoff4. The page explicitly marks alive as assumed.",
+    []
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Harrison is explicitly Anne's new neighbor. Rachel later joins Anne and Marilla and discusses him.",
+    [
+      "v02:c01:p0004",
+      "v02:c01:p0038"
+    ]
+  ],
+  "26": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Anne's reflection is explicit, but no shared Gilbert/Jane action is established by the general class and exam descriptions.",
+    [
+      "v01:c35:p0011"
+    ]
+  ],
+  "27": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Mr. Barry drives the girls home. Marilla is absent from the Exhibition trip and its return journey summarized here.",
+    [
+      "v01:c29:p0027",
+      "v01:c29:p0033"
+    ]
+  ],
+  "28": [
+    "supported",
+    "supported",
+    "none",
+    "Leavitt is Cornelia's church minister in v04:c28:p0008; the church is Presbyterian, as established in v04:c15:p0032. Membership is inferred from his minister role.",
+    [
+      "v04:c28:p0008",
+      "v04:c15:p0032"
+    ]
+  ],
+  "29": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Rachel's warning is explicit, but Matthew is away at Bright River throughout her discussion with Marilla.",
+    [
+      "v01:c01:p0016",
+      "v01:c01:p0025"
+    ]
+  ],
+  "30": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Anne walks with Gilbert after her grave visit. Phil arrives and speaks with Anne separately; no Gilbert/Phil shared action is established in this pre-wedding episode.",
+    [
+      "v04:c03:p0043",
+      "v04:c03:p0060"
+    ]
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "none",
+    "Anne's new pale green muslin dress is explicit in v02:c27:p0001.",
+    [
+      "v02:c27:p0001"
+    ]
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Charlie accompanies Anne and Gilbert by boat/train. Diana actively drives Anne away from Green Gables in the opening departure scene.",
+    [
+      "v03:c03:p0002",
+      "v03:c03:p0004",
+      "v03:c03:p0010"
+    ]
+  ],
+  "33": [
+    "supported",
+    "supported",
+    "partial",
+    "The quotation is exact, but Emily's identity is established when the initially unnamed visitor identifies herself in v02:c25:p0016 and by v02:c25:p0057.",
+    [
+      "v02:c25:p0016",
+      "v02:c25:p0057"
+    ]
+  ],
+  "34": [
+    "supported",
+    "supported",
+    "partial",
+    "Stacy's teaching is cited; the specific advanced Entrance class is established in v01:c30:p0014 rather than the cited chapter24 passages.",
+    [
+      "v01:c30:p0014"
+    ]
+  ],
+  "35": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Jane is explicitly described as neat.",
+    []
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne's excited planning is explicit in p0014 and p0022. Davy and Marilla are co-present in the household conversation around his questions and the dinner preparations.",
+    [
+      "v02:c16:p0010",
+      "v02:c16:p0014",
+      "v02:c16:p0022"
+    ]
+  ],
+  "37": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Phil explicitly describes Alec as good-tempered.",
+    []
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "partial",
+    "Jamesina's arrival and relaxed attitude are explicit in p0051/p0053. Priscilla and Stella actively share household/cat decisions; cited subset omits the arrival sentence.",
+    [
+      "v03:c16:p0051",
+      "v03:c16:p0053"
+    ]
+  ],
+  "39": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Josephine sends the gift; the slippers are named in adjacent p0043. The summarized gift/performance/parents' discussion does not establish Anne and Matthew acting together; their Christmas dress scene is a separate preceding episode.",
+    [
+      "v01:c25:p0042",
+      "v01:c25:p0043",
+      "v01:c25:p0059"
+    ]
+  ]
+}

@@ -1,0 +1,159 @@
+[
+ {
+  "case": 1,
+  "name": "supported uncited assertion",
+  "kind": "tool",
+  "expected": "enumerated with no citation, so it is sampled and read",
+  "observed": [
+   "uncited: alive  (assumed)",
+   "prose: Mara mends nets by the harbour wall and waits for her brother's fleet."
+  ],
+  "ok": true
+ },
+ {
+  "case": 2,
+  "name": "true claim, wrong citation",
+  "kind": "judge",
+  "expected": "unsupported by every judge",
+  "observed": {
+   "minicheck": "unsupported",
+   "eval_judge": "unsupported"
+  },
+  "ok": true
+ },
+ {
+  "case": 3,
+  "name": "future quote attached to an early fact",
+  "kind": "tool",
+  "expected": "a v02 citation on a v01 page is flagged",
+  "observed": [
+   "Mara said: \"He will come home with the t ['v02:c01:p0003']"
+  ],
+  "ok": true
+ },
+ {
+  "case": 4,
+  "name": "two early names linked only later",
+  "kind": "limitation",
+  "expected": "lexical exposure cannot see a later link between two early names; reading covers it",
+  "observed": {
+   "future_only_hits": {}
+  },
+  "ok": true
+ },
+ {
+  "case": 5,
+  "name": "hypothetical relation",
+  "kind": "judge",
+  "expected": "unsupported by every judge",
+  "observed": {
+   "minicheck": "unsupported",
+   "eval_judge": "unsupported"
+  },
+  "ok": true
+ },
+ {
+  "case": 6,
+  "name": "quoted lie",
+  "kind": "judge",
+  "expected": "unsupported by every judge",
+  "observed": {
+   "minicheck": "unsupported",
+   "eval_judge": "supported"
+  },
+  "ok": false
+ },
+ {
+  "case": 7,
+  "name": "embedded-story character taken for the subject",
+  "kind": "judge",
+  "expected": "unsupported by every judge",
+  "observed": {
+   "minicheck": "unsupported",
+   "eval_judge": "unsupported"
+  },
+  "ok": true
+ },
+ {
+  "case": 8,
+  "name": "incorrect relation direction",
+  "kind": "judge",
+  "expected": "unsupported by every judge",
+  "observed": {
+   "minicheck": "unsupported",
+   "eval_judge": "unsupported"
+  },
+  "ok": true
+ },
+ {
+  "case": 9,
+  "name": "missing page",
+  "kind": "tool",
+  "expected": "control facts stay in recall (scored 0, no model call); future facts counted apart, not in the leak rate",
+  "observed": {
+   "n_control": 1,
+   "control_recall": 0.0,
+   "n_future": 0,
+   "n_future_no_page": 1,
+   "future_leak_rate": null
+  },
+  "ok": true
+ },
+ {
+  "case": 10,
+  "name": "empty output",
+  "kind": "tool",
+  "expected": "zero assertions: precision undefined, not 100%",
+  "observed": {
+   "assertions": 0
+  },
+  "ok": true
+ },
+ {
+  "case": 11,
+  "name": "no gold",
+  "kind": "tool",
+  "expected": "no rate is reported",
+  "observed": {
+   "summary": []
+  },
+  "ok": true
+ },
+ {
+  "case": 12,
+  "name": "no future probes",
+  "kind": "tool",
+  "expected": "leak rate undefined (None), not 0",
+  "observed": {
+   "n_future": 0,
+   "future_leak_rate": null
+  },
+  "ok": true
+ },
+ {
+  "case": 13,
+  "name": "future name in shared HTML",
+  "kind": "tool",
+  "expected": "flagged on the shared surface",
+  "observed": {
+   "hits": {
+    "Queen Ysolde": [
+     "index.md"
+    ]
+   }
+  },
+  "ok": true
+ },
+ {
+  "case": 14,
+  "name": "semantic disclosure with no new vocabulary",
+  "kind": "tool",
+  "expected": "lexical tier misses; the semantic tier must flag it",
+  "observed": {
+   "lexical": false,
+   "minicheck_score": 0.0232,
+   "supported": false
+  },
+  "ok": false
+ }
+]

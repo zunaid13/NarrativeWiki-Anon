@@ -1,0 +1,3 @@
+# Grandma Irving & Paul Irving
+
+- [Grandma Irving](../character/grandma-irving.md) — Relative of — [Paul Irving](../character/paul-irving.md) — grandmother · since v2  <sub>[v2 XV The Beginning of Vacation P12](../source/v02-c15.md#nw-v02-c15-p0012), [v2 XIX Just a Happy Day P3](../source/v02-c19.md#nw-v02-c19-p0003), [v2 XXIII Miss Lavendar’s Romance P36](../source/v02-c23.md#nw-v02-c23-p0036), +4 more</sub>

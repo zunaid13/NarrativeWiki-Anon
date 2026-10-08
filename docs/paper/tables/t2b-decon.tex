@@ -1,0 +1,30 @@
+% T2b: the treated (decontaminated) text beside the original, means over cutoffs. Read only under
+% \nwdecontrue, from appendix/i-contamination.tex. Keys: _build/fill_decon.py.
+\begin{table*}[tp]
+\centering\small
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{@{}llcccccccc@{}}
+\toprule
+ & & \multicolumn{3}{c}{Recall} & \multicolumn{2}{c}{Precision} & \multicolumn{2}{c}{Citation sufficiency} & Later facts \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+\multicolumn{2}{@{}l}{System} & treated & original & difference & treated & original & treated & original & disclosed, treated \\
+\midrule
+B1 & Long context & \best{\res{M1-annedecon-avg-B1}}$\pm$\res{M1-annedecon-sd-B1} & \respt{M1-anne-avg-B1} & \res{M1-annedecon-diff-B1} & \res{M3-annedecon-avg-B1}$\pm$\res{M3-annedecon-sd-B1} & \respt{M3-anne-avg-B1} & \res{M8-annedecon-avg-B1}$\pm$\res{M8-annedecon-sd-B1} & \respt{M8-anne-avg-B1} & \res{M4-annedecon-total-B1} \\
+B2 & Prefix retrieval & \res{M1-annedecon-avg-B2}$\pm$\res{M1-annedecon-sd-B2} & \respt{M1-anne-avg-B2} & \res{M1-annedecon-diff-B2} & \res{M3-annedecon-avg-B2}$\pm$\res{M3-annedecon-sd-B2} & \respt{M3-anne-avg-B2} & \res{M8-annedecon-avg-B2}$\pm$\res{M8-annedecon-sd-B2} & \respt{M8-anne-avg-B2} & \res{M4-annedecon-total-B2} \\
+B3 & LightRAG & \res{M1-annedecon-avg-B3}$\pm$\res{M1-annedecon-sd-B3} & \respt{M1-anne-avg-B3} & \res{M1-annedecon-diff-B3} & \best{\res{M3-annedecon-avg-B3}}$\pm$\res{M3-annedecon-sd-B3} & \respt{M3-anne-avg-B3} & \res{M8-annedecon-avg-B3}$\pm$\res{M8-annedecon-sd-B3} & -- & \res{M4-annedecon-total-B3} \\
+B4 & Graph baseline & \res{M1-annedecon-avg-B4}$\pm$\res{M1-annedecon-sd-B4} & \respt{M1-anne-avg-B4} & \res{M1-annedecon-diff-B4} & \res{M3-annedecon-avg-B4}$\pm$\res{M3-annedecon-sd-B4} & \respt{M3-anne-avg-B4} & \best{\res{M8-annedecon-avg-B4}}$\pm$\res{M8-annedecon-sd-B4} & -- & \best{\res{M4-annedecon-total-B4}} \\
+B5 & \sys & \res{M1-annedecon-avg-B5}$\pm$\res{M1-annedecon-sd-B5} & \respt{M1-anne-avg-B5} & \res{M1-annedecon-diff-B5} & \res{M3-annedecon-avg-B5}$\pm$\res{M3-annedecon-sd-B5} & \respt{M3-anne-avg-B5} & \res{M8-annedecon-avg-B5}$\pm$\res{M8-annedecon-sd-B5} & \respt{M8-anne-avg-B5} & \best{\res{M4-annedecon-total-B5}} \\
+\midrule
+X1 & Closed book & \res{M1-annedecon-avg-X1}$\pm$\res{M1-annedecon-sd-X1} & \respt{M1-anne-avg-X1} & \best{\res{M1-annedecon-diff-X1}} & \res{M3-annedecon-avg-X1}$\pm$\res{M3-annedecon-sd-X1} & \respt{M3-anne-avg-X1} & -- & -- & \res{M4-annedecon-total-X1} \\
+X2 & Full text & \res{M1-annedecon-avg-X2}$\pm$\res{M1-annedecon-sd-X2} & \respt{M1-anne-avg-X2} & \res{M1-annedecon-diff-X2} & \res{M3-annedecon-avg-X2}$\pm$\res{M3-annedecon-sd-X2} & \respt{M3-anne-avg-X2} & \res{M8-annedecon-avg-X2}$\pm$\res{M8-annedecon-sd-X2} & -- & \best{\res{M4-annedecon-total-X2}} \\
+\bottomrule
+\end{tabular}
+\caption{The seven systems rebuilt on the treated text (names replaced, paragraphs paraphrased),
+with unchanged code, prompts, gold facts and labelling rules: mean $\pm$ sample standard
+deviation over cutoffs $t=1..5$, beside the mean on the original text from
+Tables~\ref{tab:main} and~\ref{tab:stats}. The difference is treated minus original, taken
+before rounding. Later facts disclosed counts
+stated or implied disclosures over fact-by-cutoff reads at $t=1..4$. Citation sufficiency was
+not labelled for B3, B4 and X2 on the original text. Bold: best treated value of B1--B5, largest recall loss, non-zero disclosure.}
+\label{tab:decon}
+\end{table*}

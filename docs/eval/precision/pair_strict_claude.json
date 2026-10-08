@@ -1,0 +1,1232 @@
+{
+ "_reader": "agent:claude-opus-5-5 (2026-10-05; chapter text read around each statement; not human; not blinded)",
+ "_rules": {
+  "line": "yes = both people of the pair are present and taking part in the episode the sampled statement itself describes or in which it is told",
+  "scene": "yes = somewhere in the scene summary the line belongs to, both people are present and taking part in one and the same episode (the standing rule, CHANGES C38); no = they never share an episode: one is absent, only mentioned, quoted, recalled or dead, or they act in different episodes of the chapter; watching the other from a distance without being in the same place is not taking part together"
+ },
+ "anne": {
+  "1": {
+   "1": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "2": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "4": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "7": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "9": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "10": {
+    "line": "no",
+    "scene": "no"
+   },
+   "11": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "13": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "15": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "18": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "22": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "24": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "25": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "27": {
+    "line": "no",
+    "scene": "no"
+   },
+   "28": {
+    "line": "no",
+    "scene": "no"
+   },
+   "29": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "30": {
+    "line": "no",
+    "scene": "no"
+   },
+   "34": {
+    "line": "no",
+    "scene": "no"
+   },
+   "37": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "39": {
+    "line": "yes",
+    "scene": "yes"
+   }
+  },
+  "2": {
+   "1": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "2": {
+    "line": "no",
+    "scene": "no"
+   },
+   "3": {
+    "line": "no",
+    "scene": "no"
+   },
+   "6": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "7": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "9": {
+    "line": "no",
+    "scene": "no"
+   },
+   "12": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "13": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "14": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "16": {
+    "line": "no",
+    "scene": "no"
+   },
+   "20": {
+    "line": "no",
+    "scene": "no"
+   },
+   "22": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "23": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "25": {
+    "line": "no",
+    "scene": "no"
+   },
+   "26": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "27": {
+    "line": "no",
+    "scene": "no"
+   },
+   "28": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "32": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "35": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "37": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "38": {
+    "line": "yes",
+    "scene": "yes"
+   }
+  },
+  "3": {
+   "0": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "1": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "3": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "4": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "5": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "no",
+    "scene": "no"
+   },
+   "7": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "no",
+    "scene": "no"
+   },
+   "9": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "10": {
+    "line": "no",
+    "scene": "no"
+   },
+   "12": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "14": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "18": {
+    "line": "no",
+    "scene": "no"
+   },
+   "19": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "22": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "25": {
+    "line": "no",
+    "scene": "no"
+   },
+   "26": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "27": {
+    "line": "no",
+    "scene": "no"
+   },
+   "29": {
+    "line": "no",
+    "scene": "no"
+   },
+   "30": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "31": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "35": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "36": {
+    "line": "no",
+    "scene": "no"
+   },
+   "37": {
+    "line": "no",
+    "scene": "no"
+   },
+   "38": {
+    "line": "no",
+    "scene": "no"
+   },
+   "39": {
+    "line": "no",
+    "scene": "no"
+   }
+  },
+  "4": {
+   "0": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "2": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "5": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "7": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "10": {
+    "line": "no",
+    "scene": "no"
+   },
+   "11": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "12": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "14": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "18": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "20": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "23": {
+    "line": "no",
+    "scene": "no"
+   },
+   "24": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "26": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "28": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "30": {
+    "line": "no",
+    "scene": "no"
+   },
+   "32": {
+    "line": "no",
+    "scene": "no"
+   },
+   "33": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "34": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "35": {
+    "line": "no",
+    "scene": "no"
+   },
+   "37": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "38": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "39": {
+    "line": "yes",
+    "scene": "yes"
+   }
+  },
+  "5": {
+   "0": {
+    "line": "no",
+    "scene": "no"
+   },
+   "1": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "3": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "5": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "7": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "9": {
+    "line": "no",
+    "scene": "no"
+   },
+   "10": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "13": {
+    "line": "no",
+    "scene": "no"
+   },
+   "16": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "18": {
+    "line": "no",
+    "scene": "no"
+   },
+   "21": {
+    "line": "no",
+    "scene": "no"
+   },
+   "22": {
+    "line": "no",
+    "scene": "no"
+   },
+   "24": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "25": {
+    "line": "no",
+    "scene": "no"
+   },
+   "26": {
+    "line": "no",
+    "scene": "no"
+   },
+   "27": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "28": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "29": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "31": {
+    "line": "no",
+    "scene": "no"
+   },
+   "35": {
+    "line": "no",
+    "scene": "no"
+   },
+   "37": {
+    "line": "no",
+    "scene": "no"
+   },
+   "38": {
+    "line": "no",
+    "scene": "no"
+   },
+   "39": {
+    "line": "no",
+    "scene": "no"
+   }
+  }
+ },
+ "anne@v2": {
+  "1": {
+   "0": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "1": {
+    "line": "no",
+    "scene": "no"
+   },
+   "5": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "no",
+    "scene": "no"
+   },
+   "7": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "9": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "11": {
+    "line": "no",
+    "scene": "no"
+   },
+   "13": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "19": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "22": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "23": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "26": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "27": {
+    "line": "no",
+    "scene": "no"
+   },
+   "28": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "31": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "32": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "39": {
+    "line": "no",
+    "scene": "yes"
+   }
+  },
+  "2": {
+   "0": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "1": {
+    "line": "no",
+    "scene": "no"
+   },
+   "4": {
+    "line": "no",
+    "scene": "no"
+   },
+   "5": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "no",
+    "scene": "no"
+   },
+   "7": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "9": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "12": {
+    "line": "no",
+    "scene": "no"
+   },
+   "14": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "18": {
+    "line": "no",
+    "scene": "no"
+   },
+   "20": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "23": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "24": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "27": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "28": {
+    "line": "no",
+    "scene": "no"
+   },
+   "29": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "32": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "33": {
+    "line": "no",
+    "scene": "no"
+   },
+   "34": {
+    "line": "no",
+    "scene": "no"
+   }
+  },
+  "3": {
+   "1": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "2": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "3": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "7": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "12": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "14": {
+    "line": "no",
+    "scene": "no"
+   },
+   "16": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "20": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "22": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "25": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "26": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "28": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "32": {
+    "line": "no",
+    "scene": "no"
+   },
+   "35": {
+    "line": "no",
+    "scene": "no"
+   },
+   "37": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "38": {
+    "line": "no",
+    "scene": "yes"
+   }
+  },
+  "4": {
+   "0": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "1": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "3": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "5": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "7": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "no",
+    "scene": "no"
+   },
+   "9": {
+    "line": "no",
+    "scene": "no"
+   },
+   "13": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "16": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "19": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "22": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "23": {
+    "line": "no",
+    "scene": "no"
+   },
+   "25": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "26": {
+    "line": "no",
+    "scene": "no"
+   },
+   "27": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "29": {
+    "line": "no",
+    "scene": "no"
+   },
+   "30": {
+    "line": "no",
+    "scene": "no"
+   },
+   "32": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "36": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "38": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "39": {
+    "line": "no",
+    "scene": "yes"
+   }
+  },
+  "5": {
+   "0": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "1": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "4": {
+    "line": "no",
+    "scene": "no"
+   },
+   "5": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "6": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "7": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "8": {
+    "line": "no",
+    "scene": "no"
+   },
+   "9": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "10": {
+    "line": "no",
+    "scene": "no"
+   },
+   "12": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "17": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "19": {
+    "line": "no",
+    "scene": "no"
+   },
+   "21": {
+    "line": "no",
+    "scene": "no"
+   },
+   "23": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "27": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "28": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "29": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "31": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "32": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "33": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "34": {
+    "line": "no",
+    "scene": "yes"
+   },
+   "35": {
+    "line": "no",
+    "scene": "no"
+   },
+   "37": {
+    "line": "no",
+    "scene": "no"
+   },
+   "38": {
+    "line": "yes",
+    "scene": "yes"
+   },
+   "39": {
+    "line": "no",
+    "scene": "yes"
+   }
+  }
+ },
+ "anne@p2": {
+  "2": {
+   "0": {
+    "scene": "yes"
+   },
+   "1": {
+    "scene": "yes"
+   },
+   "4": {
+    "scene": "yes"
+   },
+   "5": {
+    "scene": "no"
+   },
+   "6": {
+    "scene": "yes"
+   },
+   "7": {
+    "scene": "yes"
+   },
+   "8": {
+    "scene": "no"
+   },
+   "9": {
+    "scene": "yes"
+   },
+   "10": {
+    "scene": "no"
+   },
+   "12": {
+    "scene": "yes"
+   },
+   "17": {
+    "scene": "yes"
+   },
+   "19": {
+    "scene": "yes"
+   },
+   "20": {
+    "scene": "no"
+   },
+   "22": {
+    "scene": "yes"
+   },
+   "26": {
+    "scene": "no"
+   },
+   "27": {
+    "scene": "yes"
+   },
+   "28": {
+    "scene": "no"
+   },
+   "30": {
+    "scene": "no"
+   },
+   "31": {
+    "scene": "yes"
+   },
+   "32": {
+    "scene": "yes"
+   },
+   "33": {
+    "scene": "no"
+   },
+   "36": {
+    "scene": "no"
+   },
+   "37": {
+    "scene": "yes"
+   },
+   "38": {
+    "scene": "yes"
+   },
+   "39": {
+    "scene": "yes"
+   }
+  }
+ },
+ "anne@p3": {
+  "3": {
+   "0": {
+    "scene": "yes"
+   },
+   "1": {
+    "scene": "no"
+   },
+   "3": {
+    "scene": "no"
+   },
+   "6": {
+    "scene": "no"
+   },
+   "7": {
+    "scene": "yes"
+   },
+   "9": {
+    "scene": "no"
+   },
+   "10": {
+    "scene": "no"
+   },
+   "13": {
+    "scene": "yes"
+   },
+   "16": {
+    "scene": "no"
+   },
+   "18": {
+    "scene": "yes"
+   },
+   "21": {
+    "scene": "no"
+   },
+   "22": {
+    "scene": "no"
+   },
+   "24": {
+    "scene": "no"
+   },
+   "25": {
+    "scene": "yes"
+   },
+   "26": {
+    "scene": "no"
+   },
+   "29": {
+    "scene": "yes"
+   },
+   "30": {
+    "scene": "yes"
+   },
+   "34": {
+    "scene": "no"
+   },
+   "37": {
+    "scene": "yes"
+   },
+   "38": {
+    "scene": "no"
+   },
+   "39": {
+    "scene": "yes"
+   }
+  }
+ },
+ "_note_prefix": "anne@p2 and anne@p3 (prefix builds of version 1) carry the scene verdict only; rows the earlier reader had already rejected for placement stay 'no'",
+ "anne@p1-v2": {
+  "1": {
+   "0": {
+    "scene": "yes"
+   },
+   "2": {
+    "scene": "yes"
+   },
+   "8": {
+    "scene": "yes"
+   },
+   "9": {
+    "scene": "yes"
+   },
+   "12": {
+    "scene": "yes"
+   },
+   "13": {
+    "scene": "no"
+   },
+   "16": {
+    "scene": "yes"
+   },
+   "18": {
+    "scene": "yes"
+   },
+   "22": {
+    "scene": "yes"
+   },
+   "26": {
+    "scene": "yes"
+   },
+   "28": {
+    "scene": "yes"
+   },
+   "29": {
+    "scene": "yes"
+   },
+   "32": {
+    "scene": "no"
+   },
+   "33": {
+    "scene": "yes"
+   },
+   "34": {
+    "scene": "yes"
+   },
+   "35": {
+    "scene": "yes"
+   }
+  }
+ },
+ "anne@p2-v2": {
+  "2": {
+   "0": {
+    "scene": "no"
+   },
+   "1": {
+    "scene": "no"
+   },
+   "3": {
+    "scene": "yes"
+   },
+   "6": {
+    "scene": "no"
+   },
+   "7": {
+    "scene": "yes"
+   },
+   "8": {
+    "scene": "no"
+   },
+   "9": {
+    "scene": "yes"
+   },
+   "13": {
+    "scene": "yes"
+   },
+   "16": {
+    "scene": "yes"
+   },
+   "19": {
+    "scene": "yes"
+   },
+   "22": {
+    "scene": "yes"
+   },
+   "23": {
+    "scene": "no"
+   },
+   "25": {
+    "scene": "yes"
+   },
+   "26": {
+    "scene": "no"
+   },
+   "27": {
+    "scene": "yes"
+   },
+   "29": {
+    "scene": "no"
+   },
+   "30": {
+    "scene": "no"
+   },
+   "32": {
+    "scene": "yes"
+   },
+   "36": {
+    "scene": "yes"
+   },
+   "39": {
+    "scene": "yes"
+   }
+  }
+ },
+ "anne@p3-v2": {
+  "3": {
+   "0": {
+    "scene": "yes"
+   },
+   "2": {
+    "scene": "yes"
+   },
+   "5": {
+    "scene": "yes"
+   },
+   "6": {
+    "scene": "yes"
+   },
+   "7": {
+    "scene": "yes"
+   },
+   "10": {
+    "scene": "yes"
+   },
+   "11": {
+    "scene": "no"
+   },
+   "12": {
+    "scene": "yes"
+   },
+   "14": {
+    "scene": "yes"
+   },
+   "20": {
+    "scene": "yes"
+   },
+   "23": {
+    "scene": "yes"
+   },
+   "24": {
+    "scene": "yes"
+   },
+   "26": {
+    "scene": "yes"
+   },
+   "30": {
+    "scene": "yes"
+   },
+   "32": {
+    "scene": "no"
+   },
+   "34": {
+    "scene": "yes"
+   },
+   "35": {
+    "scene": "no"
+   },
+   "38": {
+    "scene": "yes"
+   }
+  }
+ }
+}

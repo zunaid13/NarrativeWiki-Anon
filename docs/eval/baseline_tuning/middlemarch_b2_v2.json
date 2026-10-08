@@ -1,0 +1,103 @@
+{
+ "work": "middlemarch",
+ "system": "b2",
+ "upto": 2,
+ "rows": [
+  {
+   "setting": {
+    "--chunk-words": 150,
+    "--budget-tokens": 6000
+   },
+   "control_recall_screen": 0.3684,
+   "n_control": 19,
+   "future_screen_rate": 0.0476,
+   "pages": 13,
+   "run_id": "20260928T142932-baseline-b2-v2",
+   "stats": {
+    "citations_dropped": 3,
+    "citations_kept": 762
+   }
+  },
+  {
+   "setting": {
+    "--chunk-words": 150,
+    "--budget-tokens": 12000
+   },
+   "control_recall_screen": 0.3684,
+   "n_control": 19,
+   "future_screen_rate": 0.0476,
+   "pages": 13,
+   "run_id": "20260928T143736-baseline-b2-v2",
+   "stats": {
+    "citations_dropped": 1,
+    "citations_kept": 909,
+    "sentences_cut": 1
+   }
+  },
+  {
+   "setting": {
+    "--chunk-words": 150,
+    "--budget-tokens": 20000
+   },
+   "control_recall_screen": 0.5263,
+   "n_control": 19,
+   "future_screen_rate": 0.0952,
+   "pages": 13,
+   "run_id": "20260928T144522-baseline-b2-v2",
+   "stats": {
+    "citations_dropped": 0,
+    "citations_kept": 1048
+   }
+  },
+  {
+   "setting": {
+    "--chunk-words": 300,
+    "--budget-tokens": 6000
+   },
+   "control_recall_screen": 0.3684,
+   "n_control": 19,
+   "future_screen_rate": 0.0476,
+   "pages": 13,
+   "run_id": "20260928T145428-baseline-b2-v2",
+   "stats": {
+    "citations_dropped": 3,
+    "citations_kept": 762
+   }
+  },
+  {
+   "setting": {
+    "--chunk-words": 300,
+    "--budget-tokens": 12000
+   },
+   "control_recall_screen": 0.4211,
+   "n_control": 19,
+   "future_screen_rate": 0.0952,
+   "pages": 13,
+   "run_id": "20260928T150158-baseline-b2-v2",
+   "stats": {
+    "citations_dropped": 4,
+    "citations_kept": 953,
+    "sentences_cut": 2
+   }
+  },
+  {
+   "setting": {
+    "--chunk-words": 300,
+    "--budget-tokens": 20000
+   },
+   "control_recall_screen": 0.3684,
+   "n_control": 19,
+   "future_screen_rate": 0.1429,
+   "pages": 13,
+   "run_id": "20260928T151020-baseline-b2-v2",
+   "stats": {
+    "citations_dropped": 81,
+    "citations_kept": 907
+   }
+  }
+ ],
+ "chosen": {
+  "--chunk-words": 150,
+  "--budget-tokens": 20000
+ }
+}

@@ -1,0 +1,390 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "partial",
+    "Marilla is away at the meeting and Diana seeks help; Anne and Minnie May participate directly in treatment. Citations omit the explicit Marilla-away statement.",
+    [
+      "v01:c18:p0002",
+      "v01:c18:p0021",
+      "v01:c18:p0031"
+    ]
+  ],
+  "1": [
+    "frame_error",
+    "frame_error",
+    "insufficient",
+    "The unit describes a group journey after Diana helps Anne dress; the atom turns Diana into Anne's driver. Billy drives the buggy. Review sampler subject/agency rather than scoring this invented atom.",
+    [
+      "v01:c33:p0006",
+      "v01:c33:p0028"
+    ]
+  ],
+  "2": [
+    "uncertain",
+    "uncertain",
+    "none",
+    "The exact count is not a novel proposition with defined scene boundaries; Shirley is also a duplicate unresolved identity. Needs human identity and scene audit.",
+    []
+  ],
+  "3": [
+    "supported",
+    "supported",
+    "insufficient",
+    "The Academy publicly awards medals at commencement in chapter36, absent from the citations.",
+    [
+      "v01:c36:p0011"
+    ]
+  ],
+  "4": [
+    "unsupported",
+    "supported",
+    "insufficient",
+    "Harrison rejects governing by affection in p0036/p0038. Rachel does not participate in this episode; it is misplaced on Marilla/Rachel's shared-scenes page.",
+    [
+      "v02:c04:p0036",
+      "v02:c04:p0038"
+    ]
+  ],
+  "5": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Gilbert rushes to the gathering with Fred and questions the news. Jane actively explains it in the same scene.",
+    [
+      "v02:c09:p0028",
+      "v02:c09:p0029",
+      "v02:c09:p0032"
+    ]
+  ],
+  "6": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Davy's mischief is explicit, but Rachel observes the arrival from home and does not act with Anne in the summarized incidents.",
+    [
+      "v02:c08:p0011",
+      "v02:c08:p0036",
+      "v02:c08:p0049",
+      "v02:c08:p0060"
+    ]
+  ],
+  "7": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne's eager acceptance is explicit in uncited p0015; she and Gilbert both participate in the resulting class and rivalry.",
+    [
+      "v01:c30:p0015",
+      "v01:c30:p0020"
+    ]
+  ],
+  "8": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The news flies like wildfire; Fred and Gilbert join each other en route to the same gathering.",
+    [
+      "v02:c09:p0028"
+    ]
+  ],
+  "9": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Anne's talk with Allan is in chapter37 after the funeral, outside this citation subset. Anne and Marilla share the surrounding grief episode.",
+    [
+      "v01:c37:p0020",
+      "v01:c37:p0024"
+    ]
+  ],
+  "10": [
+    "supported",
+    "supported",
+    "none",
+    "Davy explains giving Dora the larger bread-and-jam slice as evidence of being better.",
+    [
+      "v02:c19:p0045",
+      "v02:c19:p0047"
+    ]
+  ],
+  "11": [
+    "supported",
+    "supported",
+    "none",
+    "Stacy actively attends the dinner in volume2, supporting alive rather than solely trusting the assumed status marker.",
+    [
+      "v02:c17:p0021",
+      "v02:c17:p0055"
+    ]
+  ],
+  "12": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Anne's broken ankle is explicit. Rachel's later visit is reported separately; no shared action with Marilla is established in this episode.",
+    [
+      "v01:c23:p0030",
+      "v01:c23:p0041"
+    ]
+  ],
+  "13": [
+    "supported",
+    "supported",
+    "none",
+    "Lorenzo acts and speaks in the volume2 canvassing visit.",
+    [
+      "v02:c06:p0049",
+      "v02:c06:p0051"
+    ]
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Anne and Diana lose the way in chapter21 before discovering Echo Lodge. Davy actively attends the opening school scene, though he is absent from the walk.",
+    [
+      "v02:c21:p0000",
+      "v02:c21:p0025"
+    ]
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "partial",
+    "His subscription is explicit in p0049; its five-dollar amount is in uncited p0051/p0055.",
+    [
+      "v02:c06:p0049",
+      "v02:c06:p0051",
+      "v02:c06:p0055"
+    ]
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly says Harris's bangles glitter, rattle and tinkle.",
+    [
+      "v01:c25:p0007"
+    ]
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Within the unit's attribution to Marilla's explanation, this is the intended pickup, not a claim that the child was actually a boy.",
+    [
+      "v01:c01:p0016"
+    ]
+  ],
+  "18": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Anne's letter includes student compositions, but Paul is only quoted/recounted, not present acting with her. Shirley additionally duplicates Anne's identity.",
+    [
+      "v02:c11:p0000",
+      "v02:c11:p0009",
+      "v02:c11:p0038"
+    ]
+  ],
+  "19": [
+    "unsupported",
+    "unsupported",
+    "insufficient",
+    "The quoted words are Mrs. Barry speaking to Marilla about Diana, not Marilla speaking.",
+    [
+      "v01:c12:p0022"
+    ]
+  ],
+  "20": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne returns home and later joins Gilbert, who speaks at the Improvement Society meeting in v02:c14:p0046.",
+    [
+      "v02:c14:p0012",
+      "v02:c14:p0046"
+    ]
+  ],
+  "21": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Harrison consoles Anne and is sympathetic after the hall disaster, supporting can be kind.",
+    [
+      "v02:c09:p0040"
+    ]
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Josie explicitly reports Frank's uncle on the board of governors.",
+    [
+      "v01:c34:p0024"
+    ]
+  ],
+  "23": [
+    "unsupported",
+    "unsupported",
+    "insufficient",
+    "Anne opens and reads the uncle's letter to Marilla, rather than Marilla informing Anne. Anne and Jane do participate later at the committee visit.",
+    [
+      "v02:c14:p0014",
+      "v02:c14:p0015",
+      "v02:c14:p0050"
+    ]
+  ],
+  "24": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "The sun breaking through is explicit, but the actual participants are Diana and Anne, not the separate unresolved Shirley entity.",
+    [
+      "v02:c30:p0030"
+    ]
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "none",
+    "Anne runs into the Green Gables kitchen on arriving home.",
+    [
+      "v01:c29:p0035"
+    ]
+  ],
+  "26": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Anne's accidental sale is explicit in chapter3, whereas the citations only cover their first confrontation.",
+    [
+      "v02:c03:p0007"
+    ]
+  ],
+  "27": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Barry's pleasure is explicit; Anne and Marilla act in the subsequent homecoming and supper.",
+    [
+      "v01:c29:p0031",
+      "v01:c29:p0038"
+    ]
+  ],
+  "28": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "The meeting is explicit, but Marilla is absent during Davy's jam incident. General recollection of catechism teaching does not establish a shared scene in this episode.",
+    [
+      "v02:c14:p0018",
+      "v02:c14:p0030",
+      "v02:c14:p0035"
+    ]
+  ],
+  "29": [
+    "supported",
+    "supported",
+    "partial",
+    "Lorenzo's five dollars is in p0051/p0055; the citation supplies the subscription but omits the amount. Anne and Harrison act in the later refusal.",
+    [
+      "v02:c06:p0049",
+      "v02:c06:p0051",
+      "v02:c06:p0056"
+    ]
+  ],
+  "30": [
+    "supported",
+    "supported",
+    "partial",
+    "Ruby's desire for ever so many beaux is explicit in uncited v01:c18:p0015. The cited passages establish general romance and pleasure but omit the multiple-suitor goal.",
+    [
+      "v01:c18:p0015"
+    ]
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "none",
+    "Anne goes to Orchard Slope and announces that she has come to confess.",
+    [
+      "v01:c19:p0066",
+      "v01:c19:p0079"
+    ]
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Fred joins Gilbert and the dismayed group at the yard gate.",
+    [
+      "v02:c09:p0028"
+    ]
+  ],
+  "33": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Anthony's changed attitude is explicit with adjacent speaker context. Davy is not a participant in this school episode with Paul.",
+    [
+      "v02:c12:p0049"
+    ]
+  ],
+  "34": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Miss Barry laughs at Anne's explanation. Matthew and Rachel are absent from their conversation; this is misplaced on that pair page.",
+    [
+      "v01:c19:p0087"
+    ]
+  ],
+  "35": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Davy cites the hymn's endless Sabbath in p0029, just beyond the cited catechism misunderstanding.",
+    [
+      "v02:c14:p0029"
+    ]
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly contrasts Dora's straight nose and Davy's snub nose.",
+    [
+      "v02:c08:p0025"
+    ]
+  ],
+  "37": [
+    "supported",
+    "supported",
+    "none",
+    "Marilla visits Rachel and asks her advice about Anne's refusal to return to school.",
+    [
+      "v01:c15:p0084",
+      "v01:c15:p0088"
+    ]
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne imagines Katie in the reflected bookcase and calls her comfort and consolation.",
+    [
+      "v01:c08:p0043"
+    ]
+  ],
+  "39": [
+    "partial",
+    "partial",
+    "partial",
+    "Harmon's exhibition apple prize is explicit; Fought in incorrectly casts participation in the exhibition as fighting.",
+    [
+      "v01:c29:p0024"
+    ]
+  ]
+}

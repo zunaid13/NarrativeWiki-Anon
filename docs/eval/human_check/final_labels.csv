@@ -1,0 +1,555 @@
+item,accepted label,pair,label from,status in the check,earlier AI label
+G001,yes,,codex,agree,
+G002,yes,,codex,agree,
+G003,yes,,codex,agree,
+G004,yes,,codex,agree,
+G005,yes,,codex,agree,
+G006,yes,,codex,agree,
+G007,yes,,codex,agree,
+G008,yes,,codex,agree,
+G009,yes,,codex,agree,
+G010,partly,,claude,boundary,
+G011,yes,,codex,agree,
+G012,yes,,codex,agree,
+G013,yes,,codex,agree,
+G014,yes,,codex,agree,
+G015,yes,,codex,agree,
+G016,yes,,codex,agree,
+G017,yes,,codex,agree,
+G018,yes,,codex,agree,
+G019,yes,,codex,agree,
+G020,yes,,codex,agree,
+G021,partly,,claude,boundary,
+G022,yes,,codex,agree,
+G023,partly,,codex,agree,
+G024,yes,,codex,agree,
+G025,yes,,codex,agree,
+G026,yes,,codex,agree,
+G027,yes,,codex,agree,
+G028,yes,,codex,agree,
+G029,yes,,codex,agree,
+G030,partly,,claude,boundary,
+G031,yes,,codex,agree,
+G032,yes,,codex,agree,
+G033,yes,,codex,agree,
+G034,yes,,codex,agree,
+G035,yes,,codex,agree,
+G036,yes,,codex,agree,
+G037,partly,,claude,boundary,
+G038,yes,,codex,agree,
+G039,yes,,codex,agree,
+G040,yes,,codex,agree,
+G041,partly,,claude,boundary,
+G042,yes,,codex,agree,
+G043,yes,,codex,agree,
+G044,partly,,codex,agree,
+G045,yes,,codex,agree,
+G046,yes,,codex,agree,
+G047,yes,,codex,agree,
+G048,partly,,claude,boundary,
+G049,partly,,codex,agree,
+G050,yes,,codex,agree,
+G051,yes,,codex,agree,
+G052,yes,,codex,agree,
+G053,yes,,codex,agree,
+G054,partly,,codex,agree,
+G055,yes,,codex,agree,
+G056,partly,,codex,agree,
+G057,partly,,codex,agree,
+G058,partly,,codex,agree,
+G059,yes,,codex,agree,
+G060,yes,,codex,agree,
+G061,yes,,codex,agree,
+G062,yes,,codex,agree,
+G063,yes,,codex,agree,
+G064,partly,,codex,agree,
+G065,yes,,codex,agree,
+G066,yes,,codex,agree,
+G067,yes,,codex,agree,
+G068,yes,,codex,agree,
+G069,yes,,codex,agree,
+G070,partly,,claude,boundary,
+G071,yes,,codex,agree,
+G072,yes,,codex,agree,
+G073,partly,,codex,agree,
+G074,yes,,codex,agree,
+G075,yes,,codex,agree,
+G076,yes,,codex,agree,
+G077,yes,,codex,agree,
+G078,no,,codex,agree,
+G079,partly,,claude,boundary,
+G080,yes,,codex,agree,
+G081,yes,,codex,agree,
+G082,yes,,codex,agree,
+G083,yes,,codex,agree,
+G084,yes,,codex,agree,
+G085,yes,,codex,agree,
+G086,yes,,codex,agree,
+G087,yes,,codex,agree,
+G088,yes,,codex,agree,
+G089,yes,,codex,agree,
+G090,yes,,codex,agree,
+G091,yes,,codex,agree,
+G092,yes,,codex,agree,
+G093,yes,,claude,changed,
+G094,yes,,codex,agree,
+G095,partly,,claude,boundary,
+G096,yes,,codex,agree,
+G097,yes,,codex,agree,
+G098,partly,,codex,agree,
+G099,yes,,codex,agree,
+G100,partly,,claude,boundary,
+G101,partly,,codex,agree,
+G102,yes,,codex,agree,
+G103,yes,,codex,agree,
+G104,partly,,claude,boundary,
+G105,yes,,codex,agree,
+G106,partly,,claude,boundary,
+G107,yes,,codex,agree,
+G108,no,,codex,agree,
+G109,yes,,codex,agree,
+G110,yes,,codex,agree,
+G111,no,,codex,agree,
+R001,no,,codex,not re-read,no
+R002,no,,codex,boundary,yes
+R003,yes,,codex,not re-read,yes
+R004,yes,,codex,not re-read,yes
+R005,yes,,codex,not re-read,yes
+R006,yes,,codex,stands,yes
+R007,yes,,codex,not re-read,yes
+R008,yes,,codex,stands,yes
+R009,yes,,codex,not re-read,yes
+R010,yes,,codex,stands,yes
+R011,partly,,codex,agree,yes
+R012,yes,,codex,stands,yes
+R013,yes,,claude,rejudged,yes
+R014,no,,codex,not re-read,no
+R015,yes,,codex,not re-read,yes
+R016,yes,,codex,stands,yes
+R017,yes,,codex,not re-read,yes
+R018,yes,,codex,not re-read,yes
+R019,no,,codex,not re-read,no
+R020,partly,,codex,boundary,yes
+R021,no,,codex,not re-read,no
+R022,yes,,codex,not re-read,yes
+R023,yes,,codex,stands,yes
+R024,no,,codex,boundary,yes
+R025,yes,,codex,stands,yes
+R026,yes,,codex,stands,yes
+R027,yes,,codex,not re-read,yes
+R028,no,,codex,not re-read,no
+R029,yes,,codex,not re-read,yes
+R030,yes,,codex,stands,yes
+R031,yes,,codex,stands,yes
+R032,no,,codex,not re-read,no
+R033,yes,,codex,stands,yes
+R034,yes,,codex,not re-read,yes
+R035,yes,,codex,stands,yes
+R036,no,,codex,not re-read,no
+R037,yes,,codex,not re-read,yes
+R038,yes,,codex,not re-read,yes
+R039,yes,,codex,stands,yes
+R040,yes,,codex,stands,yes
+R041,no,,codex,not re-read,no
+R042,yes,,codex,not re-read,yes
+R043,yes,,codex,not re-read,yes
+R044,yes,,codex,not re-read,yes
+R045,no,,codex,not re-read,no
+R046,yes,,codex,not re-read,yes
+R047,yes,,codex,stands,yes
+R048,yes,,codex,stands,yes
+R049,yes,,codex,stands,yes
+R050,yes,,codex,not re-read,yes
+R051,yes,,codex,stands,yes
+R052,yes,,codex,not re-read,yes
+R053,yes,,codex,not re-read,yes
+R054,yes,,codex,not re-read,yes
+R055,yes,,codex,stands,yes
+R056,yes,,codex,stands,yes
+R057,yes,,codex,stands,yes
+R058,no,,codex,agree,yes
+R059,yes,,codex,not re-read,yes
+R060,yes,,codex,stands,yes
+R061,no,,codex,boundary,yes
+R062,no,,codex,not re-read,no
+R063,yes,,codex,stands,yes
+R064,yes,,codex,stands,yes
+R065,yes,,codex,not re-read,yes
+R066,yes,,codex,not re-read,yes
+R067,yes,,codex,not re-read,yes
+R068,yes,,codex,stands,yes
+R069,yes,,codex,not re-read,yes
+R070,yes,,codex,stands,yes
+R071,yes,,codex,stands,yes
+R072,yes,,codex,not re-read,yes
+R073,no,,codex,not re-read,no
+R074,yes,,codex,stands,yes
+R075,yes,,codex,not re-read,yes
+R076,yes,,codex,stands,yes
+R077,yes,,codex,stands,yes
+R078,yes,,codex,stands,yes
+R079,no,,codex,agree,yes
+R080,yes,,codex,stands,yes
+R081,yes,,codex,stands,yes
+R082,yes,,codex,stands,yes
+R083,no,,codex,not re-read,no
+R084,yes,,codex,not re-read,yes
+R085,yes,,codex,not re-read,yes
+R086,yes,,codex,not re-read,yes
+R087,yes,,codex,stands,yes
+R088,yes,,codex,stands,yes
+R089,yes,,codex,stands,yes
+R090,no,,codex,boundary,yes
+R091,yes,,codex,stands,yes
+R092,yes,,codex,stands,yes
+R093,partly,,codex,agree,no
+R094,no,,codex,boundary,yes
+R095,no,,codex,not re-read,no
+R096,no,,claude,rejudged,yes
+R097,yes,,codex,not re-read,yes
+R098,yes,,codex,stands,yes
+R099,yes,,codex,stands,yes
+R100,yes,,codex,not re-read,yes
+R101,yes,,codex,not re-read,yes
+R102,yes,,codex,not re-read,yes
+R103,no,,codex,not re-read,no
+R104,no,,codex,boundary,yes
+R105,yes,,codex,stands,yes
+R106,yes,,codex,stands,yes
+R107,no,,codex,not re-read,no
+R108,yes,,codex,stands,yes
+R109,yes,,codex,not re-read,yes
+R110,no,,codex,not re-read,no
+R111,yes,,codex,not re-read,yes
+R112,partly,,codex,agree,no
+R113,yes,,codex,stands,yes
+R114,no,,codex,not re-read,no
+R115,no,,codex,boundary,yes
+R116,yes,,codex,stands,yes
+R117,yes,,codex,not re-read,yes
+R118,yes,,codex,not re-read,yes
+R119,yes,,codex,not re-read,yes
+R120,yes,,codex,boundary,no
+R121,yes,,claude,rejudged,yes
+R122,no,,codex,not re-read,no
+R123,yes,,codex,not re-read,yes
+R124,no,,codex,not re-read,no
+R125,yes,,codex,not re-read,yes
+R126,yes,,claude,changed,yes
+R127,no,,codex,boundary,yes
+R128,yes,,codex,not re-read,yes
+R129,yes,,codex,stands,yes
+R130,no,,codex,not re-read,no
+R131,partly,,codex,boundary,yes
+R132,yes,,codex,stands,yes
+R133,yes,,codex,not re-read,yes
+R134,yes,,codex,not re-read,yes
+R135,no,,codex,boundary,yes
+R136,yes,,codex,stands,yes
+R137,yes,,codex,not re-read,yes
+R138,yes,,codex,stands,yes
+R139,yes,,codex,stands,yes
+R140,yes,,codex,not re-read,yes
+R141,yes,,codex,stands,yes
+R142,no,,codex,not re-read,no
+R143,yes,,codex,not re-read,yes
+R144,yes,,codex,stands,yes
+R145,no,,codex,boundary,yes
+R146,yes,,codex,not re-read,yes
+R147,yes,,codex,stands,yes
+R148,yes,,codex,not re-read,yes
+R149,yes,,codex,stands,yes
+R150,yes,,codex,stands,yes
+R151,yes,,codex,stands,yes
+R152,no,,codex,not re-read,no
+R153,yes,,codex,not re-read,yes
+R154,yes,,codex,not re-read,yes
+R155,yes,,codex,stands,yes
+R156,no,,codex,not re-read,no
+R157,yes,,codex,stands,yes
+R158,yes,,codex,stands,yes
+R159,yes,,claude,changed,yes
+R160,yes,,codex,not re-read,yes
+R161,yes,,codex,boundary,no
+R162,yes,,codex,stands,yes
+R163,yes,,codex,not re-read,yes
+R164,no,,codex,agree,yes
+R165,yes,,codex,not re-read,yes
+R166,no,,codex,agree,yes
+R167,yes,,codex,stands,yes
+R168,no,,codex,agree,yes
+R169,yes,,codex,stands,yes
+R170,yes,,codex,not re-read,yes
+R171,yes,,codex,stands,yes
+R172,yes,,codex,stands,yes
+R173,yes,,codex,not re-read,yes
+R174,yes,,codex,stands,yes
+R175,no,,codex,not re-read,no
+R176,no,,codex,boundary,yes
+R177,yes,,codex,stands,yes
+R178,no,,codex,agree,yes
+R179,no,,codex,agree,yes
+R180,yes,,codex,stands,yes
+R181,yes,,codex,stands,yes
+R182,yes,,codex,stands,yes
+R183,yes,,codex,not re-read,yes
+R184,no,,codex,not re-read,no
+R185,no,,codex,not re-read,no
+R186,no,,codex,boundary,yes
+R187,yes,,codex,stands,yes
+R188,yes,,codex,stands,yes
+R189,yes,,codex,agree,no
+R190,yes,,codex,not re-read,yes
+R191,yes,,codex,not re-read,yes
+R192,yes,,codex,stands,yes
+R193,yes,,codex,not re-read,yes
+R194,yes,,codex,not re-read,yes
+R195,yes,,codex,boundary,no
+R196,no,,codex,not re-read,no
+R197,yes,,codex,stands,yes
+R198,yes,,codex,not re-read,yes
+R199,yes,,codex,stands,yes
+R200,yes,,codex,not re-read,yes
+R201,yes,,codex,not re-read,yes
+R202,no,,codex,not re-read,no
+R203,yes,,codex,stands,yes
+R204,no,,codex,not re-read,no
+R205,yes,,codex,not re-read,yes
+R206,yes,,codex,stands,yes
+R207,yes,,codex,stands,yes
+R208,yes,,codex,stands,yes
+R209,yes,,codex,not re-read,yes
+R210,yes,,codex,stands,yes
+R211,no,,codex,not re-read,no
+R212,yes,,codex,stands,yes
+R213,no,,codex,not re-read,no
+R214,yes,,claude,rejudged,yes
+R215,yes,,codex,stands,yes
+R216,yes,,codex,stands,yes
+R217,yes,,codex,stands,yes
+R218,yes,,codex,not re-read,yes
+R219,partly,,codex,agree,yes
+R220,yes,,codex,not re-read,yes
+R221,no,,codex,not re-read,no
+R222,yes,,codex,stands,yes
+R223,yes,,claude,changed,yes
+R224,no,,codex,not re-read,no
+R225,yes,,codex,not re-read,yes
+R226,no,,codex,boundary,yes
+R227,yes,,codex,not re-read,yes
+R228,no,,codex,not re-read,no
+R229,yes,,codex,stands,yes
+R230,yes,,codex,stands,yes
+R231,no,,codex,not re-read,no
+R232,yes,,codex,not re-read,yes
+R233,no,,codex,not re-read,no
+R234,yes,,codex,stands,yes
+R235,yes,,codex,stands,yes
+P001,yes,n-a,codex,stands,yes
+P002,yes,n-a,codex,not re-read,yes
+P003,partly,n-a,codex,reason read,yes
+P004,not shown,n-a,codex,agree,yes
+P005,yes,n-a,codex,boundary,uncertain
+P006,yes,n-a,codex,not re-read,yes
+P007,yes,n-a,codex,not re-read,yes
+P008,partly,n-a,codex,reason read,yes
+P009,yes,yes,codex,not re-read,yes
+P010,not shown,n-a,codex,agree,yes
+P011,no,n-a,codex,boundary,yes
+P012,yes,n-a,codex,not re-read,yes
+P013,yes,n-a,codex,not re-read,yes
+P014,yes,n-a,codex,not re-read,yes
+P015,yes,n-a,codex,stands,yes
+P016,yes,n-a,codex,not re-read,yes
+P017,yes,n-a,codex,not re-read,yes
+P018,yes,n-a,codex,not re-read,yes
+P019,yes,n-a,codex,not re-read,yes
+P020,yes,n-a,codex,not re-read,yes
+P021,yes,n-a,codex,stands,yes
+P022,yes,n-a,codex,stands,yes
+P023,yes,n-a,codex,not re-read,yes
+P024,yes,n-a,codex,agree,partly
+P025,yes,n-a,codex,not re-read,yes
+P026,yes,yes,codex,not re-read,yes
+P027,yes,n-a,codex,not re-read,yes
+P028,yes,n-a,codex,stands,yes
+P029,partly,n-a,codex,reason read,yes
+P030,yes,n-a,codex,not re-read,yes
+P031,yes,n-a,codex,not re-read,yes
+P032,yes,n-a,codex,not re-read,yes
+P033,yes,no,codex,not re-read,yes
+P034,yes,n-a,codex,not re-read,yes
+P035,yes,n-a,codex,not re-read,yes
+P036,yes,n-a,codex,stands,yes
+P037,yes,n-a,codex,stands,yes
+P038,yes,n-a,codex,not re-read,yes
+P039,yes,n-a,codex,not re-read,yes
+P040,yes,n-a,codex,stands,yes
+P041,partly,yes,codex,reason read,yes
+P042,yes,n-a,codex,not re-read,yes
+P043,yes,n-a,codex,not re-read,yes
+P044,yes,n-a,codex,stands,yes
+P045,partly,n-a,codex,not re-read,partly
+P046,yes,n-a,codex,not re-read,yes
+P047,yes,n-a,codex,not re-read,yes
+P048,partly,n-a,claude,changed,partly
+P049,partly,n-a,codex,reason read,yes
+P050,yes,n-a,codex,not re-read,yes
+P051,partly,n-a,codex,not re-read,partly
+P052,yes,n-a,codex,stands,yes
+P053,yes,n-a,codex,not re-read,yes
+P054,no,no,codex,agree,yes
+P055,yes,n-a,codex,not re-read,yes
+P056,yes,n-a,codex,not re-read,yes
+P057,yes,n-a,codex,stands,yes
+P058,yes,no,codex,not re-read,yes
+P059,partly,no,codex,reason read,yes
+P060,yes,no,codex,not re-read,yes
+P061,yes,n-a,codex,not re-read,yes
+P062,yes,n-a,codex,not re-read,yes
+P063,yes,n-a,codex,not re-read,yes
+P064,yes,n-a,codex,not re-read,yes
+P065,yes,n-a,codex,not re-read,yes
+P066,yes,n-a,codex,stands,yes
+P067,yes,n-a,codex,not re-read,yes
+P068,yes,n-a,codex,not re-read,yes
+P069,yes,n-a,codex,not re-read,yes
+P070,yes,n-a,codex,not re-read,yes
+P071,yes,n-a,codex,not re-read,yes
+P072,yes,n-a,codex,not re-read,yes
+P073,yes,n-a,codex,not re-read,yes
+P074,not shown,no,codex,agree,yes
+P075,yes,n-a,codex,not re-read,yes
+P076,yes,n-a,codex,not re-read,yes
+P077,yes,n-a,codex,not re-read,yes
+P078,yes,n-a,codex,stands,yes
+P079,yes,n-a,codex,not re-read,yes
+P080,no,n-a,codex,boundary,yes
+P081,partly,n-a,claude,rejudged,yes
+P082,partly,n-a,codex,reason read,yes
+P083,yes,n-a,codex,not re-read,yes
+P084,yes,n-a,codex,not re-read,yes
+P085,yes,n-a,codex,not re-read,yes
+P086,yes,n-a,codex,not re-read,yes
+P087,yes,n-a,codex,stands,yes
+P088,yes,n-a,codex,not re-read,yes
+P089,partly,n-a,codex,reason read,yes
+P090,yes,n-a,claude,rejudged,yes
+P091,yes,n-a,claude,rejudged,yes
+P092,yes,n-a,codex,not re-read,yes
+P093,yes,n-a,codex,not re-read,yes
+P094,yes,n-a,claude,rejudged,yes
+P095,yes,yes,codex,not re-read,yes
+P096,yes,n-a,codex,not re-read,yes
+P097,partly,n-a,codex,reason read,yes
+P098,yes,n-a,codex,stands,yes
+P099,yes,n-a,codex,agree,uncertain
+P100,yes,n-a,codex,stands,yes
+P101,yes,n-a,codex,stands,yes
+P102,partly,n-a,codex,reason read,yes
+P103,not shown,n-a,codex,agree,yes
+P104,yes,n-a,codex,not re-read,yes
+P105,yes,n-a,codex,stands,yes
+P106,yes,yes,codex,not re-read,yes
+P107,yes,n-a,codex,stands,yes
+P108,partly,n-a,codex,reason read,yes
+P109,yes,n-a,codex,not re-read,yes
+P110,yes,n-a,codex,not re-read,yes
+P111,yes,n-a,codex,not re-read,yes
+P112,yes,n-a,codex,not re-read,yes
+P113,yes,n-a,codex,not re-read,yes
+P114,no,n-a,codex,not re-read,no
+P115,partly,n-a,codex,reason read,yes
+P116,yes,n-a,codex,not re-read,yes
+P117,yes,n-a,codex,not re-read,yes
+P118,partly,n-a,codex,reason read,yes
+P119,yes,no,codex,not re-read,yes
+P120,yes,n-a,codex,not re-read,yes
+P121,yes,n-a,codex,not re-read,yes
+P122,partly,n-a,codex,agree,yes
+P123,yes,n-a,codex,stands,yes
+P124,yes,n-a,codex,not re-read,yes
+P125,yes,n-a,codex,not re-read,yes
+P126,yes,n-a,codex,not re-read,yes
+P127,not shown,n-a,claude,changed,yes
+P128,yes,n-a,codex,not re-read,yes
+P129,yes,n-a,codex,not re-read,yes
+P130,partly,n-a,codex,reason read,yes
+P131,yes,n-a,codex,not re-read,yes
+P132,yes,n-a,codex,stands,yes
+P133,yes,n-a,codex,not re-read,yes
+P134,yes,n-a,claude,rejudged,yes
+P135,yes,n-a,codex,stands,yes
+P136,partly,n-a,codex,agree,yes
+P137,yes,n-a,codex,not re-read,yes
+P138,yes,n-a,codex,not re-read,yes
+P139,yes,n-a,codex,not re-read,yes
+P140,yes,n-a,codex,not re-read,yes
+P141,yes,no,codex,not re-read,yes
+P142,yes,n-a,codex,stands,yes
+P143,yes,n-a,codex,not re-read,yes
+P144,yes,n-a,codex,not re-read,yes
+P145,yes,n-a,codex,not re-read,yes
+P146,yes,yes,codex,not re-read,yes
+P147,partly,n-a,codex,not re-read,partly
+P148,yes,n-a,codex,not re-read,yes
+C001,yes,,codex,not re-read,yes
+C002,yes,,codex,not re-read,yes
+C003,yes,,claude,rejudged,yes
+C004,partly,,codex,agree,yes
+C005,partly,,codex,not re-read,partly
+C006,partly,,codex,not re-read,partly
+C007,yes,,claude,rejudged,yes
+C008,yes,,claude,rejudged,no
+C009,partly,,claude,boundary,partly
+C010,yes,,codex,not re-read,yes
+C011,yes,,codex,agree,frame_error
+C012,yes,,codex,agree,no
+C013,yes,,codex,not re-read,yes
+C014,no,,codex,not re-read,no
+C015,partly,,codex,not re-read,partly
+C016,partly,,claude,rejudged,no
+C017,none cited,,codex,not re-read,none cited
+C018,no,,codex,not re-read,no
+C019,yes,,claude,rejudged,yes
+C020,yes,,codex,agree,partly
+C021,yes,,codex,not re-read,yes
+C022,yes,,codex,agree,yes
+C023,partly,,codex,agree,partly
+C024,no,,codex,agree,no
+C025,yes,,codex,agree,yes
+C026,no,,codex,not re-read,no
+C027,partly,,claude,boundary,partly
+C028,partly,,codex,agree,yes
+C029,yes,,claude,rejudged,yes
+C030,yes,,codex,agree,yes
+C031,yes,,codex,not re-read,yes
+C032,partly,,codex,agree,yes
+C033,partly,,codex,agree,yes
+C034,yes,,codex,not re-read,yes
+C035,yes,,codex,not re-read,yes
+C036,partly,,codex,agree,yes
+C037,no,,codex,agree,no
+C038,no,,codex,agree,no
+C039,partly,,codex,not re-read,partly
+C040,no,,codex,agree,no
+C041,no,,codex,not re-read,no
+C042,yes,,codex,agree,partly
+C043,yes,,codex,not re-read,yes
+C044,yes,,codex,not re-read,yes
+C045,yes,,claude,rejudged,yes
+C046,no,,codex,not re-read,no
+C047,yes,,codex,not re-read,yes
+C048,yes,,codex,not re-read,yes
+C049,partly,,claude,rejudged,yes
+C050,partly,,codex,agree,partly
+C051,yes,,codex,not re-read,yes
+C052,yes,,codex,agree,no
+C053,yes,,codex,not re-read,yes
+C054,partly,,codex,agree,yes
+C055,yes,,codex,not re-read,yes
+C056,no,,codex,not re-read,no
+C057,yes,,claude,rejudged,yes
+C058,no,,codex,not re-read,no
+C059,yes,,claude,rejudged,yes
+C060,yes,,codex,agree,yes

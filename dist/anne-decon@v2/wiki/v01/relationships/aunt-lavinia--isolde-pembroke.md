@@ -1,0 +1,3 @@
+# Aunt Lavinia & Isolde Pembroke
+
+- [Aunt Lavinia](../character/aunt-lavinia.md) — Relative of — [Isolde Pembroke](../character/isolde-pembroke.md) — aunt · since v1  <sub>[v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P67](../source/v01-c19.md#nw-v01-c19-p0067), [v1 CHAPTER XIX. A Concert, a Catastrophe, and a Confession P77](../source/v01-c19.md#nw-v01-c19-p0077), [v1 CHAPTER XXV. Obed Insists on Puffed Sleeves P42](../source/v01-c25.md#nw-v01-c25-p0042), +3 more</sub>

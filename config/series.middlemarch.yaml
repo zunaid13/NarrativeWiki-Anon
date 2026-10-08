@@ -1,0 +1,24 @@
+# Phase 32 stress-test corpus (docs/vision/PHASE_32.md, req. 7): George Eliot, *Middlemarch*,
+# Project Gutenberg #145, a cast of about 60 named characters.
+#   curl -L -o corpus/middlemarch/middlemarch-145.epub https://www.gutenberg.org/ebooks/145.epub3.images
+# Published in eight Books, which are the reading volumes; only Books I-V are in scope (the
+# 5-volume limit). Chapters are <h3> "CHAPTER I."; each Book's <h2> "BOOK I. MISS BROOKE." shares
+# its XHTML file with that Book's first chapter and no paragraph between them, so the two headings
+# open one chapter. The title keeps "CHAPTER XIII."; the break matches the chapter's full heading
+# text ("BOOK II. OLD AND YOUNG. CHAPTER XIII.", `RawChapter.headings`).
+series:
+  id: "middlemarch"
+  title: "Middlemarch"
+  author: "George Eliot"
+source:
+  dir: "corpus/middlemarch"
+  # One entry per break (discover_volumes counts entries): Books II-VIII start volumes 2-8.
+  volume_breaks: ['^BOOK II\.', '^BOOK III\.', '^BOOK IV\.', '^BOOK V\.', '^BOOK VI\.', '^BOOK VII\.', '^BOOK VIII\.']
+epub:
+  heading_tags: ["h2", "h3"]
+  split_within_documents: ["h2", "h3"]
+  drop_chapter_titles: ['^The Project Gutenberg eBook', '^THE FULL PROJECT GUTENBERG', '^Contents$']
+site:
+  title: "Middlemarch Character Wiki"
+  subtitle: "Spoiler-scoped. Set the Book you have read up to."
+  default_upto: 5

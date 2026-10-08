@@ -1,0 +1,20 @@
+{
+ "1": "S", "4": "S", "5": "S", "6": "S", "7": "S", "8": "S", "9": "S", "11": "S", "12": "S", "17": "S", "18": "S",
+ "19": "S", "20": "S", "21": "S", "22": "S", "23": "S", "24": "S", "25": "S", "26": "S", "28": "S", "32": "S",
+ "34": "S", "35": "S", "36": "S", "37": "S",
+ "2": ["P", "one piece of counsel is cited (v01:c09:p0030); no help given is among the cited paragraphs"],
+ "10": ["P", "the cited v01:c15:p0089 has the late arrival and the girls made to sit with the boys; Hugh is not named"],
+ "15": ["P", "her question to Miss Thorne and the drive to the examination are cited (v01:c30:p0030, c32:p0016); that she is of the class (v01:c30:p0020) is left to infer"],
+ "30": ["P", "her delight in one dress is cited (v01:c22:p0010); the interest is inferred from it"],
+ "31": ["P", "the errand for Nell's dress is cited (v01:c25); the devotion is inferred from that one episode"],
+ "38": ["P", "two things she says are cited (v01:c18:p0015, c28:p0001); the trait is inferred from them"],
+ "0": ["I", "none of the seven cited paragraphs is about her schoolwork"],
+ "3": ["I", "the four cited paragraphs are the visit to Miss Pembroke and the girls' notes; no play is in them"],
+ "13": ["I", "the three cited paragraphs name her; none says anything of her family and the school"],
+ "14": ["I", "no cited paragraph has a field afternoon"],
+ "16": ["I", "the cited v01:c33:p0029 has him laughing softly; the sentence the line rests on (v01:c33:p0028) is not cited"],
+ "27": ["I", "the three cited paragraphs are remarks of hers on other matters"],
+ "29": ["I", "his pride (v01:c33:p0028) is not in the two cited paragraphs"],
+ "33": ["I", "the six cited paragraphs show her orders and her plainness; none has her requiring respect for others"],
+ "39": ["I", "the four cited paragraphs are the visit to Miss Pembroke and the girls' notes; no pastime is in them"]
+}

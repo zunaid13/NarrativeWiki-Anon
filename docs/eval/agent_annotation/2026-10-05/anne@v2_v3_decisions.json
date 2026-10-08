@@ -1,0 +1,285 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Minnie is explicitly called a little girl.",
+    []
+  ],
+  "1": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Lavendar explicitly identifies Paul as Stephen's boy.",
+    []
+  ],
+  "2": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne and Diana learn to row themselves on the pond.",
+    []
+  ],
+  "3": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly calls Jane conscientious.",
+    []
+  ],
+  "4": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The Sarah-cat is explicitly a gift from Jamesina's washerwoman.",
+    []
+  ],
+  "5": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Rogerson's twenty years of Sunday-school teaching are explicit.",
+    []
+  ],
+  "6": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Paul explicitly locates his imaginary Nora in Andrews' Cove; Origin is interpreted as her story-world home.",
+    []
+  ],
+  "7": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Joshua is explicitly a man and uses Mr.",
+    []
+  ],
+  "8": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel takes Marilla with her to the political meeting.",
+    []
+  ],
+  "9": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The source explicitly identifies John Blythe as Marilla's former beau; this surname reference is read as John, not Gilbert.",
+    []
+  ],
+  "10": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Paul explicitly credits Grandma's successful upbringing of his father.",
+    []
+  ],
+  "11": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne notices the cat's following after returning to college; Rusty's identity is resolved by the ensuing chapter16 discussion.",
+    []
+  ],
+  "12": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly calls Diana a very ladylike girl.",
+    []
+  ],
+  "13": [
+    "supported",
+    "supported",
+    "sufficient",
+    "John Andrew is referred to with masculine pronouns during the paint-order error.",
+    []
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana's merry expression is explicitly described.",
+    []
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne names Bertha as her mother, reinforced by the parental letters.",
+    []
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "partial",
+    "Paul has a father in the cited passage; that father's Irving/Stephen identity requires v02:c23:p0027 and v02:c29:p0005.",
+    [
+      "v02:c23:p0027",
+      "v02:c29:p0005"
+    ]
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana explicitly says Miss Stacy formerly taught here.",
+    []
+  ],
+  "18": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Gilbert and Diana are explicitly president and treasurer of the society.",
+    []
+  ],
+  "19": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Judson is explicitly jovial.",
+    []
+  ],
+  "20": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Jane explicitly describes Billy as a great worker.",
+    []
+  ],
+  "21": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Stella calls her Aunt Jimsie, and the nickname is repeatedly used.",
+    []
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly calls Lorenzo dreadfully mean.",
+    []
+  ],
+  "23": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel explicitly reports bringing up ten children and burying two.",
+    []
+  ],
+  "24": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly imagines Violetta as a girl living in the echo.",
+    []
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Jane explicitly reports the father's gift of the upper farm in Billy's name.",
+    []
+  ],
+  "26": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel recalls Marilla bringing up Anne as an adopted child.",
+    []
+  ],
+  "27": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Phil's historical courtship by Alonzo is explicit; treated as the earlier suitor relation, not a claim of present marriage.",
+    []
+  ],
+  "28": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Lauretta is explicitly placid-looking.",
+    []
+  ],
+  "29": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly acknowledges Gilbert as a friend; their shared talks support closeness.",
+    []
+  ],
+  "30": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel explicitly reports Tillie taking Anne's part throughout.",
+    []
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Eben Wright's house is explicitly where the master boards.",
+    []
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The citation places Anne Shirley's birth in Bolingbroke, also home to her parents. The surname fragment is an identity-quality concern but the place fact is consistent.",
+    []
+  ],
+  "33": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne describes Jane as never worried by exams, supporting unflappable in that context.",
+    []
+  ],
+  "34": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Annetta's family previously lived in the Newbridge district.",
+    []
+  ],
+  "35": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Thomas is explicitly a man and husband.",
+    []
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Alonzo competes historically for Phil's hand; no claim that he is her eventual husband.",
+    []
+  ],
+  "37": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The recalled newlyweds are described as very happy before their short lives ended.",
+    []
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mrs. Morgan is explicitly a delightful conversationalist.",
+    []
+  ],
+  "39": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Patty explicitly says her brother Aaron brought the china dogs from London fifty years ago.",
+    []
+  ]
+}

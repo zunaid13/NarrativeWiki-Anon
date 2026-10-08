@@ -1,0 +1,85 @@
+{
+ "series": "anne@v2",
+ "cast_characters": 43,
+ "cast_pages": 43,
+ "kinds": {
+  "character (cast)": {
+   "inventory_share": 0.20580775154480907,
+   "n": 35,
+   "page_supported": 31,
+   "page_ci95": [
+    0.74,
+    0.955
+   ],
+   "atom_supported": 31,
+   "m8_n": 35,
+   "cited": 31,
+   "sufficient": 14
+  },
+  "character (other)": {
+   "inventory_share": 0.17135064747660284,
+   "n": 29,
+   "page_supported": 21,
+   "page_ci95": [
+    0.543,
+    0.853
+   ],
+   "atom_supported": 23,
+   "m8_n": 29,
+   "cited": 26,
+   "sufficient": 15
+  },
+  "relationship": {
+   "inventory_share": 0.463465903498392,
+   "n": 102,
+   "page_supported": 65,
+   "page_ci95": [
+    0.541,
+    0.724
+   ],
+   "atom_supported": 99,
+   "m8_n": 102,
+   "cited": 102,
+   "sufficient": 60
+  },
+  "codex": {
+   "inventory_share": 0.057398785256654226,
+   "n": 11,
+   "page_supported": 11,
+   "page_ci95": [
+    0.741,
+    1.0
+   ],
+   "atom_supported": 11,
+   "m8_n": 11,
+   "cited": 10,
+   "sufficient": 2
+  },
+  "timeline": {
+   "inventory_share": 0.09010678896926792,
+   "n": 22,
+   "page_supported": 21,
+   "page_ci95": [
+    0.782,
+    0.992
+   ],
+   "atom_supported": 21,
+   "m8_n": 22,
+   "cited": 0,
+   "sufficient": 0
+  },
+  "all": {
+   "inventory_share": 1.0,
+   "n": 199,
+   "page_supported": 149,
+   "page_ci95": [
+    0.684,
+    0.804
+   ],
+   "atom_supported": 185,
+   "m8_n": 199,
+   "cited": 169,
+   "sufficient": 91
+  }
+ }
+}

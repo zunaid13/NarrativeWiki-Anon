@@ -1,0 +1,291 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne and her parents are explicitly associated with Bolingbroke; the surname fragment is an entity-quality concern, but this place fact is consistent.",
+    []
+  ],
+  "1": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Hannah and Ada Harvey are explicitly twins.",
+    []
+  ],
+  "2": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Phil embraces Priscilla and brings her into her college social circle.",
+    []
+  ],
+  "3": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Thomas is explicitly meek.",
+    []
+  ],
+  "4": [
+    "unsupported",
+    "unsupported",
+    "insufficient",
+    "The dead James in the citation is Aunt Jamesina's father, not James A. Harrison. Wrong-person attribution.",
+    []
+  ],
+  "5": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Meredith explicitly thinks of Mrs. Blythe as a tender friend to the children.",
+    []
+  ],
+  "6": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel explicitly calls Dora womanly and helpful.",
+    []
+  ],
+  "7": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Judson is explicitly one of the Parkers living in Avonlea.",
+    []
+  ],
+  "8": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Reverend Jo performs the wedding prayer; the earlier exchange explicitly calls him a minister.",
+    []
+  ],
+  "9": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mary explicitly recounts Henry being thrashed behind the house by his uncle.",
+    []
+  ],
+  "10": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Captain Jim explicitly takes down his fiddle and plays.",
+    []
+  ],
+  "11": [
+    "partial",
+    "partial",
+    "partial",
+    "Rachel participates and wins Exhibition prizes, but Fought in incorrectly describes the event as fighting.",
+    []
+  ],
+  "12": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Jamesina explicitly finds the Sarah-cat's purring companionable.",
+    []
+  ],
+  "13": [
+    "supported",
+    "supported",
+    "partial",
+    "Faith and Carl are Meredith siblings, established by their family descriptions in v05:c04:p0006 and v05:c04:p0008. The citations give shared group membership without fully resolving each parentage.",
+    [
+      "v05:c04:p0006",
+      "v05:c04:p0008"
+    ]
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "partial",
+    "Carl is John Meredith's son; the cited quotation about father whipping Carl needs John identified in surrounding context, also explicit in v05:c28:p0026.",
+    [
+      "v05:c28:p0026"
+    ]
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Gilbert and Charlie are explicitly regarded as rivals for Anne's favor.",
+    []
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narration explicitly attributes Green Gables' usual order to Marilla.",
+    []
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Thomas is explicitly Rachel's husband; historical spouse relation remains valid after his death.",
+    []
+  ],
+  "18": [
+    "supported",
+    "supported",
+    "sufficient",
+    "John recalls Una as the child clasped by her dying mother Cecilia.",
+    []
+  ],
+  "19": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Davy explicitly hates Paul because Anne praises him.",
+    []
+  ],
+  "20": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly calls Joshua unsociable.",
+    []
+  ],
+  "21": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Jane explicitly calls Billy a great worker.",
+    []
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Ellen and her family are explicitly Episcopalians.",
+    []
+  ],
+  "23": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne's recollection explicitly describes Billy as perpetually smiling.",
+    []
+  ],
+  "24": [
+    "partial",
+    "partial",
+    "partial",
+    "Priscilla's Redmond enrollment is historical. The cited material is first-year enrollment, not last-year study; her last year is in v03:c35:p0028, and v3-present is stale by cutoff5.",
+    [
+      "v03:c35:p0028"
+    ]
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anthony is explicitly the orphan nephew of Mrs. George Pye's husband; George here denotes George Pye, not George Moore.",
+    []
+  ],
+  "26": [
+    "supported",
+    "supported",
+    "partial",
+    "Mary is active and identifies herself in v05:c05:p0017; the cited discussion treats her as a living child but does not show her acting.",
+    [
+      "v05:c05:p0017"
+    ]
+  ],
+  "27": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rosemary's engagement at seventeen and Martin Crawford's fatal shipwreck are explicit.",
+    []
+  ],
+  "28": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Dora is explicitly among six- and seven-year-olds in the earlier school opening; the claim is correctly marked historical.",
+    []
+  ],
+  "29": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The children become sworn friends, and Jem actively protects Una from Mary's taunting.",
+    []
+  ],
+  "30": [
+    "partial",
+    "partial",
+    "partial",
+    "Leavitt is explicitly their minister then, in Cornelia's historical anecdote. The citation does not establish v4-present incumbency; John Meredith is minister by volume5.",
+    []
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Paul is consistently identified as a boy with masculine pronouns.",
+    []
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Dorothy is explicitly Roy's sister.",
+    []
+  ],
+  "33": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Marshall is explicitly intelligent.",
+    []
+  ],
+  "34": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Una's sensitivity to public opinion is explicit.",
+    []
+  ],
+  "35": [
+    "uncertain",
+    "uncertain",
+    "partial",
+    "The fifty-year medical practice belongs specifically to Dr. David Blythe. The fragment Blythe page also conflates John/Gilbert references; named identity needs human resolution before crediting this entity.",
+    []
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The First Mate is explicitly referred to with masculine pronouns.",
+    []
+  ],
+  "37": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana explicitly recounts Atossa's poverty and loneliness after her husband's death.",
+    []
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Phil is explicitly the class beauty and belle.",
+    []
+  ],
+  "39": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne and Stella are explicitly intimate friends at Queen's.",
+    []
+  ]
+}

@@ -1,0 +1,79 @@
+# Phase 32 multi-cutoff gold for Middlemarch, Books I-V (plan 0011 S6). Same conventions as
+# spice-and-wolf.yaml: hand-written 2026-09-27 from what each Book's text establishes, every
+# evidence para_id found by search and read in data/middlemarch/01_parsed/. Keys are reconciled
+# with the gazetteer's canonical names after the final v1-5 build.
+series: middlemarch
+characters:
+  Dorothea Brooke:
+    facts:
+      - {claim: "Dorothea and her sister lost their parents and live at Tipton Grange with their bachelor uncle.", evidence: v01:c03:p0002}
+      - {claim: "Dorothea accepts Mr. Casaubon's offer of marriage.", evidence: v01:c07:p0044}
+      - {claim: "Dorothea is found weeping in Rome six weeks after her wedding.", evidence: v02:c07:p0006, keywords: ["weeping"]}
+      - {claim: "Dorothea visits Mrs. Lydgate (Rosamond).", evidence: v05:c00:p0003}
+      - {claim: "Dorothea is a widow.", evidence: v05:c07:p0001, keywords: ["widow"]}
+  Celia Brooke:
+    facts:
+      - {claim: "Celia is Dorothea's sister.", evidence: v01:c07:p0039}
+      - {claim: "Celia has had a baby.", evidence: v05:c05:p0003, keywords: ["baby"]}
+  Mr. Casaubon:
+    facts:
+      - {claim: "Casaubon is the Reverend Edward Casaubon, rector at Lowick.", evidence: v01:c03:p0009}
+      - {claim: "Casaubon is working on a great work, the Key to all Mythologies.", evidence: v01:c09:p0001}
+      - {claim: "Casaubon has a fit in the library.", evidence: v03:c06:p0021, keywords: ["fit in the library"]}
+      - {claim: "Casaubon took care of Will Ladislaw and his mother as a duty.", evidence: v04:c03:p0048}
+      - {claim: "Casaubon's will has a codicil that insults Dorothea over Ladislaw.", evidence: v05:c06:p0012, keywords: ["codicil"]}
+  Sir James Chettam:
+    facts:
+      - {claim: "Sir James Chettam courts at Tipton Grange; Dorothea thinks he is in love with Celia.", evidence: v01:c03:p0007}
+      - {claim: "Sir James calls Casaubon's codicil an insult to Dorothea.", evidence: v05:c06:p0012}
+  Mr. Brooke:
+    facts:
+      - {claim: "Mr. Brooke, nearly sixty, is the girls' uncle at Tipton Grange.", evidence: v01:c03:p0002}
+      - {claim: "Mr. Brooke secretly bought the newspaper the Pioneer.", evidence: v04:c03:p0003, keywords: ["Pioneer"]}
+  Will Ladislaw:
+    facts:
+      - {claim: "Will Ladislaw is Mr. Casaubon's cousin.", evidence: v01:c11:p0047}
+      - {claim: "Will's friend in Rome is the painter Adolf Naumann.", evidence: v02:c06:p0016, keywords: ["Naumann"]}
+      - {claim: "Will writes for Mr. Brooke's Pioneer.", evidence: v05:c03:p0010, keywords: ["Pioneer"]}
+  Lydgate:
+    facts:
+      - {claim: "Lydgate is the new doctor in Middlemarch.", evidence: v01:c12:p0050}
+      - {claim: "Bulstrode offers Lydgate the superintendence of his new hospital.", evidence: v02:c00:p0005, keywords: ["hospital"]}
+      - {claim: "Lydgate diagnoses Fred Vincy with typhoid fever.", evidence: v03:c03:p0006, keywords: ["typhoid"]}
+      - {claim: "Lydgate marries Rosamond Vincy.", evidence: v04:c02:p0073, keywords: ["married", "wedding"]}
+  Rosamond Vincy:
+    facts:
+      - {claim: "Rosamond Vincy is the woman Lydgate would have chosen, with a nymph-like figure and pure blondness.", evidence: v01:c13:p0003}
+      - {claim: "Rosamond believes she and Lydgate are as good as engaged.", evidence: v03:c04:p0037, keywords: ["engaged"]}
+      - {claim: "Rosamond tells her father that Lydgate wishes to be married soon.", evidence: v04:c02:p0073}
+  Fred Vincy:
+    facts:
+      - {claim: "Fred is Rosamond's brother and hopes something will pay his debts.", evidence: v02:c01:p0014}
+      - {claim: "Fred falls ill with typhoid fever.", evidence: v03:c03:p0006, keywords: ["typhoid"]}
+      - {claim: "Fred wants to marry Mary Garth.", evidence: v05:c09:p0039, keywords: ["give her up"]}
+  Mary Garth:
+    facts:
+      - {claim: "Mary Garth lives at Stone Court, which she prefers to being a governess.", evidence: v01:c13:p0066}
+      - {claim: "Featherstone asks Mary to burn one of his two wills.", evidence: v03:c10:p0013, keywords: ["burn"]}
+      - {claim: "Mary refused to handle Featherstone's iron chest; had she done it Fred would have had ten thousand pounds.", evidence: v04:c06:p0061, keywords: ["ten thousand pounds"]}
+  Mr. Featherstone:
+    facts:
+      - {claim: "Featherstone lives at Stone Court and is Rosamond's uncle.", evidence: v01:c13:p0066}
+      - {claim: "Featherstone made two wills and wanted to burn one.", evidence: v03:c10:p0013}
+      - {claim: "Featherstone's last will leaves his Lowick land to Joshua Rigg.", evidence: v04:c01:p0029, keywords: ["Rigg"]}
+  Bulstrode:
+    facts:
+      - {claim: "Bulstrode is a banker in Middlemarch.", evidence: v01:c12:p0019}
+      - {claim: "Bulstrode wants Mr. Tyke appointed chaplain of the hospital.", evidence: v02:c00:p0016, keywords: ["Tyke"]}
+      - {claim: "Bulstrode bought Stone Court.", evidence: v05:c10:p0001, keywords: ["Stone Court"]}
+  Mr. Farebrother:
+    facts:
+      - {claim: "Farebrother is a vicar whose attendance at the hospital Bulstrode wants to replace with Tyke's.", evidence: v02:c00:p0016}
+      - {claim: "Farebrother is given the Lowick living.", evidence: v05:c09:p0001, keywords: ["Lowick living"]}
+  Rigg:
+    facts:
+      - {claim: "Rigg appears as an unknown mourner at Featherstone's funeral.", evidence: v04:c01:p0005}
+      - {claim: "Rigg inherits Featherstone's land in Lowick parish.", evidence: v04:c01:p0029}
+  Raffles:
+    facts:
+      - {claim: "John Raffles knew Rigg as a boy eighteen years before.", evidence: v04:c07:p0013}

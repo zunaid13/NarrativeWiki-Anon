@@ -1,0 +1,2041 @@
+[
+ {
+  "series": "anne@v2",
+  "t": 1,
+  "all": {
+   "n": 78,
+   "same": 43,
+   "alias": 10,
+   "regrouped": 4,
+   "retyped": 0,
+   "absent": 21,
+   "renamed": 0,
+   "dependence": 0.4487,
+   "identity": 0.3205
+  },
+  "paged": {
+   "n": 59,
+   "same": 36,
+   "alias": 10,
+   "regrouped": 4,
+   "retyped": 0,
+   "absent": 9,
+   "renamed": 0,
+   "dependence": 0.3898,
+   "identity": 0.2203
+  },
+  "mentions": {
+   "full": 3803,
+   "prefix": 3588
+  },
+  "prefix_characters": 55,
+  "prefix_only": [],
+  "entities": [
+   {
+    "entity_id": "diana-barry",
+    "canonical": "Diana Barry",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "di",
+     "diana",
+     "diana barry"
+    ],
+    "prefix": {
+     "Diana Barry": [
+      "diana",
+      "diana barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "gilbert-blythe",
+    "canonical": "Gilbert Blythe",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "gil",
+     "gilbert",
+     "gilbert blythe"
+    ],
+    "prefix": {
+     "Gilbert Blythe": [
+      "gil",
+      "gilbert blythe"
+     ]
+    }
+   },
+   {
+    "entity_id": "faith",
+    "canonical": "Faith",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "faith"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "jane-andrews",
+    "canonical": "Jane Andrews",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jane",
+     "jane andrews"
+    ],
+    "prefix": {
+     "Jane Andrews": [
+      "jane andrews"
+     ]
+    }
+   },
+   {
+    "entity_id": "priscilla-grant",
+    "canonical": "Priscilla Grant",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "priscilla",
+     "priscilla grant",
+     "prissy",
+     "prissy andrews"
+    ],
+    "prefix": {
+     "Prissy Andrews": [
+      "prissy andrews"
+     ]
+    }
+   },
+   {
+    "entity_id": "barry",
+    "canonical": "Barry",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "barry"
+    ],
+    "prefix": {
+     "Josephine Barry": [
+      "aunt josephine",
+      "barry",
+      "josephine barry",
+      "old miss barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "josie-pye",
+    "canonical": "Josie Pye",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "josie",
+     "josie pye"
+    ],
+    "prefix": {
+     "Josie Pye": [
+      "josie pye"
+     ]
+    }
+   },
+   {
+    "entity_id": "fourth",
+    "canonical": "Fourth",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "fourth"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "shirley",
+    "canonical": "Shirley",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "shirley"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "mary-joe",
+    "canonical": "Mary Joe",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "mary",
+     "mary joe",
+     "young mary joe"
+    ],
+    "prefix": {
+     "Young Mary Joe": [
+      "young mary joe"
+     ]
+    }
+   },
+   {
+    "entity_id": "stella-maynard",
+    "canonical": "Stella Maynard",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "stella",
+     "stella maynard"
+    ],
+    "prefix": {
+     "Stella Maynard": [
+      "stella maynard"
+     ]
+    }
+   },
+   {
+    "entity_id": "josephine-barry",
+    "canonical": "Josephine Barry",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "aunt josephine",
+     "josephine barry",
+     "miss barry",
+     "old miss barry"
+    ],
+    "prefix": {
+     "Josephine Barry": [
+      "aunt josephine",
+      "barry",
+      "josephine barry",
+      "old miss barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "thomas-lynde",
+    "canonical": "Thomas Lynde",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "thomas",
+     "thomas lynde"
+    ],
+    "prefix": {
+     "Thomas": [
+      "thomas"
+     ]
+    }
+   },
+   {
+    "entity_id": "spencer",
+    "canonical": "Spencer",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "spencer"
+    ],
+    "prefix": {
+     "Alexander Spencer": [
+      "alexander spencer",
+      "spencer"
+     ]
+    }
+   },
+   {
+    "entity_id": "billy-andrews",
+    "canonical": "Billy Andrews",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "billy",
+     "billy andrews"
+    ],
+    "prefix": {
+     "Billy": [
+      "billy"
+     ]
+    }
+   },
+   {
+    "entity_id": "emily",
+    "canonical": "Emily",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "emily"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "gertie-pye",
+    "canonical": "Gertie Pye",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "gertie",
+     "gertie pye"
+    ],
+    "prefix": {
+     "Gertie Pye": [
+      "gertie pye"
+     ]
+    }
+   },
+   {
+    "entity_id": "walter",
+    "canonical": "Walter",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "walter"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "sam",
+    "canonical": "Sam",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "sam"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "silas-sloane",
+    "canonical": "Silas Sloane",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "silas sloane"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "tennyson",
+    "canonical": "Tennyson",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "tennyson"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "daniel",
+    "canonical": "Daniel",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "daniel"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "the-lord",
+    "canonical": "The Lord",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "the lord"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "alexander-spencer",
+    "canonical": "Alexander Spencer",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "alexander spencer"
+    ],
+    "prefix": {
+     "Alexander Spencer": [
+      "alexander spencer",
+      "spencer"
+     ]
+    }
+   },
+   {
+    "entity_id": "almighty",
+    "canonical": "Almighty",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "almighty"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "bertha-shirley",
+    "canonical": "Bertha Shirley",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "bertha shirley"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "eben-wright",
+    "canonical": "Eben Wright",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "eben wright"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "robert-bell",
+    "canonical": "Robert Bell",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "robert bell"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "samuel",
+    "canonical": "Samuel",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "samuel"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "carrots",
+    "canonical": "Carrots",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "carrots"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "minnie",
+    "canonical": "Minnie",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "minnie"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "peter-blewett",
+    "canonical": "Peter Blewett",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "peter blewett"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "mary",
+    "canonical": "Mary",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "mary"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "jerry",
+    "canonical": "Jerry",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jerry"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "marshall",
+    "canonical": "Marshall",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "marshall"
+    ],
+    "prefix": {}
+   }
+  ]
+ },
+ {
+  "series": "anne@v2",
+  "t": 2,
+  "all": {
+   "n": 142,
+   "same": 100,
+   "alias": 13,
+   "regrouped": 7,
+   "retyped": 0,
+   "absent": 22,
+   "renamed": 1,
+   "dependence": 0.2958,
+   "identity": 0.2042
+  },
+  "paged": {
+   "n": 117,
+   "same": 87,
+   "alias": 13,
+   "regrouped": 7,
+   "retyped": 0,
+   "absent": 10,
+   "renamed": 1,
+   "dependence": 0.2564,
+   "identity": 0.1453
+  },
+  "mentions": {
+   "full": 7210,
+   "prefix": 6973
+  },
+  "prefix_characters": 118,
+  "prefix_only": [],
+  "entities": [
+   {
+    "entity_id": "anne-shirley",
+    "canonical": "Anne Shirley",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "anne",
+     "anne shirley",
+     "anne-girl"
+    ],
+    "prefix": {
+     "Anne Shirley": [
+      "anne",
+      "anne shirley",
+      "anne-girl",
+      "shirley"
+     ]
+    }
+   },
+   {
+    "entity_id": "diana-barry",
+    "canonical": "Diana Barry",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "di",
+     "diana",
+     "diana barry"
+    ],
+    "prefix": {
+     "Diana Barry": [
+      "diana",
+      "diana barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "faith",
+    "canonical": "Faith",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "faith"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "priscilla-grant",
+    "canonical": "Priscilla Grant",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "grant",
+     "priscilla",
+     "priscilla grant",
+     "prissy",
+     "prissy andrews"
+    ],
+    "prefix": {
+     "Priscilla Grant": [
+      "priscilla",
+      "priscilla grant"
+     ],
+     "Prissy Andrews": [
+      "prissy andrews"
+     ]
+    }
+   },
+   {
+    "entity_id": "charlotta",
+    "canonical": "Charlotta",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "charlotta",
+     "leonora"
+    ],
+    "prefix": {
+     "Charlotta": [
+      "charlotta"
+     ]
+    }
+   },
+   {
+    "entity_id": "allan",
+    "canonical": "Allan",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "allan"
+    ],
+    "prefix": {
+     "Allan": [
+      "allan",
+      "allans"
+     ]
+    }
+   },
+   {
+    "entity_id": "jerry-corcoran",
+    "canonical": "Jerry Corcoran",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jerry",
+     "jerry corcoran"
+    ],
+    "prefix": {
+     "Jerry Corcoran": [
+      "jerry corcoran"
+     ]
+    }
+   },
+   {
+    "entity_id": "barry",
+    "canonical": "Barry",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "barry"
+    ],
+    "prefix": {
+     "Josephine Barry": [
+      "aunt josephine",
+      "barry",
+      "josephine barry",
+      "old miss barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "fourth",
+    "canonical": "Fourth",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "fourth"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "shirley",
+    "canonical": "Shirley",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "shirley"
+    ],
+    "prefix": {
+     "Anne Shirley": [
+      "anne",
+      "anne shirley",
+      "anne-girl",
+      "shirley"
+     ]
+    }
+   },
+   {
+    "entity_id": "mary-joe",
+    "canonical": "Mary Joe",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "aunt mary",
+     "mary",
+     "mary joe",
+     "young mary joe"
+    ],
+    "prefix": {
+     "Mary Joe": [
+      "aunt mary",
+      "mary joe",
+      "young mary joe"
+     ]
+    }
+   },
+   {
+    "entity_id": "josephine-barry",
+    "canonical": "Josephine Barry",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "aunt josephine",
+     "josephine barry",
+     "miss barry",
+     "old miss barry"
+    ],
+    "prefix": {
+     "Josephine Barry": [
+      "aunt josephine",
+      "barry",
+      "josephine barry",
+      "old miss barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "fred-wright",
+    "canonical": "Fred Wright",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "fred",
+     "fred wright"
+    ],
+    "prefix": {
+     "Fred Wright": [
+      "fred wright"
+     ]
+    }
+   },
+   {
+    "entity_id": "irving",
+    "canonical": "Irving",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "irving"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "billy-andrews",
+    "canonical": "Billy Andrews",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "billy",
+     "billy andrews"
+    ],
+    "prefix": {
+     "Billy": [
+      "billy"
+     ]
+    }
+   },
+   {
+    "entity_id": "clair-donnell",
+    "canonical": "Clair Donnell",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "clair",
+     "clair donnell"
+    ],
+    "prefix": {
+     "Clair Donnell": [
+      "clair donnell"
+     ]
+    }
+   },
+   {
+    "entity_id": "hester-gray",
+    "canonical": "Hester Gray",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "hester",
+     "hester gray"
+    ],
+    "prefix": {
+     "Hester Gray": [
+      "hester gray"
+     ]
+    }
+   },
+   {
+    "entity_id": "stephen-irving",
+    "canonical": "Stephen Irving",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "stephen",
+     "stephen irving"
+    ],
+    "prefix": {
+     "Stephen Irving": [
+      "stephen irving"
+     ]
+    }
+   },
+   {
+    "entity_id": "gertie-pye",
+    "canonical": "Gertie Pye",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "gertie",
+     "gertie pye"
+    ],
+    "prefix": {
+     "Gertie Pye": [
+      "gertie pye"
+     ]
+    }
+   },
+   {
+    "entity_id": "mirabel-cotton",
+    "canonical": "Mirabel Cotton",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "mirabel",
+     "mirabel cotton"
+    ],
+    "prefix": {
+     "Mirabel Cotton": [
+      "mirabel cotton"
+     ]
+    }
+   },
+   {
+    "entity_id": "blewett",
+    "canonical": "Blewett",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "blewett"
+    ],
+    "prefix": {
+     "Peter Blewett": [
+      "blewett",
+      "peter blewett"
+     ]
+    }
+   },
+   {
+    "entity_id": "twin-sailors",
+    "canonical": "Twin Sailors",
+    "class": "same",
+    "page": true,
+    "renamed": true,
+    "forms": [
+     "twin sailor",
+     "twin sailors"
+    ],
+    "prefix": {
+     "Twin Sailor": [
+      "twin sailor",
+      "twin sailors"
+     ]
+    }
+   },
+   {
+    "entity_id": "superintendent-bell",
+    "canonical": "Superintendent Bell",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jasper bell",
+     "superintendent bell"
+    ],
+    "prefix": {
+     "Superintendent Bell": [
+      "superintendent bell"
+     ]
+    }
+   },
+   {
+    "entity_id": "copp",
+    "canonical": "Copp",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "copp"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "walter",
+    "canonical": "Walter",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "walter"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "sam",
+    "canonical": "Sam",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "sam"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "shakespeare",
+    "canonical": "Shakespeare",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "shakespeare"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "tennyson",
+    "canonical": "Tennyson",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "tennyson"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "daniel",
+    "canonical": "Daniel",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "daniel"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "the-lord",
+    "canonical": "The Lord",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "the lord"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "almighty",
+    "canonical": "Almighty",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "almighty"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "bertha-shirley",
+    "canonical": "Bertha Shirley",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "bertha shirley"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "longfellow",
+    "canonical": "Longfellow",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "longfellow"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "samuel",
+    "canonical": "Samuel",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "samuel"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "baxter",
+    "canonical": "Baxter",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "baxter"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "carrots",
+    "canonical": "Carrots",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "carrots"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "minnie",
+    "canonical": "Minnie",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "minnie"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "peter-blewett",
+    "canonical": "Peter Blewett",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "peter blewett"
+    ],
+    "prefix": {
+     "Peter Blewett": [
+      "blewett",
+      "peter blewett"
+     ]
+    }
+   },
+   {
+    "entity_id": "hamilton",
+    "canonical": "Hamilton",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "hamilton"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "mary",
+    "canonical": "Mary",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "mary"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "jerry",
+    "canonical": "Jerry",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jerry"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "marshall",
+    "canonical": "Marshall",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "marshall"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "elizabeth",
+    "canonical": "Elizabeth",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "elizabeth"
+    ],
+    "prefix": {}
+   }
+  ]
+ },
+ {
+  "series": "anne@v2",
+  "t": 3,
+  "all": {
+   "n": 185,
+   "same": 153,
+   "alias": 9,
+   "regrouped": 5,
+   "retyped": 0,
+   "absent": 18,
+   "renamed": 0,
+   "dependence": 0.173,
+   "identity": 0.1243
+  },
+  "paged": {
+   "n": 158,
+   "same": 137,
+   "alias": 9,
+   "regrouped": 4,
+   "retyped": 0,
+   "absent": 8,
+   "renamed": 0,
+   "dependence": 0.1329,
+   "identity": 0.0759
+  },
+  "mentions": {
+   "full": 10197,
+   "prefix": 10010
+  },
+  "prefix_characters": 166,
+  "prefix_only": [],
+  "entities": [
+   {
+    "entity_id": "diana-barry",
+    "canonical": "Diana Barry",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "di",
+     "diana",
+     "diana barry",
+     "diana wright"
+    ],
+    "prefix": {
+     "Diana Barry": [
+      "di",
+      "diana",
+      "diana barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "faith",
+    "canonical": "Faith",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "faith"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "jane-andrews",
+    "canonical": "Jane Andrews",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jane",
+     "jane andrews"
+    ],
+    "prefix": {
+     "Jane Andrews": [
+      "guinevere",
+      "jane",
+      "jane andrews"
+     ]
+    }
+   },
+   {
+    "entity_id": "priscilla-grant",
+    "canonical": "Priscilla Grant",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "grant",
+     "pris",
+     "priscilla",
+     "priscilla grant",
+     "prissy",
+     "prissy andrews"
+    ],
+    "prefix": {
+     "Priscilla Grant": [
+      "pris",
+      "priscilla",
+      "priscilla grant"
+     ],
+     "Prissy Andrews": [
+      "prissy",
+      "prissy andrews"
+     ]
+    }
+   },
+   {
+    "entity_id": "dick-moore",
+    "canonical": "Dick Moore",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "dick"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "charlotta",
+    "canonical": "Charlotta",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "charlotta",
+     "leonora"
+    ],
+    "prefix": {
+     "Charlotta": [
+      "charlotta"
+     ]
+    }
+   },
+   {
+    "entity_id": "allan",
+    "canonical": "Allan",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "allan"
+    ],
+    "prefix": {
+     "Allan": [
+      "allan",
+      "allans"
+     ]
+    }
+   },
+   {
+    "entity_id": "jerry-corcoran",
+    "canonical": "Jerry Corcoran",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jerry",
+     "jerry corcoran"
+    ],
+    "prefix": {
+     "Jerry Corcoran": [
+      "jerry corcoran"
+     ]
+    }
+   },
+   {
+    "entity_id": "barry",
+    "canonical": "Barry",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "barry"
+    ],
+    "prefix": {
+     "Josephine Barry": [
+      "aunt josephine",
+      "barry",
+      "josephine barry",
+      "old miss barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "fourth",
+    "canonical": "Fourth",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "fourth"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "mary-joe",
+    "canonical": "Mary Joe",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "aunt mary",
+     "mary",
+     "mary joe",
+     "young mary joe"
+    ],
+    "prefix": {
+     "Mary Joe": [
+      "aunt mary",
+      "mary joe",
+      "young mary joe"
+     ]
+    }
+   },
+   {
+    "entity_id": "josephine-barry",
+    "canonical": "Josephine Barry",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "aunt josephine",
+     "josephine barry",
+     "miss barry",
+     "old miss barry"
+    ],
+    "prefix": {
+     "Josephine Barry": [
+      "aunt josephine",
+      "barry",
+      "josephine barry",
+      "old miss barry"
+     ]
+    }
+   },
+   {
+    "entity_id": "davis",
+    "canonical": "Davis",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "davis"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "clair-donnell",
+    "canonical": "Clair Donnell",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "clair",
+     "clair donnell"
+    ],
+    "prefix": {
+     "Clair Donnell": [
+      "clair donnell"
+     ]
+    }
+   },
+   {
+    "entity_id": "hester-gray",
+    "canonical": "Hester Gray",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "hester",
+     "hester gray"
+    ],
+    "prefix": {
+     "Hester Gray": [
+      "hester gray"
+     ]
+    }
+   },
+   {
+    "entity_id": "stephen-irving",
+    "canonical": "Stephen Irving",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "stephen",
+     "stephen irving"
+    ],
+    "prefix": {
+     "Stephen Irving": [
+      "stephen irving"
+     ]
+    }
+   },
+   {
+    "entity_id": "james-a",
+    "canonical": "James A",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "james",
+     "james a"
+    ],
+    "prefix": {
+     "James A": [
+      "james a"
+     ]
+    }
+   },
+   {
+    "entity_id": "copp",
+    "canonical": "Copp",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "copp"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "walter",
+    "canonical": "Walter",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "walter"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "tennyson",
+    "canonical": "Tennyson",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "tennyson"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "daniel",
+    "canonical": "Daniel",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "daniel"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "the-lord",
+    "canonical": "The Lord",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "the lord"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "almighty",
+    "canonical": "Almighty",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "almighty"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "longfellow",
+    "canonical": "Longfellow",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "longfellow"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "baxter",
+    "canonical": "Baxter",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "baxter"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "guinevere",
+    "canonical": "Guinevere",
+    "class": "regrouped",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "guinevere"
+    ],
+    "prefix": {
+     "Jane Andrews": [
+      "guinevere",
+      "jane",
+      "jane andrews"
+     ]
+    }
+   },
+   {
+    "entity_id": "minnie",
+    "canonical": "Minnie",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "minnie"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "mary",
+    "canonical": "Mary",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "mary"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "jerry",
+    "canonical": "Jerry",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jerry"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "george",
+    "canonical": "George",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "george"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "marshall",
+    "canonical": "Marshall",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "marshall"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "elizabeth",
+    "canonical": "Elizabeth",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "elizabeth"
+    ],
+    "prefix": {}
+   }
+  ]
+ },
+ {
+  "series": "anne@v2",
+  "t": 4,
+  "all": {
+   "n": 220,
+   "same": 196,
+   "alias": 7,
+   "regrouped": 6,
+   "retyped": 0,
+   "absent": 11,
+   "renamed": 2,
+   "dependence": 0.1091,
+   "identity": 0.0773
+  },
+  "paged": {
+   "n": 191,
+   "same": 174,
+   "alias": 7,
+   "regrouped": 5,
+   "retyped": 0,
+   "absent": 5,
+   "renamed": 2,
+   "dependence": 0.089,
+   "identity": 0.0524
+  },
+  "mentions": {
+   "full": 13068,
+   "prefix": 12992
+  },
+  "prefix_characters": 205,
+  "prefix_only": [],
+  "entities": [
+   {
+    "entity_id": "gilbert-blythe",
+    "canonical": "Gilbert Blythe",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "gil",
+     "gilbert",
+     "gilbert blythe"
+    ],
+    "prefix": {
+     "Gilbert Blythe": [
+      "blythe",
+      "gil",
+      "gilbert",
+      "gilbert blythe"
+     ]
+    }
+   },
+   {
+    "entity_id": "faith",
+    "canonical": "Faith",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "faith"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "susan",
+    "canonical": "Susan",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "susan",
+     "susan baker"
+    ],
+    "prefix": {
+     "Susan": [
+      "susan"
+     ]
+    }
+   },
+   {
+    "entity_id": "priscilla-grant",
+    "canonical": "Priscilla Grant",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "grant",
+     "pris",
+     "priscilla",
+     "priscilla grant",
+     "prissy",
+     "prissy andrews"
+    ],
+    "prefix": {
+     "Priscilla Grant": [
+      "pris",
+      "priscilla",
+      "priscilla grant",
+      "prissy",
+      "prissy andrews"
+     ]
+    }
+   },
+   {
+    "entity_id": "dick-moore",
+    "canonical": "Dick Moore",
+    "class": "same",
+    "page": true,
+    "renamed": true,
+    "forms": [
+     "dick",
+     "dick moore"
+    ],
+    "prefix": {
+     "Dick": [
+      "dick",
+      "dick moore"
+     ]
+    }
+   },
+   {
+    "entity_id": "jerry-corcoran",
+    "canonical": "Jerry Corcoran",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jerry",
+     "jerry corcoran"
+    ],
+    "prefix": {
+     "Jerry Corcoran": [
+      "jerry corcoran"
+     ]
+    }
+   },
+   {
+    "entity_id": "jem",
+    "canonical": "Jem",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jem",
+     "little jem"
+    ],
+    "prefix": {
+     "Little Jem": [
+      "little jem"
+     ]
+    }
+   },
+   {
+    "entity_id": "blythe",
+    "canonical": "Blythe",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "blythe"
+    ],
+    "prefix": {
+     "Gilbert Blythe": [
+      "blythe",
+      "gil",
+      "gilbert",
+      "gilbert blythe"
+     ]
+    }
+   },
+   {
+    "entity_id": "marshall-elliott",
+    "canonical": "Marshall Elliott",
+    "class": "same",
+    "page": true,
+    "renamed": true,
+    "forms": [
+     "marshall",
+     "marshall elliott"
+    ],
+    "prefix": {
+     "Marshall": [
+      "marshall",
+      "marshall elliott"
+     ]
+    }
+   },
+   {
+    "entity_id": "george-moore",
+    "canonical": "George Moore",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "george",
+     "george moore"
+    ],
+    "prefix": {
+     "George Moore": [
+      "george moore"
+     ]
+    }
+   },
+   {
+    "entity_id": "davis",
+    "canonical": "Davis",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "davis"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "hester-gray",
+    "canonical": "Hester Gray",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "hester",
+     "hester gray"
+    ],
+    "prefix": {
+     "Hester Gray": [
+      "hester gray"
+     ]
+    }
+   },
+   {
+    "entity_id": "james-a",
+    "canonical": "James A",
+    "class": "alias",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "james",
+     "james a"
+    ],
+    "prefix": {
+     "James A": [
+      "james a"
+     ]
+    }
+   },
+   {
+    "entity_id": "bertie-shakespeare",
+    "canonical": "Bertie Shakespeare",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "bertie shakespeare"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "walter",
+    "canonical": "Walter",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "walter"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "daniel",
+    "canonical": "Daniel",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "daniel"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "john-henry-carter",
+    "canonical": "John Henry Carter",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "john henry carter"
+    ],
+    "prefix": {
+     "John Henry Carter": [
+      "henry",
+      "john henry carter"
+     ]
+    }
+   },
+   {
+    "entity_id": "henry",
+    "canonical": "Henry",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "henry"
+    ],
+    "prefix": {
+     "John Henry Carter": [
+      "henry",
+      "john henry carter"
+     ]
+    }
+   },
+   {
+    "entity_id": "longfellow",
+    "canonical": "Longfellow",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "longfellow"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "baxter",
+    "canonical": "Baxter",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "baxter"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "minnie",
+    "canonical": "Minnie",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "minnie"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "moses",
+    "canonical": "Moses",
+    "class": "absent",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "moses"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "mary",
+    "canonical": "Mary",
+    "class": "regrouped",
+    "page": false,
+    "renamed": false,
+    "forms": [
+     "mary"
+    ],
+    "prefix": {
+     "Mary Joe": [
+      "aunt mary",
+      "mary",
+      "mary joe",
+      "young mary joe"
+     ]
+    }
+   },
+   {
+    "entity_id": "jerry",
+    "canonical": "Jerry",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "jerry"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "george",
+    "canonical": "George",
+    "class": "absent",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "george"
+    ],
+    "prefix": {}
+   },
+   {
+    "entity_id": "marshall",
+    "canonical": "Marshall",
+    "class": "regrouped",
+    "page": true,
+    "renamed": false,
+    "forms": [
+     "marshall"
+    ],
+    "prefix": {
+     "Marshall": [
+      "marshall",
+      "marshall elliott"
+     ]
+    }
+   }
+  ]
+ }
+]

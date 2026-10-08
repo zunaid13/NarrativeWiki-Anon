@@ -1,0 +1,404 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly asks permission and Marilla responds; both active. v01:c13:p0002",
+    [
+      "v01:c13:p0002"
+    ]
+  ],
+  "1": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana tells Hester story in v02:c13:p0051; Anne and Priscilla both actively name pool in v02:c13:p0029.",
+    [
+      "v02:c13:p0051",
+      "v02:c13:p0029"
+    ]
+  ],
+  "2": [
+    "unsupported",
+    "uncertain",
+    "none",
+    "Carrots is a taunting nickname for Anne, not a separately evidenced person. Phantom page has no identity/history; assumed status not verified. Human review entity frame.",
+    []
+  ],
+  "3": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Mrs Wilson is Norman's housekeeper in v05:c16:p0027. Page merges her with Queen's student Wilson; employment belongs to different identity component. Human review merge.",
+    [
+      "v05:c16:p0027"
+    ]
+  ],
+  "4": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Joe throws fireworks into stove following Anne's order/rash mistake; mechanism uncited v02:c12:p0018, explosion cited p0019. Davy absent from school/home episode, Paul in class; pair fails.",
+    [
+      "v02:c12:p0018",
+      "v02:c12:p0019",
+      "v02:c12:p0026"
+    ]
+  ],
+  "5": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Stacy class proposal explicit; Charlie and Gilbert both actively join same class in v01:c30:p0020. Pair rule accepts active enrollment in shared school phase; human review scope.",
+    [
+      "v01:c30:p0014",
+      "v01:c30:p0020"
+    ]
+  ],
+  "6": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Matthew directly persuades Anne to apologize; both active. v01:c10:p0013",
+    [
+      "v01:c10:p0013"
+    ]
+  ],
+  "7": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Anne and Phil stay Bolingbroke, explicit v03:c21:p0000/p0004; Alec and Alonzo merely suitors discussed elsewhere, neither active in birthplace visit.",
+    [
+      "v03:c21:p0000",
+      "v03:c21:p0004"
+    ]
+  ],
+  "8": [
+    "unsupported",
+    "supported",
+    "insufficient",
+    "Rainbow Valley discussion explicit uncited v05:c25:p0008/p0014. Carl observes at church but is not shown actively with Mary in valley discussion; different episode phases are not a shared Carl/Mary scene.",
+    [
+      "v05:c25:p0008",
+      "v05:c25:p0014"
+    ]
+  ],
+  "9": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Anne keeps Owen confidence explicit uncited v04:c27:p0022/p0026; cited confession does not establish her secret. Anne/Gilbert boat return within unit shared active episode.",
+    [
+      "v04:c27:p0022",
+      "v04:c27:p0026",
+      "v04:c27:p0036"
+    ]
+  ],
+  "10": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Pacifique recovery report explicit v03:c40:p0025. Gilbert ill elsewhere, neither co-present with Anne nor with separate Shirley in this report/vigil scene.",
+    [
+      "v03:c40:p0025"
+    ]
+  ],
+  "11": [
+    "partial",
+    "partial",
+    "insufficient",
+    "Roy shelters Anne during rain; they walk home after clouds part and sunshine returns, v03:c25:p0041. In-rain walk is inaccurate; citations lack home walk.",
+    [
+      "v03:c25:p0041"
+    ]
+  ],
+  "12": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Flowers transform room after Anne/Diana finish v02:c17:p0009. Davy/Marilla actively interact during pie accident, uncited v02:c17:p0029/p0035.",
+    [
+      "v02:c17:p0009",
+      "v02:c17:p0029",
+      "v02:c17:p0035"
+    ]
+  ],
+  "13": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Kenneth Ford and Persis arrive with their parents v05:c30:p0001, supporting sibling inference. Page Kenneth is deceased Leslie's brother, merged with her living son; wrong identity. Human review implicit sibling wording.",
+    [
+      "v05:c30:p0001",
+      "v05:c04:p0054"
+    ]
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Phil explicitly did not want Redmond and came to oblige father, v03:c04:p0048. Kingsport graveyard setting consistent with eligible context.",
+    [
+      "v03:c04:p0048"
+    ]
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Lauretta explicitly child of eight in v02:c08:p0035. Read since v2 as last stated historical age, not new present age at cutoff5; human review timing.",
+    [
+      "v02:c08:p0035"
+    ]
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Recovery then renewed proposal explicit uncited v03:c41:p0014/p0024/p0031. History citations only early school events, no typhoid/proposal.",
+    [
+      "v03:c41:p0014",
+      "v03:c41:p0024",
+      "v03:c41:p0031"
+    ]
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rachel explicitly forgives Anne v01:c10:p0034. Marilla accompanies/introduces Anne at apology, uncited p0025, both pair members active.",
+    [
+      "v01:c10:p0034",
+      "v01:c10:p0025"
+    ]
+  ],
+  "18": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Cannot make Jim mad/keeps placid in v04:c08:p0061 and invariable cheerfulness in v04:c17:p0018.",
+    [
+      "v04:c08:p0061",
+      "v04:c17:p0018"
+    ]
+  ],
+  "19": [
+    "supported",
+    "supported",
+    "partial",
+    "Diana note received cited v01:c17:p0028; Anne reply explicit uncited p0031. Ruby actively smuggles plums same class uncited p0020. Cites omit return exchange and Ruby participation.",
+    [
+      "v01:c17:p0028",
+      "v01:c17:p0031",
+      "v01:c17:p0020"
+    ]
+  ],
+  "20": [
+    "supported",
+    "supported",
+    "none",
+    "Cornelia recounts past evangelist/town episodes while chatting with Anne, v04:c28:p0007/p0008; no timeline citations.",
+    [
+      "v04:c28:p0007",
+      "v04:c28:p0008"
+    ]
+  ],
+  "21": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Faith newspaper letter introduced cited v05:c25:p0025; clearing father's blame explicit uncited letter content p0030. Una participates in family reaction, Jem absent; pair fails.",
+    [
+      "v05:c25:p0025",
+      "v05:c25:p0030"
+    ]
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Leslie living in Anne house when Owen arrives, uncited v04:c36:p0037/p0040 and room p0044; freedom from mistaken Dick marriage in prior Montreal revelation. Cites only early shore/backstory.",
+    [
+      "v04:c36:p0037",
+      "v04:c36:p0040",
+      "v04:c36:p0044"
+    ]
+  ],
+  "23": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Unit explicitly prospective marriage; news is plan, not completed wedding. Cornelia announces and names Marshall v04:c37:p0004/p0008; Anne addressed p0026. Both active.",
+    [
+      "v04:c37:p0004",
+      "v04:c37:p0008",
+      "v04:c37:p0026"
+    ]
+  ],
+  "24": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Ginger continued regarding Anne with suspicion explicitly v02:c04:p0028; habitual disposition reasonable paraphrase.",
+    [
+      "v02:c04:p0028"
+    ]
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Full v03:c36:p0011 names daughter Elizabeth and decision to be missionary to foreign field, including latter half of paragraph.",
+    [
+      "v03:c36:p0011"
+    ]
+  ],
+  "26": [
+    "supported",
+    "supported",
+    "none",
+    "Emily gone to Carmody with Rachel v02:c25:p0047; arrival together v02:c25:p0059 and tea p0060. Timeline uncited.",
+    [
+      "v02:c25:p0047",
+      "v02:c25:p0059",
+      "v02:c25:p0060"
+    ]
+  ],
+  "27": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne/Diana orchard conversation changes explicit uncited v03:c01:p0014/p0015; cited p0000 gives setting, later citations Gilbert encounter.",
+    [
+      "v03:c01:p0014",
+      "v03:c01:p0015"
+    ]
+  ],
+  "28": [
+    "partial",
+    "partial",
+    "partial",
+    "Carl and Faith actively share punishment/illness episode. v05:c31:p0022 says chill penetrating drizzle, supporting cold rain but not a storm's intensity; human review whether rainstorm is harmless paraphrase.",
+    [
+      "v05:c31:p0022",
+      "v05:c31:p0012",
+      "v05:c31:p0027"
+    ]
+  ],
+  "29": [
+    "supported",
+    "supported",
+    "partial",
+    "Adoption explicit v05:c09:p0042; Marshall consultation uncited p0038. Faith and Una both give keepsakes in departure preparations p0055 within unit; pair episode boundary human review.",
+    [
+      "v05:c09:p0038",
+      "v05:c09:p0042",
+      "v05:c09:p0055"
+    ]
+  ],
+  "30": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Paul anecdote explicitly in Anne teaching letter v02:c11:p0038. Golden Lady is Paul's imaginary figure, not a real classmate; atom about Paul letter inclusion correct.",
+    [
+      "v02:c11:p0038"
+    ]
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Lifelong moon affection story explicit uncited v04:c07:p0063; cited moonlit departure p0060 does not establish Jim story. Anne and Gilbert active garden walk p0064.",
+    [
+      "v04:c07:p0063",
+      "v04:c07:p0064"
+    ]
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "partial",
+    "Anne tells Davy to say feared word in uncited v03:c07:p0035/p0038; afterwards he can pray in cited p0046. Rachel actively welcomes Anne in full cited p0016.",
+    [
+      "v03:c07:p0035",
+      "v03:c07:p0038",
+      "v03:c07:p0046",
+      "v03:c07:p0016"
+    ]
+  ],
+  "33": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Diana leaves explicitly p0062. Davy active in prior platter accident, absent from this following Anne/Marilla discussion unit; do not import earlier episode.",
+    [
+      "v02:c17:p0062"
+    ]
+  ],
+  "34": [
+    "partial",
+    "partial",
+    "insufficient",
+    "Anne speaks in group dinner and Dora speaks to Davy uncited v02:c27:p0012, but direct Anne/Dora conversation not shown. Human review group-conversation interpretation. Paul/Lavendar both active garden/lunch p0022/p0025.",
+    [
+      "v02:c27:p0002",
+      "v02:c27:p0012",
+      "v02:c27:p0022",
+      "v02:c27:p0025"
+    ]
+  ],
+  "35": [
+    "unsupported",
+    "supported",
+    "partial",
+    "Marilla dismay explicit next uncited v01:c21:p0036/p0038; cited p0035 only tasting. Minnie/Phillips only discussed in retrospective school farewell, not active in Green Gables tea scene.",
+    [
+      "v01:c21:p0035",
+      "v01:c21:p0036",
+      "v01:c21:p0038"
+    ]
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Phil lives at Patty's Place explicitly in realized shared household v03:c16:p0000/p0006 after invitation p10p59. Supplied Queen's citations precede residence.",
+    [
+      "v03:c16:p0000",
+      "v03:c16:p0006"
+    ]
+  ],
+  "37": [
+    "unsupported",
+    "supported",
+    "sufficient",
+    "Carl completes midnight ordeal explicit end of v05:c31:p0022. Faith cries at manse; Mary crying reported elsewhere p0028, not shared active Faith/Mary scene.",
+    [
+      "v05:c31:p0022",
+      "v05:c31:p0027",
+      "v05:c31:p0028"
+    ]
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Faith Una Carl go home alone explicit v05:c29:p0014; Mary tells ghost story and Carl participates in group discussion/dinner. Both active before dispersal.",
+    [
+      "v05:c29:p0014",
+      "v05:c29:p0001"
+    ]
+  ],
+  "39": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne carries school exploits home to Matthew in full v01:c24:p0001 and discusses concert with him p0016. Anne/Stacy active school teaching phase; home-only scene would not qualify, human review unit boundary.",
+    [
+      "v01:c24:p0001",
+      "v01:c24:p0016"
+    ]
+  ]
+}

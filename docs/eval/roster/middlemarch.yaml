@@ -1,0 +1,17 @@
+# Roster ground truth for Middlemarch (Phase 32). Hand review of the first override-free Books I-V
+# roster (2026-09-27), each item checked in the text. Scored by `scripts/eval/roster_gold.py`
+# (docs/eval/roster/); it patches nothing. Keys are surface forms.
+series: middlemarch
+checked_through_vol: 5
+
+same_entity:
+  - ["Dorothea", "Dodo", "Miss Brooke"]     # Celia's "Dodo"; "Miss Brooke" is Dorothea (Book I title "Miss Brooke")
+  - ["Rosamond", "Rosy"]                    # her family's name for her
+  - ["Peter Featherstone", "Featherstone"]  # old Mr. Featherstone of Stone Court
+
+different_entities:
+  - ["Mr. Brooke", "Miss Brooke"]           # the uncle and Dorothea
+  - ["Noble", "Winifred"]                   # Miss Noble (Farebrother's aunt) and Miss Winifred Farebrother
+
+title_at_first_vol:
+  "Poor Dorothea": "Dorothea"

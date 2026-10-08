@@ -1,0 +1,3 @@
+# Anne & Di
+
+- [Anne](../character/anne.md) — Friend of — [Di](../character/di.md) — close friends and schoolmates · since v1  <sub>[v1 CHAPTER XII. A Solemn Vow and Promise P35](../source/v01-c12.md#nw-v01-c12-p0035), [v1 CHAPTER XVII. A New Interest in Life P29](../source/v01-c17.md#nw-v01-c17-p0029), [v1 CHAPTER XXVI. The Story Club Is Formed P3](../source/v01-c26.md#nw-v01-c26-p0003), +1 more</sub>

@@ -1,0 +1,4435 @@
+{
+ "G001": {
+  "character": "Marshall Elliott",
+  "claim": "Marshall Elliott has turned himself into a kind of dime museum freak.",
+  "evidence": [
+   "v04:c09:p0032"
+  ],
+  "volume": 4
+ },
+ "G002": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert is to leave for Redmond College.",
+  "evidence": [
+   "v02:c30:p0000"
+  ],
+  "volume": 2
+ },
+ "G003": {
+  "character": "Una Meredith",
+  "claim": "Una Meredith is ten years old.",
+  "evidence": [
+   "v05:c02:p0034"
+  ],
+  "volume": 5
+ },
+ "G004": {
+  "character": "Marilla Cuthbert",
+  "claim": "Marilla's eyesight is failing.",
+  "evidence": [
+   "v01:c36:p0032"
+  ],
+  "volume": 1
+ },
+ "G005": {
+  "character": "Norman Douglas",
+  "claim": "Norman Douglas used to give a hundred dollars a year to the church.",
+  "evidence": [
+   "v05:c15:p0027"
+  ],
+  "volume": 5
+ },
+ "G006": {
+  "character": "Diana Barry",
+  "claim": "Diana is treasurer of the Avonlea Village Improvement Society.",
+  "evidence": [
+   "v02:c06:p0008"
+  ],
+  "volume": 2
+ },
+ "G007": {
+  "character": "Marilla Cuthbert",
+  "claim": "Marilla takes in the twins Davy and Dora.",
+  "evidence": [
+   "v02:c08:p0030"
+  ],
+  "volume": 2
+ },
+ "G008": {
+  "character": "Paul Irving",
+  "claim": "Paul Irving comes from the States to live with his grandmother.",
+  "evidence": [
+   "v02:c01:p0045"
+  ],
+  "volume": 2
+ },
+ "G009": {
+  "character": "Una Meredith",
+  "claim": "Una gives her father a letter from Rosemary.",
+  "evidence": [
+   "v05:c34:p0044"
+  ],
+  "volume": 5
+ },
+ "G010": {
+  "character": "Anne Shirley",
+  "claim": "Anne marries Gilbert Blythe.",
+  "evidence": [
+   "v04:c04:p0000"
+  ],
+  "volume": 4
+ },
+ "G011": {
+  "character": "Davy Keith",
+  "claim": "Davy pushes Dora headfirst into a mud pie.",
+  "evidence": [
+   "v02:c01:p0033"
+  ],
+  "volume": 2
+ },
+ "G012": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert is president of the Avonlea Village Improvement Society.",
+  "evidence": [
+   "v02:c06:p0008"
+  ],
+  "volume": 2
+ },
+ "G013": {
+  "character": "John Meredith",
+  "claim": "Mr. Meredith and Rosemary West are to marry.",
+  "evidence": [
+   "v05:c35:p0002"
+  ],
+  "volume": 5
+ },
+ "G014": {
+  "character": "Anne Shirley",
+  "claim": "Anne has two braids of very thick red hair and eyes that look green in some lights.",
+  "evidence": [
+   "v01:c02:p0013"
+  ],
+  "volume": 1
+ },
+ "G015": {
+  "character": "Faith Meredith",
+  "claim": "Faith Meredith dares Walter Blythe to ride a pig.",
+  "evidence": [
+   "v05:c12:p0009"
+  ],
+  "volume": 5
+ },
+ "G016": {
+  "character": "Anne Shirley",
+  "claim": "Anne lives at Ingleside in Glen St. Mary.",
+  "evidence": [
+   "v05:c01:p0001"
+  ],
+  "volume": 5
+ },
+ "G017": {
+  "character": "Captain Jim",
+  "claim": "Captain Jim keeps a life-book.",
+  "evidence": [
+   "v04:c09:p0036"
+  ],
+  "volume": 4
+ },
+ "G018": {
+  "character": "Anne Shirley",
+  "claim": "Anne dyes her hair.",
+  "evidence": [
+   "v01:c27:p0020"
+  ],
+  "volume": 1
+ },
+ "G019": {
+  "character": "John Meredith",
+  "claim": "Mr. Meredith is a widower whose wife died four years ago.",
+  "evidence": [
+   "v05:c02:p0025"
+  ],
+  "volume": 5
+ },
+ "G020": {
+  "character": "Marilla Cuthbert",
+  "claim": "Marilla at first says she is not going to keep Anne.",
+  "evidence": [
+   "v01:c03:p0065"
+  ],
+  "volume": 1
+ },
+ "G021": {
+  "character": "Cornelia Bryant",
+  "claim": "Miss Cornelia marries Marshall Elliott.",
+  "evidence": [
+   "v04:c40:p0011"
+  ],
+  "volume": 4
+ },
+ "G022": {
+  "character": "Paul Irving",
+  "claim": "Paul Irving's father is Stephen Irving.",
+  "evidence": [
+   "v02:c01:p0045"
+  ],
+  "volume": 2
+ },
+ "G023": {
+  "character": "Norman Douglas",
+  "claim": "Norman Douglas married Hester Reese to spite Ellen West.",
+  "evidence": [
+   "v05:c15:p0031"
+  ],
+  "volume": 5
+ },
+ "G024": {
+  "character": "Susan Baker",
+  "claim": "Susan Baker works as maid-of-all-work at the little house.",
+  "evidence": [
+   "v04:c18:p0052"
+  ],
+  "volume": 4
+ },
+ "G025": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert falls ill with typhoid fever.",
+  "evidence": [
+   "v03:c40:p0009"
+  ],
+  "volume": 3
+ },
+ "G026": {
+  "character": "Mary Vance",
+  "claim": "Mary Vance eats ravenously at the manse.",
+  "evidence": [
+   "v05:c05:p0027"
+  ],
+  "volume": 5
+ },
+ "G027": {
+  "character": "Marilla Cuthbert",
+  "claim": "Marilla urges Anne to go on to Redmond.",
+  "evidence": [
+   "v02:c26:p0013"
+  ],
+  "volume": 2
+ },
+ "G028": {
+  "character": "Anne Shirley",
+  "claim": "Anne breaks her slate over Gilbert's head.",
+  "evidence": [
+   "v01:c15:p0038"
+  ],
+  "volume": 1
+ },
+ "G029": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert takes High Honors in Classics and the Cooper Prize.",
+  "evidence": [
+   "v03:c39:p0023"
+  ],
+  "volume": 3
+ },
+ "G030": {
+  "character": "Captain Jim",
+  "claim": "Captain Jim tells Anne about lost Margaret.",
+  "evidence": [
+   "v04:c20:p0012"
+  ],
+  "volume": 4
+ },
+ "G031": {
+  "character": "Rachel Lynde",
+  "claim": "Rachel Lynde's husband Thomas lies on the lounge more than he used to.",
+  "evidence": [
+   "v02:c08:p0001"
+  ],
+  "volume": 2
+ },
+ "G032": {
+  "character": "Aunt Jamesina",
+  "claim": "Aunt Jamesina is proposed as the girls' housekeeper.",
+  "evidence": [
+   "v03:c09:p0013"
+  ],
+  "volume": 3
+ },
+ "G033": {
+  "character": "Rachel Lynde",
+  "claim": "Rachel Lynde says Anne's hair is as red as carrots.",
+  "evidence": [
+   "v01:c09:p0014"
+  ],
+  "volume": 1
+ },
+ "G034": {
+  "character": "Roy Gardner",
+  "claim": "Roy Gardner sends Anne white orchids for the reception.",
+  "evidence": [
+   "v03:c26:p0001"
+  ],
+  "volume": 3
+ },
+ "G035": {
+  "character": "Matthew Cuthbert",
+  "claim": "Matthew dies suddenly from the shock of a bank failure.",
+  "evidence": [
+   "v01:c37:p0009"
+  ],
+  "volume": 1
+ },
+ "G036": {
+  "character": "Susan Baker",
+  "claim": "Susan worships Anne as young Mrs. Doctor.",
+  "evidence": [
+   "v04:c19:p0000"
+  ],
+  "volume": 4
+ },
+ "G037": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert marries Anne Shirley.",
+  "evidence": [
+   "v04:c04:p0000"
+  ],
+  "volume": 4
+ },
+ "G038": {
+  "character": "Rosemary West",
+  "claim": "Rosemary West's lover was lost at sea.",
+  "evidence": [
+   "v05:c21:p0015"
+  ],
+  "volume": 5
+ },
+ "G039": {
+  "character": "Rachel Lynde",
+  "claim": "Rachel Lynde is to move to Green Gables.",
+  "evidence": [
+   "v02:c30:p0000"
+  ],
+  "volume": 2
+ },
+ "G040": {
+  "character": "John Meredith",
+  "claim": "Mr. Meredith is moony and absent-minded but a wonderful preacher.",
+  "evidence": [
+   "v05:c02:p0013"
+  ],
+  "volume": 5
+ },
+ "G041": {
+  "character": "Dick Moore",
+  "claim": "Dick Moore went on a voyage to Havana with his cousin George Moore.",
+  "evidence": [
+   "v04:c11:p0028"
+  ],
+  "volume": 4
+ },
+ "G042": {
+  "character": "Billy Andrews",
+  "claim": "Billy Andrews asks his sister Jane to propose to Anne for him.",
+  "evidence": [
+   "v03:c08:p0012"
+  ],
+  "volume": 3
+ },
+ "G043": {
+  "character": "Harrison",
+  "claim": "Mr. Harrison keeps a swearing parrot called Ginger.",
+  "evidence": [
+   "v02:c01:p0010"
+  ],
+  "volume": 2
+ },
+ "G044": {
+  "character": "Anne Shirley",
+  "claim": "Anne realises she loves Gilbert when he falls ill with typhoid.",
+  "evidence": [
+   "v03:c40:p0016"
+  ],
+  "volume": 3
+ },
+ "G045": {
+  "character": "Diana Barry",
+  "claim": "Anne accidentally gets Diana drunk on currant wine.",
+  "evidence": [
+   "v01:c16:p0048"
+  ],
+  "volume": 1
+ },
+ "G046": {
+  "character": "Reverend Jo",
+  "claim": "Jonas Blake is a theological student in charge of the Point Prospect Mission Church.",
+  "evidence": [
+   "v03:c24:p0009"
+  ],
+  "volume": 3
+ },
+ "G047": {
+  "character": "Josie Pye",
+  "claim": "Josie Pye says Anne could not walk a ridgepole.",
+  "evidence": [
+   "v01:c23:p0009"
+  ],
+  "volume": 1
+ },
+ "G048": {
+  "character": "Harrison",
+  "claim": "Mr. Harrison's wife is Emily.",
+  "evidence": [
+   "v02:c25:p0047"
+  ],
+  "volume": 2
+ },
+ "G049": {
+  "character": "Walter Blythe",
+  "claim": "Walter is a dreamy boy who loves poetry.",
+  "evidence": [
+   "v05:c03:p0012"
+  ],
+  "volume": 5
+ },
+ "G050": {
+  "character": "Stacy",
+  "claim": "Miss Stacy is a bright, sympathetic teacher who wins her pupils' affection.",
+  "evidence": [
+   "v01:c24:p0001"
+  ],
+  "volume": 1
+ },
+ "G051": {
+  "character": "Anne Shirley",
+  "claim": "Anne is given old letters that belonged to her mother.",
+  "evidence": [
+   "v03:c21:p0018"
+  ],
+  "volume": 3
+ },
+ "G052": {
+  "character": "Dora",
+  "claim": "Dora is good and quiet.",
+  "evidence": [
+   "v02:c07:p0030"
+  ],
+  "volume": 2
+ },
+ "G053": {
+  "character": "Little Jem",
+  "claim": "Jem suggests the manse children form a Good-Conduct Club.",
+  "evidence": [
+   "v05:c23:p0054"
+  ],
+  "volume": 5
+ },
+ "G054": {
+  "character": "Captain Jim",
+  "claim": "Captain Jim dies soon after his life-book is published.",
+  "evidence": [
+   "v04:c39:p0028"
+  ],
+  "volume": 4
+ },
+ "G055": {
+  "character": "Matthew Cuthbert",
+  "claim": "Matthew is the shyest man alive.",
+  "evidence": [
+   "v01:c01:p0004"
+  ],
+  "volume": 1
+ },
+ "G056": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert rows up to Anne in a boat when her flat sinks.",
+  "evidence": [
+   "v01:c28:p0027"
+  ],
+  "volume": 1
+ },
+ "G057": {
+  "character": "Anne Shirley",
+  "claim": "Anne saves Minnie May Barry's life when she has croup.",
+  "evidence": [
+   "v01:c18:p0043"
+  ],
+  "volume": 1
+ },
+ "G058": {
+  "character": "Anne Shirley",
+  "claim": "Anne's son James Matthew, called Jem, is born.",
+  "evidence": [
+   "v04:c34:p0021"
+  ],
+  "volume": 4
+ },
+ "G059": {
+  "character": "Anne Shirley",
+  "claim": "Anne wins the Avery scholarship.",
+  "evidence": [
+   "v01:c36:p0022"
+  ],
+  "volume": 1
+ },
+ "G060": {
+  "character": "Carl Meredith",
+  "claim": "Carl Meredith collects toads, bugs and frogs.",
+  "evidence": [
+   "v05:c02:p0034"
+  ],
+  "volume": 5
+ },
+ "G061": {
+  "character": "Ellen West",
+  "claim": "Ellen West and Norman Douglas want to marry.",
+  "evidence": [
+   "v05:c32:p0022"
+  ],
+  "volume": 5
+ },
+ "G062": {
+  "character": "Anne Shirley",
+  "claim": "Anne is secretary of the Avonlea Village Improvement Society.",
+  "evidence": [
+   "v02:c06:p0008"
+  ],
+  "volume": 2
+ },
+ "G063": {
+  "character": "Diana Barry",
+  "claim": "Diana becomes engaged.",
+  "evidence": [
+   "v02:c29:p0016"
+  ],
+  "volume": 2
+ },
+ "G064": {
+  "character": "Anne Shirley",
+  "claim": "Anne becomes the teacher at the Avonlea school.",
+  "evidence": [
+   "v01:c38:p0050"
+  ],
+  "volume": 1
+ },
+ "G065": {
+  "character": "Anne Shirley",
+  "claim": "Anne refuses a marriage proposal from Roy Gardner.",
+  "evidence": [
+   "v03:c38:p0035"
+  ],
+  "volume": 3
+ },
+ "G066": {
+  "character": "Ellen West",
+  "claim": "Ellen West went about with Norman Douglas for two years.",
+  "evidence": [
+   "v05:c15:p0031"
+  ],
+  "volume": 5
+ },
+ "G067": {
+  "character": "Charlotta",
+  "claim": "Charlotta the Fourth will go to Boston to live with the Irvings.",
+  "evidence": [
+   "v02:c29:p0004"
+  ],
+  "volume": 2
+ },
+ "G068": {
+  "character": "Diana Barry",
+  "claim": "Anne and Diana swear an oath of friendship.",
+  "evidence": [
+   "v01:c12:p0035"
+  ],
+  "volume": 1
+ },
+ "G069": {
+  "character": "Ruby Gillis",
+  "claim": "Ruby Gillis believes she will soon be dead.",
+  "evidence": [
+   "v03:c14:p0007"
+  ],
+  "volume": 3
+ },
+ "G070": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert becomes a doctor at Four Winds Harbour.",
+  "evidence": [
+   "v04:c01:p0016"
+  ],
+  "volume": 4
+ },
+ "G071": {
+  "character": "Paul Irving",
+  "claim": "Paul Irving loves Miss Lavendar as his new second mother.",
+  "evidence": [
+   "v02:c29:p0002"
+  ],
+  "volume": 2
+ },
+ "G072": {
+  "character": "Rilla Blythe",
+  "claim": "Rilla is the youngest of the Blythe children.",
+  "evidence": [
+   "v05:c01:p0003"
+  ],
+  "volume": 5
+ },
+ "G073": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert gives up the Avonlea school so that Anne can teach there.",
+  "evidence": [
+   "v01:c38:p0050"
+  ],
+  "volume": 1
+ },
+ "G074": {
+  "character": "Phillips",
+  "claim": "Mr. Phillips says Anne's spelling is disgraceful.",
+  "evidence": [
+   "v01:c15:p0013"
+  ],
+  "volume": 1
+ },
+ "G075": {
+  "character": "Stella Maynard",
+  "claim": "Stella Maynard has been teaching school since Queen's.",
+  "evidence": [
+   "v03:c09:p0007"
+  ],
+  "volume": 3
+ },
+ "G076": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert is said to be going about with Christine Stuart.",
+  "evidence": [
+   "v03:c26:p0012"
+  ],
+  "volume": 3
+ },
+ "G077": {
+  "character": "Lavendar Lewis",
+  "claim": "Miss Lavendar was once engaged to Stephen Irving.",
+  "evidence": [
+   "v02:c21:p0036"
+  ],
+  "volume": 2
+ },
+ "G078": {
+  "character": "Anne Shirley",
+  "claim": "Anne helps raise the twins Davy and Dora at Green Gables.",
+  "evidence": [
+   "v02:c08:p0011"
+  ],
+  "volume": 2
+ },
+ "G079": {
+  "character": "Anne Shirley",
+  "claim": "Anne studies at Redmond College in Kingsport.",
+  "evidence": [
+   "v03:c01:p0013"
+  ],
+  "volume": 3
+ },
+ "G080": {
+  "character": "Leslie Moore",
+  "claim": "Leslie and Owen Ford are to be married at Christmas.",
+  "evidence": [
+   "v04:c40:p0011"
+  ],
+  "volume": 4
+ },
+ "G081": {
+  "character": "Carl Meredith",
+  "claim": "Carl gets a sore throat after getting wet in the Rainbow Valley marsh.",
+  "evidence": [
+   "v05:c10:p0018"
+  ],
+  "volume": 5
+ },
+ "G082": {
+  "character": "Philippa Gordon",
+  "claim": "Philippa Gordon comes from Bolingbroke, Nova Scotia.",
+  "evidence": [
+   "v03:c04:p0032"
+  ],
+  "volume": 3
+ },
+ "G083": {
+  "character": "Owen Ford",
+  "claim": "Owen Ford is a newspaper man and a grandson of the schoolmaster who built the house.",
+  "evidence": [
+   "v04:c22:p0019"
+  ],
+  "volume": 4
+ },
+ "G084": {
+  "character": "Anne Shirley",
+  "claim": "Anne sells Mr. Harrison's Jersey cow to Mr. Shearer by mistake.",
+  "evidence": [
+   "v02:c02:p0035"
+  ],
+  "volume": 2
+ },
+ "G085": {
+  "character": "Dick Moore",
+  "claim": "The man believed to be Dick Moore is his cousin George Moore.",
+  "evidence": [
+   "v04:c31:p0028"
+  ],
+  "volume": 4
+ },
+ "G086": {
+  "character": "Phillips",
+  "claim": "Mr. Phillips makes eyes at Prissy Andrews.",
+  "evidence": [
+   "v01:c15:p0011"
+  ],
+  "volume": 1
+ },
+ "G087": {
+  "character": "Anne Shirley",
+  "claim": "Anne was born in Bolingbroke, Nova Scotia.",
+  "evidence": [
+   "v01:c05:p0011"
+  ],
+  "volume": 1
+ },
+ "G088": {
+  "character": "Captain Jim",
+  "claim": "Captain Jim is a high-souled, simple-minded old man with iron-gray hair.",
+  "evidence": [
+   "v04:c06:p0014"
+  ],
+  "volume": 4
+ },
+ "G089": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert is going to teach at the White Sands school.",
+  "evidence": [
+   "v01:c38:p0038"
+  ],
+  "volume": 1
+ },
+ "G090": {
+  "character": "Walter Blythe",
+  "claim": "Faith Meredith dares Walter to ride a pig through Main Street.",
+  "evidence": [
+   "v05:c12:p0009"
+  ],
+  "volume": 5
+ },
+ "G091": {
+  "character": "Lavendar Lewis",
+  "claim": "Miss Lavendar marries Stephen Irving.",
+  "evidence": [
+   "v02:c30:p0030"
+  ],
+  "volume": 2
+ },
+ "G092": {
+  "character": "Anne Shirley",
+  "claim": "Anne longs for a dress with puffed sleeves.",
+  "evidence": [
+   "v01:c11:p0009"
+  ],
+  "volume": 1
+ },
+ "G093": {
+  "character": "Jane Andrews",
+  "claim": "Jane Andrews leaves for the West.",
+  "evidence": [
+   "v03:c14:p0030"
+  ],
+  "volume": 3
+ },
+ "G094": {
+  "character": "Anne Shirley",
+  "claim": "Matthew and Marilla wanted a boy, and Anne was sent to them by mistake.",
+  "evidence": [
+   "v01:c06:p0003"
+  ],
+  "volume": 1
+ },
+ "G095": {
+  "character": "Priscilla Grant",
+  "claim": "Priscilla Grant goes to Redmond and boards with Anne.",
+  "evidence": [
+   "v03:c01:p0021"
+  ],
+  "volume": 3
+ },
+ "G096": {
+  "character": "Dick Moore",
+  "claim": "Dick Moore died of yellow fever in Cuba.",
+  "evidence": [
+   "v04:c31:p0028"
+  ],
+  "volume": 4
+ },
+ "G097": {
+  "character": "Lavendar Lewis",
+  "claim": "Miss Lavendar lives alone in a stone house she calls Echo Lodge.",
+  "evidence": [
+   "v02:c01:p0047"
+  ],
+  "volume": 2
+ },
+ "G098": {
+  "character": "Matthew Cuthbert",
+  "claim": "Anne names her son James Matthew partly after Matthew.",
+  "evidence": [
+   "v04:c34:p0021"
+  ],
+  "volume": 4
+ },
+ "G099": {
+  "character": "Gilbert Blythe",
+  "claim": "Gilbert proposes to Anne and she refuses him.",
+  "evidence": [
+   "v03:c20:p0037"
+  ],
+  "volume": 3
+ },
+ "G100": {
+  "character": "Anne Shirley",
+  "claim": "Anne writes a story whose heroine is named Averil Lester.",
+  "evidence": [
+   "v03:c11:p0050"
+  ],
+  "volume": 3
+ },
+ "G101": {
+  "character": "Anne Shirley",
+  "claim": "Anne's first baby, Joyce, dies.",
+  "evidence": [
+   "v04:c21:p0027"
+  ],
+  "volume": 4
+ },
+ "G102": {
+  "character": "Walter Blythe",
+  "claim": "Walter hates Dan Reese.",
+  "evidence": [
+   "v05:c16:p0020"
+  ],
+  "volume": 5
+ },
+ "G103": {
+  "character": "Ruby Gillis",
+  "claim": "Ruby Gillis dies.",
+  "evidence": [
+   "v03:c14:p0033"
+  ],
+  "volume": 3
+ },
+ "G104": {
+  "character": "Diana Barry",
+  "claim": "Diana marries Fred Wright.",
+  "evidence": [
+   "v03:c28:p0014"
+  ],
+  "volume": 3
+ },
+ "G105": {
+  "character": "Anthony Pye",
+  "claim": "Anthony Pye is a sullen pupil who stares at Anne with hostility.",
+  "evidence": [
+   "v02:c05:p0004"
+  ],
+  "volume": 2
+ },
+ "G106": {
+  "character": "Mary Vance",
+  "claim": "Mary Vance lives with Miss Cornelia.",
+  "evidence": [
+   "v05:c12:p0034"
+  ],
+  "volume": 5
+ },
+ "G107": {
+  "character": "Cornelia Bryant",
+  "claim": "Miss Cornelia has a chronic spite against men and Methodists.",
+  "evidence": [
+   "v04:c06:p0040"
+  ],
+  "volume": 4
+ },
+ "G108": {
+  "character": "Anne Shirley",
+  "claim": "Anne lives in the House of Dreams at Four Winds Harbour.",
+  "evidence": [
+   "v04:c01:p0016"
+  ],
+  "volume": 4
+ },
+ "G109": {
+  "character": "Rosemary West",
+  "claim": "Rosemary West has made a promise to her sister Ellen.",
+  "evidence": [
+   "v05:c13:p0034"
+  ],
+  "volume": 5
+ },
+ "G110": {
+  "character": "Leslie Moore",
+  "claim": "Leslie was pressured by her mother into marrying Dick Moore.",
+  "evidence": [
+   "v04:c11:p0027"
+  ],
+  "volume": 4
+ },
+ "G111": {
+  "character": "Captain Jim",
+  "claim": "Captain Jim's surname is Boyd.",
+  "evidence": [
+   "v04:c06:p0008"
+  ],
+  "volume": 4
+ },
+ "R001": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "fact": "C Charlotta | Charlotta the Fourth will go to Boston to live with the Irvings.",
+  "ai": "no"
+ },
+ "R002": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "fact": "C Phillips | Mr. Phillips makes eyes at Prissy Andrews.",
+  "ai": "yes"
+ },
+ "R003": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Gilbert Blythe | Gilbert is to leave for Redmond College.",
+  "ai": "yes"
+ },
+ "R004": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Lavendar Lewis | Miss Lavendar marries Stephen Irving.",
+  "ai": "yes"
+ },
+ "R005": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Aunt Jamesina | Aunt Jamesina is proposed as the girls' housekeeper.",
+  "ai": "yes"
+ },
+ "R006": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Gilbert Blythe | Gilbert marries Anne Shirley.",
+  "ai": "yes"
+ },
+ "R007": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Leslie Moore | Leslie and Owen Ford are to be married at Christmas.",
+  "ai": "yes"
+ },
+ "R008": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Susan Baker | Susan Baker works as maid-of-all-work at the little house.",
+  "ai": "yes"
+ },
+ "R009": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Diana Barry | Anne and Diana swear an oath of friendship.",
+  "ai": "yes"
+ },
+ "R010": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Josie Pye | Josie Pye says Anne could not walk a ridgepole.",
+  "ai": "yes"
+ },
+ "R011": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith is moony and absent-minded but a wonderful preacher.",
+  "ai": "yes"
+ },
+ "R012": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Priscilla Grant | Priscilla Grant goes to Redmond and boards with Anne.",
+  "ai": "yes"
+ },
+ "R013": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Gilbert Blythe | Gilbert becomes a doctor at Four Winds Harbour.",
+  "ai": "yes"
+ },
+ "R014": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne writes a story whose heroine is named Averil Lester.",
+  "ai": "no"
+ },
+ "R015": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert proposes to Anne and she refuses him.",
+  "ai": "yes"
+ },
+ "R016": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Philippa Gordon | Philippa Gordon comes from Bolingbroke, Nova Scotia.",
+  "ai": "yes"
+ },
+ "R017": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Gilbert Blythe | Gilbert is president of the Avonlea Village Improvement Society.",
+  "ai": "yes"
+ },
+ "R018": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Stella Maynard | Stella Maynard has been teaching school since Queen's.",
+  "ai": "yes"
+ },
+ "R019": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C Rilla Blythe | Rilla is the youngest of the Blythe children.",
+  "ai": "no"
+ },
+ "R020": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "fact": "C Anthony Pye | Anthony Pye is a sullen pupil who stares at Anne with hostility.",
+  "ai": "yes"
+ },
+ "R021": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Marilla Cuthbert | Marilla urges Anne to go on to Redmond.",
+  "ai": "no"
+ },
+ "R022": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne studies at Redmond College in Kingsport.",
+  "ai": "yes"
+ },
+ "R023": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Anne Shirley | Anne wins the Avery scholarship.",
+  "ai": "yes"
+ },
+ "R024": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Marilla Cuthbert | Marilla urges Anne to go on to Redmond.",
+  "ai": "yes"
+ },
+ "R025": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Cornelia Bryant | Miss Cornelia marries Marshall Elliott.",
+  "ai": "yes"
+ },
+ "R026": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C Harrison | Mr. Harrison keeps a swearing parrot called Ginger.",
+  "ai": "yes"
+ },
+ "R027": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Anne Shirley | Matthew and Marilla wanted a boy, and Anne was sent to them by mistake.",
+  "ai": "yes"
+ },
+ "R028": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Ruby Gillis | Ruby Gillis believes she will soon be dead.",
+  "ai": "no"
+ },
+ "R029": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne was born in Bolingbroke, Nova Scotia.",
+  "ai": "yes"
+ },
+ "R030": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Lavendar Lewis | Miss Lavendar marries Stephen Irving.",
+  "ai": "yes"
+ },
+ "R031": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Dora | Dora is good and quiet.",
+  "ai": "yes"
+ },
+ "R032": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "fact": "C Davy Keith | Davy pushes Dora headfirst into a mud pie.",
+  "ai": "no"
+ },
+ "R033": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Anthony Pye | Anthony Pye is a sullen pupil who stares at Anne with hostility.",
+  "ai": "yes"
+ },
+ "R034": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Stella Maynard | Stella Maynard has been teaching school since Queen's.",
+  "ai": "yes"
+ },
+ "R035": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "fact": "C Lavendar Lewis | Miss Lavendar marries Stephen Irving.",
+  "ai": "yes"
+ },
+ "R036": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Mary Vance | Mary Vance eats ravenously at the manse.",
+  "ai": "no"
+ },
+ "R037": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "fact": "C Matthew Cuthbert | Anne names her son James Matthew partly after Matthew.",
+  "ai": "yes"
+ },
+ "R038": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Susan Baker | Susan Baker works as maid-of-all-work at the little house.",
+  "ai": "yes"
+ },
+ "R039": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Anne Shirley | Anne becomes the teacher at the Avonlea school.",
+  "ai": "yes"
+ },
+ "R040": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Mary Vance | Mary Vance lives with Miss Cornelia.",
+  "ai": "yes"
+ },
+ "R041": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "fact": "C Diana Barry | Diana becomes engaged.",
+  "ai": "no"
+ },
+ "R042": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "fact": "C Paul Irving | Paul Irving's father is Stephen Irving.",
+  "ai": "yes"
+ },
+ "R043": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Matthew Cuthbert | Matthew is the shyest man alive.",
+  "ai": "yes"
+ },
+ "R044": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Diana Barry | Diana becomes engaged.",
+  "ai": "yes"
+ },
+ "R045": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Walter Blythe | Faith Meredith dares Walter to ride a pig through Main Street.",
+  "ai": "no"
+ },
+ "R046": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Ruby Gillis | Ruby Gillis believes she will soon be dead.",
+  "ai": "yes"
+ },
+ "R047": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "fact": "C Lavendar Lewis | Miss Lavendar was once engaged to Stephen Irving.",
+  "ai": "yes"
+ },
+ "R048": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "fact": "C Harrison | Mr. Harrison keeps a swearing parrot called Ginger.",
+  "ai": "yes"
+ },
+ "R049": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert proposes to Anne and she refuses him.",
+  "ai": "yes"
+ },
+ "R050": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Diana Barry | Diana marries Fred Wright.",
+  "ai": "yes"
+ },
+ "R051": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Stacy | Miss Stacy is a bright, sympathetic teacher who wins her pupils' affection.",
+  "ai": "yes"
+ },
+ "R052": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Marilla Cuthbert | Marilla's eyesight is failing.",
+  "ai": "yes"
+ },
+ "R053": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Dora | Dora is good and quiet.",
+  "ai": "yes"
+ },
+ "R054": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Jane Andrews | Jane Andrews leaves for the West.",
+  "ai": "yes"
+ },
+ "R055": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne helps raise the twins Davy and Dora at Green Gables.",
+  "ai": "yes"
+ },
+ "R056": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Leslie Moore | Leslie was pressured by her mother into marrying Dick Moore.",
+  "ai": "yes"
+ },
+ "R057": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Diana Barry | Anne accidentally gets Diana drunk on currant wine.",
+  "ai": "yes"
+ },
+ "R058": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Ruby Gillis | Ruby Gillis dies.",
+  "ai": "yes"
+ },
+ "R059": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 1,
+  "fact": "C Anne Shirley | Anne saves Minnie May Barry's life when she has croup.",
+  "ai": "yes"
+ },
+ "R060": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert falls ill with typhoid fever.",
+  "ai": "yes"
+ },
+ "R061": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Carl Meredith | Carl Meredith collects toads, bugs and frogs.",
+  "ai": "yes"
+ },
+ "R062": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne writes a story whose heroine is named Averil Lester.",
+  "ai": "no"
+ },
+ "R063": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne sells Mr. Harrison's Jersey cow to Mr. Shearer by mistake.",
+  "ai": "yes"
+ },
+ "R064": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith is a widower whose wife died four years ago.",
+  "ai": "yes"
+ },
+ "R065": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Dick Moore | Dick Moore died of yellow fever in Cuba.",
+  "ai": "yes"
+ },
+ "R066": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne wins the Avery scholarship.",
+  "ai": "yes"
+ },
+ "R067": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "fact": "C Diana Barry | Diana is treasurer of the Avonlea Village Improvement Society.",
+  "ai": "yes"
+ },
+ "R068": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Josie Pye | Josie Pye says Anne could not walk a ridgepole.",
+  "ai": "yes"
+ },
+ "R069": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith and Rosemary West are to marry.",
+  "ai": "yes"
+ },
+ "R070": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Lavendar Lewis | Miss Lavendar marries Stephen Irving.",
+  "ai": "yes"
+ },
+ "R071": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 1,
+  "fact": "C Diana Barry | Anne accidentally gets Diana drunk on currant wine.",
+  "ai": "yes"
+ },
+ "R072": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert is going to teach at the White Sands school.",
+  "ai": "yes"
+ },
+ "R073": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne saves Minnie May Barry's life when she has croup.",
+  "ai": "no"
+ },
+ "R074": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Anne Shirley | Anne dyes her hair.",
+  "ai": "yes"
+ },
+ "R075": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "fact": "C Dora | Dora is good and quiet.",
+  "ai": "yes"
+ },
+ "R076": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Charlotta | Charlotta the Fourth will go to Boston to live with the Irvings.",
+  "ai": "yes"
+ },
+ "R077": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "fact": "C Paul Irving | Paul Irving's father is Stephen Irving.",
+  "ai": "yes"
+ },
+ "R078": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "fact": "C Harrison | Mr. Harrison's wife is Emily.",
+  "ai": "yes"
+ },
+ "R079": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Susan Baker | Susan worships Anne as young Mrs. Doctor.",
+  "ai": "yes"
+ },
+ "R080": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne is secretary of the Avonlea Village Improvement Society.",
+  "ai": "yes"
+ },
+ "R081": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Gilbert Blythe | Gilbert is to leave for Redmond College.",
+  "ai": "yes"
+ },
+ "R082": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Rosemary West | Rosemary West's lover was lost at sea.",
+  "ai": "yes"
+ },
+ "R083": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Roy Gardner | Roy Gardner sends Anne white orchids for the reception.",
+  "ai": "no"
+ },
+ "R084": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "fact": "C Dora | Dora is good and quiet.",
+  "ai": "yes"
+ },
+ "R085": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Matthew Cuthbert | Anne names her son James Matthew partly after Matthew.",
+  "ai": "yes"
+ },
+ "R086": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Anne Shirley | Matthew and Marilla wanted a boy, and Anne was sent to them by mistake.",
+  "ai": "yes"
+ },
+ "R087": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Anne Shirley | Anne breaks her slate over Gilbert's head.",
+  "ai": "yes"
+ },
+ "R088": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Anne Shirley | Anne helps raise the twins Davy and Dora at Green Gables.",
+  "ai": "yes"
+ },
+ "R089": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "fact": "C Lavendar Lewis | Miss Lavendar was once engaged to Stephen Irving.",
+  "ai": "yes"
+ },
+ "R090": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Rachel Lynde | Rachel Lynde says Anne's hair is as red as carrots.",
+  "ai": "yes"
+ },
+ "R091": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Harrison | Mr. Harrison keeps a swearing parrot called Ginger.",
+  "ai": "yes"
+ },
+ "R092": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Anne Shirley | Anne was born in Bolingbroke, Nova Scotia.",
+  "ai": "yes"
+ },
+ "R093": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 1,
+  "fact": "C Stacy | Miss Stacy is a bright, sympathetic teacher who wins her pupils' affection.",
+  "ai": "no"
+ },
+ "R094": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Jane Andrews | Jane Andrews leaves for the West.",
+  "ai": "yes"
+ },
+ "R095": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "fact": "C Marilla Cuthbert | Marilla urges Anne to go on to Redmond.",
+  "ai": "no"
+ },
+ "R096": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "fact": "C Matthew Cuthbert | Matthew is the shyest man alive.",
+  "ai": "yes"
+ },
+ "R097": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 1,
+  "fact": "C Anne Shirley | Anne becomes the teacher at the Avonlea school.",
+  "ai": "yes"
+ },
+ "R098": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Phillips | Mr. Phillips makes eyes at Prissy Andrews.",
+  "ai": "yes"
+ },
+ "R099": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "fact": "C Diana Barry | Anne accidentally gets Diana drunk on currant wine.",
+  "ai": "yes"
+ },
+ "R100": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 1,
+  "fact": "C Gilbert Blythe | Gilbert rows up to Anne in a boat when her flat sinks.",
+  "ai": "yes"
+ },
+ "R101": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Captain Jim | Captain Jim's surname is Boyd.",
+  "ai": "yes"
+ },
+ "R102": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Anne Shirley | Anne is secretary of the Avonlea Village Improvement Society.",
+  "ai": "yes"
+ },
+ "R103": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Carl Meredith | Carl gets a sore throat after getting wet in the Rainbow Valley marsh.",
+  "ai": "no"
+ },
+ "R104": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C Walter Blythe | Walter hates Dan Reese.",
+  "ai": "yes"
+ },
+ "R105": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Anne Shirley | Anne breaks her slate over Gilbert's head.",
+  "ai": "yes"
+ },
+ "R106": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Walter Blythe | Walter is a dreamy boy who loves poetry.",
+  "ai": "yes"
+ },
+ "R107": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne sells Mr. Harrison's Jersey cow to Mr. Shearer by mistake.",
+  "ai": "no"
+ },
+ "R108": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "fact": "C Paul Irving | Paul Irving's father is Stephen Irving.",
+  "ai": "yes"
+ },
+ "R109": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "fact": "C Gilbert Blythe | Gilbert rows up to Anne in a boat when her flat sinks.",
+  "ai": "yes"
+ },
+ "R110": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "fact": "C Gilbert Blythe | Gilbert takes High Honors in Classics and the Cooper Prize.",
+  "ai": "no"
+ },
+ "R111": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Billy Andrews | Billy Andrews asks his sister Jane to propose to Anne for him.",
+  "ai": "yes"
+ },
+ "R112": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Gilbert Blythe | Gilbert takes High Honors in Classics and the Cooper Prize.",
+  "ai": "no"
+ },
+ "R113": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Rosemary West | Rosemary West's lover was lost at sea.",
+  "ai": "yes"
+ },
+ "R114": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne breaks her slate over Gilbert's head.",
+  "ai": "no"
+ },
+ "R115": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Rachel Lynde | Rachel Lynde says Anne's hair is as red as carrots.",
+  "ai": "yes"
+ },
+ "R116": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C Marilla Cuthbert | Marilla takes in the twins Davy and Dora.",
+  "ai": "yes"
+ },
+ "R117": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Roy Gardner | Roy Gardner sends Anne white orchids for the reception.",
+  "ai": "yes"
+ },
+ "R118": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 1,
+  "fact": "C Matthew Cuthbert | Matthew dies suddenly from the shock of a bank failure.",
+  "ai": "yes"
+ },
+ "R119": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Anne Shirley | Anne breaks her slate over Gilbert's head.",
+  "ai": "yes"
+ },
+ "R120": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Gilbert Blythe | Gilbert is going to teach at the White Sands school.",
+  "ai": "no"
+ },
+ "R121": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "fact": "C Marilla Cuthbert | Marilla at first says she is not going to keep Anne.",
+  "ai": "yes"
+ },
+ "R122": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne helps raise the twins Davy and Dora at Green Gables.",
+  "ai": "no"
+ },
+ "R123": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Matthew Cuthbert | Matthew is the shyest man alive.",
+  "ai": "yes"
+ },
+ "R124": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne writes a story whose heroine is named Averil Lester.",
+  "ai": "no"
+ },
+ "R125": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne helps raise the twins Davy and Dora at Green Gables.",
+  "ai": "yes"
+ },
+ "R126": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Mary Vance | Mary Vance lives with Miss Cornelia.",
+  "ai": "yes"
+ },
+ "R127": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C Walter Blythe | Walter hates Dan Reese.",
+  "ai": "yes"
+ },
+ "R128": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Gilbert Blythe | Gilbert proposes to Anne and she refuses him.",
+  "ai": "yes"
+ },
+ "R129": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith is a widower whose wife died four years ago.",
+  "ai": "yes"
+ },
+ "R130": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Una Meredith | Una Meredith is ten years old.",
+  "ai": "no"
+ },
+ "R131": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Dick Moore | Dick Moore went on a voyage to Havana with his cousin George Moore.",
+  "ai": "yes"
+ },
+ "R132": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Philippa Gordon | Philippa Gordon comes from Bolingbroke, Nova Scotia.",
+  "ai": "yes"
+ },
+ "R133": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne realises she loves Gilbert when he falls ill with typhoid.",
+  "ai": "yes"
+ },
+ "R134": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne realises she loves Gilbert when he falls ill with typhoid.",
+  "ai": "yes"
+ },
+ "R135": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C Carl Meredith | Carl Meredith collects toads, bugs and frogs.",
+  "ai": "yes"
+ },
+ "R136": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Rilla Blythe | Rilla is the youngest of the Blythe children.",
+  "ai": "yes"
+ },
+ "R137": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Matthew Cuthbert | Matthew dies suddenly from the shock of a bank failure.",
+  "ai": "yes"
+ },
+ "R138": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Anne Shirley | Anne's son James Matthew, called Jem, is born.",
+  "ai": "yes"
+ },
+ "R139": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Phillips | Mr. Phillips makes eyes at Prissy Andrews.",
+  "ai": "yes"
+ },
+ "R140": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Captain Jim | Captain Jim dies soon after his life-book is published.",
+  "ai": "yes"
+ },
+ "R141": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Josie Pye | Josie Pye says Anne could not walk a ridgepole.",
+  "ai": "yes"
+ },
+ "R142": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Anne Shirley | Anne helps raise the twins Davy and Dora at Green Gables.",
+  "ai": "no"
+ },
+ "R143": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert is said to be going about with Christine Stuart.",
+  "ai": "yes"
+ },
+ "R144": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Diana Barry | Diana marries Fred Wright.",
+  "ai": "yes"
+ },
+ "R145": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Captain Jim | Captain Jim tells Anne about lost Margaret.",
+  "ai": "yes"
+ },
+ "R146": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 1,
+  "fact": "C Anne Shirley | Anne wins the Avery scholarship.",
+  "ai": "yes"
+ },
+ "R147": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "fact": "C Marilla Cuthbert | Marilla at first says she is not going to keep Anne.",
+  "ai": "yes"
+ },
+ "R148": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Diana Barry | Anne and Diana swear an oath of friendship.",
+  "ai": "yes"
+ },
+ "R149": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Gilbert Blythe | Gilbert rows up to Anne in a boat when her flat sinks.",
+  "ai": "yes"
+ },
+ "R150": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 1,
+  "fact": "C Anne Shirley | Matthew and Marilla wanted a boy, and Anne was sent to them by mistake.",
+  "ai": "yes"
+ },
+ "R151": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Paul Irving | Paul Irving comes from the States to live with his grandmother.",
+  "ai": "yes"
+ },
+ "R152": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C Matthew Cuthbert | Anne names her son James Matthew partly after Matthew.",
+  "ai": "no"
+ },
+ "R153": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 1,
+  "fact": "C Marilla Cuthbert | Marilla at first says she is not going to keep Anne.",
+  "ai": "yes"
+ },
+ "R154": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Paul Irving | Paul Irving's father is Stephen Irving.",
+  "ai": "yes"
+ },
+ "R155": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C Paul Irving | Paul Irving comes from the States to live with his grandmother.",
+  "ai": "yes"
+ },
+ "R156": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "fact": "C Davy Keith | Davy pushes Dora headfirst into a mud pie.",
+  "ai": "no"
+ },
+ "R157": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne marries Gilbert Blythe.",
+  "ai": "yes"
+ },
+ "R158": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Matthew Cuthbert | Matthew is the shyest man alive.",
+  "ai": "yes"
+ },
+ "R159": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "fact": "C Josie Pye | Josie Pye says Anne could not walk a ridgepole.",
+  "ai": "yes"
+ },
+ "R160": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Marilla Cuthbert | Marilla takes in the twins Davy and Dora.",
+  "ai": "yes"
+ },
+ "R161": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "fact": "C Gilbert Blythe | Gilbert is going to teach at the White Sands school.",
+  "ai": "no"
+ },
+ "R162": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert gives up the Avonlea school so that Anne can teach there.",
+  "ai": "yes"
+ },
+ "R163": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Marilla Cuthbert | Marilla at first says she is not going to keep Anne.",
+  "ai": "yes"
+ },
+ "R164": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith and Rosemary West are to marry.",
+  "ai": "yes"
+ },
+ "R165": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Marshall Elliott | Marshall Elliott has turned himself into a kind of dime museum freak.",
+  "ai": "yes"
+ },
+ "R166": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert gives up the Avonlea school so that Anne can teach there.",
+  "ai": "yes"
+ },
+ "R167": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Reverend Jo | Jonas Blake is a theological student in charge of the Point Prospect Mission Church.",
+  "ai": "yes"
+ },
+ "R168": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "fact": "C Matthew Cuthbert | Matthew is the shyest man alive.",
+  "ai": "yes"
+ },
+ "R169": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "fact": "C Susan Baker | Susan worships Anne as young Mrs. Doctor.",
+  "ai": "yes"
+ },
+ "R170": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "fact": "C Paul Irving | Paul Irving loves Miss Lavendar as his new second mother.",
+  "ai": "yes"
+ },
+ "R171": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Dora | Dora is good and quiet.",
+  "ai": "yes"
+ },
+ "R172": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne was born in Bolingbroke, Nova Scotia.",
+  "ai": "yes"
+ },
+ "R173": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne lives in the House of Dreams at Four Winds Harbour.",
+  "ai": "yes"
+ },
+ "R174": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Diana Barry | Diana marries Fred Wright.",
+  "ai": "yes"
+ },
+ "R175": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Diana Barry | Anne accidentally gets Diana drunk on currant wine.",
+  "ai": "no"
+ },
+ "R176": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Walter Blythe | Walter hates Dan Reese.",
+  "ai": "yes"
+ },
+ "R177": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne lives in the House of Dreams at Four Winds Harbour.",
+  "ai": "yes"
+ },
+ "R178": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Matthew Cuthbert | Anne names her son James Matthew partly after Matthew.",
+  "ai": "yes"
+ },
+ "R179": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Gilbert Blythe | Gilbert is said to be going about with Christine Stuart.",
+  "ai": "yes"
+ },
+ "R180": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Dora | Dora is good and quiet.",
+  "ai": "yes"
+ },
+ "R181": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "fact": "C Gilbert Blythe | Gilbert is to leave for Redmond College.",
+  "ai": "yes"
+ },
+ "R182": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C Josie Pye | Josie Pye says Anne could not walk a ridgepole.",
+  "ai": "yes"
+ },
+ "R183": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C Dick Moore | Dick Moore went on a voyage to Havana with his cousin George Moore.",
+  "ai": "yes"
+ },
+ "R184": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne realises she loves Gilbert when he falls ill with typhoid.",
+  "ai": "no"
+ },
+ "R185": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Phillips | Mr. Phillips says Anne's spelling is disgraceful.",
+  "ai": "no"
+ },
+ "R186": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C Paul Irving | Paul Irving loves Miss Lavendar as his new second mother.",
+  "ai": "yes"
+ },
+ "R187": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C Matthew Cuthbert | Anne names her son James Matthew partly after Matthew.",
+  "ai": "yes"
+ },
+ "R188": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "fact": "C Josie Pye | Josie Pye says Anne could not walk a ridgepole.",
+  "ai": "yes"
+ },
+ "R189": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "fact": "C Anne Shirley | Anne sells Mr. Harrison's Jersey cow to Mr. Shearer by mistake.",
+  "ai": "no"
+ },
+ "R190": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 1,
+  "fact": "C Anne Shirley | Matthew and Marilla wanted a boy, and Anne was sent to them by mistake.",
+  "ai": "yes"
+ },
+ "R191": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C Dora | Dora is good and quiet.",
+  "ai": "yes"
+ },
+ "R192": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Matthew Cuthbert | Matthew is the shyest man alive.",
+  "ai": "yes"
+ },
+ "R193": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Marilla Cuthbert | Marilla at first says she is not going to keep Anne.",
+  "ai": "yes"
+ },
+ "R194": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Gilbert Blythe | Gilbert falls ill with typhoid fever.",
+  "ai": "yes"
+ },
+ "R195": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne has two braids of very thick red hair and eyes that look green in some lights.",
+  "ai": "no"
+ },
+ "R196": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Phillips | Mr. Phillips says Anne's spelling is disgraceful.",
+  "ai": "no"
+ },
+ "R197": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith is a widower whose wife died four years ago.",
+  "ai": "yes"
+ },
+ "R198": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Owen Ford | Owen Ford is a newspaper man and a grandson of the schoolmaster who built the house.",
+  "ai": "yes"
+ },
+ "R199": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "fact": "C Anthony Pye | Anthony Pye is a sullen pupil who stares at Anne with hostility.",
+  "ai": "yes"
+ },
+ "R200": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 1,
+  "fact": "C Matthew Cuthbert | Matthew dies suddenly from the shock of a bank failure.",
+  "ai": "yes"
+ },
+ "R201": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "fact": "C Matthew Cuthbert | Matthew dies suddenly from the shock of a bank failure.",
+  "ai": "yes"
+ },
+ "R202": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "fact": "C Diana Barry | Anne accidentally gets Diana drunk on currant wine.",
+  "ai": "no"
+ },
+ "R203": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Harrison | Mr. Harrison's wife is Emily.",
+  "ai": "yes"
+ },
+ "R204": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "fact": "C Davy Keith | Davy pushes Dora headfirst into a mud pie.",
+  "ai": "no"
+ },
+ "R205": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne is secretary of the Avonlea Village Improvement Society.",
+  "ai": "yes"
+ },
+ "R206": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "fact": "C Marilla Cuthbert | Marilla at first says she is not going to keep Anne.",
+  "ai": "yes"
+ },
+ "R207": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Rachel Lynde | Rachel Lynde is to move to Green Gables.",
+  "ai": "yes"
+ },
+ "R208": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "fact": "C Gilbert Blythe | Gilbert gives up the Avonlea school so that Anne can teach there.",
+  "ai": "yes"
+ },
+ "R209": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Diana Barry | Anne and Diana swear an oath of friendship.",
+  "ai": "yes"
+ },
+ "R210": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "fact": "C Aunt Jamesina | Aunt Jamesina is proposed as the girls' housekeeper.",
+  "ai": "yes"
+ },
+ "R211": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "fact": "C Little Jem | Jem suggests the manse children form a Good-Conduct Club.",
+  "ai": "no"
+ },
+ "R212": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "fact": "C Diana Barry | Diana becomes engaged.",
+  "ai": "yes"
+ },
+ "R213": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "fact": "C Rachel Lynde | Rachel Lynde's husband Thomas lies on the lounge more than he used to.",
+  "ai": "no"
+ },
+ "R214": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith and Rosemary West are to marry.",
+  "ai": "yes"
+ },
+ "R215": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "fact": "C Dick Moore | Dick Moore died of yellow fever in Cuba.",
+  "ai": "yes"
+ },
+ "R216": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Harrison | Mr. Harrison keeps a swearing parrot called Ginger.",
+  "ai": "yes"
+ },
+ "R217": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "fact": "C Marilla Cuthbert | Marilla at first says she is not going to keep Anne.",
+  "ai": "yes"
+ },
+ "R218": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Lavendar Lewis | Miss Lavendar was once engaged to Stephen Irving.",
+  "ai": "yes"
+ },
+ "R219": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "fact": "C John Meredith | Mr. Meredith is moony and absent-minded but a wonderful preacher.",
+  "ai": "yes"
+ },
+ "R220": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "fact": "C Charlotta | Charlotta the Fourth will go to Boston to live with the Irvings.",
+  "ai": "yes"
+ },
+ "R221": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "fact": "C Gilbert Blythe | Gilbert rows up to Anne in a boat when her flat sinks.",
+  "ai": "no"
+ },
+ "R222": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "fact": "C Anne Shirley | Anne lives in the House of Dreams at Four Winds Harbour.",
+  "ai": "yes"
+ },
+ "R223": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 1,
+  "fact": "C Phillips | Mr. Phillips makes eyes at Prissy Andrews.",
+  "ai": "yes"
+ },
+ "R224": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "fact": "C Anne Shirley | Anne dyes her hair.",
+  "ai": "no"
+ },
+ "R225": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "fact": "C Dick Moore | Dick Moore went on a voyage to Havana with his cousin George Moore.",
+  "ai": "yes"
+ },
+ "R226": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "fact": "C Marilla Cuthbert | Marilla urges Anne to go on to Redmond.",
+  "ai": "yes"
+ },
+ "R227": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Billy Andrews | Billy Andrews asks his sister Jane to propose to Anne for him.",
+  "ai": "yes"
+ },
+ "R228": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "fact": "C Phillips | Mr. Phillips makes eyes at Prissy Andrews.",
+  "ai": "no"
+ },
+ "R229": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Anne Shirley | Matthew and Marilla wanted a boy, and Anne was sent to them by mistake.",
+  "ai": "yes"
+ },
+ "R230": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "fact": "C Anne Shirley | Anne realises she loves Gilbert when he falls ill with typhoid.",
+  "ai": "yes"
+ },
+ "R231": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "fact": "C Rachel Lynde | Rachel Lynde's husband Thomas lies on the lounge more than he used to.",
+  "ai": "no"
+ },
+ "R232": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "fact": "C Anne Shirley | Anne refuses a marriage proposal from Roy Gardner.",
+  "ai": "yes"
+ },
+ "R233": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "fact": "C Gilbert Blythe | Gilbert rows up to Anne in a boat when her flat sinks.",
+  "ai": "no"
+ },
+ "R234": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "fact": "C Phillips | Mr. Phillips makes eyes at Prissy Andrews.",
+  "ai": "yes"
+ },
+ "R235": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "fact": "C Paul Irving | Paul Irving's father is Stephen Irving.",
+  "ai": "yes"
+ },
+ "P001": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 39,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P002": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "row": 9,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P003": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 0,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 2
+ },
+ "P004": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "row": 18,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "uncited",
+  "witness_shown": 0
+ },
+ "P005": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 24,
+  "ai_page": "uncertain",
+  "ai_atom": "uncertain",
+  "surface": "uncited",
+  "witness_shown": 0
+ },
+ "P006": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 3,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P007": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "row": 24,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P008": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "row": 27,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "uncited",
+  "witness_shown": 0
+ },
+ "P009": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 3,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 0
+ },
+ "P010": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "row": 15,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "uncited",
+  "witness_shown": 0
+ },
+ "P011": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "row": 17,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P012": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 35,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P013": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "row": 0,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P014": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "row": 39,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P015": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P016": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "row": 1,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P017": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "row": 23,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 2
+ },
+ "P018": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P019": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 1,
+  "row": 0,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P020": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 1,
+  "row": 28,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P021": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "row": 27,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P022": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "row": 9,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 2
+ },
+ "P023": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 28,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P024": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "row": 19,
+  "ai_page": "partial",
+  "ai_atom": "partial",
+  "surface": "structured",
+  "witness_shown": 2
+ },
+ "P025": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 12,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P026": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 23,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 0
+ },
+ "P027": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "row": 12,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P028": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "row": 27,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P029": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "row": 19,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 1
+ },
+ "P030": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "row": 35,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P031": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "row": 11,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "uncited",
+  "witness_shown": 1
+ },
+ "P032": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "row": 1,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P033": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "row": 18,
+  "ai_page": "unsupported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 0
+ },
+ "P034": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 1,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P035": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 8,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P036": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "row": 6,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P037": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "row": 39,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P038": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 27,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P039": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 1,
+  "row": 39,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P040": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 20,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P041": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 22,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 1
+ },
+ "P042": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "row": 25,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P043": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P044": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 1,
+  "row": 6,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P045": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 1,
+  "row": 12,
+  "ai_page": "partial",
+  "ai_atom": "partial",
+  "surface": "uncited",
+  "witness_shown": 1
+ },
+ "P046": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 21,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P047": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "row": 34,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P048": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 1,
+  "row": 8,
+  "ai_page": "partial",
+  "ai_atom": "partial",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P049": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P050": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "row": 1,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P051": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "row": 7,
+  "ai_page": "partial",
+  "ai_atom": "partial",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P052": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "row": 8,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P053": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "row": 36,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P054": {
+  "system": "P3",
+  "series": "anne@p3",
+  "t": 3,
+  "row": 9,
+  "ai_page": "partial",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 1
+ },
+ "P055": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "row": 38,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P056": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "row": 4,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P057": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 1,
+  "row": 19,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P058": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "row": 12,
+  "ai_page": "unsupported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 1
+ },
+ "P059": {
+  "system": "P2",
+  "series": "anne@p2",
+  "t": 2,
+  "row": 7,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 2
+ },
+ "P060": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 28,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 1
+ },
+ "P061": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 1,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P062": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "row": 18,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P063": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "row": 23,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P064": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 28,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P065": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 14,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P066": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "row": 8,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P067": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "row": 25,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P068": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 18,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "uncited",
+  "witness_shown": 1
+ },
+ "P069": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 19,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P070": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "row": 30,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P071": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "row": 27,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P072": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "row": 37,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P073": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 33,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P074": {
+  "system": "P3",
+  "series": "anne@p3",
+  "t": 3,
+  "row": 29,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 0
+ },
+ "P075": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 35,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P076": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 25,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P077": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 26,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 2
+ },
+ "P078": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 17,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P079": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 26,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P080": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 21,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P081": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 9,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P082": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "row": 35,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P083": {
+  "system": "P2",
+  "series": "anne@p2",
+  "t": 2,
+  "row": 29,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 3
+ },
+ "P084": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "row": 39,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P085": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 21,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P086": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "row": 22,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P087": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 4,
+  "row": 20,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P088": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P089": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "row": 33,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P090": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "row": 35,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P091": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 1,
+  "row": 30,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P092": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 1,
+  "row": 39,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P093": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "row": 0,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P094": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 24,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P095": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 6,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 0
+ },
+ "P096": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 32,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P097": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "row": 24,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P098": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "row": 14,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P099": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 39,
+  "ai_page": "uncertain",
+  "ai_atom": "uncertain",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P100": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 1,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P101": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "row": 9,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P102": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 3,
+  "row": 28,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P103": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 10,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P104": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 9,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P105": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 3,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P106": {
+  "system": "P2",
+  "series": "anne@p2",
+  "t": 2,
+  "row": 1,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 1
+ },
+ "P107": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "row": 32,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P108": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 7,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P109": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 1,
+  "row": 17,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P110": {
+  "system": "P3",
+  "series": "anne@p3",
+  "t": 3,
+  "row": 23,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P111": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "row": 38,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P112": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 1,
+  "row": 17,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P113": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 4,
+  "row": 2,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P114": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 1,
+  "row": 33,
+  "ai_page": "unsupported",
+  "ai_atom": "unsupported",
+  "surface": "uncited",
+  "witness_shown": 0
+ },
+ "P115": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "row": 39,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "uncited",
+  "witness_shown": 0
+ },
+ "P116": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 3,
+  "row": 6,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P117": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "row": 37,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P118": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 32,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 1
+ },
+ "P119": {
+  "system": "P3",
+  "series": "anne@p3",
+  "t": 3,
+  "row": 25,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 1
+ },
+ "P120": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 2,
+  "row": 21,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P121": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 11,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P122": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 23,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P123": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 4,
+  "row": 20,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P124": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 5,
+  "row": 12,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P125": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 1,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P126": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "row": 34,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P127": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 2,
+  "row": 4,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "uncited",
+  "witness_shown": 0
+ },
+ "P128": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 27,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P129": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 5,
+  "row": 11,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P130": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 20,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P131": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 31,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 0
+ },
+ "P132": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 2,
+  "row": 22,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 4
+ },
+ "P133": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "row": 21,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P134": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "row": 26,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P135": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 4,
+  "row": 26,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P136": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 37,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P137": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "row": 10,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P138": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "row": 7,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 1
+ },
+ "P139": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 5,
+  "row": 11,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P140": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 35,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 1
+ },
+ "P141": {
+  "system": "P2",
+  "series": "anne@p2",
+  "t": 2,
+  "row": 5,
+  "ai_page": "partial",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 0
+ },
+ "P142": {
+  "system": "X2",
+  "series": "anne@x2",
+  "t": 2,
+  "row": 24,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "prose",
+  "witness_shown": 0
+ },
+ "P143": {
+  "system": "B4",
+  "series": "anne@b4-v2",
+  "t": 3,
+  "row": 0,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P144": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "row": 19,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P145": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "row": 32,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "P146": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 16,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "scene",
+  "witness_shown": 3
+ },
+ "P147": {
+  "system": "X1",
+  "series": "anne@x1",
+  "t": 5,
+  "row": 0,
+  "ai_page": "partial",
+  "ai_atom": "partial",
+  "surface": "uncited",
+  "witness_shown": 1
+ },
+ "P148": {
+  "system": "B3",
+  "series": "anne@b3",
+  "t": 3,
+  "row": 30,
+  "ai_page": "supported",
+  "ai_atom": "supported",
+  "surface": "structured",
+  "witness_shown": 0
+ },
+ "C001": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 1,
+  "row": 9,
+  "ai_cite": "sufficient"
+ },
+ "C002": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 22,
+  "ai_cite": "sufficient"
+ },
+ "C003": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 5,
+  "ai_cite": "sufficient"
+ },
+ "C004": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 3,
+  "ai_cite": "sufficient"
+ },
+ "C005": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 14,
+  "ai_cite": "partial"
+ },
+ "C006": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "row": 4,
+  "ai_cite": "partial"
+ },
+ "C007": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 1,
+  "row": 12,
+  "ai_cite": "sufficient"
+ },
+ "C008": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 30,
+  "ai_cite": "insufficient"
+ },
+ "C009": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 38,
+  "ai_cite": "partial"
+ },
+ "C010": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 20,
+  "ai_cite": "sufficient"
+ },
+ "C011": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "row": 18,
+  "ai_cite": "frame_error"
+ },
+ "C012": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "row": 37,
+  "ai_cite": "insufficient"
+ },
+ "C013": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 26,
+  "ai_cite": "sufficient"
+ },
+ "C014": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 35,
+  "ai_cite": "insufficient"
+ },
+ "C015": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 19,
+  "ai_cite": "partial"
+ },
+ "C016": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 23,
+  "ai_cite": "insufficient"
+ },
+ "C017": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 2,
+  "row": 2,
+  "ai_cite": "none"
+ },
+ "C018": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 11,
+  "ai_cite": "insufficient"
+ },
+ "C019": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 26,
+  "ai_cite": "sufficient"
+ },
+ "C020": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 1,
+  "ai_cite": "partial"
+ },
+ "C021": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 6,
+  "ai_cite": "sufficient"
+ },
+ "C022": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 1,
+  "row": 15,
+  "ai_cite": "sufficient"
+ },
+ "C023": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 30,
+  "ai_cite": "partial"
+ },
+ "C024": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 11,
+  "ai_cite": "insufficient"
+ },
+ "C025": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 29,
+  "ai_cite": "sufficient"
+ },
+ "C026": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "row": 15,
+  "ai_cite": "insufficient"
+ },
+ "C027": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 27,
+  "ai_cite": "partial"
+ },
+ "C028": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 6,
+  "ai_cite": "sufficient"
+ },
+ "C029": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 28,
+  "ai_cite": "sufficient"
+ },
+ "C030": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 38,
+  "ai_cite": "sufficient"
+ },
+ "C031": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 35,
+  "ai_cite": "sufficient"
+ },
+ "C032": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 1,
+  "row": 20,
+  "ai_cite": "sufficient"
+ },
+ "C033": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 4,
+  "ai_cite": "sufficient"
+ },
+ "C034": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 1,
+  "row": 30,
+  "ai_cite": "sufficient"
+ },
+ "C035": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 35,
+  "ai_cite": "sufficient"
+ },
+ "C036": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 22,
+  "ai_cite": "sufficient"
+ },
+ "C037": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 8,
+  "ai_cite": "insufficient"
+ },
+ "C038": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 1,
+  "row": 31,
+  "ai_cite": "insufficient"
+ },
+ "C039": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 21,
+  "ai_cite": "partial"
+ },
+ "C040": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 18,
+  "ai_cite": "insufficient"
+ },
+ "C041": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 22,
+  "ai_cite": "insufficient"
+ },
+ "C042": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "row": 29,
+  "ai_cite": "partial"
+ },
+ "C043": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 29,
+  "ai_cite": "sufficient"
+ },
+ "C044": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 28,
+  "ai_cite": "sufficient"
+ },
+ "C045": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 5,
+  "row": 33,
+  "ai_cite": "sufficient"
+ },
+ "C046": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 4,
+  "row": 12,
+  "ai_cite": "insufficient"
+ },
+ "C047": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 16,
+  "ai_cite": "sufficient"
+ },
+ "C048": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 3,
+  "row": 32,
+  "ai_cite": "sufficient"
+ },
+ "C049": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 31,
+  "ai_cite": "sufficient"
+ },
+ "C050": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 2,
+  "row": 11,
+  "ai_cite": "partial"
+ },
+ "C051": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 17,
+  "ai_cite": "sufficient"
+ },
+ "C052": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 3,
+  "row": 15,
+  "ai_cite": "insufficient"
+ },
+ "C053": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 5,
+  "row": 39,
+  "ai_cite": "sufficient"
+ },
+ "C054": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 4,
+  "row": 36,
+  "ai_cite": "sufficient"
+ },
+ "C055": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 1,
+  "row": 30,
+  "ai_cite": "sufficient"
+ },
+ "C056": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 17,
+  "ai_cite": "insufficient"
+ },
+ "C057": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 3,
+  "row": 11,
+  "ai_cite": "sufficient"
+ },
+ "C058": {
+  "system": "B5",
+  "series": "anne@v2",
+  "t": 4,
+  "row": 11,
+  "ai_cite": "insufficient"
+ },
+ "C059": {
+  "system": "B1",
+  "series": "anne@b1",
+  "t": 5,
+  "row": 20,
+  "ai_cite": "sufficient"
+ },
+ "C060": {
+  "system": "B2",
+  "series": "anne@b2",
+  "t": 2,
+  "row": 1,
+  "ai_cite": "sufficient"
+ }
+}

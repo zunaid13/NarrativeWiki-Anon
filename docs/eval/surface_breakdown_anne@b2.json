@@ -1,0 +1,33 @@
+{
+ "series": "anne@b2",
+ "cast_characters": 43,
+ "cast_pages": 43,
+ "kinds": {
+  "character (cast)": {
+   "inventory_share": 1.0,
+   "n": 159,
+   "page_supported": 154,
+   "page_ci95": [
+    0.929,
+    0.986
+   ],
+   "atom_supported": 154,
+   "m8_n": 159,
+   "cited": 152,
+   "sufficient": 119
+  },
+  "all": {
+   "inventory_share": 1.0,
+   "n": 159,
+   "page_supported": 154,
+   "page_ci95": [
+    0.929,
+    0.986
+   ],
+   "atom_supported": 154,
+   "m8_n": 159,
+   "cited": 152,
+   "sufficient": 119
+  }
+ }
+}

@@ -1,0 +1,3 @@
+# Kenneth & Leslie Moore
+
+- [Kenneth](../character/kenneth.md) — Sibling of — [Leslie Moore](../character/leslie-moore.md) — brother · since v4  <sub>[v4 CHAPTER 11 THE STORY OF LESLIE MOORE P15](../source/v04-c11.md#nw-v04-c11-p0015), [v4 CHAPTER 21 BARRIERS SWEPT AWAY P39](../source/v04-c21.md#nw-v04-c21-p0039)</sub>

@@ -1,0 +1,11 @@
+{
+ "0": "S", "1": "S", "2": "S", "3": "S", "4": "S", "5": "S", "6": "S", "7": "S", "8": "S", "10": "S", "11": "S",
+ "14": "S", "16": "S", "17": "S", "18": "S", "19": "S", "20": "S", "21": "S", "22": "S", "23": "S", "24": "S",
+ "25": "S", "26": "S", "27": "S", "28": "S", "29": "S", "30": "S", "31": "S", "32": "S", "34": "S", "35": "S",
+ "36": "S", "37": "S", "38": "S", "39": "S",
+ "9": ["P", "the worship is cited (v03:c23:p0003); her marriage to his father (v02:c30:p0030) is not"],
+ "12": ["P", "the rejection is cited (v03:c08:p0018); nothing cited makes them rivals"],
+ "13": ["P", "one remark of hers is cited (v03:c01:p0016); the trait is inferred from it"],
+ "33": ["P", "her 'laughing eyes' are cited (v03:c18:p0002); the trait is inferred from the phrase"],
+ "15": ["I", "none of the seven cited paragraphs shows her unable to decide (that is v03:c04 and c35:p0010)"]
+}

@@ -1,0 +1,13 @@
+{
+ "0": "S", "1": "S", "2": "S", "3": "S", "5": "S", "6": "S", "10": "S", "11": "S", "13": "S", "15": "S", "18": "S",
+ "19": "S", "20": "S", "21": "S", "22": "S", "23": "S", "24": "S", "25": "S", "26": "S", "27": "S", "30": "S",
+ "31": "S", "32": "S", "33": "S", "34": "S", "35": "S", "36": "S", "37": "S", "38": "S", "39": "S",
+ "8": ["P", "his liking for her after the visit is cited (v02:c23:p0036); whose son he is and the tea are not"],
+ "12": ["P", "the preparatory class and the drive to the examination are cited (v01:c30:p0028, c32:p0016); her year at the Academy (v01:c35:p0006) is not"],
+ "28": ["P", "Nell's love for her in their school days is cited (v01:c17:p0039); the bosom friendship (v01:c12:p0035) is not"],
+ "29": ["P", "the cited v02:c22:p0007 has the two children together; that they are twins is not in it"],
+ "4": ["I", "the six cited paragraphs show her orders and plain speech; none is about being on time"],
+ "7": ["I", "the store (v01:c25:p0009-p0021) is not among the five cited paragraphs"],
+ "16": ["I", "the two cited paragraphs give her as eleven and thirteen (v01:c06:p0017, c26:p0015)"],
+ "17": ["I", "the recitations (v01:c23:p0041) are one paragraph before the cited v01:c23:p0042 and in none of the six"]
+}

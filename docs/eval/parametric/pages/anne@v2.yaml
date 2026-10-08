@@ -1,0 +1,54 @@
+# [34] 2026-10-04: which page(s) of the `anne@v2` wiki (B5 version 2, freeze v2) carry each gold
+# character; same rule and same use as `anne.yaml` (probe/parametric.py::gold_pages). Drafted from the
+# v2 gazetteer by `scripts/eval/propose_page_map.py anne@v2` (41 of 43 exact; Captain Jim and Carl
+# Meredith by hand: `uncle-jim` holds "Jim Boyd"/"Uncle Jim", `carl` holds "Carl"). To be confirmed
+# against the built t=5 pages before scoring; a page that merges two people is listed for the gold
+# character it contains, so its other person's text counts against that character.
+# Version 1 needed two pages for Anne Shirley, Matthew Cuthbert, Diana Barry, Rachel Lynde, Jane
+# Andrews, Mary Vance and Rosemary West; version 2 has one page for each.
+# Confirmed 2026-10-05 against dist/anne@v2/wiki/v05 (post-C35 build): all 43 pages exist and their
+# canonical names match. Known residuals, not remapped: `shirley` (bare surname) holds a few of Anne's
+# facts; `priscilla-grant` also holds Prissy Andrews (OPEN_GAPS G13), so her text counts against Priscilla.
+Anne Shirley: [anne-shirley]
+Gilbert Blythe: [gilbert-blythe]
+Marilla Cuthbert: [marilla-cuthbert]
+Matthew Cuthbert: [matthew-cuthbert]
+Diana Barry: [diana-barry]
+Walter Blythe: [walter-blythe]
+Rilla Blythe: [rilla-blythe]
+Leslie Moore: [leslie-moore]
+Rachel Lynde: [rachel-lynde]
+Josie Pye: [josie-pye]
+Stacy: [stacy]
+Phillips: [phillips]
+Harrison: [harrison]
+Paul Irving: [paul-irving]
+Lavendar Lewis: [lavendar-lewis]
+Charlotta: [charlotta]
+Davy Keith: [davy-keith]
+Dora: [dora]
+Anthony Pye: [anthony-pye]
+Philippa Gordon: [phil-gordon]
+Aunt Jamesina: [aunt-jamesina]
+Reverend Jo: [jonas]
+Ruby Gillis: [ruby-gillis]
+Jane Andrews: [jane-andrews]
+Billy Andrews: [billy-andrews]
+Priscilla Grant: [priscilla-grant]
+Stella Maynard: [stella-maynard]
+Roy Gardner: [roy-gardner]
+Marshall Elliott: [marshall-elliott]
+Cornelia Bryant: [cornelia-bryant]
+Dick Moore: [dick-moore]
+Owen Ford: [owen-ford]
+Susan Baker: [susan]
+John Meredith: [john-meredith]
+Una Meredith: [una-meredith]
+Faith Meredith: [faith]
+Mary Vance: [mary-vance]
+Norman Douglas: [norman-douglas]
+Ellen West: [ellen-west]
+Rosemary West: [rosemary-west]
+Little Jem: [jem]
+Captain Jim: [uncle-jim]
+Carl Meredith: [carl]

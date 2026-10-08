@@ -1,0 +1,418 @@
+{
+ "_reader": "agent:claude-opus-5-5 (AI; not human; not blinded), 2026-10-06",
+ "_rule": "M8 as in the paper's annotation appendix: sufficient only if the paragraphs printed under the timeline line, read alone and jointly, establish every element of the atom. The stored `cite` of these rows is 'none' because the inventory tool did not attach the page's '_Sources:' line to timeline lines (CHANGES C40, OPEN_GAPS G16); `evidence` here is what the delivered page prints.",
+ "anne@v2": {
+  "1": {
+   "4": {
+    "cite": "partial",
+    "evidence": [
+     "v01:c02:p0044",
+     "v01:c02:p0056",
+     "v01:c02:p0070",
+     "v01:c02:p0074"
+    ],
+    "note": "p0074: Matthew is glad Marilla, not he, will tell her; he shrinks from the revelation. The atom is itself partial."
+   },
+   "17": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c18:p0021",
+     "v01:c18:p0025",
+     "v01:c18:p0031",
+     "v01:c18:p0043"
+    ],
+    "note": "p0043: Mrs. Barry knows now Anne did not mean it, is sorry and wants the girls friends again. Borderline: the paragraph has her asking Anne's forgiveness."
+   },
+   "24": {
+    "cite": "partial",
+    "evidence": [
+     "v01:c36:p0007",
+     "v01:c36:p0012",
+     "v01:c36:p0017",
+     "v01:c36:p0041"
+    ],
+    "note": "p0041 has the tender exchange; no cited paragraph states a walk or the evening."
+   },
+   "30": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c31:p0002",
+     "v01:c31:p0010",
+     "v01:c31:p0016",
+     "v01:c31:p0023"
+    ],
+    "note": "p0010: the Queen's class girds itself for the Entrance, which haunts Anne all winter."
+   },
+   "33": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c10:p0013",
+     "v01:c10:p0030",
+     "v01:c10:p0034",
+     "v01:c10:p0050"
+    ],
+    "note": "p0030 is the apology to Mrs. Lynde; p0013 names Anne."
+   },
+   "36": {
+    "cite": "insufficient",
+    "evidence": [
+     "v01:c28:p0018",
+     "v01:c28:p0023",
+     "v01:c28:p0031",
+     "v01:c28:p0045"
+    ],
+    "note": "Matthew's whisper is not among the four cited paragraphs."
+   }
+  },
+  "2": {
+   "10": {
+    "cite": "sufficient",
+    "evidence": [
+     "v02:c19:p0047",
+     "v02:c19:p0050",
+     "v02:c19:p0055",
+     "v02:c19:p0063"
+    ],
+    "note": "p0047: Davy explains how he knows he is 'gooder'."
+   },
+   "25": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c29:p0031",
+     "v01:c29:p0033",
+     "v01:c29:p0035",
+     "v01:c29:p0038"
+    ],
+    "note": "p0035: Anne runs up the hill into the Green Gables kitchen."
+   },
+   "31": {
+    "cite": "partial",
+    "evidence": [
+     "v01:c19:p0079",
+     "v01:c19:p0083",
+     "v01:c19:p0087",
+     "v01:c19:p0090"
+    ],
+    "note": "p0079, p0083: Anne confesses to Miss Barry; Orchard Slope is not named in the cited paragraphs."
+   },
+   "37": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c15:p0061",
+     "v01:c15:p0081",
+     "v01:c15:p0089",
+     "v01:c15:p0096"
+    ],
+    "note": "p0089: 'since you've asked my advice, Marilla,' said Mrs. Lynde."
+   }
+  },
+  "3": {
+   "0": {
+    "cite": "partial",
+    "evidence": [
+     "v03:c29:p0000",
+     "v03:c29:p0012",
+     "v03:c29:p0013",
+     "v03:c29:p0017"
+    ],
+    "note": "p0013, p0017: Gilbert walks Anne home and they chat; the subject of the talk is not in the cited paragraphs."
+   },
+   "9": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c15:p0016",
+     "v01:c15:p0033",
+     "v01:c15:p0038",
+     "v01:c15:p0044"
+    ],
+    "note": "p0044: the teacher sends Anne to the platform. Borderline: the paragraph says 'he' and 'a pupil of mine', not Mr. Phillips."
+   },
+   "10": {
+    "cite": "partial",
+    "evidence": [
+     "v03:c04:p0048",
+     "v03:c04:p0062",
+     "v03:c04:p0067",
+     "v03:c04:p0071"
+    ],
+    "note": "p0071: Anne reflects on Phil; Priscilla is not in the cited paragraphs."
+   },
+   "23": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c35:p0004",
+     "v01:c35:p0005",
+     "v01:c35:p0007",
+     "v01:c35:p0011"
+    ],
+    "note": "p0004: Anne draws a circle of friends about her at the Academy."
+   },
+   "27": {
+    "cite": "partial",
+    "evidence": [
+     "v02:c10:p0008",
+     "v02:c10:p0026",
+     "v02:c10:p0034",
+     "v02:c10:p0052"
+    ],
+    "note": "p0026: Mr. Barry drags the well while Anne stands by."
+   },
+   "34": {
+    "cite": "sufficient",
+    "evidence": [
+     "v03:c40:p0006",
+     "v03:c40:p0009",
+     "v03:c40:p0016",
+     "v03:c40:p0025"
+    ],
+    "note": "p0016: 'She loved Gilbert ... She knew that now', that bitter night."
+   }
+  },
+  "4": {
+   "4": {
+    "cite": "sufficient",
+    "evidence": [
+     "v02:c04:p0000",
+     "v02:c04:p0007",
+     "v02:c04:p0035",
+     "v02:c04:p0041"
+    ],
+    "note": "p0000 and p0007 jointly: Jane, Gilbert and Anne talk of the school opening and Anne answers on whipping 'with equal decision'. Borderline: Jane's words are not cited."
+   },
+   "11": {
+    "cite": "insufficient",
+    "evidence": [
+     "v01:c23:p0011",
+     "v01:c23:p0015",
+     "v01:c23:p0024",
+     "v01:c23:p0030"
+    ],
+    "note": "No cited paragraph mentions visitors or school; they cover the dare, the fall and the broken ankle."
+   },
+   "17": {
+    "cite": "insufficient",
+    "evidence": [
+     "v03:c35:p0000",
+     "v03:c35:p0028",
+     "v03:c35:p0044",
+     "v03:c35:p0046"
+    ],
+    "note": "No cited paragraph has the girls laughing with Aunt Jamesina."
+   },
+   "31": {
+    "cite": "sufficient",
+    "evidence": [
+     "v02:c27:p0001",
+     "v02:c27:p0022",
+     "v02:c27:p0031",
+     "v02:c27:p0037"
+    ],
+    "note": "p0001: a new dress of pale green muslin."
+   }
+  },
+  "5": {
+   "20": {
+    "cite": "partial",
+    "evidence": [
+     "v04:c28:p0000",
+     "v04:c28:p0012",
+     "v04:c28:p0026",
+     "v04:c28:p0030"
+    ],
+    "note": "p0000, p0012: Miss Cornelia talks of obituary notices and Leslie; 'past town memories' and Anne as listener are not established."
+   },
+   "26": {
+    "cite": "insufficient",
+    "evidence": [
+     "v02:c25:p0057",
+     "v02:c25:p0060",
+     "v02:c25:p0065",
+     "v02:c25:p0071"
+    ],
+    "note": "No cited paragraph states a return from Carmody."
+   }
+  }
+ },
+ "anne-decon@v2": {
+  "1": {
+   "16": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c38:p0004",
+     "v01:c38:p0014",
+     "v01:c38:p0020",
+     "v01:c38:p0038"
+    ],
+    "note": "p0038: Hugh withdrew his application and recommended hers"
+   },
+   "21": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c07:p0001",
+     "v01:c07:p0014",
+     "v01:c07:p0021",
+     "v01:c07:p0029"
+    ],
+    "note": "p0014 and p0021: she must say her prayers and makes one up; p0029: she had never prayed"
+   },
+   "26": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c21:p0021",
+     "v01:c21:p0029",
+     "v01:c21:p0043",
+     "v01:c21:p0050"
+    ],
+    "note": "p0043: liniment from the old vanilla jar"
+   }
+  },
+  "2": {
+   "25": {
+    "cite": "sufficient",
+    "evidence": [
+     "v02:c08:p0001",
+     "v02:c08:p0030",
+     "v02:c08:p0036",
+     "v02:c08:p0047"
+    ],
+    "note": "p0047: the dripping figure bursts into the dining room before the Aids"
+   }
+  },
+  "3": {
+   "4": {
+    "cite": "sufficient",
+    "evidence": [
+     "v02:c24:p0043",
+     "v02:c24:p0048",
+     "v02:c24:p0049",
+     "v02:c24:p0054"
+    ],
+    "note": "p0043: the parrot was killed in the storm"
+   },
+   "5": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c01:p0003",
+     "v01:c01:p0005",
+     "v01:c01:p0016",
+     "v01:c01:p0023"
+    ],
+    "note": "p0005 and p0023: she goes over after tea and Thirza answers her"
+   },
+   "11": {
+    "cite": "partial",
+    "evidence": [
+     "v02:c10:p0008",
+     "v02:c10:p0034",
+     "v02:c10:p0053",
+     "v02:c10:p0061"
+    ],
+    "note": "p0008: Thirza meets her wild-eyed; the news itself is in the next paragraph, not cited"
+   },
+   "30": {
+    "cite": "insufficient",
+    "evidence": [
+     "v03:c18:p0002",
+     "v03:c18:p0003",
+     "v03:c18:p0021",
+     "v03:c18:p0030"
+    ],
+    "note": "p0030 gives the letter; who brought the mail is not in the cited paragraphs"
+   },
+   "37": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c20:p0012",
+     "v01:c20:p0025",
+     "v01:c20:p0030",
+     "v01:c20:p0034"
+    ],
+    "note": "p0030: she is to walk through the spruce grove as a lesson"
+   }
+  },
+  "4": {
+   "17": {
+    "cite": "sufficient",
+    "evidence": [
+     "v02:c17:p0027",
+     "v02:c17:p0042",
+     "v02:c17:p0052",
+     "v02:c17:p0057"
+    ],
+    "note": "p0042: it is obvious that Honora and Mrs. Varley will not arrive"
+   },
+   "20": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c16:p0007",
+     "v01:c16:p0025",
+     "v01:c16:p0029",
+     "v01:c16:p0036"
+    ],
+    "note": "p0025 and p0029: three glasses, then terribly ill"
+   },
+   "32": {
+    "cite": "insufficient",
+    "evidence": [
+     "v01:c38:p0004",
+     "v01:c38:p0014",
+     "v01:c38:p0020",
+     "v01:c38:p0038"
+    ],
+    "note": "the meeting on the hill and her thanks (p0050) are not among the four cited"
+   },
+   "33": {
+    "cite": "sufficient",
+    "evidence": [
+     "v04:c09:p0013",
+     "v04:c09:p0019",
+     "v04:c09:p0023",
+     "v04:c09:p0034"
+    ],
+    "note": "p0023: in the tower he shows and explains the great light"
+   }
+  },
+  "5": {
+   "8": {
+    "cite": "sufficient",
+    "evidence": [
+     "v01:c30:p0004",
+     "v01:c30:p0014",
+     "v01:c30:p0016",
+     "v01:c30:p0020"
+    ],
+    "note": "p0014: the class is to prepare for the entrance examination"
+   },
+   "9": {
+    "cite": "sufficient",
+    "evidence": [
+     "v05:c13:p0024",
+     "v05:c13:p0030",
+     "v05:c13:p0031",
+     "v05:c13:p0041"
+    ],
+    "note": "p0041: an indistinct feeling of distress as she sits in her room"
+   },
+   "22": {
+    "cite": "sufficient",
+    "evidence": [
+     "v02:c27:p0043",
+     "v02:c27:p0044",
+     "v02:c27:p0049",
+     "v02:c27:p0051"
+    ],
+    "note": "p0043: Belinda tells Nell her anxieties about Miss Rosalind"
+   },
+   "26": {
+    "cite": "partial",
+    "evidence": [
+     "v03:c27:p0001",
+     "v03:c27:p0014",
+     "v03:c27:p0019",
+     "v03:c27:p0036"
+    ],
+    "note": "p0019: the proposal and her yes; her earlier suitors are not in the cited paragraphs"
+   }
+  }
+ }
+}

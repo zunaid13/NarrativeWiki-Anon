@@ -1,0 +1,298 @@
+{
+  "0": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Jerry's origin from the Creek is explicit.",
+    []
+  ],
+  "1": [
+    "partial",
+    "partial",
+    "partial",
+    "Stephen moved to the States; From does not establish it as his original birthplace. Review relation-direction wording.",
+    []
+  ],
+  "2": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Josie's first prize for knitted lace supports this skill.",
+    []
+  ],
+  "3": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly recalls going to live with Mrs. Hammond.",
+    []
+  ],
+  "4": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Diana reports the whole summer spent with New Brunswick cousins.",
+    []
+  ],
+  "5": [
+    "unsupported",
+    "unsupported",
+    "insufficient",
+    "The citation is about Martin Bovyer, not the Martin farmhand depicted on this page. Unresolved homonym merge.",
+    []
+  ],
+  "6": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Marilla deliberately hides excitement, supporting restrained emotion.",
+    []
+  ],
+  "7": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Josephine Barry is identified with feminine pronouns.",
+    []
+  ],
+  "8": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly says she lived with the Hammonds over two years before Mr. Hammond died.",
+    []
+  ],
+  "9": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Rigid conscience is the narrator's exact characterization.",
+    []
+  ],
+  "10": [
+    "supported",
+    "supported",
+    "partial",
+    "Emily explicitly reports Anne making cakes for James A.; broader friendly talks are established for the same Harrison in v02:c03:p0039.",
+    [
+      "v02:c03:p0039"
+    ]
+  ],
+  "11": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The paragraph calls Anne's pupils to mind, especially Paul. His pupil identity is also explicit in v02:c01:p0045.",
+    [
+      "v02:c01:p0045"
+    ]
+  ],
+  "12": [
+    "supported",
+    "supported",
+    "partial",
+    "The narration calls her Fair Unknown; her identity as Harrison's wife Emily is resolved by v02:c25:p0016 and v02:c25:p0057.",
+    [
+      "v02:c25:p0016",
+      "v02:c25:p0057"
+    ]
+  ],
+  "13": [
+    "supported",
+    "supported",
+    "partial",
+    "Friendship is explicit in the citations. Tea companionship is in v01:c09:p0003; not all listed citations establish that detail.",
+    [
+      "v01:c09:p0003"
+    ]
+  ],
+  "14": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Davy explicitly reports Chester's preference for blacksmithing.",
+    []
+  ],
+  "15": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Ginger explicitly continues to regard Anne with suspicion.",
+    []
+  ],
+  "16": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The grandmother's college bequest and minister condition are explicit.",
+    []
+  ],
+  "17": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Marilla confirms Stephen and Lavendar's past engagement and breakup.",
+    []
+  ],
+  "18": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anthony is named as Anne's prospective pupil and shown receiving her classroom discipline.",
+    []
+  ],
+  "19": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Priscilla is explicitly called a girl in the Academy friendship passage.",
+    []
+  ],
+  "20": [
+    "supported",
+    "supported",
+    "insufficient",
+    "Gilbert acts in volume2, including v02:c19:p0050 and v02:c19:p0053. The citation is Rachel discussing Thomas's health, not Gilbert.",
+    [
+      "v02:c19:p0050",
+      "v02:c19:p0053"
+    ]
+  ],
+  "21": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Matthew's sympathy with Anne is explicit.",
+    []
+  ],
+  "22": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The citation identifies Mr. Shearer, distinguishing male title.",
+    []
+  ],
+  "23": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mrs. Pendexter is introduced as a married woman with feminine pronouns.",
+    []
+  ],
+  "24": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Davy says his arms have had seven years to grow.",
+    []
+  ],
+  "25": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Harris is identified with feminine pronouns.",
+    []
+  ],
+  "26": [
+    "supported",
+    "supported",
+    "partial",
+    "The letter recounts last winter's visit to Aunt Mary; Barbara's authorship needs adjacent v02:c11:p0031.",
+    [
+      "v02:c11:p0031"
+    ]
+  ],
+  "27": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Miss Muriel Stacy is explicitly a lady teacher.",
+    []
+  ],
+  "28": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne's intimate friendship with Stella at the Academy is explicit.",
+    []
+  ],
+  "29": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Good-tempered is the narrator's exact description.",
+    []
+  ],
+  "30": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Harrison explicitly recounts his promise to his dying sister.",
+    []
+  ],
+  "31": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narration explicitly links headaches and sarcasm.",
+    []
+  ],
+  "32": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mrs. Barry reports that Anne saved Minnie May's life.",
+    []
+  ],
+  "33": [
+    "supported",
+    "supported",
+    "partial",
+    "Uncle Joseph appears in the quoted letter, but Barbara's identity needs v02:c11:p0031.",
+    [
+      "v02:c11:p0031"
+    ]
+  ],
+  "34": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Harrison's marriage to Emily and promise are explicit; James A. is his first-name reference.",
+    []
+  ],
+  "35": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne explicitly imagines Katie and calls her comfort and consolation.",
+    []
+  ],
+  "36": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Mr. Harrison is explicitly named.",
+    []
+  ],
+  "37": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Anne describes Phillips as always whipping, evaluated as her historical account.",
+    []
+  ],
+  "38": [
+    "supported",
+    "supported",
+    "sufficient",
+    "The narrator explicitly calls Rachel's heart kindly.",
+    []
+  ],
+  "39": [
+    "supported",
+    "supported",
+    "sufficient",
+    "Dora is explicitly described as neat.",
+    []
+  ]
+}

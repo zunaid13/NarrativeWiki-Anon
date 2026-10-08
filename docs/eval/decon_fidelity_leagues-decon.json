@@ -1,0 +1,1083 @@
+{
+  "series": "leagues-decon",
+  "run_id": "20260925T163031-decon_fidelity-n200",
+  "n": 200,
+  "threshold": 0.5,
+  "forward_pass_rate": 0.635,
+  "backward_pass_rate": 0.57,
+  "both_pass_rate": 0.465,
+  "weakest": [
+    {
+      "para_id": "v02:c13:p0019",
+      "forward": 0.2423,
+      "backward": 0.0127,
+      "original": "“These creatures are not dangerous?” asked Baptiste.",
+      "paraphrase": "“Are these beings not a threat?” inquired Baptiste."
+    },
+    {
+      "para_id": "v01:c07:p0060",
+      "forward": 0.0455,
+      "backward": 0.0141,
+      "original": "Just then a bubbling began at the back of this strange thing (which was evidently propelled by a screw), and it began to move. We had only just time to seize hold of the upper part, which rose about seven feet out of the water, and happily its speed was not great.",
+      "paraphrase": "At that precise moment, a churning started toward the rear of this odd object (which was clearly driven by a propeller), and it commenced its motion. We barely managed to grasp the top section, which stood roughly seven feet above the surface, and fortunately its velocity remained low."
+    },
+    {
+      "para_id": "v02:c03:p0067",
+      "forward": 0.3098,
+      "backward": 0.0162,
+      "original": "“Well! it is the fearful speed you will have to put on the Meridian, if the day after to-morrow she is to be in the Mediterranean, having made the round of Africa, and doubled the Cape of Good Hope!”",
+      "paraphrase": "“Indeed! the Meridian must maintain a terrifying pace if she is to reach the Mediterranean by the day after tomorrow, after having circled Africa and rounded the Cape of Good Hope!”"
+    },
+    {
+      "para_id": "v02:c18:p0015",
+      "forward": 0.0162,
+      "backward": 0.0323,
+      "original": "I went to my room. From thence I meant to go to Captain Sorel’s. It would not do to let this opportunity of meeting him slip. I knocked at the door. No answer. I knocked again, then turned the handle. The door opened, I went in. The Captain was there. Bending over his work-table, he had not heard me. Resolved not to go without having spoken, I approached him. He raised his head quickly, frowned, and said roughly, “You here! What do you want?”",
+      "paraphrase": "I retreated to my quarters, intending to proceed from there to the location of Captain Sorel. It was vital that I not squander this chance to encounter him. I rapped upon the entrance. Silence followed. I rapped once more, subsequently rotating the knob. The portal gave way, and I stepped inside. The Captain was present. Stooped above his desk, he remained unaware of my arrival. Determined to avoid departing until I had conversed with him, I drew near. He lifted his face abruptly, scowled, and barked, “You here! What do you want?”"
+    },
+    {
+      "para_id": "v02:c03:p0068",
+      "forward": 0.4218,
+      "backward": 0.0206,
+      "original": "“Who told you that she would make the round of Africa and double the Cape of Good Hope, sir?”",
+      "paraphrase": "“Sir, who informed you that she was going to sail around Africa and navigate past the Cape of Good Hope?”"
+    },
+    {
+      "para_id": "v01:c06:p0044",
+      "forward": 0.7339,
+      "backward": 0.0216,
+      "original": "“Put on more steam if you can, sir. With your leave, I mean to post myself under the bowsprit, and if we get within harpooning distance, I shall throw my harpoon.”",
+      "paraphrase": "“Increase the pressure if it is possible, sir. With your permission, I intend to station myself beneath the bowsprit, and should we arrive within range for a strike, I will cast my harpoon,” I said."
+    },
+    {
+      "para_id": "v02:c17:p0045",
+      "forward": 0.0219,
+      "backward": 0.0387,
+      "original": "The Meridian was floating, no doubt, but it did not move. A minute passed. Captain Sorel, followed by his lieutenant, entered the drawing-room. I had not seen him for some time. He seemed dull. Without noticing or speaking to us, he went to the panel, looked at the poulps, and said something to his lieutenant. The latter went out. Soon the panels were shut. The ceiling was lighted. I went towards the Captain.",
+      "paraphrase": "The Meridian drifted, certainly, yet it remained stationary. Sixty seconds went by. Captain Sorel walked into the drawing-room, his lieutenant trailing behind him. It had been a while since I last laid eyes on him. He appeared listless. He ignored us completely, walking straight to the wall to observe the poulps, and murmured a remark to his lieutenant. The subordinate departed. Before long, the shutters closed. The overhead lamps flickered on. I approached the Captain."
+    },
+    {
+      "para_id": "v01:c06:p0047",
+      "forward": 0.5273,
+      "backward": 0.0242,
+      "original": "But the accursed animal swam too at the rate of 18½ miles an hour.",
+      "paraphrase": "Yet the detestable creature also maintained a speed of 18½ miles per hour."
+    },
+    {
+      "para_id": "v01:c21:p0064",
+      "forward": 0.7147,
+      "backward": 0.0264,
+      "original": "“Then, sir, you suppose that they will board us?”",
+      "paraphrase": "“In that case, sir, do you believe they intend to board us?”"
+    },
+    {
+      "para_id": "v01:c15:p0024",
+      "forward": 0.0289,
+      "backward": 0.0919,
+      "original": "For a quarter of an hour I trod on this sand, sown with the impalpable dust of shells. The hull of the Meridian, resembling a long shoal, disappeared by degrees; but its lantern, when darkness should overtake us in the waters, would help to guide us on board by its distinct rays.",
+      "paraphrase": "I walked across this ground covered in fine, powdery shell fragments for fifteen minutes. Gradually, the body of the Meridian vanished, looking much like a stretched-out sandbank; however, once night fell upon the sea, its light would shine clearly to lead us back to the vessel."
+    }
+  ],
+  "rows": [
+    {
+      "para_id": "v01:c01:p0002",
+      "forward": 0.361,
+      "backward": 0.5021
+    },
+    {
+      "para_id": "v01:c02:p0007",
+      "forward": 0.9652,
+      "backward": 0.9711
+    },
+    {
+      "para_id": "v01:c02:p0012",
+      "forward": 0.0834,
+      "backward": 0.9409
+    },
+    {
+      "para_id": "v01:c03:p0032",
+      "forward": 0.9659,
+      "backward": 0.9744
+    },
+    {
+      "para_id": "v01:c04:p0002",
+      "forward": 0.9528,
+      "backward": 0.937
+    },
+    {
+      "para_id": "v01:c04:p0005",
+      "forward": 0.9483,
+      "backward": 0.0627
+    },
+    {
+      "para_id": "v01:c05:p0016",
+      "forward": 0.8232,
+      "backward": 0.7085
+    },
+    {
+      "para_id": "v01:c05:p0017",
+      "forward": 0.0715,
+      "backward": 0.2941
+    },
+    {
+      "para_id": "v01:c05:p0032",
+      "forward": 0.8565,
+      "backward": 0.9494
+    },
+    {
+      "para_id": "v01:c06:p0009",
+      "forward": 0.9358,
+      "backward": 0.7061
+    },
+    {
+      "para_id": "v01:c06:p0023",
+      "forward": 0.8836,
+      "backward": 0.9318
+    },
+    {
+      "para_id": "v01:c06:p0027",
+      "forward": 0.6461,
+      "backward": 0.2603
+    },
+    {
+      "para_id": "v01:c06:p0044",
+      "forward": 0.7339,
+      "backward": 0.0216
+    },
+    {
+      "para_id": "v01:c06:p0047",
+      "forward": 0.5273,
+      "backward": 0.0242
+    },
+    {
+      "para_id": "v01:c06:p0048",
+      "forward": 0.9309,
+      "backward": 0.8665
+    },
+    {
+      "para_id": "v01:c06:p0057",
+      "forward": 0.9381,
+      "backward": 0.123
+    },
+    {
+      "para_id": "v01:c06:p0060",
+      "forward": 0.969,
+      "backward": 0.9739
+    },
+    {
+      "para_id": "v01:c06:p0068",
+      "forward": 0.9212,
+      "backward": 0.9307
+    },
+    {
+      "para_id": "v01:c06:p0072",
+      "forward": 0.0658,
+      "backward": 0.1832
+    },
+    {
+      "para_id": "v01:c07:p0015",
+      "forward": 0.2443,
+      "backward": 0.5444
+    },
+    {
+      "para_id": "v01:c07:p0032",
+      "forward": 0.1282,
+      "backward": 0.0724
+    },
+    {
+      "para_id": "v01:c07:p0037",
+      "forward": 0.9232,
+      "backward": 0.7893
+    },
+    {
+      "para_id": "v01:c07:p0060",
+      "forward": 0.0455,
+      "backward": 0.0141
+    },
+    {
+      "para_id": "v01:c08:p0003",
+      "forward": 0.9642,
+      "backward": 0.9712
+    },
+    {
+      "para_id": "v01:c08:p0022",
+      "forward": 0.9607,
+      "backward": 0.9689
+    },
+    {
+      "para_id": "v01:c08:p0023",
+      "forward": 0.9697,
+      "backward": 0.9684
+    },
+    {
+      "para_id": "v01:c08:p0028",
+      "forward": 0.7884,
+      "backward": 0.8187
+    },
+    {
+      "para_id": "v01:c08:p0037",
+      "forward": 0.6833,
+      "backward": 0.9124
+    },
+    {
+      "para_id": "v01:c08:p0040",
+      "forward": 0.3103,
+      "backward": 0.0438
+    },
+    {
+      "para_id": "v01:c08:p0049",
+      "forward": 0.9259,
+      "backward": 0.8007
+    },
+    {
+      "para_id": "v01:c10:p0014",
+      "forward": 0.939,
+      "backward": 0.1473
+    },
+    {
+      "para_id": "v01:c10:p0044",
+      "forward": 0.8791,
+      "backward": 0.0978
+    },
+    {
+      "para_id": "v01:c10:p0052",
+      "forward": 0.4698,
+      "backward": 0.4784
+    },
+    {
+      "para_id": "v01:c10:p0058",
+      "forward": 0.9701,
+      "backward": 0.9784
+    },
+    {
+      "para_id": "v01:c10:p0060",
+      "forward": 0.9521,
+      "backward": 0.9465
+    },
+    {
+      "para_id": "v01:c10:p0062",
+      "forward": 0.2678,
+      "backward": 0.9587
+    },
+    {
+      "para_id": "v01:c10:p0089",
+      "forward": 0.9518,
+      "backward": 0.9606
+    },
+    {
+      "para_id": "v01:c10:p0091",
+      "forward": 0.1438,
+      "backward": 0.1763
+    },
+    {
+      "para_id": "v01:c11:p0004",
+      "forward": 0.7071,
+      "backward": 0.9043
+    },
+    {
+      "para_id": "v01:c11:p0015",
+      "forward": 0.9201,
+      "backward": 0.9201
+    },
+    {
+      "para_id": "v01:c11:p0019",
+      "forward": 0.7148,
+      "backward": 0.9296
+    },
+    {
+      "para_id": "v01:c11:p0022",
+      "forward": 0.9143,
+      "backward": 0.2151
+    },
+    {
+      "para_id": "v01:c12:p0022",
+      "forward": 0.2416,
+      "backward": 0.9272
+    },
+    {
+      "para_id": "v01:c12:p0028",
+      "forward": 0.6641,
+      "backward": 0.8637
+    },
+    {
+      "para_id": "v01:c12:p0035",
+      "forward": 0.3511,
+      "backward": 0.588
+    },
+    {
+      "para_id": "v01:c12:p0037",
+      "forward": 0.9265,
+      "backward": 0.3072
+    },
+    {
+      "para_id": "v01:c12:p0039",
+      "forward": 0.9254,
+      "backward": 0.9054
+    },
+    {
+      "para_id": "v01:c13:p0012",
+      "forward": 0.9477,
+      "backward": 0.9014
+    },
+    {
+      "para_id": "v01:c13:p0029",
+      "forward": 0.7176,
+      "backward": 0.0536
+    },
+    {
+      "para_id": "v01:c13:p0031",
+      "forward": 0.9332,
+      "backward": 0.9549
+    },
+    {
+      "para_id": "v01:c13:p0032",
+      "forward": 0.8415,
+      "backward": 0.4397
+    },
+    {
+      "para_id": "v01:c14:p0016",
+      "forward": 0.1581,
+      "backward": 0.0521
+    },
+    {
+      "para_id": "v01:c14:p0027",
+      "forward": 0.9654,
+      "backward": 0.9638
+    },
+    {
+      "para_id": "v01:c14:p0028",
+      "forward": 0.9551,
+      "backward": 0.9002
+    },
+    {
+      "para_id": "v01:c14:p0043",
+      "forward": 0.9296,
+      "backward": 0.0669
+    },
+    {
+      "para_id": "v01:c14:p0056",
+      "forward": 0.7556,
+      "backward": 0.9002
+    },
+    {
+      "para_id": "v01:c14:p0062",
+      "forward": 0.949,
+      "backward": 0.8889
+    },
+    {
+      "para_id": "v01:c14:p0064",
+      "forward": 0.272,
+      "backward": 0.6158
+    },
+    {
+      "para_id": "v01:c15:p0024",
+      "forward": 0.0289,
+      "backward": 0.0919
+    },
+    {
+      "para_id": "v01:c15:p0028",
+      "forward": 0.4047,
+      "backward": 0.2602
+    },
+    {
+      "para_id": "v01:c16:p0010",
+      "forward": 0.8109,
+      "backward": 0.923
+    },
+    {
+      "para_id": "v01:c16:p0022",
+      "forward": 0.3343,
+      "backward": 0.3084
+    },
+    {
+      "para_id": "v01:c16:p0024",
+      "forward": 0.9224,
+      "backward": 0.8908
+    },
+    {
+      "para_id": "v01:c17:p0005",
+      "forward": 0.3583,
+      "backward": 0.1441
+    },
+    {
+      "para_id": "v01:c17:p0014",
+      "forward": 0.8041,
+      "backward": 0.5686
+    },
+    {
+      "para_id": "v01:c17:p0016",
+      "forward": 0.9648,
+      "backward": 0.9762
+    },
+    {
+      "para_id": "v01:c17:p0028",
+      "forward": 0.0354,
+      "backward": 0.0998
+    },
+    {
+      "para_id": "v01:c18:p0002",
+      "forward": 0.5337,
+      "backward": 0.2955
+    },
+    {
+      "para_id": "v01:c18:p0003",
+      "forward": 0.9512,
+      "backward": 0.9634
+    },
+    {
+      "para_id": "v01:c18:p0007",
+      "forward": 0.957,
+      "backward": 0.9533
+    },
+    {
+      "para_id": "v01:c19:p0000",
+      "forward": 0.922,
+      "backward": 0.956
+    },
+    {
+      "para_id": "v01:c19:p0007",
+      "forward": 0.915,
+      "backward": 0.9238
+    },
+    {
+      "para_id": "v01:c19:p0009",
+      "forward": 0.956,
+      "backward": 0.8819
+    },
+    {
+      "para_id": "v01:c19:p0042",
+      "forward": 0.4249,
+      "backward": 0.9422
+    },
+    {
+      "para_id": "v01:c20:p0019",
+      "forward": 0.1782,
+      "backward": 0.8917
+    },
+    {
+      "para_id": "v01:c20:p0033",
+      "forward": 0.8788,
+      "backward": 0.9287
+    },
+    {
+      "para_id": "v01:c20:p0050",
+      "forward": 0.0883,
+      "backward": 0.9561
+    },
+    {
+      "para_id": "v01:c20:p0068",
+      "forward": 0.9484,
+      "backward": 0.9745
+    },
+    {
+      "para_id": "v01:c21:p0026",
+      "forward": 0.1762,
+      "backward": 0.4571
+    },
+    {
+      "para_id": "v01:c21:p0029",
+      "forward": 0.1092,
+      "backward": 0.955
+    },
+    {
+      "para_id": "v01:c21:p0042",
+      "forward": 0.0908,
+      "backward": 0.3884
+    },
+    {
+      "para_id": "v01:c21:p0064",
+      "forward": 0.7147,
+      "backward": 0.0264
+    },
+    {
+      "para_id": "v01:c21:p0082",
+      "forward": 0.0325,
+      "backward": 0.2268
+    },
+    {
+      "para_id": "v01:c21:p0090",
+      "forward": 0.3765,
+      "backward": 0.6452
+    },
+    {
+      "para_id": "v01:c21:p0100",
+      "forward": 0.8529,
+      "backward": 0.5877
+    },
+    {
+      "para_id": "v01:c21:p0105",
+      "forward": 0.3329,
+      "backward": 0.8711
+    },
+    {
+      "para_id": "v01:c23:p0004",
+      "forward": 0.9654,
+      "backward": 0.9658
+    },
+    {
+      "para_id": "v01:c23:p0020",
+      "forward": 0.8893,
+      "backward": 0.786
+    },
+    {
+      "para_id": "v01:c23:p0021",
+      "forward": 0.9637,
+      "backward": 0.9611
+    },
+    {
+      "para_id": "v01:c23:p0048",
+      "forward": 0.4398,
+      "backward": 0.1503
+    },
+    {
+      "para_id": "v01:c23:p0049",
+      "forward": 0.8729,
+      "backward": 0.102
+    },
+    {
+      "para_id": "v01:c23:p0055",
+      "forward": 0.2596,
+      "backward": 0.2637
+    },
+    {
+      "para_id": "v01:c23:p0062",
+      "forward": 0.8554,
+      "backward": 0.6573
+    },
+    {
+      "para_id": "v02:c00:p0001",
+      "forward": 0.922,
+      "backward": 0.1098
+    },
+    {
+      "para_id": "v02:c00:p0024",
+      "forward": 0.9711,
+      "backward": 0.9549
+    },
+    {
+      "para_id": "v02:c01:p0001",
+      "forward": 0.8022,
+      "backward": 0.3213
+    },
+    {
+      "para_id": "v02:c01:p0013",
+      "forward": 0.6168,
+      "backward": 0.8462
+    },
+    {
+      "para_id": "v02:c01:p0037",
+      "forward": 0.903,
+      "backward": 0.0403
+    },
+    {
+      "para_id": "v02:c01:p0038",
+      "forward": 0.9607,
+      "backward": 0.9443
+    },
+    {
+      "para_id": "v02:c01:p0044",
+      "forward": 0.9337,
+      "backward": 0.9025
+    },
+    {
+      "para_id": "v02:c02:p0009",
+      "forward": 0.1282,
+      "backward": 0.0305
+    },
+    {
+      "para_id": "v02:c02:p0025",
+      "forward": 0.0295,
+      "backward": 0.0879
+    },
+    {
+      "para_id": "v02:c02:p0026",
+      "forward": 0.902,
+      "backward": 0.2093
+    },
+    {
+      "para_id": "v02:c02:p0031",
+      "forward": 0.1711,
+      "backward": 0.2688
+    },
+    {
+      "para_id": "v02:c02:p0039",
+      "forward": 0.0551,
+      "backward": 0.1074
+    },
+    {
+      "para_id": "v02:c02:p0040",
+      "forward": 0.1561,
+      "backward": 0.103
+    },
+    {
+      "para_id": "v02:c02:p0043",
+      "forward": 0.9679,
+      "backward": 0.9639
+    },
+    {
+      "para_id": "v02:c02:p0048",
+      "forward": 0.7606,
+      "backward": 0.9244
+    },
+    {
+      "para_id": "v02:c02:p0051",
+      "forward": 0.7315,
+      "backward": 0.4789
+    },
+    {
+      "para_id": "v02:c03:p0003",
+      "forward": 0.9423,
+      "backward": 0.4348
+    },
+    {
+      "para_id": "v02:c03:p0020",
+      "forward": 0.5513,
+      "backward": 0.1468
+    },
+    {
+      "para_id": "v02:c03:p0036",
+      "forward": 0.1061,
+      "backward": 0.1549
+    },
+    {
+      "para_id": "v02:c03:p0047",
+      "forward": 0.8907,
+      "backward": 0.9339
+    },
+    {
+      "para_id": "v02:c03:p0057",
+      "forward": 0.3733,
+      "backward": 0.4072
+    },
+    {
+      "para_id": "v02:c03:p0067",
+      "forward": 0.3098,
+      "backward": 0.0162
+    },
+    {
+      "para_id": "v02:c03:p0068",
+      "forward": 0.4218,
+      "backward": 0.0206
+    },
+    {
+      "para_id": "v02:c03:p0074",
+      "forward": 0.8357,
+      "backward": 0.9674
+    },
+    {
+      "para_id": "v02:c04:p0010",
+      "forward": 0.9488,
+      "backward": 0.9361
+    },
+    {
+      "para_id": "v02:c04:p0023",
+      "forward": 0.953,
+      "backward": 0.8981
+    },
+    {
+      "para_id": "v02:c04:p0026",
+      "forward": 0.9652,
+      "backward": 0.8828
+    },
+    {
+      "para_id": "v02:c04:p0045",
+      "forward": 0.9298,
+      "backward": 0.8385
+    },
+    {
+      "para_id": "v02:c04:p0047",
+      "forward": 0.8016,
+      "backward": 0.9001
+    },
+    {
+      "para_id": "v02:c04:p0048",
+      "forward": 0.9406,
+      "backward": 0.2259
+    },
+    {
+      "para_id": "v02:c04:p0061",
+      "forward": 0.9555,
+      "backward": 0.9576
+    },
+    {
+      "para_id": "v02:c05:p0010",
+      "forward": 0.8615,
+      "backward": 0.8879
+    },
+    {
+      "para_id": "v02:c05:p0022",
+      "forward": 0.3833,
+      "backward": 0.3524
+    },
+    {
+      "para_id": "v02:c05:p0049",
+      "forward": 0.9662,
+      "backward": 0.9497
+    },
+    {
+      "para_id": "v02:c05:p0051",
+      "forward": 0.9131,
+      "backward": 0.9191
+    },
+    {
+      "para_id": "v02:c05:p0089",
+      "forward": 0.9506,
+      "backward": 0.9616
+    },
+    {
+      "para_id": "v02:c05:p0101",
+      "forward": 0.628,
+      "backward": 0.9392
+    },
+    {
+      "para_id": "v02:c06:p0010",
+      "forward": 0.0774,
+      "backward": 0.0891
+    },
+    {
+      "para_id": "v02:c07:p0010",
+      "forward": 0.9658,
+      "backward": 0.8848
+    },
+    {
+      "para_id": "v02:c07:p0011",
+      "forward": 0.0655,
+      "backward": 0.1346
+    },
+    {
+      "para_id": "v02:c07:p0020",
+      "forward": 0.0805,
+      "backward": 0.9454
+    },
+    {
+      "para_id": "v02:c07:p0021",
+      "forward": 0.9186,
+      "backward": 0.6163
+    },
+    {
+      "para_id": "v02:c07:p0055",
+      "forward": 0.9634,
+      "backward": 0.9461
+    },
+    {
+      "para_id": "v02:c07:p0057",
+      "forward": 0.105,
+      "backward": 0.1127
+    },
+    {
+      "para_id": "v02:c08:p0000",
+      "forward": 0.9411,
+      "backward": 0.7307
+    },
+    {
+      "para_id": "v02:c08:p0004",
+      "forward": 0.6011,
+      "backward": 0.8489
+    },
+    {
+      "para_id": "v02:c08:p0008",
+      "forward": 0.7006,
+      "backward": 0.1644
+    },
+    {
+      "para_id": "v02:c08:p0016",
+      "forward": 0.9726,
+      "backward": 0.9376
+    },
+    {
+      "para_id": "v02:c08:p0037",
+      "forward": 0.2457,
+      "backward": 0.0629
+    },
+    {
+      "para_id": "v02:c09:p0010",
+      "forward": 0.0553,
+      "backward": 0.7928
+    },
+    {
+      "para_id": "v02:c09:p0013",
+      "forward": 0.5611,
+      "backward": 0.3098
+    },
+    {
+      "para_id": "v02:c09:p0017",
+      "forward": 0.3564,
+      "backward": 0.0634
+    },
+    {
+      "para_id": "v02:c11:p0012",
+      "forward": 0.5644,
+      "backward": 0.935
+    },
+    {
+      "para_id": "v02:c11:p0019",
+      "forward": 0.3273,
+      "backward": 0.7971
+    },
+    {
+      "para_id": "v02:c11:p0020",
+      "forward": 0.9679,
+      "backward": 0.9614
+    },
+    {
+      "para_id": "v02:c12:p0010",
+      "forward": 0.92,
+      "backward": 0.2351
+    },
+    {
+      "para_id": "v02:c12:p0012",
+      "forward": 0.8728,
+      "backward": 0.7829
+    },
+    {
+      "para_id": "v02:c12:p0014",
+      "forward": 0.6309,
+      "backward": 0.1404
+    },
+    {
+      "para_id": "v02:c12:p0034",
+      "forward": 0.6073,
+      "backward": 0.5975
+    },
+    {
+      "para_id": "v02:c12:p0037",
+      "forward": 0.9702,
+      "backward": 0.9614
+    },
+    {
+      "para_id": "v02:c13:p0003",
+      "forward": 0.8064,
+      "backward": 0.7592
+    },
+    {
+      "para_id": "v02:c13:p0006",
+      "forward": 0.8834,
+      "backward": 0.9181
+    },
+    {
+      "para_id": "v02:c13:p0014",
+      "forward": 0.944,
+      "backward": 0.9199
+    },
+    {
+      "para_id": "v02:c13:p0015",
+      "forward": 0.1036,
+      "backward": 0.0484
+    },
+    {
+      "para_id": "v02:c13:p0019",
+      "forward": 0.2423,
+      "backward": 0.0127
+    },
+    {
+      "para_id": "v02:c13:p0037",
+      "forward": 0.0567,
+      "backward": 0.4608
+    },
+    {
+      "para_id": "v02:c13:p0040",
+      "forward": 0.9335,
+      "backward": 0.4823
+    },
+    {
+      "para_id": "v02:c13:p0049",
+      "forward": 0.8358,
+      "backward": 0.0826
+    },
+    {
+      "para_id": "v02:c14:p0000",
+      "forward": 0.0473,
+      "backward": 0.1001
+    },
+    {
+      "para_id": "v02:c14:p0023",
+      "forward": 0.7,
+      "backward": 0.0513
+    },
+    {
+      "para_id": "v02:c14:p0033",
+      "forward": 0.1685,
+      "backward": 0.1182
+    },
+    {
+      "para_id": "v02:c14:p0034",
+      "forward": 0.1088,
+      "backward": 0.0899
+    },
+    {
+      "para_id": "v02:c14:p0042",
+      "forward": 0.0754,
+      "backward": 0.6631
+    },
+    {
+      "para_id": "v02:c14:p0047",
+      "forward": 0.9539,
+      "backward": 0.9414
+    },
+    {
+      "para_id": "v02:c14:p0049",
+      "forward": 0.8,
+      "backward": 0.8687
+    },
+    {
+      "para_id": "v02:c15:p0008",
+      "forward": 0.9604,
+      "backward": 0.9641
+    },
+    {
+      "para_id": "v02:c15:p0013",
+      "forward": 0.1148,
+      "backward": 0.9527
+    },
+    {
+      "para_id": "v02:c15:p0018",
+      "forward": 0.6663,
+      "backward": 0.3161
+    },
+    {
+      "para_id": "v02:c15:p0023",
+      "forward": 0.3412,
+      "backward": 0.9141
+    },
+    {
+      "para_id": "v02:c15:p0024",
+      "forward": 0.2092,
+      "backward": 0.0601
+    },
+    {
+      "para_id": "v02:c15:p0037",
+      "forward": 0.9481,
+      "backward": 0.9552
+    },
+    {
+      "para_id": "v02:c15:p0039",
+      "forward": 0.5054,
+      "backward": 0.0348
+    },
+    {
+      "para_id": "v02:c16:p0002",
+      "forward": 0.9591,
+      "backward": 0.9512
+    },
+    {
+      "para_id": "v02:c17:p0005",
+      "forward": 0.9326,
+      "backward": 0.8214
+    },
+    {
+      "para_id": "v02:c17:p0017",
+      "forward": 0.0394,
+      "backward": 0.0518
+    },
+    {
+      "para_id": "v02:c17:p0025",
+      "forward": 0.0519,
+      "backward": 0.2091
+    },
+    {
+      "para_id": "v02:c17:p0041",
+      "forward": 0.9213,
+      "backward": 0.3853
+    },
+    {
+      "para_id": "v02:c17:p0045",
+      "forward": 0.0219,
+      "backward": 0.0387
+    },
+    {
+      "para_id": "v02:c18:p0015",
+      "forward": 0.0162,
+      "backward": 0.0323
+    },
+    {
+      "para_id": "v02:c18:p0019",
+      "forward": 0.9217,
+      "backward": 0.6
+    },
+    {
+      "para_id": "v02:c18:p0027",
+      "forward": 0.9003,
+      "backward": 0.8838
+    },
+    {
+      "para_id": "v02:c18:p0035",
+      "forward": 0.1302,
+      "backward": 0.7
+    },
+    {
+      "para_id": "v02:c18:p0036",
+      "forward": 0.0658,
+      "backward": 0.7955
+    },
+    {
+      "para_id": "v02:c19:p0003",
+      "forward": 0.0568,
+      "backward": 0.3041
+    },
+    {
+      "para_id": "v02:c19:p0016",
+      "forward": 0.0716,
+      "backward": 0.1066
+    },
+    {
+      "para_id": "v02:c20:p0005",
+      "forward": 0.9174,
+      "backward": 0.8443
+    },
+    {
+      "para_id": "v02:c20:p0012",
+      "forward": 0.0441,
+      "backward": 0.215
+    },
+    {
+      "para_id": "v02:c20:p0018",
+      "forward": 0.9237,
+      "backward": 0.9266
+    },
+    {
+      "para_id": "v02:c20:p0020",
+      "forward": 0.9388,
+      "backward": 0.3667
+    },
+    {
+      "para_id": "v02:c20:p0021",
+      "forward": 0.1413,
+      "backward": 0.2886
+    },
+    {
+      "para_id": "v02:c20:p0023",
+      "forward": 0.1307,
+      "backward": 0.2467
+    },
+    {
+      "para_id": "v02:c20:p0024",
+      "forward": 0.9084,
+      "backward": 0.9469
+    },
+    {
+      "para_id": "v02:c20:p0033",
+      "forward": 0.0448,
+      "backward": 0.07
+    },
+    {
+      "para_id": "v02:c20:p0035",
+      "forward": 0.0837,
+      "backward": 0.0706
+    },
+    {
+      "para_id": "v02:c20:p0036",
+      "forward": 0.9368,
+      "backward": 0.9497
+    },
+    {
+      "para_id": "v02:c21:p0004",
+      "forward": 0.1714,
+      "backward": 0.0895
+    },
+    {
+      "para_id": "v02:c22:p0003",
+      "forward": 0.9218,
+      "backward": 0.9331
+    }
+  ]
+}

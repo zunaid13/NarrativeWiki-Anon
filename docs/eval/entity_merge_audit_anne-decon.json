@@ -1,0 +1,426 @@
+[
+ {
+  "entity": "grace",
+  "flag": "span",
+  "forms": {
+   "Grace": 1,
+   "Gracie": 2,
+   "Grace Ashdown": 5,
+   "Red Rose": 5
+  }
+ },
+ {
+  "entity": "grace",
+  "flag": "surname",
+  "surnames": [
+   "Ashdown",
+   "Rose"
+  ],
+  "forms": {
+   "Grace Ashdown": 5,
+   "Red Rose": 5
+  }
+ },
+ {
+  "entity": "robin-farrow",
+  "flag": "span",
+  "forms": {
+   "Robin": 2,
+   "Robin Farrow": 2,
+   "Master Robin": 4
+  }
+ },
+ {
+  "entity": "robin-farrow",
+  "flag": "surname",
+  "surnames": [
+   "Farrow",
+   "Robin"
+  ],
+  "forms": {
+   "Robin Farrow": 2,
+   "Master Robin": 4
+  }
+ },
+ {
+  "entity": "winifred-tolley",
+  "flag": "surname",
+  "surnames": [
+   "Kerr",
+   "Tolley"
+  ],
+  "forms": {
+   "Winifred Tolley": 4,
+   "Mrs. Ambrose Kerr": 5
+  }
+ },
+ {
+  "entity": "uncle-saul",
+  "flag": "surname",
+  "surnames": [
+   "Garrick",
+   "lighthouse"
+  ],
+  "forms": {
+   "Saul Garrick": 4,
+   "the former sea captain running the Seven Gulls lighthouse": 4
+  }
+ },
+ {
+  "entity": "tabitha",
+  "flag": "span",
+  "forms": {
+   "Tabitha": 1,
+   "Tabitha Pratt": 4
+  }
+ },
+ {
+  "entity": "agatha-sowerby",
+  "flag": "span",
+  "forms": {
+   "Agatha": 1,
+   "Agatha Sowerby": 1,
+   "Mrs. Agatha": 4,
+   "Mrs. Agatha Sowerby": 4
+  }
+ },
+ {
+  "entity": "cressy-lindsay",
+  "flag": "surname",
+  "surnames": [
+   "Hale",
+   "Lindsay"
+  ],
+  "forms": {
+   "Cressida Lindsay": 3,
+   "Cressy Lindsay": 3,
+   "Cressy Hale": 4
+  }
+ },
+ {
+  "entity": "odette",
+  "flag": "span",
+  "forms": {
+   "Odette": 1,
+   "Schoolma’am Odette": 2,
+   "Miss Drew": 5
+  }
+ },
+ {
+  "entity": "honora-hollis",
+  "flag": "span",
+  "forms": {
+   "Honora": 1,
+   "Honora Hollis": 1,
+   "Hollis": 2,
+   "Sukey": 3,
+   "Nonie": 3
+  }
+ },
+ {
+  "entity": "edmund",
+  "flag": "span",
+  "forms": {
+   "Edmund": 1,
+   "Edmund Carrow": 5
+  }
+ },
+ {
+  "entity": "nell-harcourt",
+  "flag": "span",
+  "forms": {
+   "Nell Harcourt": 1,
+   "Queen Nell": 3
+  }
+ },
+ {
+  "entity": "nell-harcourt",
+  "flag": "surname",
+  "surnames": [
+   "Harcourt",
+   "Nell"
+  ],
+  "forms": {
+   "Nell Harcourt": 1,
+   "Queen Nell": 3
+  }
+ },
+ {
+  "entity": "twiss",
+  "flag": "span",
+  "forms": {
+   "Twiss": 3,
+   "Hector Twiss": 5,
+   "Kitty Hector": 5,
+   "Mrs. Hector Twiss": 5,
+   "Mrs. Twiss": 5,
+   "old Kitty Hector": 5
+  }
+ },
+ {
+  "entity": "twiss",
+  "flag": "surname",
+  "surnames": [
+   "Hector",
+   "Twiss"
+  ],
+  "forms": {
+   "Hector Twiss": 5,
+   "Kitty Hector": 5,
+   "Mrs. Hector Twiss": 5,
+   "old Kitty Hector": 5
+  }
+ },
+ {
+  "entity": "carrow",
+  "flag": "surname",
+  "surnames": [
+   "girls",
+   "twins"
+  ],
+  "forms": {
+   "the Hollowmere twins": 5,
+   "the Carrow girls": 5
+  }
+ },
+ {
+  "entity": "ambrose",
+  "flag": "span",
+  "forms": {
+   "Ambrose": 1,
+   "Ambrose Kerr": 4,
+   "Mr. Kerr": 5
+  }
+ },
+ {
+  "entity": "thomas-sowerby",
+  "flag": "surname",
+  "surnames": [
+   "Sowerby",
+   "husband"
+  ],
+  "forms": {
+   "Thomas Sowerby": 1,
+   "Agatha Sowerby’s husband": 1
+  }
+ },
+ {
+  "entity": "john-ashdown",
+  "flag": "surname",
+  "surnames": [
+   "Ashdown",
+   "minister",
+   "pastor"
+  ],
+  "forms": {
+   "John Ashdown": 5,
+   "the Glen pastor": 5,
+   "Presbyterian minister": 5
+  }
+ },
+ {
+  "entity": "izzy",
+  "flag": "span",
+  "forms": {
+   "Izzy": 1,
+   "Izzy Carrow": 5
+  }
+ },
+ {
+  "entity": "gorham-pullen",
+  "flag": "span",
+  "forms": {
+   "Gorham Pullen": 1,
+   "Gorham": 3
+  }
+ },
+ {
+  "entity": "wilfred-mott",
+  "flag": "span",
+  "forms": {
+   "Wilfred Mott": 1,
+   "Goggle-eyes": 3
+  }
+ },
+ {
+  "entity": "emily",
+  "flag": "span",
+  "forms": {
+   "Emily": 1,
+   "Cousin Emily": 3,
+   "Fair Unknown": 2
+  }
+ },
+ {
+  "entity": "elias-purdy-mackinnon",
+  "flag": "surname",
+  "surnames": [
+   "MacKinnon",
+   "Purdy"
+  ],
+  "forms": {
+   "Elias Purdy": 1,
+   "Elias Purdy MacKinnon": 1
+  }
+ },
+ {
+  "entity": "doctor-dave",
+  "flag": "surname",
+  "surnames": [
+   "Dave",
+   "Doctor"
+  ],
+  "forms": {
+   "Doctor Dave": 4,
+   "the aged Doctor": 4
+  }
+ },
+ {
+  "entity": "stephen-stanhope",
+  "flag": "surname",
+  "surnames": [
+   "Charming",
+   "Stanhope"
+  ],
+  "forms": {
+   "Stephen Stanhope": 2,
+   "Prince Charming": 2
+  }
+ },
+ {
+  "entity": "james-a",
+  "flag": "span",
+  "forms": {
+   "James A": 2,
+   "James": 3,
+   "James Obed": 4,
+   "Mr. Ashdown": 5
+  }
+ },
+ {
+  "entity": "james-a",
+  "flag": "surname",
+  "surnames": [
+   "A",
+   "Obed"
+  ],
+  "forms": {
+   "James A": 2,
+   "James Obed": 4
+  }
+ },
+ {
+  "entity": "martin",
+  "flag": "span",
+  "forms": {
+   "Martin": 1,
+   "Martin Crawford": 5
+  }
+ },
+ {
+  "entity": "shakespeare",
+  "flag": "span",
+  "forms": {
+   "Shakespeare": 2,
+   "Bertie Shakespeare": 4,
+   "Bertie Shakespeare Drew": 5
+  }
+ },
+ {
+  "entity": "shakespeare",
+  "flag": "surname",
+  "surnames": [
+   "Drew",
+   "Shakespeare"
+  ],
+  "forms": {
+   "Bertie Shakespeare": 4,
+   "Bertie Shakespeare Drew": 5
+  }
+ },
+ {
+  "entity": "baxter",
+  "flag": "span",
+  "forms": {
+   "Baxter": 2,
+   "Robert Baxter": 4
+  }
+ },
+ {
+  "entity": "nell",
+  "flag": "split",
+  "with": [
+   "nell-harcourt"
+  ]
+ },
+ {
+  "entity": "isolde",
+  "flag": "split",
+  "with": [
+   "isolde-pembroke",
+   "isolde-duckett"
+  ]
+ },
+ {
+  "entity": "obed",
+  "flag": "split",
+  "with": [
+   "obed-abernethy"
+  ]
+ },
+ {
+  "entity": "mary",
+  "flag": "split",
+  "with": [
+   "mary-stubbs",
+   "mary-joe"
+  ]
+ },
+ {
+  "entity": "odette",
+  "flag": "split",
+  "with": [
+   "odette-pullen",
+   "odette-ann"
+  ]
+ },
+ {
+  "entity": "joe",
+  "flag": "split",
+  "with": [
+   "joe-mott",
+   "joe-vickers"
+  ]
+ },
+ {
+  "entity": "henry",
+  "flag": "split",
+  "with": [
+   "henry-warren"
+  ]
+ },
+ {
+  "entity": "elizabeth",
+  "flag": "split",
+  "with": [
+   "elizabeth-russell",
+   "elizabeth-kirk"
+  ]
+ },
+ {
+  "entity": "aunt-mary",
+  "flag": "split",
+  "with": [
+   "mary-stubbs",
+   "mary-joe"
+  ]
+ },
+ {
+  "entity": "posy",
+  "flag": "split",
+  "with": [
+   "posy-fay",
+   "posy-pullen"
+  ]
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "entity": "anne-shirley",
+  "flag": "surname",
+  "surnames": [
+   "Avery",
+   "Shirley"
+  ],
+  "forms": {
+   "Anne Shirley": 1,
+   "winner of the Avery": 1
+  }
+ },
+ {
+  "entity": "moody-spurgeon-macpherson",
+  "flag": "surname",
+  "surnames": [
+   "MacPherson",
+   "Spurgeon"
+  ],
+  "forms": {
+   "Moody Spurgeon": 1,
+   "Moody Spurgeon MacPherson": 1
+  }
+ }
+]

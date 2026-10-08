@@ -1,0 +1,14 @@
+{
+ "0": "S", "1": "S", "3": "S", "4": "S", "5": "S", "6": "S", "7": "S", "8": "S", "9": "S", "10": "S", "12": "S",
+ "13": "S", "14": "S", "16": "S", "22": "S", "23": "S", "24": "S", "25": "S", "26": "S", "29": "S", "30": "S",
+ "31": "S", "35": "S", "37": "S", "38": "S",
+ "21": ["P", "one remark that the game is enjoyable (v01:c28:p0001) and her hysterics; the trait is not stated in the cited paragraphs"],
+ "27": ["P", "the insult, the outburst and the lecture upstairs are cited (v01:c09:p0014, p0016, p0045); her leaving the room is not"],
+ "28": ["P", "the meeting on the shore is cited (v04:c10); the walks are not"],
+ "34": ["P", "he is met at the lighthouse, his dwelling (v04:c09:p0019); that he keeps the light is not said in the cited paragraphs"],
+ "36": ["P", "the fall and the broken ankle are cited (v01:c23:p0015, p0030); the seven weeks are not"],
+ "39": ["P", "the book's arrival is cited (v04:c39:p0004); the title page with both names (p0005) is not"],
+ "2": ["I", "the cited paragraphs are their first meeting and the reception (v03:c25, v03:c26); the proposal is v03:c38"],
+ "15": ["I", "the cited paragraphs are the plan to take a boy (v01:c01), before Nell arrives"],
+ "19": ["I", "the farewells and the arrival by train are cited (v03:c03:p0002, p0010); the boat is not"]
+}

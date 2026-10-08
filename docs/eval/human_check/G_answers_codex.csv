@@ -1,0 +1,112 @@
+item,established (yes / partly / no / not shown),comment
+G001,yes,AI review (Codex): v04:c09:p0032 explicitly calls Marshall Elliott a sort of dime museum freak.
+G002,yes,AI review (Codex): v02:c30:p0000 says Anne and Gilbert would leave for Redmond College two weeks later.
+G003,yes,AI review (Codex): v05:c02:p0034 explicitly says Una is ten.
+G004,yes,"AI review (Codex): Marilla reports eye pain, ineffective glasses and inability to read or sew comfortably in v01:c36:p0032."
+G005,yes,AI review (Codex): v05:c15:p0027 states Norman gave a hundred a year in the discussion of church salary and support.
+G006,yes,AI review (Codex): v02:c06:p0008 names Diana Barry as the society's treasurer.
+G007,yes,AI review (Codex): v02:c08:p0030 describes the twins living at Green Gables and Marilla attending to Dora.
+G008,yes,AI review (Codex): v02:c01:p0045 explicitly says Paul Irving is coming from the States to live with his grandmother.
+G009,yes,AI review (Codex): v05:c34:p0044 describes Una delivering the letter and identifies its writer as Rosemary.
+G010,no,"AI review (Codex): The excerpt establishes Anne's wedding day, but neither a completed marriage nor Gilbert as the groom."
+G011,yes,AI review (Codex): v02:c01:p0033 explicitly reports Davy pushing Dora headfirst into the biggest mud pie.
+G012,yes,AI review (Codex): v02:c06:p0008 names Gilbert Blythe as president.
+G013,yes,AI review (Codex): The discussion of Rosemary's trousseau and bridal white in v05:c35:p0002-0003 establishes the planned wedding to Mr. Meredith.
+G014,yes,AI review (Codex): v01:c02:p0013 describes both thick red braids and eyes appearing green in some lights.
+G015,yes,AI review (Codex): v05:c12:p0009 states Faith dared Walter to ride through Main Street on a pig.
+G016,yes,AI review (Codex): v05:c01:p0000-0002 places the Blythe household and Anne at Ingleside by Glen St. Mary.
+G017,yes,AI review (Codex): The speaker refers to my life-book and the next paragraph identifies him as Captain Jim.
+G018,yes,AI review (Codex): Anne explicitly says she dyed her hair and Marilla addresses her by name.
+G019,yes,AI review (Codex): v05:c02:p0025 explicitly states Mr. Meredith is a widower whose wife died four years earlier.
+G020,yes,AI review (Codex): Marilla explicitly says she is not going to keep the girl in v01:c03:p0065.
+G021,no,"AI review (Codex): Mr. and Mrs. Marshall Elliott are shown living together, but none of these paragraphs identifies his wife as Cornelia."
+G022,yes,AI review (Codex): v02:c01:p0045 names Stephen Irving immediately after referring to Paul's father.
+G023,partly,"AI review (Codex): Marriage to Hester Reese is stated, but marrying to spite Ellen is the speaker's conjecture (I haven't a doubt), not an established motive."
+G024,yes,AI review (Codex): v04:c18:p0052 explicitly identifies Susan as the maid-of-all-work at the little house.
+G025,yes,AI review (Codex): v03:c40:p0009 explicitly reports Gilbert's typhoid fever.
+G026,yes,AI review (Codex): v05:c05:p0027 names Mary Vance and says she attacked the food ravenously in the manse kitchen.
+G027,yes,AI review (Codex): Marilla urges continued education and explains how Anne can fund Redmond in v02:c26:p0013.
+G028,yes,AI review (Codex): v01:c15:p0038 explicitly describes Anne cracking the slate over Gilbert's head.
+G029,yes,AI review (Codex): v03:c39:p0023 explicitly states both High Honors in Classics and the Cooper Prize.
+G030,no,AI review (Codex): Captain Jim asks permission to tell the story; the displayed passage ends before he actually tells it.
+G031,yes,AI review (Codex): v02:c08:p0001 explicitly says Thomas Lynde lies on the lounge more nowadays.
+G032,yes,AI review (Codex): v03:c09:p0013 proposes Aunt Jamesina as the housekeeper for the girls' shared home.
+G033,yes,AI review (Codex): v01:c09:p0014 directly attributes the carrots comparison to Rachel Lynde.
+G034,yes,AI review (Codex): v03:c26:p0001 states Roy Gardner sent Anne white orchids for the reception.
+G035,yes,"AI review (Codex): The doctor reports instantaneous death from shock, and the narrator identifies the bank-failure news as the source of that shock."
+G036,yes,AI review (Codex): v04:c19:p0000 explicitly says Susan worshipped Anne as young Mrs. Doctor.
+G037,no,AI review (Codex): The excerpt names Anne's wedding day but never names Gilbert or establishes their completed marriage.
+G038,yes,AI review (Codex): v05:c21:p0015 says the sea had not given up Rosemary's lover.
+G039,yes,AI review (Codex): v02:c30:p0000 explicitly says Rachel would move to Green Gables in a week.
+G040,yes,AI review (Codex): v05:c02:p0013 explicitly calls Meredith moony and absent-minded and his sermon wonderful.
+G041,no,AI review (Codex): Dick's letter states an intention to accompany George to Havana; the excerpt does not establish that the voyage occurred.
+G042,yes,"AI review (Codex): Jane explains Billy asked her to propose, and the narrator confirms she is proposing for her brother."
+G043,yes,AI review (Codex): v02:c01:p0010 explicitly names Harrison's parrot Ginger and says it swore terribly.
+G044,partly,"AI review (Codex): Anne's realization that she loves the dying Gilbert is explicit, but typhoid is not identified in these paragraphs."
+G045,yes,"AI review (Codex): Marilla identifies the currant wine, and Anne explains the mistaken cordial and Diana's drunkenness."
+G046,yes,AI review (Codex): v03:c24:p0009 explicitly states Jonas Blake's theological studies and charge of the mission church.
+G047,yes,"AI review (Codex): Josie says you couldn't walk a ridgepole, and Anne's reply identifies the person addressed."
+G048,no,"AI review (Codex): Emily is associated with Harrison's newly tidy home, but none of the displayed paragraphs establishes that she is his wife."
+G049,partly,AI review (Codex): Walter's dreamy imagination and love of beauty are explicit; having a poetry volume beside him does not establish a love of poetry.
+G050,yes,"AI review (Codex): v01:c24:p0001 directly describes Miss Stacy as bright, sympathetic and able to win her pupils' affection."
+G051,yes,AI review (Codex): Anne's regret at having nothing of her mother's and thanks for these letters establish the mother's letters as the gift.
+G052,yes,AI review (Codex): v02:c07:p0030 directly describes Dora as good and quiet.
+G053,yes,AI review (Codex): v05:c23:p0054 explicitly has Jem suggest forming a Good-Conduct Club.
+G054,partly,"AI review (Codex): Captain Jim's death is explicit, but publication of the life-book and its timing are absent."
+G055,yes,AI review (Codex): v01:c01:p0004 explicitly calls Matthew the shyest man alive.
+G056,partly,"AI review (Codex): Gilbert's boat rescue and rowing are shown, but the flat is said to leak; its sinking is not established here."
+G057,partly,"AI review (Codex): Mrs. Barry credits Anne with saving Minnie May's life, but the illness is not identified as croup in this excerpt."
+G058,partly,"AI review (Codex): Anne names him James Matthew, but neither his birth nor the nickname Jem is established by these paragraphs alone."
+G059,yes,AI review (Codex): Diana's remark explicitly says Anne has won the Avery.
+G060,yes,"AI review (Codex): v05:c02:p0034 identifies Carl and his mania for collecting toads, bugs and frogs."
+G061,yes,AI review (Codex): Norman's reported wish to marry Ellen is confirmed by Ellen's response and thoughts about becoming a bride.
+G062,yes,AI review (Codex): v02:c06:p0008 explicitly names Anne Shirley as secretary.
+G063,yes,AI review (Codex): Diana explicitly says she is engaged in v02:c29:p0016.
+G064,partly,"AI review (Codex): Anne thanks Gilbert for giving up the school for her, but the excerpt does not name Avonlea or establish her starting as its teacher."
+G065,yes,AI review (Codex): Anne explicitly says Roy asked her to marry him and she refused.
+G066,yes,AI review (Codex): v05:c15:p0031 explicitly says Ellen and Norman went about together for two years.
+G067,yes,AI review (Codex): Charlotta says she will go to Boston to live with Mr. Irving and Miss Lavendar after their tour.
+G068,yes,AI review (Codex): Anne recites the friendship oath and v01:c12:p0036 says Diana repeated it.
+G069,yes,AI review (Codex): Ruby explicitly says she will soon be lying dead in the graveyard.
+G070,no,"AI review (Codex): Gilbert is said to be going to settle at Four Winds, but the excerpt neither calls him a doctor nor establishes the completed move or practice."
+G071,yes,AI review (Codex): Paul explicitly loves Miss Lavendar and calls her his father's chosen second mother.
+G072,yes,AI review (Codex): v05:c01:p0003 explicitly identifies Rilla as the youngest Ingleside child.
+G073,partly,AI review (Codex): Anne thanks Gilbert for giving up the school for her; the particular school and teaching position are not identified here.
+G074,yes,AI review (Codex): Anne explicitly reports Mr. Phillips calling her spelling disgraceful.
+G075,yes,AI review (Codex): v03:c09:p0007 states Stella had been teaching school ever since Queen's Academy.
+G076,yes,AI review (Codex): Phil explicitly reports Gilbert going about constantly with Christine Stuart; the fact preserves its reported status.
+G077,yes,AI review (Codex): Diana reports Lavendar's former engagement to Stephen Irving and subsequent separation.
+G078,no,"AI review (Codex): Anne welcomes and lifts the arriving twins, but a single greeting does not establish that she helps raise them."
+G079,no,AI review (Codex): Anne anticipates going to Redmond and boarding in Kingsport; the paragraphs do not show her already studying there.
+G080,yes,AI review (Codex): v04:c40:p0011 explicitly says Leslie and Owen were to marry at Christmas.
+G081,yes,AI review (Codex): v05:c10:p0018 directly links Carl's sore throat to getting wet in Rainbow Valley marsh.
+G082,yes,"AI review (Codex): Philippa explicitly says she hails from Bolingbroke, Nova Scotia."
+G083,yes,AI review (Codex): v04:c22:p0019 identifies Owen Ford as both a newspaper man and the house-builder's grandson.
+G084,yes,"AI review (Codex): Anne admits selling Harrison's Jersey to Shearer, with her own Dolly still at home, establishing the mistaken cow sale."
+G085,yes,AI review (Codex): v04:c31:p0028 explicitly reveals that the supposed Dick is his cousin George Moore.
+G086,yes,AI review (Codex): Anne explicitly reports the teacher making eyes at Prissy Andrews in v01:c15:p0011.
+G087,yes,"AI review (Codex): Anne explicitly names Bolingbroke, Nova Scotia, as her birthplace."
+G088,yes,"AI review (Codex): v04:c06:p0014 directly supplies high-souled, simple-minded and iron-gray hair."
+G089,yes,AI review (Codex): v01:c38:p0038 explicitly reports Gilbert saying he would teach at White Sands.
+G090,yes,AI review (Codex): v05:c12:p0009 explicitly states Faith's dare to Walter to ride a pig through Main Street.
+G091,yes,AI review (Codex): v02:c30:p0030 explicitly names Lavendar and Stephen as pronounced man and wife.
+G092,yes,AI review (Codex): Anne explicitly longs for the thrill of wearing puffed sleeves.
+G093,no,"AI review (Codex): The excerpt shows a farewell party before Jane's departure, but does not establish that she has actually left."
+G094,yes,AI review (Codex): Marilla states she and Matthew requested a boy and that a mistake occurred; Mrs. Spencer confirms the contrary message for a girl.
+G095,no,"AI review (Codex): The excerpt establishes plans to attend Redmond and board together, not completed attendance and boarding."
+G096,yes,AI review (Codex): v04:c31:p0028 explicitly says Dick Moore died of yellow fever in Cuba.
+G097,yes,AI review (Codex): v02:c01:p0047 explicitly describes her living alone in the little stone house called Echo Lodge.
+G098,partly,"AI review (Codex): James Matthew is named after two gentlemen, but these paragraphs do not identify either gentleman as Matthew Cuthbert or identify the child as Anne's son."
+G099,yes,"AI review (Codex): Anne refuses Gilbert's romantic request, and the narration explicitly characterizes the encounter as a proposal."
+G100,no,"AI review (Codex): Anne has chosen a heroine's name but has no plot yet; the displayed text establishes a planned story, not one she has written."
+G101,partly,"AI review (Codex): Anne's loss of little Joyce is conveyed, but her being the first baby is not established here."
+G102,yes,AI review (Codex): Walter explicitly says he hates Dan Reese.
+G103,yes,"AI review (Codex): Ruby's mother explicitly refers to the afternoon before Ruby died, in a funeral scene."
+G104,no,"AI review (Codex): The wedding is still anticipated as the next excitement; Fred is identified as a suitable groom, but the completed marriage is not shown."
+G105,yes,AI review (Codex): v02:c05:p0004 directly describes Anthony's sullen face and hostile stare at Anne.
+G106,no,"AI review (Codex): Mary offers to set Cornelia's bread, but these paragraphs do not establish that Mary lives with her."
+G107,yes,AI review (Codex): Captain Jim explicitly describes Cornelia's chronic spite against men and Methodists.
+G108,no,"AI review (Codex): The excerpt says Gilbert plans to settle at Four Winds, but does not show Anne living there or name the House of Dreams."
+G109,yes,"AI review (Codex): Ellen reminds Rosemary of her promise, and Rosemary responds to her sister about it."
+G110,yes,AI review (Codex): v04:c11:p0026-0027 explicitly describes the mother's pressure and Leslie's consequent marriage to Dick.
+G111,no,"AI review (Codex): A stranger is introduced as Captain Boyd, but the displayed text never identifies that stranger as Captain Jim."

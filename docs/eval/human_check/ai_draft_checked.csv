@@ -1,0 +1,555 @@
+item,codex,codex pair,claude (where different),AI draft after check,status,claude note,codex comment
+G001,yes,,,yes,agree,,AI review (Codex): v04:c09:p0032 explicitly calls Marshall Elliott a sort of dime museum freak.
+G002,yes,,,yes,agree,,AI review (Codex): v02:c30:p0000 says Anne and Gilbert would leave for Redmond College two weeks later.
+G003,yes,,,yes,agree,,AI review (Codex): v05:c02:p0034 explicitly says Una is ten.
+G004,yes,,,yes,agree,,"AI review (Codex): Marilla reports eye pain, ineffective glasses and inability to read or sew comfortably in v01:c36:p0032."
+G005,yes,,,yes,agree,,AI review (Codex): v05:c15:p0027 states Norman gave a hundred a year in the discussion of church salary and support.
+G006,yes,,,yes,agree,,AI review (Codex): v02:c06:p0008 names Diana Barry as the society's treasurer.
+G007,yes,,,yes,agree,,AI review (Codex): v02:c08:p0030 describes the twins living at Green Gables and Marilla attending to Dora.
+G008,yes,,,yes,agree,,AI review (Codex): v02:c01:p0045 explicitly says Paul Irving is coming from the States to live with his grandmother.
+G009,yes,,,yes,agree,,AI review (Codex): v05:c34:p0044 describes Una delivering the letter and identifies its writer as Rosemary.
+G010,no,,partly,no,boundary,"plan or announcement, not the completed event: G has no rule for it (R's rule says a plan is no)","AI review (Codex): The excerpt establishes Anne's wedding day, but neither a completed marriage nor Gilbert as the groom."
+G011,yes,,,yes,agree,,AI review (Codex): v02:c01:p0033 explicitly reports Davy pushing Dora headfirst into the biggest mud pie.
+G012,yes,,,yes,agree,,AI review (Codex): v02:c06:p0008 names Gilbert Blythe as president.
+G013,yes,,,yes,agree,,AI review (Codex): The discussion of Rosemary's trousseau and bridal white in v05:c35:p0002-0003 establishes the planned wedding to Mr. Meredith.
+G014,yes,,,yes,agree,,AI review (Codex): v01:c02:p0013 describes both thick red braids and eyes appearing green in some lights.
+G015,yes,,,yes,agree,,AI review (Codex): v05:c12:p0009 states Faith dared Walter to ride through Main Street on a pig.
+G016,yes,,,yes,agree,,AI review (Codex): v05:c01:p0000-0002 places the Blythe household and Anne at Ingleside by Glen St. Mary.
+G017,yes,,,yes,agree,,AI review (Codex): The speaker refers to my life-book and the next paragraph identifies him as Captain Jim.
+G018,yes,,,yes,agree,,AI review (Codex): Anne explicitly says she dyed her hair and Marilla addresses her by name.
+G019,yes,,,yes,agree,,AI review (Codex): v05:c02:p0025 explicitly states Mr. Meredith is a widower whose wife died four years earlier.
+G020,yes,,,yes,agree,,AI review (Codex): Marilla explicitly says she is not going to keep the girl in v01:c03:p0065.
+G021,no,,partly,no,boundary,Mr. and Mrs. Marshall Elliott are a couple; the wife is not named Cornelia here,"AI review (Codex): Mr. and Mrs. Marshall Elliott are shown living together, but none of these paragraphs identifies his wife as Cornelia."
+G022,yes,,,yes,agree,,AI review (Codex): v02:c01:p0045 names Stephen Irving immediately after referring to Paul's father.
+G023,partly,,,partly,agree,,"AI review (Codex): Marriage to Hester Reese is stated, but marrying to spite Ellen is the speaker's conjecture (I haven't a doubt), not an established motive."
+G024,yes,,,yes,agree,,AI review (Codex): v04:c18:p0052 explicitly identifies Susan as the maid-of-all-work at the little house.
+G025,yes,,,yes,agree,,AI review (Codex): v03:c40:p0009 explicitly reports Gilbert's typhoid fever.
+G026,yes,,,yes,agree,,AI review (Codex): v05:c05:p0027 names Mary Vance and says she attacked the food ravenously in the manse kitchen.
+G027,yes,,,yes,agree,,AI review (Codex): Marilla urges continued education and explains how Anne can fund Redmond in v02:c26:p0013.
+G028,yes,,,yes,agree,,AI review (Codex): v01:c15:p0038 explicitly describes Anne cracking the slate over Gilbert's head.
+G029,yes,,,yes,agree,,AI review (Codex): v03:c39:p0023 explicitly states both High Honors in Classics and the Cooper Prize.
+G030,no,,partly,no,boundary,he asks to tell it and Anne agrees; the telling follows the excerpt,AI review (Codex): Captain Jim asks permission to tell the story; the displayed passage ends before he actually tells it.
+G031,yes,,,yes,agree,,AI review (Codex): v02:c08:p0001 explicitly says Thomas Lynde lies on the lounge more nowadays.
+G032,yes,,,yes,agree,,AI review (Codex): v03:c09:p0013 proposes Aunt Jamesina as the housekeeper for the girls' shared home.
+G033,yes,,,yes,agree,,AI review (Codex): v01:c09:p0014 directly attributes the carrots comparison to Rachel Lynde.
+G034,yes,,,yes,agree,,AI review (Codex): v03:c26:p0001 states Roy Gardner sent Anne white orchids for the reception.
+G035,yes,,,yes,agree,,"AI review (Codex): The doctor reports instantaneous death from shock, and the narrator identifies the bank-failure news as the source of that shock."
+G036,yes,,,yes,agree,,AI review (Codex): v04:c19:p0000 explicitly says Susan worshipped Anne as young Mrs. Doctor.
+G037,no,,partly,no,boundary,"plan or announcement, not the completed event: G has no rule for it (R's rule says a plan is no)",AI review (Codex): The excerpt names Anne's wedding day but never names Gilbert or establishes their completed marriage.
+G038,yes,,,yes,agree,,AI review (Codex): v05:c21:p0015 says the sea had not given up Rosemary's lover.
+G039,yes,,,yes,agree,,AI review (Codex): v02:c30:p0000 explicitly says Rachel would move to Green Gables in a week.
+G040,yes,,,yes,agree,,AI review (Codex): v05:c02:p0013 explicitly calls Meredith moony and absent-minded and his sermon wonderful.
+G041,no,,partly,no,boundary,he wrote that he was going too; 'it must have been a relief to Leslie' follows,AI review (Codex): Dick's letter states an intention to accompany George to Havana; the excerpt does not establish that the voyage occurred.
+G042,yes,,,yes,agree,,"AI review (Codex): Jane explains Billy asked her to propose, and the narrator confirms she is proposing for her brother."
+G043,yes,,,yes,agree,,AI review (Codex): v02:c01:p0010 explicitly names Harrison's parrot Ginger and says it swore terribly.
+G044,partly,,,partly,agree,,"AI review (Codex): Anne's realization that she loves the dying Gilbert is explicit, but typhoid is not identified in these paragraphs."
+G045,yes,,,yes,agree,,"AI review (Codex): Marilla identifies the currant wine, and Anne explains the mistaken cordial and Diana's drunkenness."
+G046,yes,,,yes,agree,,AI review (Codex): v03:c24:p0009 explicitly states Jonas Blake's theological studies and charge of the mission church.
+G047,yes,,,yes,agree,,"AI review (Codex): Josie says you couldn't walk a ridgepole, and Anne's reply identifies the person addressed."
+G048,no,,partly,no,boundary,Emily is back in his house 'for the rest of my natural life'; the word wife is absent,"AI review (Codex): Emily is associated with Harrison's newly tidy home, but none of the displayed paragraphs establishes that she is his wife."
+G049,partly,,,partly,agree,,AI review (Codex): Walter's dreamy imagination and love of beauty are explicit; having a poetry volume beside him does not establish a love of poetry.
+G050,yes,,,yes,agree,,"AI review (Codex): v01:c24:p0001 directly describes Miss Stacy as bright, sympathetic and able to win her pupils' affection."
+G051,yes,,,yes,agree,,AI review (Codex): Anne's regret at having nothing of her mother's and thanks for these letters establish the mother's letters as the gift.
+G052,yes,,,yes,agree,,AI review (Codex): v02:c07:p0030 directly describes Dora as good and quiet.
+G053,yes,,,yes,agree,,AI review (Codex): v05:c23:p0054 explicitly has Jem suggest forming a Good-Conduct Club.
+G054,partly,,,partly,agree,,"AI review (Codex): Captain Jim's death is explicit, but publication of the life-book and its timing are absent."
+G055,yes,,,yes,agree,,AI review (Codex): v01:c01:p0004 explicitly calls Matthew the shyest man alive.
+G056,partly,,,partly,agree,,"AI review (Codex): Gilbert's boat rescue and rowing are shown, but the flat is said to leak; its sinking is not established here."
+G057,partly,,,partly,agree,,"AI review (Codex): Mrs. Barry credits Anne with saving Minnie May's life, but the illness is not identified as croup in this excerpt."
+G058,partly,,,partly,agree,,"AI review (Codex): Anne names him James Matthew, but neither his birth nor the nickname Jem is established by these paragraphs alone."
+G059,yes,,,yes,agree,,AI review (Codex): Diana's remark explicitly says Anne has won the Avery.
+G060,yes,,,yes,agree,,"AI review (Codex): v05:c02:p0034 identifies Carl and his mania for collecting toads, bugs and frogs."
+G061,yes,,,yes,agree,,AI review (Codex): Norman's reported wish to marry Ellen is confirmed by Ellen's response and thoughts about becoming a bride.
+G062,yes,,,yes,agree,,AI review (Codex): v02:c06:p0008 explicitly names Anne Shirley as secretary.
+G063,yes,,,yes,agree,,AI review (Codex): Diana explicitly says she is engaged in v02:c29:p0016.
+G064,partly,,,partly,agree,,"AI review (Codex): Anne thanks Gilbert for giving up the school for her, but the excerpt does not name Avonlea or establish her starting as its teacher."
+G065,yes,,,yes,agree,,AI review (Codex): Anne explicitly says Roy asked her to marry him and she refused.
+G066,yes,,,yes,agree,,AI review (Codex): v05:c15:p0031 explicitly says Ellen and Norman went about together for two years.
+G067,yes,,,yes,agree,,AI review (Codex): Charlotta says she will go to Boston to live with Mr. Irving and Miss Lavendar after their tour.
+G068,yes,,,yes,agree,,AI review (Codex): Anne recites the friendship oath and v01:c12:p0036 says Diana repeated it.
+G069,yes,,,yes,agree,,AI review (Codex): Ruby explicitly says she will soon be lying dead in the graveyard.
+G070,no,,partly,no,boundary,Gilbert is to settle at Four Winds; that he is a doctor is not said,"AI review (Codex): Gilbert is said to be going to settle at Four Winds, but the excerpt neither calls him a doctor nor establishes the completed move or practice."
+G071,yes,,,yes,agree,,AI review (Codex): Paul explicitly loves Miss Lavendar and calls her his father's chosen second mother.
+G072,yes,,,yes,agree,,AI review (Codex): v05:c01:p0003 explicitly identifies Rilla as the youngest Ingleside child.
+G073,partly,,,partly,agree,,AI review (Codex): Anne thanks Gilbert for giving up the school for her; the particular school and teaching position are not identified here.
+G074,yes,,,yes,agree,,AI review (Codex): Anne explicitly reports Mr. Phillips calling her spelling disgraceful.
+G075,yes,,,yes,agree,,AI review (Codex): v03:c09:p0007 states Stella had been teaching school ever since Queen's Academy.
+G076,yes,,,yes,agree,,AI review (Codex): Phil explicitly reports Gilbert going about constantly with Christine Stuart; the fact preserves its reported status.
+G077,yes,,,yes,agree,,AI review (Codex): Diana reports Lavendar's former engagement to Stephen Irving and subsequent separation.
+G078,no,,,no,agree,,"AI review (Codex): Anne welcomes and lifts the arriving twins, but a single greeting does not establish that she helps raise them."
+G079,no,,partly,no,boundary,"plan or announcement, not the completed event: G has no rule for it (R's rule says a plan is no)",AI review (Codex): Anne anticipates going to Redmond and boarding in Kingsport; the paragraphs do not show her already studying there.
+G080,yes,,,yes,agree,,AI review (Codex): v04:c40:p0011 explicitly says Leslie and Owen were to marry at Christmas.
+G081,yes,,,yes,agree,,AI review (Codex): v05:c10:p0018 directly links Carl's sore throat to getting wet in Rainbow Valley marsh.
+G082,yes,,,yes,agree,,"AI review (Codex): Philippa explicitly says she hails from Bolingbroke, Nova Scotia."
+G083,yes,,,yes,agree,,AI review (Codex): v04:c22:p0019 identifies Owen Ford as both a newspaper man and the house-builder's grandson.
+G084,yes,,,yes,agree,,"AI review (Codex): Anne admits selling Harrison's Jersey to Shearer, with her own Dolly still at home, establishing the mistaken cow sale."
+G085,yes,,,yes,agree,,AI review (Codex): v04:c31:p0028 explicitly reveals that the supposed Dick is his cousin George Moore.
+G086,yes,,,yes,agree,,AI review (Codex): Anne explicitly reports the teacher making eyes at Prissy Andrews in v01:c15:p0011.
+G087,yes,,,yes,agree,,"AI review (Codex): Anne explicitly names Bolingbroke, Nova Scotia, as her birthplace."
+G088,yes,,,yes,agree,,"AI review (Codex): v04:c06:p0014 directly supplies high-souled, simple-minded and iron-gray hair."
+G089,yes,,,yes,agree,,AI review (Codex): v01:c38:p0038 explicitly reports Gilbert saying he would teach at White Sands.
+G090,yes,,,yes,agree,,AI review (Codex): v05:c12:p0009 explicitly states Faith's dare to Walter to ride a pig through Main Street.
+G091,yes,,,yes,agree,,AI review (Codex): v02:c30:p0030 explicitly names Lavendar and Stephen as pronounced man and wife.
+G092,yes,,,yes,agree,,AI review (Codex): Anne explicitly longs for the thrill of wearing puffed sleeves.
+G093,no,,yes,yes,changed,the narrator states 'her departure for the West' as settled; the fact is 'leaves for the West',"AI review (Codex): The excerpt shows a farewell party before Jane's departure, but does not establish that she has actually left."
+G094,yes,,,yes,agree,,AI review (Codex): Marilla states she and Matthew requested a boy and that a mistake occurred; Mrs. Spencer confirms the contrary message for a girl.
+G095,no,,partly,no,boundary,"plan or announcement, not the completed event: G has no rule for it (R's rule says a plan is no)","AI review (Codex): The excerpt establishes plans to attend Redmond and board together, not completed attendance and boarding."
+G096,yes,,,yes,agree,,AI review (Codex): v04:c31:p0028 explicitly says Dick Moore died of yellow fever in Cuba.
+G097,yes,,,yes,agree,,AI review (Codex): v02:c01:p0047 explicitly describes her living alone in the little stone house called Echo Lodge.
+G098,partly,,,partly,agree,,"AI review (Codex): James Matthew is named after two gentlemen, but these paragraphs do not identify either gentleman as Matthew Cuthbert or identify the child as Anne's son."
+G099,yes,,,yes,agree,,"AI review (Codex): Anne refuses Gilbert's romantic request, and the narration explicitly characterizes the encounter as a proposal."
+G100,no,,partly,no,boundary,"plan or announcement, not the completed event: G has no rule for it (R's rule says a plan is no)","AI review (Codex): Anne has chosen a heroine's name but has no plot yet; the displayed text establishes a planned story, not one she has written."
+G101,partly,,,partly,agree,,"AI review (Codex): Anne's loss of little Joyce is conveyed, but her being the first baby is not established here."
+G102,yes,,,yes,agree,,AI review (Codex): Walter explicitly says he hates Dan Reese.
+G103,yes,,,yes,agree,,"AI review (Codex): Ruby's mother explicitly refers to the afternoon before Ruby died, in a funeral scene."
+G104,no,,partly,no,boundary,"plan or announcement, not the completed event: G has no rule for it (R's rule says a plan is no)","AI review (Codex): The wedding is still anticipated as the next excitement; Fred is identified as a suitable groom, but the completed marriage is not shown."
+G105,yes,,,yes,agree,,AI review (Codex): v02:c05:p0004 directly describes Anthony's sullen face and hostile stare at Anne.
+G106,no,,partly,no,boundary,Cornelia: 'Mary said she could set it [my bread]' implies one household,"AI review (Codex): Mary offers to set Cornelia's bread, but these paragraphs do not establish that Mary lives with her."
+G107,yes,,,yes,agree,,AI review (Codex): Captain Jim explicitly describes Cornelia's chronic spite against men and Methodists.
+G108,no,,,no,agree,,"AI review (Codex): The excerpt says Gilbert plans to settle at Four Winds, but does not show Anne living there or name the House of Dreams."
+G109,yes,,,yes,agree,,"AI review (Codex): Ellen reminds Rosemary of her promise, and Rosemary responds to her sister about it."
+G110,yes,,,yes,agree,,AI review (Codex): v04:c11:p0026-0027 explicitly describes the mother's pressure and Leslie's consequent marriage to Dick.
+G111,no,,,no,agree,,"AI review (Codex): A stranger is introduced as Captain Boyd, but the displayed text never identifies that stranger as Captain Jim."
+R001,no,,,no,not re-read,,"AI review (Codex): Charlotta plans to go to Boston, but no displayed sentence says she will live with the Irvings; the other Boston moves concern different people."
+R002,no,,,no,boundary,shown text has favouritism only; the page line 'Romantic with: courting her' is not shown,"AI review (Codex): Attention and favoritism toward Prissy are stated, but flirting or making eyes at her is not conveyed."
+R003,yes,,,yes,not re-read,,AI review (Codex): Gilbert's attendance and graduation at Redmond convey the college move's core.
+R004,yes,,,yes,not re-read,,AI review (Codex): The shared-page spouse line explicitly states Lavendar and Stephen married.
+R005,yes,,,yes,not re-read,,AI review (Codex): Stella arranged for Aunt Jamesina to be their housekeeper.
+R006,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page and Marilla's page explicitly state Anne married Gilbert.
+R007,yes,,,yes,not re-read,,AI review (Codex): Leslie's page explicitly says she eventually married Owen; Christmas is an incidental omitted date.
+R008,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Susan's page names her role as maid-of-all-work for the Blythe household.
+R009,yes,,,yes,not re-read,,AI review (Codex): Diana's page explicitly states the oath of eternal devotion with Anne.
+R010,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Josie's claim that nobody could walk a ridgepole includes Anne, and the displayed dare is directed at her."
+R011,partly,,,partly,agree,"one half of a joined fact, as the instructions' own example","AI review (Codex): Meredith's absent-mindedness is conveyed, but none of the shown sentences calls him a wonderful preacher."
+R012,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Priscilla's page explicitly states her Redmond attendance and boarding at the same house as Anne.
+R013,no,,yes,yes,rejudged,"corrected text shows 'takes over the practice of his great-uncle, Dr. David Blythe, in Four Winds Harbor'",AI review (Codex): Gilbert's goal to become a doctor and mentions of Four Winds do not establish his completed medical practice there; Doctor Dave is another person.
+R014,no,,,no,not re-read,,AI review (Codex): No displayed sentence identifies Anne's story or its heroine Averil Lester.
+R015,yes,,,yes,not re-read,,AI review (Codex): Gilbert's page explicitly says Anne refused his initial marriage proposal.
+R016,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Phil's origin and the shared location page explicitly identify Bolingbroke, Nova Scotia."
+R017,yes,,,yes,not re-read,,AI review (Codex): Gilbert's affiliation names him President of the Avonlea Village Improvement Society.
+R018,yes,,,yes,not re-read,,AI review (Codex): Stella's page explicitly says she taught a country school for two years after Queen's.
+R019,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): The sentences about Rilla never identify her as the youngest Blythe child.
+R020,partly,,,partly,boundary,"sullen pupil shown, hostile stare not: a missing detail may still be yes under the R rule","AI review (Codex): Anthony's sullen character and enrollment under Anne are conveyed, but his hostile stare at her is absent."
+R021,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): No shown sentence has Marilla urge Anne to attend Redmond.
+R022,yes,,,yes,not re-read,,AI review (Codex): Anne's page explicitly states attendance at Redmond College in Kingsport.
+R023,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page explicitly states that she won the Avery Scholarship.
+R024,no,,,no,boundary,no sentence of this wiki has Marilla urging; earlier AI label yes has no witness I could find,AI review (Codex): No shown sentence conveys Marilla urging Anne to continue to Redmond.
+R025,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Marshall's page explicitly says he married Cornelia Bryant.
+R026,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Harrison's page identifies his parrot Ginger and Dora's quoted account explicitly says Ginger swore.
+R027,yes,,,yes,not re-read,,AI review (Codex): Marilla's page explicitly states the requested orphan boy and mix-up that brought Anne instead.
+R028,no,,,no,not re-read,,"AI review (Codex): Ruby's illness and death are conveyed, but her own belief that she will soon die is not."
+R029,yes,,,yes,not re-read,,"AI review (Codex): Anne's page explicitly names her birthplace as Bolingbroke, Nova Scotia."
+R030,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Paul's and Lavendar's pages explicitly describe Stephen and Lavendar's marriage.
+R031,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Dora's page explicitly calls her good and quiet.
+R032,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): No shown sentence conveys the mud-pie incident.
+R033,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anthony's sullen expression and deliberate hostile challenge to Anne convey the core; the particular stare is incidental.
+R034,yes,,,yes,not re-read,,AI review (Codex): Stella's page explicitly states teaching after graduating from Queen's.
+R035,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Paul's page explicitly says Stephen marries Miss Lavendar.
+R036,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): Mary being found starving and taken in does not convey her ravenous eating at the manse.
+R037,yes,,,yes,not re-read,,AI review (Codex): Matthew's relationship line explicitly identifies Anne's son as named partly after him.
+R038,yes,,,yes,not re-read,,AI review (Codex): Susan's page identifies her past maid-of-all-work role and work for Gilbert and Anne's household.
+R039,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anthony's page explicitly identifies him as an Avonlea pupil under Anne's instruction.
+R040,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Cornelia's page explicitly says she took Mary into her home to raise her.
+R041,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): No shown sentence states Diana's engagement.
+R042,yes,,,yes,not re-read,,AI review (Codex): Paul's page explicitly calls Stephen Irving his father.
+R043,yes,,,yes,not re-read,,AI review (Codex): Matthew's extreme shyness and dread of strangers convey the trait's core.
+R044,yes,,,yes,not re-read,,AI review (Codex): Diana's and Fred's pages explicitly state their engagement.
+R045,no,,,no,not re-read,,"AI review (Codex): No shown sentence conveys the pig-riding dare; pig-girl is an insult, not an account of the event."
+R046,yes,,,yes,not re-read,,AI review (Codex): Ruby's quoted words explicitly anticipate being dead in the graveyard while her friends remain alive.
+R047,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Lavendar's page explicitly states her former engagement to Stephen.
+R048,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Harrison's page explicitly identifies his swearing parrot Ginger.
+R049,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Gilbert's page explicitly says Anne refused his marriage proposal.
+R050,yes,,,yes,not re-read,,AI review (Codex): Diana's page explicitly says she marries Fred Wright.
+R051,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Stacy's description explicitly supplies brightness, sympathy and winning pupils' affection."
+R052,yes,,,yes,not re-read,,AI review (Codex): Anne's page explicitly says Marilla faced failing eyesight.
+R053,yes,,,yes,not re-read,,AI review (Codex): Dora's page explicitly calls her quiet and good.
+R054,yes,,,yes,not re-read,,AI review (Codex): Jane's page explicitly says she traveled west to teach on the prairies.
+R055,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page explicitly says she helped care for Davy and Dora while remaining at Green Gables.
+R056,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Leslie's page explicitly says her mother pressured her into marrying Dick.
+R057,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page explicitly states the accidental intoxication of Diana with currant wine.
+R058,no,,,no,agree,"not in the sentences shown; a witness is elsewhere on the pages, so this needs the second round","AI review (Codex): Dying of consumption is stated, but no displayed sentence states the completed death."
+R059,yes,,,yes,not re-read,,AI review (Codex): Anne's and Diana's pages explicitly state the life-saving treatment of Minnie May's croup.
+R060,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Gilbert's page explicitly states his near-fatal typhoid bout.
+R061,no,,,no,boundary,wiki says fascinated by insects and small creatures; fact says collects,AI review (Codex): Carl's fascination with insects and small creatures does not state his collecting them.
+R062,no,,,no,not re-read,,AI review (Codex): No shown sentence names Averil Lester or Anne's story featuring her.
+R063,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Harrison's page explicitly states Anne accidentally sold his cow; the buyer and breed are omitted details of the same event.
+R064,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Meredith's wife's death and his widowed status are explicitly conveyed.
+R065,yes,,,yes,not re-read,,AI review (Codex): Leslie's and Dick's pages explicitly state Dick died of yellow fever in Cuba.
+R066,yes,,,yes,not re-read,,AI review (Codex): Anne's achievement line explicitly names the Avery Scholarship.
+R067,yes,,,yes,not re-read,,AI review (Codex): Diana's page explicitly identifies her as the society's treasurer.
+R068,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Josie's quoted claim that nobody could walk a ridgepole, alongside her challenge to Anne, conveys the core."
+R069,yes,,,yes,not re-read,,AI review (Codex): Rosemary's page explicitly describes their upcoming double wedding and John has a goal to marry her.
+R070,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Paul's page explicitly says Stephen marries Miss Lavendar.
+R071,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Diana's page explicitly supplies currant wine mistaken by Anne for cordial, despite a conflicting cordial account elsewhere."
+R072,yes,,,yes,not re-read,,AI review (Codex): Gilbert's page explicitly says he elected to teach at White Sands and actually taught there.
+R073,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): None of the displayed sentences conveys Minnie May's rescue or croup.
+R074,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Marilla's page and a shared scene explicitly state Anne dyed her hair green.
+R075,yes,,,yes,not re-read,,AI review (Codex): Dora's quiet and exceptionally well-behaved disposition conveys good and quiet.
+R076,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Paul's page explicitly says Charlotta moves to Boston with his father and stepmother.
+R077,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Paul's page explicitly names Stephen as his father.
+R078,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Harrison's page explicitly names his wife Emily.
+R079,no,,,no,agree,"not in the sentences shown; a witness is elsewhere on the pages, so this needs the second round","AI review (Codex): Susan's devotion to the Blythe family is stated, but her particular worship of Anne is not conveyed."
+R080,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Anne's affiliation explicitly lists Improvers secretary, with nearby sentences identifying the society."
+R081,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Gilbert's page explicitly states he went on to attend Redmond.
+R082,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Rosemary's relationship line explicitly says her former fiance died at sea.
+R083,no,,,no,not re-read,,"AI review (Codex): The shown flower gift is roses after a walk, not orchids for the reception."
+R084,yes,,,yes,not re-read,,AI review (Codex): Dora's page explicitly calls her well-behaved and quiet.
+R085,yes,,,yes,not re-read,,AI review (Codex): Little Jem's page explicitly names Matthew Cuthbert as one of his namesakes.
+R086,yes,,,yes,not re-read,,AI review (Codex): Marilla's page explicitly describes wanting a boy and the misunderstanding that brought Anne.
+R087,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Phillips's page explicitly says Anne broke her slate over Gilbert's head.
+R088,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page explicitly says she helped Marilla raise Davy and Dora.
+R089,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Lavendar's page explicitly states the former engagement to Stephen.
+R090,no,,,no,boundary,wiki has Rachel criticising Anne's looks; the hair and carrots remark is Gilbert's,AI review (Codex): The carrots remark shown is Gilbert's; no shown sentence attributes that comparison to Rachel.
+R091,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Harrison's page explicitly identifies the profanely vocal parrot Ginger.
+R092,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page explicitly states her birthplace.
+R093,partly,,,partly,agree,"one half of a joined fact, as the instructions' own example","AI review (Codex): Stacy's caring and inspiring teaching is conveyed, but winning her pupils' affection is not stated."
+R094,no,,,no,boundary,married and moved to Winnipeg is shown; 'taught out West' is on the page but not shown,AI review (Codex): None of Jane's displayed sentences states her departure for the West.
+R095,no,,,no,not re-read,,AI review (Codex): No displayed sentence conveys Marilla urging Anne to attend Redmond.
+R096,yes,,no,no,rejudged,"the sentence 'Extremely shy, quiet, and bashful' is no longer among those shown (it is on the page)",AI review (Codex): Matthew's extreme shyness and bashfulness convey the trait's core.
+R097,yes,,,yes,not re-read,,AI review (Codex): Anne's school affiliation and history explicitly state teaching at Avonlea.
+R098,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Phillips's page explicitly says he courted Prissy while attending to her in class, conveying the romantic attention."
+R099,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Diana's page explicitly states Anne accidentally served the wine and made her drunk.
+R100,yes,,,yes,not re-read,,AI review (Codex): Gilbert's rescue of Anne when her flat sinks conveys the event's core; the boat approach is an incidental manner detail.
+R101,yes,,,yes,not re-read,,AI review (Codex): Owen's page explicitly names Captain Jim Boyd.
+R102,yes,,,yes,not re-read,,AI review (Codex): Anne's Improvers affiliation explicitly gives her office as secretary.
+R103,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): None of Carl's shown sentences mentions the wet-marsh incident or sore throat.
+R104,no,,,no,boundary,wiki tells the fight after an insult; fact says hates,"AI review (Codex): Walter's fight with Dan is conveyed, but fighting to defend others does not itself state hatred of Dan."
+R105,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Multiple pages and a shared scene explicitly state Anne smashed her slate over Gilbert's head.
+R106,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Walter's vivid imagination and love of poetry are explicitly described.
+R107,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,"AI review (Codex): The cow trespass and reconciliation are conveyed, but no shown sentence states the mistaken sale."
+R108,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Lavendar's page explicitly calls Paul Stephen Irving's son.
+R109,yes,,,yes,not re-read,,AI review (Codex): Shared scenes explicitly state the leaking-flat incident and Gilbert rowing by to rescue Anne.
+R110,no,,,no,not re-read,,AI review (Codex): Academic excellence is not a statement that Gilbert won either High Honors or the Cooper Prize.
+R111,yes,,,yes,not re-read,,AI review (Codex): Billy's page explicitly states he sent Jane to propose on his behalf.
+R112,partly,,,partly,agree,"one half of a joined fact, as the instructions' own example","AI review (Codex): Earned high honors are stated, but pursuit of the Cooper Prize does not convey winning it."
+R113,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Rosemary's page explicitly states her first lover was lost at sea.
+R114,no,,,no,not re-read,,AI review (Codex): The slate incident is absent from the shown sentences.
+R115,no,,,no,boundary,wiki has Rachel criticising Anne's looks; the hair and carrots remark is Gilbert's,"AI review (Codex): Rachel's criticism of Anne's looks is conveyed, but the carrots comparison shown is Gilbert's."
+R116,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Marilla's page explicitly says she took in the twins Davy and Dora.
+R117,yes,,,yes,not re-read,,AI review (Codex): Roy's page explicitly says he sent Anne orchids; color and reception timing are incidental omissions.
+R118,yes,,,yes,not re-read,,AI review (Codex): Matthew's status line and history explicitly connect his sudden death to shock from the Abbey Bank failure.
+R119,yes,,,yes,not re-read,,AI review (Codex): Gilbert's page explicitly says Anne broke her slate over his head.
+R120,yes,,,yes,boundary,'White Sands Hotel: teaching location' names the wrong place entity; earlier AI label no,"AI review (Codex): Gilbert's affiliation explicitly identifies White Sands as his teaching location, although it incorrectly labels the place White Sands Hotel."
+R121,no,,yes,yes,rejudged,corrected text shows 'Marilla initially intended to return the young girl',AI review (Codex): None of Marilla's displayed sentences states her initial refusal to keep Anne.
+R122,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,"AI review (Codex): Anne helping bring the twins home is stated, but later raising or caring for them is attributed only to Rachel and Marilla."
+R123,yes,,,yes,not re-read,,AI review (Codex): Matthew's extreme shyness and aversion to strangers convey the trait's core.
+R124,no,,,no,not re-read,,AI review (Codex): No displayed sentence identifies Anne's story with the heroine Averil Lester.
+R125,yes,,,yes,not re-read,,AI review (Codex): Dora's page explicitly places both twins under the care of Marilla and Anne at Green Gables.
+R126,no,,yes,yes,changed,'convincing Miss Cornelia to adopt her' conveys that Cornelia took Mary in,"AI review (Codex): Persuading Cornelia to adopt Mary is shown, but no sentence establishes Mary's actual residence with her."
+R127,no,,,no,boundary,wiki tells the fight after an insult; fact says hates,AI review (Codex): Walter defending others against Dan does not itself convey that he hates Dan.
+R128,yes,,,yes,not re-read,,AI review (Codex): Gilbert's page explicitly states his proposal to Anne and her refusal.
+R129,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Meredith's widowed status and Cecilia's death are explicit.
+R130,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,"AI review (Codex): Una's age at her mother's death is shown, but her current age of ten is not stated or derivable from this item's sentences."
+R131,partly,,,partly,boundary,"voyage to Havana shown, the cousin's part not","AI review (Codex): Dick's voyage to Havana is stated, but George's participation in that voyage is not."
+R132,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Philippa's origin is explicitly Bolingbroke, Nova Scotia."
+R133,yes,,,yes,not re-read,,AI review (Codex): Gilbert's page explicitly links his typhoid to Anne realizing her love.
+R134,yes,,,yes,not re-read,,AI review (Codex): Both Anne's and Gilbert's pages explicitly convey the illness prompting Anne's realization.
+R135,no,,,no,boundary,wiki says fascinated by insects and small creatures; fact says collects,"AI review (Codex): Fascination with bugs and frogs is stated, but collecting them is not."
+R136,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Rilla's page explicitly calls her the youngest Blythe child.
+R137,yes,,,yes,not re-read,,"AI review (Codex): Matthew's page explicitly states the bank news, shock and instantaneous death."
+R138,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Multiple sentences explicitly state the birth of Anne's son James Matthew and identify Jem as her son.
+R139,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Phillips courting Prissy conveys the romantic attention's core.
+R140,yes,,,yes,not re-read,,AI review (Codex): Captain Jim's page explicitly says he died shortly after receiving his published book.
+R141,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Josie's statement that nobody could walk a ridgepole includes Anne, alongside her directed challenge."
+R142,no,,,no,not re-read,,AI review (Codex): The shown care and upbringing are attributed to Marilla; Anne's participation in raising the twins is not stated.
+R143,yes,,,yes,not re-read,,AI review (Codex): The shared scene explicitly reports Phil telling Anne that Gilbert was seen frequently with Christine.
+R144,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Diana's page explicitly says she marries Fred Wright.
+R145,no,,,no,boundary,Margaret's loss is stated; that he tells Anne is not,"AI review (Codex): Jim shares life stories and had lost Margaret, but no displayed sentence says he tells Anne about Margaret."
+R146,yes,,,yes,not re-read,,AI review (Codex): Anne's page explicitly states she wins the Avery Scholarship.
+R147,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Marilla's initial intention to send Anne back conveys her initial refusal to keep her.
+R148,yes,,,yes,not re-read,,AI review (Codex): Diana's page explicitly states the oath of eternal friendship with Anne.
+R149,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): The shared scene explicitly has Gilbert rowing by and rescuing Anne after the flat leaks.
+R150,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page explicitly states she was mistakenly sent instead of the intended boy.
+R151,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Paul's page explicitly states his move from the United States to his grandmother in Avonlea.
+R152,no,,,no,not re-read,,AI review (Codex): No displayed sentence states that Anne's son was named after Matthew.
+R153,yes,,,yes,not re-read,,AI review (Codex): Marilla's page explicitly states her initial insistence on returning Anne and quotes her refusal to keep her.
+R154,yes,,,yes,not re-read,,AI review (Codex): Paul's page explicitly calls him Stephen Irving's son.
+R155,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Paul's page explicitly states arrival from the United States to live with his grandmother.
+R156,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,"AI review (Codex): Making mud pies is stated, but pushing Dora into one is not."
+R157,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anne's page explicitly says she married Gilbert.
+R158,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Matthew is explicitly described as extremely shy and dreading women.
+R159,no,,yes,yes,changed,'dares Anne to walk the ridgepole' is the same exchange,"AI review (Codex): Josie's dare to Anne is shown, but a dare does not itself state her belief that Anne could not do it."
+R160,yes,,,yes,not re-read,,AI review (Codex): Marilla's page explicitly states she takes in Davy and Dora.
+R161,yes,,,yes,boundary,'White Sands Hotel: teaching location' names the wrong place entity; earlier AI label no,"AI review (Codex): Gilbert's affiliation explicitly identifies White Sands as his teaching location, despite its erroneous Hotel label."
+R162,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Gilbert's page describes surrendering his Avonlea teaching appointment so Anne can remain near Green Gables.
+R163,yes,,,yes,not re-read,,AI review (Codex): Marilla's page explicitly states her initial intention to return Anne.
+R164,no,,,no,agree,"not in the sentences shown; a witness is elsewhere on the pages, so this needs the second round","AI review (Codex): Meredith's goal to marry Rosemary is shown, but neither her acceptance nor an agreed upcoming marriage is stated."
+R165,yes,,,yes,not re-read,,AI review (Codex): Marshall's self-imposed uncut hair and extraordinarily long beard convey the eccentric appearance's core.
+R166,no,,,no,agree,"not in the sentences shown; a witness is elsewhere on the pages, so this needs the second round",AI review (Codex): None of the shown sentences states that Gilbert gave up the school for Anne.
+R167,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Jonas's theological studies and charge of Point Prospect Mission Church are explicitly conveyed.
+R168,no,,,no,agree,"not in the sentences shown; a witness is elsewhere on the pages, so this needs the second round",AI review (Codex): None of the shown sentences describes Matthew's shyness; physical awkwardness alone does not convey it.
+R169,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Susan's worship of young Mrs. and devotion to Anne as her mistress convey the core despite truncated honorifics.
+R170,yes,,,yes,not re-read,,AI review (Codex): Paul's warm acceptance and affectionate Mother Lavendar name convey his love for her as stepmother.
+R171,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Dora's quiet, polite, well-behaved disposition conveys good and quiet."
+R172,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Anne's achievement line explicitly states birth in Bolingbroke, Nova Scotia."
+R173,yes,,,yes,not re-read,,AI review (Codex): Anne's and Jem's pages explicitly place her living in the house of dreams at Four Winds.
+R174,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Diana's page explicitly states marriage to Fred Wright.
+R175,no,,,no,not re-read,,AI review (Codex): No displayed sentence conveys Diana's accidental intoxication.
+R176,no,,,no,boundary,wiki tells the fight after an insult; fact says hates,AI review (Codex): Walter fighting Dan to defend others does not state that he hates him.
+R177,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Leslie's and Susan's pages explicitly place Anne living at the House of Dreams in Four Winds.
+R178,no,,,no,agree,"not in the sentences shown; a witness is elsewhere on the pages, so this needs the second round","AI review (Codex): The child's name is shown, but no sentence identifies Matthew Cuthbert as his namesake."
+R179,no,,,no,agree,"not in the sentences shown; a witness is elsewhere on the pages, so this needs the second round",AI review (Codex): Christine's name alone does not state that Gilbert goes about with her.
+R180,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Dora's quiet and exceptionally well-behaved nature is explicitly conveyed.
+R181,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Gilbert's page explicitly states he attended Redmond College after teaching.
+R182,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): Josie's quoted disbelief that anyone could walk a ridgepole includes Anne, alongside her directed dare."
+R183,yes,,,yes,not re-read,,AI review (Codex): Dick's page explicitly says his cousin George joined him on the voyage; Havana is an omitted location detail.
+R184,no,,,no,not re-read,,"AI review (Codex): Gilbert's typhoid is stated, but Anne's realization of love is not shown."
+R185,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): No displayed sentence conveys Phillips criticizing Anne's spelling.
+R186,no,,,no,boundary,Paul's trust in his father's choice and the title Mother Lavendar are shown; love is not stated,AI review (Codex): Paul's general trust that his father could choose a good second mother does not state his love for Miss Lavendar as that mother.
+R187,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Little Jem's page explicitly says he was named after Matthew Cuthbert and Captain Jim.
+R188,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Josie's quoted disbelief about anyone walking a ridgepole and her dare to Anne convey the core.
+R189,yes,,,yes,agree,'Anne accidentally sold Mr. Harrison's own Jersey cow to a buyer'; earlier AI label no looks wrong,"AI review (Codex): The cow is described as Harrison's, sold by mistake as Anne's own; Shearer is an omitted buyer detail."
+R190,yes,,,yes,not re-read,,"AI review (Codex): Matthew expected a boy and found Anne, with the resulting mistake explicitly identified."
+R191,yes,,,yes,not re-read,,"AI review (Codex): Dora is explicitly quiet, polite and exceptionally well-behaved."
+R192,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Matthew's extreme and exceptional shyness convey the trait's core.
+R193,yes,,,yes,not re-read,,AI review (Codex): Anne's page explicitly states Marilla initially intended to send her back.
+R194,yes,,,yes,not re-read,,AI review (Codex): Gilbert's history explicitly states a severe bout of typhoid.
+R195,yes,,,yes,boundary,red braids as a child and gray-green eyes are shown; earlier AI label no looks doubtful,AI review (Codex): Anne's red childhood braids and gray-green eyes convey both physical features; count and lighting are incidental details.
+R196,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,"AI review (Codex): Phillips humiliating Anne with a marked slate is stated, but no shown sentence says it was her spelling or calls it disgraceful."
+R197,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Meredith is explicitly a widower after Cecilia's death; the omitted four-year date is incidental.
+R198,yes,,,yes,not re-read,,AI review (Codex): Owen's role and family lines explicitly supply newspaper man and grandson of the house-building schoolmaster.
+R199,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Anthony's sullen nature and contempt for female teachers plus insolence to Anne convey the hostile pupil's core.
+R200,yes,,,yes,not re-read,,AI review (Codex): Matthew's page explicitly links the fatal attack to reading the bank-collapse news.
+R201,yes,,,yes,not re-read,,"AI review (Codex): Matthew's page explicitly links the Abbey Bank failure to the shock, heart attack, and instant death."
+R202,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,"AI review (Codex): Diana's accidental currant-wine intoxication is stated, but the displayed sentences do not say Anne gave her the wine or caused it."
+R203,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Harrison's page names Emily as his wife and describes their separation and reunion.
+R204,no,,,no,not re-read,,AI review (Codex): The displayed accounts of the twins and Davy's mischief do not state that he pushes Dora into a mud pie.
+R205,yes,,,yes,not re-read,,AI review (Codex): Anne is explicitly identified as a founder and secretary of the Avonlea Village Improvement Society.
+R206,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Marilla's initial insistence on sending Anne back conveys her refusal to keep her at first.
+R207,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Rachel is invited to live at Green Gables and accepts; the spare-room arrangements convey the move.
+R208,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Gilbert's surrender of the Avonlea teaching position so Anne can remain at Green Gables is explicit.
+R209,yes,,,yes,not re-read,,AI review (Codex): The friendship oath between Anne and Diana is explicitly described.
+R210,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Stella's suggestion that the girls share a house with her aunt Jamesina as housekeeper conveys the proposal.
+R211,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,"AI review (Codex): The formation of the Good-Conduct Club and Jem's role as umpire are shown, but his suggesting its formation is not."
+R212,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Diana's engagement to Fred Wright is explicit.
+R213,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): The displayed account of Thomas's illness and death does not describe his spending increasing time on the lounge.
+R214,no,,yes,yes,rejudged,corrected text shows 'The minister of Glen St. Mary whom Rosemary agrees to marry',"AI review (Codex): John's intention to propose and Rosemary's love are shown, but the displayed text does not establish their accepted forthcoming marriage; releasing Ellen's pact concerns Ellen and Norman."
+R215,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Both Dick's page and Leslie's page explicitly state Dick died of yellow fever in Cuba.
+R216,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Harrison explicitly acquired the swearing parrot Ginger; the surrounding account shows he keeps the bird.
+R217,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Marilla's initial intention to return Anne states the same initial refusal to keep her.
+R218,yes,,,yes,not re-read,,AI review (Codex): Lavendar's earlier engagement to Stephen Irving and its breakup are explicitly stated.
+R219,partly,,,partly,agree,"one half of a joined fact, as the instructions' own example","AI review (Codex): John's extreme absent-mindedness is explicit, but none of the displayed sentences calls him a wonderful preacher."
+R220,yes,,,yes,not re-read,,AI review (Codex): Charlotta's completed move to Boston with the Irvings conveys the planned move in the fact.
+R221,no,,,no,not re-read,,AI review (Codex): None of the displayed sentences describes Gilbert rowing to Anne after the flat sinks.
+R222,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): The newlyweds' settlement in their Four Winds cottage conveys Anne living at the House of Dreams.
+R223,no,,yes,yes,changed,goal 'Court Prissy Andrews' with open favouritism and sitting with her conveys the attention,"AI review (Codex): Prissy receives favoritism and Phillips has a goal to court her, but the displayed text does not state an actual flirtatious gesture or courtship."
+R224,no,,,no,not re-read,,AI review (Codex): The displayed account of Anne's red hair does not state that she dyes it.
+R225,yes,,,yes,not re-read,,AI review (Codex): Dick's voyage to Havana and his cousin George joining him are explicit.
+R226,no,,,no,boundary,Marilla's arrangement lets Anne go; urging is not stated. Earlier AI label yes looks doubtful,AI review (Codex): Marilla arranging Rachel's move to permit Anne's college attendance does not state that she urges Anne to attend Redmond.
+R227,yes,,,yes,not re-read,,AI review (Codex): Billy's proposal to Anne through his sister Jane is explicitly described.
+R228,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): Special attention and favoritism toward Prissy under the guise of lessons do not themselves establish flirting.
+R229,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Marilla's shock at receiving Anne instead of the expected boy explicitly conveys the adoption mistake.
+R230,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): The account explicitly connects Gilbert's typhoid illness with Anne's realization that she loves him.
+R231,no,,,no,not re-read,item text corrected after the draft; the earlier whole-wiki AI label is also no,AI review (Codex): The displayed Thomas material does not describe his increasing use of the lounge.
+R232,yes,,,yes,not re-read,,AI review (Codex): Anne's rejection of Roy Gardner's marriage proposal is explicit.
+R233,no,,,no,not re-read,,AI review (Codex): The displayed Gilbert material omits the boat rescue after Anne's flat sinks.
+R234,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,"AI review (Codex): The text explicitly says Phillips courted his older pupil Prissy Andrews, conveying his romantic attention."
+R235,yes,,,yes,stands,item text corrected; every sentence the draft saw is still shown,AI review (Codex): Stephen Irving is explicitly identified as Paul's father.
+P001,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): v03:c08:p0013 shows Jane proposing for Billy, and v03:c11:p0000 explicitly recalls Billy's rejection during Anne's college Christmas holiday."
+P002,yes,n-a,,yes,not re-read,,"AI review (Codex): v05:c03:p0008 explicitly gives Jem his father's steady, humorous mouth."
+P003,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Anne and Gilbert walk and chat, and Gilbert asks about summer plans in v03:c29:p0018; changing lives appears in Anne's private reflections, not as an established topic of their conversation."
+P004,not shown,n-a,,not shown,agree,,AI review (Codex): No paragraph about Harrison's wish to escape domestic strife is displayed; the quiet-life material concerns Anne or Hester.
+P005,yes,n-a,,yes,boundary,'alive (assumed)': earlier AI labels treated this value three ways,"AI review (Codex): John Andrew acts in the paint-order episode in v02:c09:p0034 and p0037, with no displayed death; this supports the explicitly qualified assumption, rather than confirming survival in volume 4."
+P006,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c15:p0031 places Gilbert among the scholars of Avonlea school, and p0024 describes his class placement."
+P007,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c33:p0028 explicitly calls Billy a big youth.
+P008,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Miss Stacy advises ambitious academic work in v01:c34:p0011 and her pupils succeed; a goal to develop their full personal potential is not established, and the broader moral teaching paragraph concerns Anne."
+P009,yes,yes,,yes,not re-read,,AI review (Codex): v02:c18:p0064 explicitly shows Diana driving and Anne holding the platter as they leave along the Tory Road; both participate in the shared scene.
+P010,not shown,n-a,,not shown,agree,,"AI review (Codex): Davy is mentioned at home in v02:c08:p0063, but no displayed paragraph places him in Avonlea school; the student paragraphs concern other characters."
+P011,no,n-a,,no,boundary,the cited whipping lines carry no speaker tag in the text shown,"AI review (Codex): The only recommendation to whip pupils, v02:c04:p0004, has no identified speaker in the displayed excerpt. The named Jane paragraphs establish sensible conduct, not a commitment to discipline."
+P012,yes,n-a,,yes,not re-read,,"AI review (Codex): v03:c09:p0013 says Jamesina will keep house for the girls in Kingsport, and the Patty's Place paragraphs show her joining that household."
+P013,yes,n-a,,yes,not re-read,,"AI review (Codex): v04:c23:p0008 describes Owen as well-looking, and v04:c24:p0007 shows his immediately winning the household's affection and Susan's heart."
+P014,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c02:p0003 explicitly describes Matthew's full, soft brown beard."
+P015,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): The school discipline, class promotion, and farewell passages identify Phillips as Anne's schoolmaster."
+P016,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c02:p0003 says Matthew wore his beard ever since he was twenty, supporting the stated approximate starting period."
+P017,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c11:p0038 explicitly reports Paul's fight with St. Clair Donnell over their flags.
+P018,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c09:p0000 and p0003 show Harrison irritated by Rachel's visits and blunt comments; the qualified statement can irritate is supported.
+P019,yes,n-a,,yes,not re-read,,"AI review (Codex): Matthew's decision not to distress or abandon Anne in v01:c02:p0017 and the surrounding quiet, kindly conduct support gentleness."
+P020,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c35:p0004 explicitly includes Stella in Anne's circle of thoughtful, imaginative, ambitious students."
+P021,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): Matthew's protective conduct and advocacy for Anne, with v02:c15:p0000 explicitly recalling his love and sympathy, support quiet affection."
+P022,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): v02:c14:p0035 shows Jane moving a society committee appointment, and p0049 assigns her to its delegation; this establishes active membership."
+P023,yes,n-a,,yes,not re-read,,AI review (Codex): v03:c24:p0015 explicitly describes Jonas's earnest preaching; the wider account of his counsel and conduct supports the characterization.
+P024,yes,n-a,,yes,agree,,"AI review (Codex): Rachel's pessimistic adoption predictions and general expectation of disappointment recur in v01:c01:p0030, c13:p0019, and v02:c03:p0054."
+P025,yes,n-a,,yes,not re-read,,AI review (Codex): v05:c26:p0021 explicitly calls Norman clever and well read; v05:c15:p0038 also describes his reputation for extensive reading.
+P026,yes,yes,,yes,not re-read,,"AI review (Codex): Cornelia announces the planned marriage and names Marshall in v04:c37:p0004 and p0008. Anne is directly addressed in p0026 and reacts in p0015, so both named characters share the scene."
+P027,yes,n-a,,yes,not re-read,,"AI review (Codex): Marilla explicitly undertakes useful training and religious instruction, and aims at calm, proper behavior in v01:c06:p0034, c07:p0013, and c22:p0003."
+P028,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): v01:c15:p0031 shows unattended classroom disorder while Phillips focuses on Prissy, and c19:p0032 says a stricter teacher would have stopped Anne and Diana's talking."
+P029,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Charlotta's bowl-breaking speech is in v02:c27:p0044, but the quoted opening changes 'I was dusting it just as careful' to 'I was just as careful' without marking the omission."
+P030,yes,n-a,,yes,not re-read,,"AI review (Codex): Paul's rock people, unusual thoughts, dreams, and fancies in v02:c11:p0041, c19:p0033, and c11:p0038 establish an imaginative boy."
+P031,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c07:p0013 explicitly states Gilbert has decided to become a doctor; medical study follows from that professional goal.
+P032,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c35:p0001 explicitly characterizes Ruby as cheerful and good-tempered.
+P033,yes,no,,yes,not re-read,,"AI review (Codex): v02:c11:p0009 explicitly says Anne encloses copies of student compositions. The cited episode is Anne's letter reporting pupils, not a shared scene with Paul and the separately named Shirley."
+P034,yes,n-a,,yes,not re-read,,"AI review (Codex): v05:c04:p0007 explicitly describes Una's almond-shaped, dark-blue eyes."
+P035,yes,n-a,,yes,not re-read,,"AI review (Codex): v05:c17:p0016 and p0062 explicitly report Dan insulting Walter's mother, in the school confrontation episode."
+P036,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): v01:c22:p0003 explicitly describes Marilla's attempt to make Anne calm, demure, and proper, conveying the sensible-girl aim."
+P037,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): v05:c13:p0009 explicitly says life taught Rosemary to be brave.
+P038,yes,n-a,,yes,not re-read,,AI review (Codex): v05:c04:p0014 contains Carl's quoted words; removing the intervening narrator attribution preserves the speech.
+P039,yes,n-a,,yes,not re-read,,"AI review (Codex): Josie's insensitive remarks about Anne's tears, orphan background, and hair recur in v01:c34:p0019 and c37:p0032, supporting the general characterization."
+P040,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): v02:c08:p0001 describes Marilla bringing the twins home and adopting them, and p0011 shows their arrival at her house."
+P041,partly,yes,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Davy confesses his temptation to Anne and later can pray in v03:c07:p0034 and p0046, but the intervening help and its gentle manner are not displayed. Davy hugs Anne while Dora holds her hand in p0014, establishing the pair's shared arrival scene."
+P042,yes,n-a,,yes,not re-read,,"AI review (Codex): Jonas laughs, jokes, and readily forms friendships in v03:c24:p0012 and is a general household favorite in c25:p0012."
+P043,yes,n-a,,yes,not re-read,,"AI review (Codex): Charlotta's hearty laughter, cheerful greeting, and cheerful wedding preparations recur in v02:c21:p0073, c27:p0022, and c30:p0027."
+P044,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): v01:c15:p0025 explicitly shows unnoticed cheating and p0031 describes the other pupils doing as they please while Phillips teaches Prissy.
+P045,partly,n-a,,partly,not re-read,,"AI review (Codex): Priscilla and Ruby are shown studying at the Academy in v01:c35:p0004 and p0006, but neither their shared boarding house nor a direct comradeship is established."
+P046,yes,n-a,,yes,not re-read,,"AI review (Codex): v02:c01:p0057 reports Priscilla's appointment to teach the Carmody school, supporting teaching ability."
+P047,yes,n-a,,yes,not re-read,,"AI review (Codex): The early insult and later liking and pride appear in v01:c09:p0016, c10:p0038, and c32:p0048."
+P048,no,n-a,partly,partly,changed,"'sweet voice' is cited; 'soft' is a near paraphrase, not a different statement","AI review (Codex): v01:c24:p0002 calls Stacy's voice sweet, but sweetness does not establish the asserted soft volume or tone; no other displayed paragraph does so."
+P049,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Stacy confirms deciding to remain in Avonlea in v01:c30:p0032, but the specific offer from her home district's grade school is presented only as rumor in p0031."
+P050,yes,n-a,,yes,not re-read,,AI review (Codex): v04:c03:p0043 and c04:p0016 explicitly call him Reverend Jo.
+P051,partly,n-a,,partly,not re-read,,"AI review (Codex): v02:c22:p0009 and c01:p0047 establish Stephen leaving for the States after the breakup; Boston is explicit for the later reunited household, not for that first move."
+P052,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): v01:c30:p0020 describes their continued inseparability, and v03:c28:p0023 recalls years of constant companionship until Diana's marriage; the history sentence precedes that marriage."
+P053,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c33:p0028 describes Billy's habitual lack of chatter and conversational gifts; v03:c08:p0015 corroborates longstanding shyness.
+P054,no,no,,no,agree,,"AI review (Codex): The Haunted Wood paragraphs establish Anne's fear and Marilla's anger, but do not show Marilla sending her through it to teach a lesson. Ruby is merely mentioned in reported speech, not present in this scene."
+P055,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c26:p0004 and the later quilt and courtship paragraphs explicitly use Mrs. Rachel for Rachel Lynde.
+P056,yes,n-a,,yes,not re-read,,"AI review (Codex): Gilbert explicitly describes his teaching in v02:c07:p0008, and v03:c05:p0000 places him in Redmond's freshman class."
+P057,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): v01:c15:p0068 explicitly says Anne drops the candy heart and grinds it to powder beneath her heel.
+P058,yes,no,,yes,not re-read,,"AI review (Codex): v01:c23:p0030 explicitly diagnoses Anne's broken ankle. Rachel's recovery visits are reported to Marilla in p0041, rather than showing both women participating together in the cited event."
+P059,partly,no,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): v02:c29:p0011 and p0012 establish Diana and Fred's romance and Anne's surprise, but not deliberate secrecy. Charlotta is not shown participating in the chapter-29 scene with Anne; the shoe-throwing paragraph is a different chapter's wedding."
+P060,yes,no,,yes,not re-read,,"AI review (Codex): v01:c23:p0015 and p0016 establish Anne's fall from the Barry roof. Diana acts in the scene, but her father is only someone Anne asks her to find in p0022, not a shown participant."
+P061,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c30:p0020 places Jane and Anne in the same Queen's preparation class, and the school farewell and activity paragraphs corroborate their schoolmateship."
+P062,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c04:p0028 explicitly describes repeated evening visits and conversations between Anne and her friend Harrison.
+P063,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c31:p0007 describes Rachel as exceptionally kind and never shirking her share of work; her church aid work and sustained provision of quilts support the readiness-to-help characterization.
+P064,yes,n-a,,yes,not re-read,,"AI review (Codex): Charlotta's attentive concern and statement that she must look after Lavendar in v02:c27:p0044, together with her loyal service in c21:p0076, support this goal."
+P065,yes,n-a,,yes,not re-read,,"AI review (Codex): v05:c16:p0028 explicitly gives Norman Douglas a high, white forehead; the other person's beard details in the page context are outside this sampled atom."
+P066,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): v03:c24:p0009 explicitly identifies Jonas Blake's summer charge of Point Prospect Mission Church.
+P067,yes,n-a,,yes,not re-read,,"AI review (Codex): v03:c08:p0006 explicitly describes Billy as round-faced, corroborated by v01:c33:p0028."
+P068,yes,n-a,,yes,not re-read,,"AI review (Codex): The displayed volume-4 paragraphs show Owen acting and speaking with the other characters, including v04:c24:p0030 and c36:p0050."
+P069,yes,n-a,,yes,not re-read,,AI review (Codex): The joyful visit in v02:c23:p0010 and Anne's three-week stay with the Irvings in v03:c40:p0000 establish Lavendar's continued welcome.
+P070,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c18:p0015 and v02:c26:p0059 explicitly report Ruby's plan to have many beaus.
+P071,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c24:p0001 explicitly describes Stacy bringing out her pupils' best mentally and morally; her decision to stay and see them through corroborates the goal.
+P072,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c10:p0088 explicitly says Dora is not a bit of trouble and hardly noticeable in the house.
+P073,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c15:p0013 and several later paragraphs explicitly refer to him as Mr. Phillips.
+P074,not shown,no,,not shown,agree,,AI review (Codex): None of the displayed source paragraphs shows Rachel praising Anne's growth to Marilla in the chapter-30 visit. Other joint episodes occur in different chapters and do not establish participation in this sampled scene.
+P075,yes,n-a,,yes,not re-read,,"AI review (Codex): v03:c02:p0004 explicitly describes Jane as neat; since v3 is treated as the evidence-volume marker, not a claim that she first became neat then."
+P076,yes,n-a,,yes,not re-read,,AI review (Codex): v03:c36:p0011 identifies Elizabeth as Jamesina's daughter and explicitly recalls her decision to become a missionary and move to the foreign field.
+P077,yes,n-a,,yes,not re-read,,"AI review (Codex): v02:c25:p0047 places Emily in Carmody with Rachel, and p0059 announces their return during Anne's visit."
+P078,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): v03:c13:p0007 explicitly describes Rachel trying to bring Davy up properly and influencing Marilla's decisions, while p0000 describes the twins' usual Sunday-school supervision."
+P079,yes,n-a,,yes,not re-read,,"AI review (Codex): v02:c01:p0045 explicitly says Paul comes from the States, and c21:p0083 specifies Boston."
+P080,no,n-a,,no,boundary,Jim's eyewitness account of the wait is cited; the arrival itself is not shown,"AI review (Codex): Captain Jim recalls the bride being overdue and later cooking a Christmas dinner, but no displayed paragraph shows him witnessing her arrival at the new house."
+P081,no,n-a,partly,partly,rejudged,"v05:c05:p0058 (wants to be envied, not pitied) and c06:p0031 (toots her own horn)","AI review (Codex): Mary rejects pity for her stripes in v05:c05:p0058 and repeatedly boasts of skills in c06:p0031, but none of the displayed text shows a habit of boasting about the hardships themselves."
+P082,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): v02:c29:p0001 shows Paul bringing happy family news to Anne, but no displayed paragraph establishes his confiding his deepest feelings to her."
+P083,yes,n-a,,yes,not re-read,,"AI review (Codex): v02:c01:p0004 explicitly describes Harrison angrily confronting Anne, with p0014 identifying him as irate."
+P084,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c15:p0000 explicitly says Anne could never forget Matthew's first love and sympathy and would always cherish his memory.
+P085,yes,n-a,,yes,not re-read,,AI review (Codex): v03:c08:p0012 explicitly connects the upper farm being given to Billy with his wish to marry Anne.
+P086,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c08:p0030 explicitly says Davy is almost constantly in or devising mischief; the mud-pie and well episodes corroborate it.
+P087,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): Charlotta works for dear life in v02:c27:p0022, dashes to the oven in c28:p0056, and flies around with vim and briskness in c30:p0011."
+P088,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c01:p0027 explicitly states Nova Scotia is right close to the Island.
+P089,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): v01:c26:p0002 establishes the insult and three-month quarrel, but the volume-5 Enemy of label generalizes that temporary estrangement into an enduring relationship."
+P090,no,n-a,yes,yes,rejudged,v01:c38:p0014: 'If my eyes were strong ... I'd have to sell my home',"AI review (Codex): Matthew's sudden death is shown, but none of the displayed paragraphs establishes Marilla's failing eyesight or her resulting plan to sell Green Gables."
+P091,partly,n-a,yes,yes,rejudged,v01:c36:p0039: 'I've always worked pretty hard and I'd rather drop in harness',"AI review (Codex): The early adoption discussion establishes Matthew's farm work and heart trouble, and later paragraphs establish his death, but continued farm work right up to that death is not shown."
+P092,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c02:p0074 places Rachel's window at Lynde's Hollow beside the route to Green Gables, and c01:p0001 describes her view of the main road through the hollow."
+P093,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c15:p0031 and c17:p0037 identify Phillips teaching and managing pupils in Avonlea school.
+P094,partly,n-a,yes,yes,rejudged,v02:c12:p0048-p0049: lifts his cap and offers to carry her books,"AI review (Codex): v02:c12:p0052 establishes Anthony's new respect after the whipping, but the displayed text does not describe his subsequent polite behavior toward Anne."
+P095,yes,yes,,yes,not re-read,,"AI review (Codex): Matthew directly urges Anne to finish the required apology in v01:c10:p0013, and her apology follows in p0030. He addresses Anne in the same scene, establishing participation by both."
+P096,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c09:p0010 explicitly says Rachel has a very kind heart and illustrates her generosity and forgiveness.
+P097,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Josie speaks with aggravating pity in v01:c34:p0019, but the other shown incidents establish criticism and mockery rather than a repeated pitying attitude; often goes beyond the example."
+P098,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): Harrison calls himself a terrible outspoken old fellow in v02:c03:p0025, and v02:c04:p0028 explicitly describes the outspokenness on which he prides himself."
+P099,yes,n-a,,yes,agree,,"AI review (Codex): His formal courtship, sincere proposal, failure to understand a joke, and description as a melancholy, inscrutable hero support a serious demeanor in v03:c27:p0036 and c38:p0017."
+P100,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): Owen explicitly says I am Alice Selwyn's son in v04:c24:p0022; the following paragraph repeats the relationship.
+P101,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): Stella's letter in v03:c09:p0013 proposes that she, Anne and Priscilla rent a house and board themselves, with Aunt Jamesina keeping house."
+P102,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Josie's face is triumphant and taunting in v01:c33:p0034 and she remarks condescendingly in v03:c02:p0001; these support condescension, but not a frequent facial expression."
+P103,not shown,n-a,,not shown,agree,,"AI review (Codex): The displayed passages concern later life, clothes, cooking and other events; none describes Marilla's original decision about returning Anne."
+P104,yes,n-a,,yes,not re-read,,AI review (Codex): Lavendar explicitly describes herself as a dreadfully sulky person and explains her prolonged sulking after the quarrel in v02:c23:p0019.
+P105,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): Ruby joins the Queen's preparation class and subsequently obtains a school and teaches, supporting completion of her teacher training rather than merely an intention to attend."
+P106,yes,yes,,yes,not re-read,,AI review (Codex): v01:c31:p0002 places Anne's renewed ambition in September and p0010 shows her class back at work. In that chapter Marilla acts on the doctor's warning and allows outings while Anne takes part in the resulting summer and school-year activities.
+P107,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): Phil explicitly says Alec and Alonzo are equally nice and difficult to choose between in v03:c19:p0024; her earlier discussion of Alonzo's nose and name also shows indecision.
+P108,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Stella says she is blue and discouraged in v03:c35:p0031, but this shows one mood rather than a general tendency to discouragement."
+P109,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c35:p0004 directly describes Stella's dreams and fancies as aerial and rainbow-like.
+P110,yes,n-a,,yes,not re-read,,"AI review (Codex): Lavendar recalls their engagement and planned wedding in v02:c23:p0017, and Marilla explicitly confirms the earlier engagement in c22:p0009."
+P111,yes,n-a,,yes,not re-read,,AI review (Codex): Rosemary is explicitly called a girl in v05:c02:p0063 and one of the two women in c34:p0006.
+P112,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c33:p0029 says Billy could never think of any reply until it was too late during the drive, directly supporting the conversational difficulty."
+P113,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c15:p0031 places Phillips teaching in Avonlea school, and c15:p0056 identifies him as the master watched by the Avonlea scholars."
+P114,no,n-a,,no,not re-read,,"AI review (Codex): The explicit cheerful and good-tempered description belongs to Ruby Gillis in v01:c35:p0001; Priscilla is described as mischievous and fun, without the claimed temperament."
+P115,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): v03:c11:p0000 places Billy in the Harmon Andrews family and pew, with Mrs. Harmon sharing his wedding pride, but does not explicitly identify her as his mother."
+P116,yes,n-a,,yes,not re-read,,"AI review (Codex): v01:c01:p0004 explicitly calls Matthew a man, using male pronouns throughout."
+P117,yes,n-a,,yes,not re-read,,AI review (Codex): The cited arrival and bedroom passages establish Anne's arrival with Matthew; v01:c34:p0003 explicitly recalls the evening Anne arrived at Green Gables.
+P118,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): v03:c36:p0024 explicitly identifies Dorothy as Roy's favorite sister, but none of the shown passages establishes that he confides in her."
+P119,yes,no,,yes,not re-read,,"AI review (Codex): Anne addresses Charlotta while hoping for the best in v02:c28:p0054 and proposes going to the kitchen to pass the time because she cannot think in p0068. Stephen greets Anne, but no displayed passage shows Lavendar participating in their reunion scene."
+P120,yes,n-a,,yes,not re-read,,"AI review (Codex): As a goal, this is directly supported by Diana's intention to crochet doilies in preparation for married housekeeping in v02:c29:p0024; it does not assert that she has already made them."
+P121,yes,n-a,,yes,not re-read,,"AI review (Codex): Stacy is appointed Avonlea's new teacher in the cited passages, and v01:c32:p0000 explicitly describes the end of her rule in Avonlea school."
+P122,partly,n-a,,partly,agree,,"AI review (Codex): v03:c11:p0006 shows Ruby denying her illness and planning to teach again; childhood cheerfulness is also shown, but a cheerful front throughout her illness is not established."
+P123,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): Leslie describes recurring envy and hatred in v04:c21:p0011; c13:p0005 calls her bitter and c25:p0015 contrasts her changed nature with her old bitterness.
+P124,yes,n-a,,yes,not re-read,,"AI review (Codex): v05:c21:p0024 describes Ellen making a solemn rite of their mutual vow over the Bible, and p0026 explicitly identifies it as their mother's Bible."
+P125,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c33:p0009 explicitly gives Diana a reputation for notable taste in dressing and says her advice was sought after.
+P126,yes,n-a,,yes,not re-read,,AI review (Codex): v01:c15:p0006 explicitly says Anne and Diana walked through Mr. Barry's back field on their route past Willowmere.
+P127,no,n-a,not shown,not shown,changed,nothing displayed bears on Rachel's standing; the paragraph that does (v01:c01:p0001) is not shown,"AI review (Codex): The explicit prominent political personage is Jerry Corcoran in v02:c14:p0061. Rachel's moving house, packing and receiving visits do not establish comparable community prominence."
+P128,yes,n-a,,yes,not re-read,,"AI review (Codex): v05:c08:p0008 explicitly reports Mrs. Wiley's merciless whipping of Mary for minor faults and her death, supporting the former abusive guardian relationship."
+P129,yes,n-a,,yes,not re-read,,AI review (Codex): The cited schoolteacher is called that man; the other passages explicitly identify Phillips and consistently use male pronouns for him.
+P130,partly,n-a,,partly,reason read,partly against an earlier AI yes; Codex's reason names the missing detail; text not re-read,"AI review (Codex): Walter has great luminous eyes and an intense gaze in v05:c29:p0008, and strong feelings are described separately; the passages do not explicitly establish his eyes expressing great depth of feeling."
+P131,yes,n-a,,yes,not re-read,,AI review (Codex): v02:c27:p0001 explicitly says Anne came down in a new dress of pale green muslin.
+P132,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): Diana explicitly asks for the right road to West Grafton after the girls took the wrong path in v02:c21:p0047, and the surrounding passages name both girls."
+P133,yes,n-a,,yes,not re-read,,"AI review (Codex): Diana declares her unique love for Anne in v01:c17:p0005, visits daily during recovery, and Anne recalls their warm, true affection without quarrel or coolness in v02:c26:p0060."
+P134,partly,n-a,yes,yes,rejudged,"v04:c29:p0010, c31:p0005, c31:p0028, c32:p0006, c32:p0012 together","AI review (Codex): v04:c31:p0028 establishes George's identity and c32:p0012 the double-cousin relationship, but the displayed passages do not describe the procedure revealing it."
+P135,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,AI review (Codex): Susan sobs over the sweet little baby in v04:c19:p0020 and tenderly blesses Anne's son's innocent heart and appearance in c40:p0055.
+P136,partly,n-a,,partly,agree,,"AI review (Codex): Paul explicitly ranks his love for Anne just after his father and grandmother in v02:c15:p0009, but the displayed evidence concerns this one teacher rather than teachers in the plural."
+P137,yes,n-a,,yes,not re-read,,"AI review (Codex): The cited arrival explicitly calls him Mr. Harrison, as do the other passages."
+P138,yes,n-a,,yes,not re-read,,"AI review (Codex): v02:c25:p0045 treats his being shaved without the usual preaching occasion as noteworthy; together with the newly spruce grooming in p0046, this supports intermittent shaving."
+P139,yes,n-a,,yes,not re-read,,AI review (Codex): v05:c04:p0045 explicitly makes the manse and Ingleside children sworn friends and allies after a shared feast; later outings corroborate their role as chums and playmates.
+P140,yes,n-a,,yes,not re-read,,"AI review (Codex): Harrison describes playing checkers with a neighbor in v02:c25:p0051, corroborating Anne's explanation that his visits are for checkers."
+P141,yes,no,,yes,not re-read,,"AI review (Codex): v01:c21:p0005 explicitly refers to Mr. Allan's wife's people, and p0047 calls them the minister and his wife. In the chapter-21 scene Anne reports Rachel's opinions; Rachel is not shown acting or speaking there herself."
+P142,yes,n-a,,yes,stands,more cited paragraphs are shown now; a yes on fewer holds on more,"AI review (Codex): After Anne's whipping, v02:c12:p0048 explicitly shows Anthony lifting his cap for the first time, supporting the change described."
+P143,yes,n-a,,yes,not re-read,,AI review (Codex): The cited paragraph explicitly calls Josie a young lady; other passages refer to her among the Pye girls.
+P144,yes,n-a,,yes,not re-read,,"AI review (Codex): Captain Jim explicitly calls Cornelia that woman in v04:c06:p0040, and the other passages consistently identify her as Miss Cornelia."
+P145,yes,n-a,,yes,not re-read,,AI review (Codex): Josie contrasts town with the Avonlea where she has lived so long in v01:c34:p0019; p0017 and c38:p0040 corroborate her Avonlea background and schooling.
+P146,yes,yes,,yes,not re-read,,"AI review (Codex): Priscilla is on the doorstep in v02:c20:p0022 and explains the unexpected visit in p0024. During that chapter's preparation Marilla gives Anne instructions, Anne nods, and Marilla helps her carry the feather bed before departing."
+P147,partly,n-a,,partly,not re-read,,"AI review (Codex): v05:c15:p0000 shows Mary accompanying Cornelia and knitting under her supervision, supporting care and domestic tasks, but it does not establish residence or ward status in the Bryant household."
+P148,yes,n-a,,yes,not re-read,,AI review (Codex): v03:c11:p0006 explicitly says Ruby had been teaching before illness prevented it and sought another school; schoolteacher accurately describes her occupation.
+C001,yes,,,yes,not re-read,,AI review (Codex): v01:c18:p0015 explicitly says Ruby has many big sisters.
+C002,yes,,,yes,not re-read,,AI review (Codex): Repeated mission and vestry subscription disputes plus Harrison's explicit dislike and remarks about Rachel's verbal attacks support the described rivalry.
+C003,no,,yes,yes,rejudged,v03:c36:p0003: The Youth's Friend accepted her sketch,"AI review (Codex): The cited paragraphs cover childhood, the slate incident, school rivalry and the cake; none establishes publication of Anne's writing."
+C004,partly,,,partly,agree,,"AI review (Codex): Diana clearly describes Gilbert as a pupil in Anne's class, but the cited paragraph does not name the school as Avonlea."
+C005,partly,,,partly,not re-read,,"AI review (Codex): The citations establish twins and repeated tormenting of Dora, but not Davy protecting her from others."
+C006,partly,,,partly,not re-read,,"AI review (Codex): Matthew dreads the coming revelation and the girl's disappointment, but explicitly expects Marilla to tell her rather than having to tell her himself."
+C007,no,,yes,yes,rejudged,v01:c21:p0000-p0002: his farewell speech on the last day of June,"AI review (Codex): The citations show Phillips teaching and punishing Anne, but none shows him leaving the school."
+C008,no,,yes,yes,rejudged,v02:c28:p0071 and v02:c30:p0033: the proposal and Mr. and Mrs. Irving,"AI review (Codex): The citations establish the old quarrel and Paul's visit, not Stephen and Lavendar's later reconciliation."
+C009,yes,,partly,yes,boundary,blindness and Anne's plans are cited; the threatened sale of Green Gables is not,AI review (Codex): Marilla's threatened blindness and Anne's plans to rent the farm and remain to support her establish a threat to their household's future.
+C010,yes,,,yes,not re-read,,AI review (Codex): v02:c05:p0020 explicitly says Anne locked the school door and went home.
+C011,yes,,,yes,agree,re-read on every cited paragraph; Codex's label stands,AI review (Codex): v04:c11:p0027 explicitly describes Leslie accepting the unwanted marriage to spare her mother pain.
+C012,yes,,,yes,agree,,"AI review (Codex): v03:c19:p0004 directly states Jamesina's philosophy of duty to God, neighbor and oneself."
+C013,yes,,,yes,not re-read,,AI review (Codex): v03:c16:p0065 explicitly says Joseph and Rusty became sworn friends and describes their affectionate behavior.
+C014,no,,,no,not re-read,,"AI review (Codex): The citations show homesickness and renewed ambition from scholarship news, but do not show classmates' visits renewing Anne's spirit."
+C015,partly,,,partly,not re-read,,"AI review (Codex): A note is passed to Anne after she misses Diana, but the cited text does not establish a reciprocal exchange of secret notes with Diana."
+C016,no,,partly,partly,rejudged,v03:c11:p0053 and v03:c14:p0011 ('I wouldn't give in'); 'throughout' is not established,"AI review (Codex): The citations concern Ruby's schooldays, Story Club and training plans; none shows her behavior during illness."
+C017,none cited,,,none cited,not re-read,,AI review (Codex): The item explicitly shows none cited.
+C018,no,,,no,not re-read,,"AI review (Codex): The citations establish friendship at Queen's, not shared residence at Patty's Place."
+C019,no,,yes,yes,rejudged,"v05:c14:p0036: Mrs. Davis had accused him of being a remiss, careless father",AI review (Codex): The cited criticism is from Cornelia and unspecified parishioners; Mrs. Alec Davis is not shown criticizing Meredith.
+C020,yes,,,yes,agree,,"AI review (Codex): Her imaginative tea party, continued devotion to Stephen and dream boy support the broad description as romantic."
+C021,yes,,,yes,not re-read,,AI review (Codex): The citations show Jem studying for Queen's entrance and preparing to leave to attend it.
+C022,yes,,,yes,agree,re-read on every cited paragraph; Codex's label stands,AI review (Codex): Both v01:c08:p0040 and v01:c12:p0021 explicitly describe Diana's rosy cheeks.
+C023,partly,,,partly,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): Roy's two-year absence in Europe is explicit, but accompanying his mother and her failing health are not established."
+C024,no,,,no,agree,re-read on every cited paragraph; Codex's label stands,AI review (Codex): The citations establish Gilbert's school rivalry but never football or his captaincy.
+C025,yes,,,yes,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): Matthew explicitly expected a boy, found a girl instead and brought her home because of the mistake."
+C026,no,,,no,not re-read,,"AI review (Codex): Jane lends Anne a book, but none of the cited paragraphs establishes that Jane attends school with her."
+C027,no,,partly,no,boundary,they are in the orchard together; the talk of changes is not in the cited paragraph,AI review (Codex): The citations place Anne and Diana in the orchard but omit their conversation about upcoming changes.
+C028,partly,,,partly,agree,,AI review (Codex): Dora says she fears those cows in that situation; a general enduring fear of cows is not established.
+C029,no,,yes,yes,rejudged,v02:c25:p0047 and p0060 (Mrs. Harrison at home with him),"AI review (Codex): The citations cover Harrison's initial solitary household and cow disputes, not Emily or the resumption of married life."
+C030,yes,,,yes,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): Marilla agrees to raise the child, then retrospectively acknowledges her strictness and enduring love for Anne."
+C031,yes,,,yes,not re-read,,AI review (Codex): v03:c02:p0004 directly describes Jane Andrews as neat.
+C032,partly,,,partly,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): The humiliation for spelling errors is explicitly reported, but the cited paragraphs alone do not establish that it was Anne's first day."
+C033,partly,,,partly,agree,,"AI review (Codex): v02:c19:p0050 shows Gilbert looking manly after schoolboyhood, but retention throughout later adult years is not established."
+C034,yes,,,yes,not re-read,,AI review (Codex): v01:c35:p0001 explicitly says Ruby did her hair up in town.
+C035,yes,,,yes,not re-read,,AI review (Codex): Marilla withholds praise and the narrator explicitly describes her inability to display love openly.
+C036,partly,,,partly,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): Owen shares his manuscript with Leslie and uses her suggestion, supporting friendly collaboration, but not a deep friendship or the summer timing."
+C037,no,,,no,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): The citations show imaginary tea guests and meeting Paul, but no imagined dream-boy of her own."
+C038,no,,,no,agree,re-read on every cited paragraph; Codex's label stands,AI review (Codex): None of the cited paragraphs concerns the Queen's entry results or a tie with Gilbert.
+C039,partly,,,partly,not re-read,,"AI review (Codex): A published letter signed Faith Meredith is shown, but its content and purpose of clearing her father are omitted."
+C040,no,,,no,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): The citations show mischief, affection and opposition to face washing, but not vocal expression of his likes."
+C041,no,,,no,not re-read,,AI review (Codex): The citations are from Leslie's first meeting with Anne and early biography; none shows her later freedom or stay during Owen's return.
+C042,yes,,,yes,agree,re-read on every cited paragraph; Codex's label stands,AI review (Codex): Priscilla's comparison of a kiss to a violet and dreamy speculation about souls support romantic imagination.
+C043,yes,,,yes,not re-read,,"AI review (Codex): Leslie's clannish loyalty, patient comfort of her mother and unwanted marriage to spare her mother directly support the trait."
+C044,yes,,,yes,not re-read,,AI review (Codex): v03:c24:p0015 explicitly calls Jonas earnest.
+C045,no,,yes,yes,rejudged,v05:c23:p0084 and v05:c09:p0080: Mary's stepmother stories,"AI review (Codex): The citations concern Mary's arrival, hunger, cleaning and abusive guardian; none shows stepmother stories told to Faith."
+C046,no,,,no,not re-read,,"AI review (Codex): The citations show Priscilla's humor and practical housing advice, but no appreciation of poetry's beauty."
+C047,yes,,,yes,not re-read,,AI review (Codex): Davy's tearful confession of wrongdoing to Anne supports a guilty conscience.
+C048,yes,,,yes,not re-read,,"AI review (Codex): Anne returns with Mr. Barry and stands by while he searches the well, establishing their joint search."
+C049,no,,partly,partly,rejudged,v03:c10:p0047 and v03:c37:p0029: she lives there and graduates; the summary between is not stated,"AI review (Codex): The citations contain a housing proposal, not Stella's actual participation at Patty's Place through graduation."
+C050,partly,,,partly,agree,re-read on every cited paragraph; Codex's label stands,"AI review (Codex): Matthew and Marilla are shown sharing a home and adoption plans, but their sibling relationship is not stated in these citations."
+C051,yes,,,yes,not re-read,,AI review (Codex): v01:c10:p0034 explicitly has Mrs. Lynde forgive Anne.
+C052,yes,,,yes,agree,,"AI review (Codex): Stella's practical proposal to share housing, arrange a housekeeper and obtain affordable furniture supports a realistic outlook."
+C053,yes,,,yes,not re-read,,AI review (Codex): v01:c24:p0001 explicitly says Anne carried home glowing accounts to Matthew and Marilla.
+C054,partly,,,partly,agree,,"AI review (Codex): The citations establish Rachel's Avonlea residence and strong Island identification, but not that Avonlea was her place of origin rather than later residence."
+C055,yes,,,yes,not re-read,,AI review (Codex): v01:c31:p0010 describes the Queen's class preparing for Entrance and Anne's intense preoccupation with it through the winter.
+C056,no,,,no,not re-read,,"AI review (Codex): The citations show reunion and Anne and Stella laughing over manuscripts, but not the girls laughing with Aunt Jamesina."
+C057,no,,yes,yes,rejudged,v02:c26:p0000 (Thomas dies) and v02:c30:p0000 (she moves to Green Gables),"AI review (Codex): The citations cover Rachel's early home, adoption objections and insult to Anne, not Thomas's death or acceptance of Marilla's invitation."
+C058,no,,,no,not re-read,,"AI review (Codex): The citations show the fall, broken ankle and Marilla's concern, but omit the later visits and Anne's longing for school."
+C059,no,,yes,yes,rejudged,"v01:c18:p0001: 'took her husband, Thomas'",AI review (Codex): The citations do not name Thomas or establish him as Rachel's husband.
+C060,yes,,,yes,agree,re-read on every cited paragraph; Codex's label stands,AI review (Codex): v01:c22:p0010 explicitly says the trustees hired the lady teacher Miss Muriel Stacy.
